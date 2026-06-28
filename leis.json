@@ -5008,6 +5008,126 @@
       }
     ]
   },
+  "lei_6172005987183": {
+    "nome": "CPC/2015 — PARTE 9 — Ministério Público — Arts. 176 a 181",
+    "grupo": "Código de Processo Civil",
+    "materia": "Processo Civil",
+    "artigos": [
+      {
+        "num": "176",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O Ministério Público atuará na defesa da ordem jurídica, do regime democrático e dos interesses e direitos sociais e individuais indisponíveis.",
+        "comentarios": "Função institucional no processo civil: defesa da ordem jurídica, regime democrático e interesses/direitos sociais e individuais indisponíveis.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "177",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O Ministério Público exercerá o direito de ação em conformidade com suas atribuições constitucionais.",
+        "comentarios": "O MP pode atuar como parte, quando exerce direito de ação dentro de suas atribuições constitucionais.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "178",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O Ministério Público será intimado para, no prazo de 30 dias, intervir como fiscal da ordem jurídica nas hipóteses previstas em lei ou na Constituição Federal e nos processos que envolvam:",
+        "comentarios": "Intervenção como fiscal da ordem jurídica. A mera participação da Fazenda Pública não basta para intervenção do MP; é preciso hipótese legal/constitucional ou interesse público/social, incapaz ou litígio coletivo pela posse de terra.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "interesse público ou social;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "interesse de incapaz;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "litígios coletivos pela posse de terra rural ou urbana.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "A participação da Fazenda Pública não configura, por si só, hipótese de intervenção do Ministério Público.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "179",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Nos casos de intervenção como fiscal da ordem jurídica, o Ministério Público:",
+        "comentarios": "Atuando como fiscal da ordem jurídica, o MP tem vista depois das partes, é intimado dos atos, pode produzir provas, requerer medidas pertinentes e recorrer.",
+        "jurisprudencia": "JDPC 112: a intervenção do Ministério Público como fiscal da ordem jurídica não inviabiliza a celebração de negócios processuais.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "terá vista dos autos depois das partes, sendo intimado de todos os atos do processo;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "poderá produzir provas, requerer as medidas processuais pertinentes e recorrer.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "180",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O Ministério Público gozará de prazo em dobro para manifestar-se nos autos, que terá início a partir de sua intimação pessoal, nos termos do art. 183, § 1º.",
+        "comentarios": "Prerrogativa processual do MP: prazo em dobro, com início na intimação pessoal. Não se aplica se a lei estabelecer prazo próprio expresso. Se o prazo terminar sem parecer, o juiz requisita os autos e dá andamento.",
+        "jurisprudencia": "FPPC 399: os arts. 180 e 183 somente se aplicam aos prazos iniciados na vigência do CPC/2015; prazos iniciados sob o CPC/1973 seguem a regulamentação anterior.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Findo o prazo sem manifestação, o juiz requisitará os autos e dará andamento ao processo.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Não se aplica o prazo em dobro quando a lei estabelecer prazo próprio para o Ministério Público.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "181",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O membro do Ministério Público será civil e regressivamente responsável quando agir com dolo ou fraude no exercício de suas funções.",
+        "comentarios": "Responsabilidade civil e regressiva do membro do MP exige dolo ou fraude.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      }
+    ]
+  },
   "lei_6127655680580": {
     "nome": "CPC/2015 — PARTE 10 — Advocacia Pública — Arts. 182 a 184",
     "grupo": "Código de Processo Civil",
@@ -8303,126 +8423,6 @@
             "jurisprudencia": ""
           }
         ]
-      }
-    ]
-  },
-  "lei_6172005987183": {
-    "nome": "CPC/2015 — PARTE 9 — Ministério Público — Arts. 176 a 181",
-    "grupo": "Código de Processo Civil",
-    "materia": "Processo Civil",
-    "artigos": [
-      {
-        "num": "176",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O Ministério Público atuará na defesa da ordem jurídica, do regime democrático e dos interesses e direitos sociais e individuais indisponíveis.",
-        "comentarios": "Função institucional no processo civil: defesa da ordem jurídica, regime democrático e interesses/direitos sociais e individuais indisponíveis.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "177",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O Ministério Público exercerá o direito de ação em conformidade com suas atribuições constitucionais.",
-        "comentarios": "O MP pode atuar como parte, quando exerce direito de ação dentro de suas atribuições constitucionais.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "178",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O Ministério Público será intimado para, no prazo de 30 dias, intervir como fiscal da ordem jurídica nas hipóteses previstas em lei ou na Constituição Federal e nos processos que envolvam:",
-        "comentarios": "Intervenção como fiscal da ordem jurídica. A mera participação da Fazenda Pública não basta para intervenção do MP; é preciso hipótese legal/constitucional ou interesse público/social, incapaz ou litígio coletivo pela posse de terra.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "interesse público ou social;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "interesse de incapaz;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "litígios coletivos pela posse de terra rural ou urbana.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "A participação da Fazenda Pública não configura, por si só, hipótese de intervenção do Ministério Público.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "179",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Nos casos de intervenção como fiscal da ordem jurídica, o Ministério Público:",
-        "comentarios": "Atuando como fiscal da ordem jurídica, o MP tem vista depois das partes, é intimado dos atos, pode produzir provas, requerer medidas pertinentes e recorrer.",
-        "jurisprudencia": "JDPC 112: a intervenção do Ministério Público como fiscal da ordem jurídica não inviabiliza a celebração de negócios processuais.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "terá vista dos autos depois das partes, sendo intimado de todos os atos do processo;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "poderá produzir provas, requerer as medidas processuais pertinentes e recorrer.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "180",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O Ministério Público gozará de prazo em dobro para manifestar-se nos autos, que terá início a partir de sua intimação pessoal, nos termos do art. 183, § 1º.",
-        "comentarios": "Prerrogativa processual do MP: prazo em dobro, com início na intimação pessoal. Não se aplica se a lei estabelecer prazo próprio expresso. Se o prazo terminar sem parecer, o juiz requisita os autos e dá andamento.",
-        "jurisprudencia": "FPPC 399: os arts. 180 e 183 somente se aplicam aos prazos iniciados na vigência do CPC/2015; prazos iniciados sob o CPC/1973 seguem a regulamentação anterior.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Findo o prazo sem manifestação, o juiz requisitará os autos e dará andamento ao processo.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Não se aplica o prazo em dobro quando a lei estabelecer prazo próprio para o Ministério Público.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "181",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O membro do Ministério Público será civil e regressivamente responsável quando agir com dolo ou fraude no exercício de suas funções.",
-        "comentarios": "Responsabilidade civil e regressiva do membro do MP exige dolo ou fraude.",
-        "jurisprudencia": "",
-        "subdispositivos": []
       }
     ]
   }
