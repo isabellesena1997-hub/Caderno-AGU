@@ -1978,26 +1978,25 @@ function init(){
 // Carrega leis do GitHub de forma assíncrona após init síncrono
 async function initAsync(){
   const token = ghToken();
-  if(token){
-    const el = document.getElementById('lei-storage-bar');
-    if(el) el.innerHTML = '<span style="color:#D97706">☁️ Carregando leis do GitHub...</span>';
-    const ok = await carregarLeisGitHub();
-    // Busca sha atual para futuros saves
-    if(ok && token){
+  const el = document.getElementById('lei-storage-bar');
+  if(el) el.innerHTML = '<span style="color:#D97706">☁️ Carregando leis...</span>';
+  // Sempre tenta carregar do GitHub (repositório público)
+  const ok = await carregarLeisGitHub();
+  if(ok){
+    // Busca sha atual para futuros saves (precisa do token)
+    if(token){
       try {
         const r = await fetch(ghApiUrl(), {
           headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json'}
         });
         if(r.ok){ const d=await r.json(); _ghFileSha=d.sha||''; }
       } catch(e){}
+      const btnP = document.getElementById('btn-publicar-app');
+      if(btnP) btnP.style.display = '';
     }
-    renderLeiSidebar();
-    _atualizarIndicadorStorage();
-    const btnP = document.getElementById('btn-publicar-app');
-    if(btnP) btnP.style.display = '';
-  } else {
-    _atualizarIndicadorStorage();
   }
+  renderLeiSidebar();
+  _atualizarIndicadorStorage();
 }
 
 function save(m){try{localStorage.setItem('agu-caderno-'+m,JSON.stringify(dados[m]));}catch(e){}}
@@ -2086,20 +2085,20 @@ async function _saveLeisGitHub(){
 
 // Carrega leis.json do GitHub
 async function carregarLeisGitHub(){
-  const token = ghToken();
+  // Repositório público — lê sem token para evitar problemas de CORS
   const url = `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/${GH_BRANCH}/${GH_FILE}?t=${Date.now()}`;
+  const el = document.getElementById('lei-storage-bar');
   try {
-    const headers = token ? { 'Authorization': 'token ' + token } : {};
-    const res = await fetch(url, { headers });
+    const res = await fetch(url);
     if(!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     leis = data || {};
-    // Atualiza cache local
     try { localStorage.setItem('agu-leis-cache', JSON.stringify(leis)); } catch(e){}
     console.log('[GH] Leis carregadas:', Object.keys(leis).length);
     return true;
   } catch(e){
-    console.warn('[GH] Erro ao carregar leis do GitHub:', e.message);
+    console.warn('[GH] Erro ao carregar leis:', e.message);
+    if(el) el.innerHTML = '<span style="color:#B91C1C">☁️ Erro ao carregar leis: ' + e.message + '</span>';
     // Fallback: cache local
     try {
       const cache = localStorage.getItem('agu-leis-cache') || localStorage.getItem('agu-leis');
