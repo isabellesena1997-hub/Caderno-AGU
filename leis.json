@@ -3809,6 +3809,1205 @@
       }
     ]
   },
+  "lei_3911007388227": {
+    "nome": "CPC/2015 — PARTE 8 — Juiz e Auxiliares da Justiça — Arts. 139 a 175",
+    "grupo": "Código de Processo Civil",
+    "materia": "Processo Civil",
+    "artigos": [
+      {
+        "num": "139",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O juiz dirigirá o processo conforme as disposições deste Código, incumbindo-lhe:",
+        "comentarios": "Poderes do juiz: direção do processo, isonomia, duração razoável, repressão de atos contrários à dignidade da justiça, incentivo à autocomposição, adequação de prazos/provas, poder de polícia, comparecimento pessoal das partes, saneamento de vícios e comunicação a legitimados para eventual ação coletiva.\n\nMedidas executivas atípicas: o inciso IV permite medidas indutivas, coercitivas, mandamentais ou sub-rogatórias para assegurar o cumprimento de ordem judicial, inclusive em obrigação pecuniária. Devem ser fundamentadas, proporcionais, razoáveis, subsidiárias e respeitar contraditório.\n\nCNIB: sistema eletrônico de comunicação de indisponibilidade de bens aos registros públicos. Pode ser usada em demandas cíveis de forma subsidiária, após exauridos meios típicos.\n\nDilação de prazos: pode ocorrer para adequar o procedimento, mas somente antes do encerramento do prazo regular.",
+        "jurisprudencia": "STJ, Tema 1137, REsp 1.955.539/SP e REsp 1.955.574/SP: meios executivos atípicos em execuções cíveis são cabíveis se ponderados efetividade e menor onerosidade, de modo prioritariamente subsidiário, com fundamentação específica, contraditório, proporcionalidade, razoabilidade e controle temporal.\nSTF, ADI 5.941/DF: são constitucionais as medidas atípicas do CPC/2015, respeitados direitos fundamentais, proporcionalidade e razoabilidade.\nSTJ, REsp 2.141.068/PR e REsp 1.963.178/SP: CNIB é cabível subsidiariamente em execução cível após exauridos meios típicos.\nSTJ, REsp 1.788.950/MT: requisitos das medidas atípicas incluem indícios de patrimônio expropriável, subsidiariedade, fundamentação adequada, contraditório substancial e proporcionalidade.\nSTJ, HC 742.879/RJ: aplicação subsidiária no processo falimentar.\nSTJ, HC 711.194/SP: medidas coercitivas podem perdurar enquanto úteis para pressionar o devedor.\nSTJ, HC 453.870/PR: suspensão de passaporte/CNH é excessiva em execução fiscal.\nSTJ, REsp 1.929.230/MT: cabível em improbidade administrativa.\nJDPC 162; FPPC 12, 129, 251, 396, 714, 715 e 716.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "assegurar às partes igualdade de tratamento;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "velar pela duração razoável do processo;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "prevenir ou reprimir qualquer ato contrário à dignidade da justiça e indeferir postulações meramente protelatórias;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "determinar todas as medidas indutivas, coercitivas, mandamentais ou sub-rogatórias necessárias para assegurar o cumprimento de ordem judicial, inclusive nas ações que tenham por objeto prestação pecuniária;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "V",
+            "texto": "promover, a qualquer tempo, a autocomposição, preferencialmente com auxílio de conciliadores e mediadores judiciais;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VI",
+            "texto": "dilatar os prazos processuais e alterar a ordem de produção dos meios de prova, adequando-os às necessidades do conflito;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VII",
+            "texto": "exercer o poder de polícia, requisitando força policial quando necessário;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VIII",
+            "texto": "determinar o comparecimento pessoal das partes, hipótese em que não incidirá pena de confesso;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IX",
+            "texto": "determinar o suprimento de pressupostos processuais e o saneamento de outros vícios processuais;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "X",
+            "texto": "oficiar o Ministério Público, a Defensoria Pública e outros legitimados diante de demandas individuais repetitivas para eventual ação coletiva;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "A dilação de prazos prevista no inciso VI somente pode ser determinada antes de encerrado o prazo regular.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "140",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O juiz não se exime de decidir sob a alegação de lacuna ou obscuridade do ordenamento jurídico.",
+        "comentarios": "Vedação ao non liquet: o juiz deve decidir mesmo diante de lacuna ou obscuridade. A equidade só é admitida nos casos previstos em lei.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "O juiz só decidirá por equidade nos casos previstos em lei.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "141",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O juiz decidirá o mérito nos limites propostos pelas partes, sendo-lhe vedado conhecer de questões não suscetíveis a cujo respeito a lei exige iniciativa da parte.",
+        "comentarios": "Princípio da congruência/adstrição: o juiz decide nos limites do pedido e da causa de pedir, salvo matérias cognoscíveis de ofício.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "142",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Convencendo-se, pelas circunstâncias, de que autor e réu se serviram do processo para praticar ato simulado ou conseguir fim vedado por lei, o juiz proferirá decisão que impeça os objetivos das partes, aplicando, de ofício, as penalidades da litigância de má-fé.",
+        "comentarios": "O dispositivo combate uso fraudulento/simulado do processo. O juiz pode impedir o resultado ilícito e aplicar sanções de litigância de má-fé de ofício.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "143",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O juiz responderá, civil e regressivamente, por perdas e danos quando:",
+        "comentarios": "Responsabilidade civil regressiva do juiz: exige dolo/fraude ou omissão/recusa/retardo injustificado, neste último caso após requerimento da parte e inércia por 10 dias.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "no exercício de suas funções, proceder com dolo ou fraude;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "recusar, omitir ou retardar, sem justo motivo, providência que deva ordenar de ofício ou a requerimento da parte.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "As hipóteses do inciso II somente serão verificadas depois que a parte requerer a providência e o requerimento não for apreciado no prazo de 10 dias.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "144",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Há impedimento do juiz, sendo-lhe vedado exercer suas funções no processo:",
+        "comentarios": "Impedimento é causa objetiva de parcialidade, com presunção legal. O inciso VIII foi declarado inconstitucional pelo STF. O inciso IX também alcança litígio entre juiz e membro do Ministério Público que atua na causa, quando isso afetar a impessoalidade.",
+        "jurisprudencia": "STF, ADI 5.953/DF: inconstitucional o inciso VIII do art. 144 do CPC, por violar juiz natural, razoabilidade e proporcionalidade.\nSTJ, REsp 1.881.175/MA: a hipótese do art. 144, IX, aplica-se a litígio entre juiz e membro do Ministério Público baseado em suposta perseguição, quando o membro do MP oficia na causa.\nFPPC 489: observado o dever de revelação, partes em convenção de arbitragem podem afastar impedimento/suspeição do árbitro por acordo expresso e escrito.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "em que interveio como mandatário da parte, perito, membro do Ministério Público ou testemunha;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "de que conheceu em outro grau de jurisdição, tendo proferido decisão;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "quando nele estiver postulando cônjuge, companheiro ou parente até o 3º grau, como defensor público, advogado ou membro do Ministério Público;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "quando for parte ele próprio, cônjuge, companheiro ou parente até o 3º grau;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "V",
+            "texto": "quando for sócio ou membro de direção/administração de pessoa jurídica parte;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VI",
+            "texto": "quando for herdeiro presuntivo, donatário ou empregador de qualquer das partes;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VII",
+            "texto": "em que figure instituição de ensino com a qual tenha relação de emprego ou prestação de serviços;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VIII",
+            "texto": "quando figure como parte cliente do escritório de advocacia de cônjuge, companheiro ou parente até o 3º grau, mesmo patrocinado por outro escritório;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IX",
+            "texto": "quando promover ação contra a parte ou seu advogado;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Na hipótese do inciso III, o impedimento só ocorre se o profissional já integrava o processo antes do início da atividade judicante.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "É vedada a criação de fato superveniente para caracterizar impedimento.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "O impedimento do inciso III também ocorre quando o mandato é conferido a membro de escritório que tenha advogado com a condição prevista, ainda que este não atue diretamente.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "145",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Há suspeição do juiz:",
+        "comentarios": "Suspeição é causa subjetiva de parcialidade. Pode ser declarada por foro íntimo, sem necessidade de explicitação das razões. A alegação é ilegítima se provocada por quem alega ou se a parte praticou ato de aceitação do arguido.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "amigo íntimo ou inimigo de qualquer das partes ou de seus advogados;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "que receber presentes de interessados, aconselhar parte ou subministrar meios para despesas do litígio;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "quando qualquer das partes for credora ou devedora do juiz, cônjuge, companheiro ou parentes até o 3º grau;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "interessado no julgamento em favor de qualquer das partes;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "O juiz poderá declarar-se suspeito por motivo de foro íntimo, sem declarar suas razões.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Será ilegítima a alegação se provocada por quem alega ou se a parte praticou ato de aceitação do arguido.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "146",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "No prazo de 15 dias, a contar do conhecimento do fato, a parte alegará o impedimento ou a suspeição, em petição específica dirigida ao juiz do processo, indicando o fundamento da recusa, podendo instruí-la com documentos e rol de testemunhas.",
+        "comentarios": "Procedimento da arguição: petição específica em 15 dias do conhecimento do fato; juiz pode reconhecer e remeter ao substituto ou apresentar razões em 15 dias e remeter ao tribunal. O relator define se há efeito suspensivo. Reconhecido o vício, o tribunal fixa o momento a partir do qual o juiz não poderia ter atuado e decreta nulidade dos atos praticados quando já presente o motivo.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Se reconhecer o impedimento ou suspeição, o juiz remeterá os autos ao substituto; caso contrário, autuará em apartado e apresentará razões em 15 dias.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Distribuído o incidente, o relator declarará seus efeitos.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "sem efeito suspensivo, o processo voltará a correr;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "com efeito suspensivo, o processo permanecerá suspenso até o julgamento;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Enquanto não declarado o efeito ou se recebido com efeito suspensivo, tutela de urgência será requerida ao substituto legal.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "Se improcedente a alegação, o tribunal a rejeitará.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 5º",
+            "texto": "Acolhida a alegação, o tribunal condenará o juiz nas custas e remeterá os autos ao substituto legal.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 6º",
+            "texto": "Reconhecido o impedimento ou suspeição, o tribunal fixará o momento a partir do qual o juiz não poderia ter atuado.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 7º",
+            "texto": "O tribunal decretará a nulidade dos atos do juiz praticados quando já presente o motivo.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "147",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Quando 2 ou mais juízes forem parentes, consanguíneos ou afins, em linha reta ou colateral, até o 3º grau, inclusive, o primeiro que conhecer do processo impede que o outro nele atue, caso em que o segundo se escusará, remetendo os autos ao seu substituto legal.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "148",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Aplicam-se os motivos de impedimento e de suspeição:",
+        "comentarios": "Impedimento e suspeição também alcançam Ministério Público, auxiliares da justiça e demais sujeitos imparciais. A arguição é feita pela parte interessada na primeira oportunidade, em petição fundamentada, processada em separado e sem suspensão.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "ao membro do Ministério Público;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "aos auxiliares da justiça;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "aos demais sujeitos imparciais do processo.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A parte interessada deverá arguir na primeira oportunidade em que lhe couber falar nos autos.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "O juiz processará o incidente em separado e sem suspensão, ouvindo o arguido em 15 dias.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Nos tribunais, a arguição será disciplinada pelo regimento interno.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "Não se aplica à arguição de impedimento ou suspeição de testemunha.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "149",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "São auxiliares da Justiça, além de outros cujas atribuições sejam determinadas pelas normas de organização judiciária, o escrivão, o chefe de secretaria, o oficial de justiça, o perito, o depositário, o administrador, o intérprete, o tradutor, o mediador, o conciliador judicial, o partidor, o distribuidor, o contabilista e o regulador de avarias.",
+        "comentarios": "Rol exemplificativo de auxiliares da Justiça; normas de organização judiciária podem prever outros.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "150",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Em cada juízo haverá um ou mais ofícios de justiça, cujas atribuições serão determinadas pelas normas de organização judiciária.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "151",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Em cada comarca, seção ou subseção judiciária haverá, no mínimo, tantos oficiais de justiça quantos sejam os juízos.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "152",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Incumbe ao escrivão ou ao chefe de secretaria:",
+        "comentarios": "Atribuições: redigir atos, cumprir ordens, realizar citações/intimações, comparecer a audiências, guardar autos, fornecer certidões e praticar atos ordinatórios de ofício. O juiz titular regulamenta os atos ordinatórios.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "redigir ofícios, mandados, cartas precatórias e demais atos do ofício;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "efetivar ordens judiciais, realizar citações e intimações e demais atos atribuídos;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "comparecer às audiências ou designar servidor substituto;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "manter autos sob guarda e responsabilidade, não permitindo saída salvo hipóteses legais;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "a",
+            "texto": "quando tenham de seguir à conclusão do juiz;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "b",
+            "texto": "com vista a procurador, Defensoria Pública, Ministério Público ou Fazenda Pública;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "c",
+            "texto": "quando devam ser remetidos ao contabilista ou ao partidor;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "d",
+            "texto": "quando remetidos a outro juízo por modificação da competência;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "V",
+            "texto": "fornecer certidão independentemente de despacho, observado segredo de justiça;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VI",
+            "texto": "praticar, de ofício, atos meramente ordinatórios;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "O juiz titular editará ato regulamentando o inciso VI.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "No impedimento, o juiz convocará substituto ou nomeará pessoa idônea.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "153",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O escrivão ou o chefe de secretaria atenderá, preferencialmente, à ordem cronológica de recebimento para publicação e efetivação dos pronunciamentos judiciais.",
+        "comentarios": "Regra de ordem cronológica preferencial para publicação/efetivação dos pronunciamentos. Excluem-se atos urgentes e preferências legais. A parte preterida pode reclamar nos próprios autos.",
+        "jurisprudencia": "JDPC 14: a ordem cronológica do art. 153 não será renovada quando houver equívoco atribuível ao Poder Judiciário no cumprimento de despacho ou decisão.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A lista de processos recebidos deverá ser disponibilizada permanentemente para consulta pública.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Excluem-se atos urgentes e preferências legais.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "os atos urgentes, assim reconhecidos pelo juiz;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "as preferências legais.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Após lista própria, respeita-se ordem cronológica entre urgentes e preferências legais.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "A parte preterida pode reclamar ao juiz, que requisitará informações em 2 dias.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 5º",
+            "texto": "Constatada preterição, haverá imediato cumprimento e PAD contra servidor.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "154",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Incumbe ao oficial de justiça:",
+        "comentarios": "Oficial de justiça pratica atos externos de execução de ordens judiciais, certifica proposta de autocomposição e auxilia na manutenção da ordem.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "fazer pessoalmente citações, prisões, penhoras, arrestos e demais diligências, sempre que possível com 2 testemunhas;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "executar as ordens do juiz;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "entregar o mandado em cartório após cumprimento;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "auxiliar o juiz na manutenção da ordem;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "V",
+            "texto": "efetuar avaliações, quando for o caso;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VI",
+            "texto": "certificar proposta de autocomposição apresentada por qualquer das partes.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Certificada a proposta, o juiz intimará a parte contrária para manifestação em 5 dias; silêncio é recusa.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "155",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O escrivão, o chefe de secretaria e o oficial de justiça são responsáveis, civil e regressivamente, quando:",
+        "comentarios": "Responsabilidade civil regressiva por recusa injustificada ou ato nulo praticado com dolo ou culpa.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "sem justo motivo, recusarem-se a cumprir no prazo atos impostos pela lei ou pelo juiz;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "praticarem ato nulo com dolo ou culpa.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "156",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O juiz será assistido por perito quando a prova do fato depender de conhecimento técnico ou científico.",
+        "comentarios": "Perícia exige conhecimento técnico/científico. Regra: nomeação de profissionais habilitados ou órgãos técnicos inscritos em cadastro. Sem cadastro local, nomeação é de livre escolha do juiz, recaindo sobre pessoa/órgão com conhecimento necessário.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Peritos serão nomeados entre profissionais habilitados e órgãos técnicos/científicos inscritos em cadastro do tribunal.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Para formação do cadastro, tribunais farão consulta pública e consulta a instituições/órgãos.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Tribunais realizarão avaliações e reavaliações periódicas.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "Órgão técnico nomeado informará nomes e dados dos profissionais participantes para verificação de impedimento/suspeição.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 5º",
+            "texto": "Sem inscrito no cadastro local, a nomeação é de livre escolha do juiz, recaindo sobre profissional ou órgão com conhecimento necessário.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "157",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O perito tem o dever de cumprir o ofício no prazo que lhe designar o juiz, empregando toda sua diligência, podendo escusar-se do encargo alegando motivo legítimo.",
+        "comentarios": "Escusa do perito deve ocorrer em 15 dias da intimação, suspeição ou impedimento superveniente, sob pena de renúncia. Lista de peritos deve permitir distribuição equitativa.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A escusa será apresentada em 15 dias, sob pena de renúncia.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Será organizada lista de peritos na vara ou secretaria para nomeação equitativa.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "158",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O perito que, por dolo ou culpa, prestar informações inverídicas responderá pelos prejuízos que causar à parte e ficará inabilitado para atuar em outras perícias no prazo de 2 a 5 anos, independentemente das demais sanções previstas em lei, devendo o juiz comunicar o fato ao respectivo órgão de classe.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "159",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A guarda e a conservação de bens penhorados, arrestados, sequestrados ou arrecadados serão confiadas a depositário ou a administrador, não dispondo a lei de outro modo.",
+        "comentarios": "",
+        "jurisprudencia": "Súmula Vinculante 25: é ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.",
+        "subdispositivos": []
+      },
+      {
+        "num": "160",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Por seu trabalho o depositário ou o administrador perceberá remuneração que o juiz fixará levando em conta a situação dos bens, ao tempo do serviço e às dificuldades de sua execução.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "O juiz poderá nomear um ou mais prepostos por indicação do depositário ou administrador.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "161",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O depositário ou o administrador responde pelos prejuízos que, por dolo ou culpa, causar à parte, perdendo a remuneração arbitrada, mas tem direito a haver o que legitimamente despendeu no exercício do encargo.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "O depositário infiel responde civilmente pelos prejuízos, sem prejuízo de responsabilidade penal e sanção por ato atentatório à dignidade da justiça.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "162",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O juiz nomeará intérprete ou tradutor quando necessário para:",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "traduzir documento redigido em língua estrangeira;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "verter para o português declarações de partes e testemunhas que não conhecerem o idioma nacional;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "realizar interpretação simultânea de depoimentos por Libras ou equivalente, quando solicitado.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "163",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Não pode ser intérprete ou tradutor quem:",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "não tiver livre administração de seus bens;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "for arrolado como testemunha ou atuar como perito no processo;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "estiver inabilitado por sentença penal condenatória enquanto durarem seus efeitos.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "164",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O intérprete ou tradutor, oficial ou não, é obrigado a desempenhar seu ofício, aplicando-se-lhe o disposto nos arts. 157 e 158.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "165",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Os tribunais criarão centros judiciários de solução consensual de conflitos, responsáveis por sessões e audiências de conciliação e mediação e por programas destinados a estimular a autocomposição.",
+        "comentarios": "Conciliador atua preferencialmente sem vínculo anterior entre as partes e pode sugerir soluções. Mediador atua preferencialmente quando houver vínculo anterior e auxilia na compreensão dos interesses e restabelecimento da comunicação.",
+        "jurisprudencia": "FPPC 397: a estrutura para autocomposição nos Juizados Especiais deverá contar com conciliação e mediação.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A composição e organização dos centros serão definidas pelo tribunal, observadas normas do CNJ.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Conciliador atua preferencialmente sem vínculo anterior e pode sugerir soluções, vedado constrangimento.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Mediador atua preferencialmente quando houver vínculo anterior, auxiliando interessados a compreender questões e interesses.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "166",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A conciliação e a mediação são informadas pelos princípios da independência, imparcialidade, autonomia da vontade, confidencialidade, oralidade, informalidade e decisão informada.",
+        "comentarios": "Princípios da autocomposição judicial. A confidencialidade abrange informações produzidas no procedimento; mediador/conciliador e equipe não podem depor sobre fatos da mediação/conciliação.",
+        "jurisprudencia": "FPPC 576: admite-se solução parcial do conflito em audiência de conciliação/mediação.\nFPPC 577: sessões adicionais dependem da concordância de ambas as partes.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Confidencialidade alcança todas as informações produzidas no procedimento.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Conciliador, mediador e equipes não podem divulgar ou depor sobre fatos da conciliação/mediação.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Admite-se aplicação de técnicas negociais.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "Mediação e conciliação seguem a autonomia dos interessados, inclusive regras procedimentais.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "167",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Os conciliadores, os mediadores e as câmaras privadas de conciliação e mediação serão inscritos em cadastro nacional e em cadastro de tribunal, com registro de profissionais habilitados e área profissional.",
+        "comentarios": "Cadastro e capacitação de conciliadores/mediadores. Se advogados, ficam impedidos de exercer advocacia nos juízos em que desempenhem suas funções.",
+        "jurisprudencia": "FPPC 625: o sucesso ou insucesso da mediação/conciliação não deve ser apurado apenas pela celebração de acordo.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Capacitação mínima permite requerer inscrição nos cadastros.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Registrado, o nome passa a constar de lista para distribuição alternada e aleatória.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Cadastro conterá dados relevantes de atuação.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "Dados serão classificados e publicados ao menos anualmente.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 5º",
+            "texto": "Se advogados, ficam impedidos de advogar nos juízos em que atuam.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 6º",
+            "texto": "Tribunal pode criar quadro próprio por concurso público.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "168",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "As partes podem escolher, de comum acordo, o conciliador, o mediador ou a câmara privada de conciliação e de mediação.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Escolhido pelas partes pode ou não estar cadastrado no tribunal.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Sem acordo, haverá distribuição entre cadastrados.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Sempre que recomendável, haverá mais de um mediador ou conciliador.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "169",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Ressalvada a hipótese do art. 167, § 6º, o conciliador e o mediador receberão remuneração prevista em tabela fixada pelo tribunal, conforme parâmetros do CNJ.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Mediação e conciliação podem ser trabalho voluntário.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Tribunais fixarão percentual de audiências não remuneradas pelas câmaras privadas em processos com gratuidade.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "170",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "No caso de impedimento, o conciliador ou mediador comunicará imediatamente, de preferência por meio eletrônico, e devolverá os autos ao juiz ou ao coordenador do centro, para nova distribuição.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Se o impedimento for apurado após início, a atividade será interrompida, com ata e nova distribuição.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "171",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "No caso de impossibilidade temporária do exercício da função, o conciliador ou mediador informará o fato ao centro para que não haja novas distribuições durante o período.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "172",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O conciliador e o mediador ficam impedidos, pelo prazo de 1 ano, contado do término da última audiência em que atuaram, de assessorar, representar ou patrocinar qualquer das partes.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "173",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Será excluído do cadastro de conciliadores e mediadores aquele que:",
+        "comentarios": "Exclusão do cadastro exige processo administrativo. O juiz pode afastar preventivamente por até 180 dias, por decisão fundamentada, comunicando ao tribunal.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "agir com dolo ou culpa na condução da conciliação ou mediação ou violar confidencialidade/sigilo;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "atuar apesar de impedido ou suspeito.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Casos serão apurados em processo administrativo.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "O juiz pode afastar o mediador/conciliador por até 180 dias, comunicando o tribunal.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "174",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A União, os Estados, o DF e os Municípios criarão câmaras de mediação e conciliação, com atribuições relacionadas à solução consensual de conflitos no âmbito administrativo, tais como:",
+        "comentarios": "As câmaras públicas de mediação/conciliação viabilizam autocomposição administrativa e solução consensual envolvendo Administração Pública.",
+        "jurisprudencia": "FPPC 398: câmaras de mediação e conciliação têm competência para conciliação/mediação, no âmbito administrativo, de conflitos judiciais e extrajudiciais.\nFPPC 717: a indisponibilidade do direito material, por si só, não impede autocomposição.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "dirimir conflitos envolvendo órgãos e entidades da administração pública;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "avaliar admissibilidade de pedidos de resolução de conflitos por conciliação no âmbito administrativo;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "promover, quando couber, termo de ajustamento de conduta.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "175",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "As disposições desta Seção não excluem outras formas de conciliação e mediação extrajudiciais vinculadas a órgãos institucionais ou realizadas por profissionais independentes, que poderão ser regulamentadas por lei específica.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Os dispositivos desta Seção aplicam-se, no que couber, às câmaras privadas de conciliação e mediação.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      }
+    ]
+  },
   "lei_6127655680580": {
     "nome": "CPC/2015 — PARTE 10 — Advocacia Pública — Arts. 182 a 184",
     "grupo": "Código de Processo Civil",
@@ -7100,1205 +8299,6 @@
             "tipo": "paragrafo",
             "num": "Parágrafo único",
             "texto": "Nas hipóteses dos incisos II e III, o juiz poderá decidir liminarmente.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      }
-    ]
-  },
-  "lei_3911007388227": {
-    "nome": "CPC/2015 — PARTE 8 — Juiz e Auxiliares da Justiça — Arts. 139 a 175",
-    "grupo": "Código de Processo Civil",
-    "materia": "Processo Civil",
-    "artigos": [
-      {
-        "num": "139",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O juiz dirigirá o processo conforme as disposições deste Código, incumbindo-lhe:",
-        "comentarios": "Poderes do juiz: direção do processo, isonomia, duração razoável, repressão de atos contrários à dignidade da justiça, incentivo à autocomposição, adequação de prazos/provas, poder de polícia, comparecimento pessoal das partes, saneamento de vícios e comunicação a legitimados para eventual ação coletiva.\n\nMedidas executivas atípicas: o inciso IV permite medidas indutivas, coercitivas, mandamentais ou sub-rogatórias para assegurar o cumprimento de ordem judicial, inclusive em obrigação pecuniária. Devem ser fundamentadas, proporcionais, razoáveis, subsidiárias e respeitar contraditório.\n\nCNIB: sistema eletrônico de comunicação de indisponibilidade de bens aos registros públicos. Pode ser usada em demandas cíveis de forma subsidiária, após exauridos meios típicos.\n\nDilação de prazos: pode ocorrer para adequar o procedimento, mas somente antes do encerramento do prazo regular.",
-        "jurisprudencia": "STJ, Tema 1137, REsp 1.955.539/SP e REsp 1.955.574/SP: meios executivos atípicos em execuções cíveis são cabíveis se ponderados efetividade e menor onerosidade, de modo prioritariamente subsidiário, com fundamentação específica, contraditório, proporcionalidade, razoabilidade e controle temporal.\nSTF, ADI 5.941/DF: são constitucionais as medidas atípicas do CPC/2015, respeitados direitos fundamentais, proporcionalidade e razoabilidade.\nSTJ, REsp 2.141.068/PR e REsp 1.963.178/SP: CNIB é cabível subsidiariamente em execução cível após exauridos meios típicos.\nSTJ, REsp 1.788.950/MT: requisitos das medidas atípicas incluem indícios de patrimônio expropriável, subsidiariedade, fundamentação adequada, contraditório substancial e proporcionalidade.\nSTJ, HC 742.879/RJ: aplicação subsidiária no processo falimentar.\nSTJ, HC 711.194/SP: medidas coercitivas podem perdurar enquanto úteis para pressionar o devedor.\nSTJ, HC 453.870/PR: suspensão de passaporte/CNH é excessiva em execução fiscal.\nSTJ, REsp 1.929.230/MT: cabível em improbidade administrativa.\nJDPC 162; FPPC 12, 129, 251, 396, 714, 715 e 716.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "assegurar às partes igualdade de tratamento;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "velar pela duração razoável do processo;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "prevenir ou reprimir qualquer ato contrário à dignidade da justiça e indeferir postulações meramente protelatórias;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "determinar todas as medidas indutivas, coercitivas, mandamentais ou sub-rogatórias necessárias para assegurar o cumprimento de ordem judicial, inclusive nas ações que tenham por objeto prestação pecuniária;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "V",
-            "texto": "promover, a qualquer tempo, a autocomposição, preferencialmente com auxílio de conciliadores e mediadores judiciais;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VI",
-            "texto": "dilatar os prazos processuais e alterar a ordem de produção dos meios de prova, adequando-os às necessidades do conflito;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VII",
-            "texto": "exercer o poder de polícia, requisitando força policial quando necessário;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VIII",
-            "texto": "determinar o comparecimento pessoal das partes, hipótese em que não incidirá pena de confesso;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IX",
-            "texto": "determinar o suprimento de pressupostos processuais e o saneamento de outros vícios processuais;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "X",
-            "texto": "oficiar o Ministério Público, a Defensoria Pública e outros legitimados diante de demandas individuais repetitivas para eventual ação coletiva;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "A dilação de prazos prevista no inciso VI somente pode ser determinada antes de encerrado o prazo regular.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "140",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O juiz não se exime de decidir sob a alegação de lacuna ou obscuridade do ordenamento jurídico.",
-        "comentarios": "Vedação ao non liquet: o juiz deve decidir mesmo diante de lacuna ou obscuridade. A equidade só é admitida nos casos previstos em lei.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "O juiz só decidirá por equidade nos casos previstos em lei.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "141",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O juiz decidirá o mérito nos limites propostos pelas partes, sendo-lhe vedado conhecer de questões não suscetíveis a cujo respeito a lei exige iniciativa da parte.",
-        "comentarios": "Princípio da congruência/adstrição: o juiz decide nos limites do pedido e da causa de pedir, salvo matérias cognoscíveis de ofício.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "142",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Convencendo-se, pelas circunstâncias, de que autor e réu se serviram do processo para praticar ato simulado ou conseguir fim vedado por lei, o juiz proferirá decisão que impeça os objetivos das partes, aplicando, de ofício, as penalidades da litigância de má-fé.",
-        "comentarios": "O dispositivo combate uso fraudulento/simulado do processo. O juiz pode impedir o resultado ilícito e aplicar sanções de litigância de má-fé de ofício.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "143",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O juiz responderá, civil e regressivamente, por perdas e danos quando:",
-        "comentarios": "Responsabilidade civil regressiva do juiz: exige dolo/fraude ou omissão/recusa/retardo injustificado, neste último caso após requerimento da parte e inércia por 10 dias.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "no exercício de suas funções, proceder com dolo ou fraude;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "recusar, omitir ou retardar, sem justo motivo, providência que deva ordenar de ofício ou a requerimento da parte.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "As hipóteses do inciso II somente serão verificadas depois que a parte requerer a providência e o requerimento não for apreciado no prazo de 10 dias.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "144",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Há impedimento do juiz, sendo-lhe vedado exercer suas funções no processo:",
-        "comentarios": "Impedimento é causa objetiva de parcialidade, com presunção legal. O inciso VIII foi declarado inconstitucional pelo STF. O inciso IX também alcança litígio entre juiz e membro do Ministério Público que atua na causa, quando isso afetar a impessoalidade.",
-        "jurisprudencia": "STF, ADI 5.953/DF: inconstitucional o inciso VIII do art. 144 do CPC, por violar juiz natural, razoabilidade e proporcionalidade.\nSTJ, REsp 1.881.175/MA: a hipótese do art. 144, IX, aplica-se a litígio entre juiz e membro do Ministério Público baseado em suposta perseguição, quando o membro do MP oficia na causa.\nFPPC 489: observado o dever de revelação, partes em convenção de arbitragem podem afastar impedimento/suspeição do árbitro por acordo expresso e escrito.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "em que interveio como mandatário da parte, perito, membro do Ministério Público ou testemunha;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "de que conheceu em outro grau de jurisdição, tendo proferido decisão;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "quando nele estiver postulando cônjuge, companheiro ou parente até o 3º grau, como defensor público, advogado ou membro do Ministério Público;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "quando for parte ele próprio, cônjuge, companheiro ou parente até o 3º grau;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "V",
-            "texto": "quando for sócio ou membro de direção/administração de pessoa jurídica parte;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VI",
-            "texto": "quando for herdeiro presuntivo, donatário ou empregador de qualquer das partes;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VII",
-            "texto": "em que figure instituição de ensino com a qual tenha relação de emprego ou prestação de serviços;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VIII",
-            "texto": "quando figure como parte cliente do escritório de advocacia de cônjuge, companheiro ou parente até o 3º grau, mesmo patrocinado por outro escritório;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IX",
-            "texto": "quando promover ação contra a parte ou seu advogado;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Na hipótese do inciso III, o impedimento só ocorre se o profissional já integrava o processo antes do início da atividade judicante.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "É vedada a criação de fato superveniente para caracterizar impedimento.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "O impedimento do inciso III também ocorre quando o mandato é conferido a membro de escritório que tenha advogado com a condição prevista, ainda que este não atue diretamente.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "145",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Há suspeição do juiz:",
-        "comentarios": "Suspeição é causa subjetiva de parcialidade. Pode ser declarada por foro íntimo, sem necessidade de explicitação das razões. A alegação é ilegítima se provocada por quem alega ou se a parte praticou ato de aceitação do arguido.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "amigo íntimo ou inimigo de qualquer das partes ou de seus advogados;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "que receber presentes de interessados, aconselhar parte ou subministrar meios para despesas do litígio;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "quando qualquer das partes for credora ou devedora do juiz, cônjuge, companheiro ou parentes até o 3º grau;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "interessado no julgamento em favor de qualquer das partes;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "O juiz poderá declarar-se suspeito por motivo de foro íntimo, sem declarar suas razões.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Será ilegítima a alegação se provocada por quem alega ou se a parte praticou ato de aceitação do arguido.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "146",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "No prazo de 15 dias, a contar do conhecimento do fato, a parte alegará o impedimento ou a suspeição, em petição específica dirigida ao juiz do processo, indicando o fundamento da recusa, podendo instruí-la com documentos e rol de testemunhas.",
-        "comentarios": "Procedimento da arguição: petição específica em 15 dias do conhecimento do fato; juiz pode reconhecer e remeter ao substituto ou apresentar razões em 15 dias e remeter ao tribunal. O relator define se há efeito suspensivo. Reconhecido o vício, o tribunal fixa o momento a partir do qual o juiz não poderia ter atuado e decreta nulidade dos atos praticados quando já presente o motivo.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Se reconhecer o impedimento ou suspeição, o juiz remeterá os autos ao substituto; caso contrário, autuará em apartado e apresentará razões em 15 dias.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Distribuído o incidente, o relator declarará seus efeitos.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "sem efeito suspensivo, o processo voltará a correr;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "com efeito suspensivo, o processo permanecerá suspenso até o julgamento;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Enquanto não declarado o efeito ou se recebido com efeito suspensivo, tutela de urgência será requerida ao substituto legal.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "Se improcedente a alegação, o tribunal a rejeitará.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 5º",
-            "texto": "Acolhida a alegação, o tribunal condenará o juiz nas custas e remeterá os autos ao substituto legal.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 6º",
-            "texto": "Reconhecido o impedimento ou suspeição, o tribunal fixará o momento a partir do qual o juiz não poderia ter atuado.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 7º",
-            "texto": "O tribunal decretará a nulidade dos atos do juiz praticados quando já presente o motivo.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "147",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Quando 2 ou mais juízes forem parentes, consanguíneos ou afins, em linha reta ou colateral, até o 3º grau, inclusive, o primeiro que conhecer do processo impede que o outro nele atue, caso em que o segundo se escusará, remetendo os autos ao seu substituto legal.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "148",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Aplicam-se os motivos de impedimento e de suspeição:",
-        "comentarios": "Impedimento e suspeição também alcançam Ministério Público, auxiliares da justiça e demais sujeitos imparciais. A arguição é feita pela parte interessada na primeira oportunidade, em petição fundamentada, processada em separado e sem suspensão.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "ao membro do Ministério Público;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "aos auxiliares da justiça;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "aos demais sujeitos imparciais do processo.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A parte interessada deverá arguir na primeira oportunidade em que lhe couber falar nos autos.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "O juiz processará o incidente em separado e sem suspensão, ouvindo o arguido em 15 dias.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Nos tribunais, a arguição será disciplinada pelo regimento interno.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "Não se aplica à arguição de impedimento ou suspeição de testemunha.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "149",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "São auxiliares da Justiça, além de outros cujas atribuições sejam determinadas pelas normas de organização judiciária, o escrivão, o chefe de secretaria, o oficial de justiça, o perito, o depositário, o administrador, o intérprete, o tradutor, o mediador, o conciliador judicial, o partidor, o distribuidor, o contabilista e o regulador de avarias.",
-        "comentarios": "Rol exemplificativo de auxiliares da Justiça; normas de organização judiciária podem prever outros.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "150",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Em cada juízo haverá um ou mais ofícios de justiça, cujas atribuições serão determinadas pelas normas de organização judiciária.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "151",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Em cada comarca, seção ou subseção judiciária haverá, no mínimo, tantos oficiais de justiça quantos sejam os juízos.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "152",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Incumbe ao escrivão ou ao chefe de secretaria:",
-        "comentarios": "Atribuições: redigir atos, cumprir ordens, realizar citações/intimações, comparecer a audiências, guardar autos, fornecer certidões e praticar atos ordinatórios de ofício. O juiz titular regulamenta os atos ordinatórios.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "redigir ofícios, mandados, cartas precatórias e demais atos do ofício;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "efetivar ordens judiciais, realizar citações e intimações e demais atos atribuídos;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "comparecer às audiências ou designar servidor substituto;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "manter autos sob guarda e responsabilidade, não permitindo saída salvo hipóteses legais;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "a",
-            "texto": "quando tenham de seguir à conclusão do juiz;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "b",
-            "texto": "com vista a procurador, Defensoria Pública, Ministério Público ou Fazenda Pública;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "c",
-            "texto": "quando devam ser remetidos ao contabilista ou ao partidor;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "d",
-            "texto": "quando remetidos a outro juízo por modificação da competência;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "V",
-            "texto": "fornecer certidão independentemente de despacho, observado segredo de justiça;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VI",
-            "texto": "praticar, de ofício, atos meramente ordinatórios;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "O juiz titular editará ato regulamentando o inciso VI.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "No impedimento, o juiz convocará substituto ou nomeará pessoa idônea.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "153",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O escrivão ou o chefe de secretaria atenderá, preferencialmente, à ordem cronológica de recebimento para publicação e efetivação dos pronunciamentos judiciais.",
-        "comentarios": "Regra de ordem cronológica preferencial para publicação/efetivação dos pronunciamentos. Excluem-se atos urgentes e preferências legais. A parte preterida pode reclamar nos próprios autos.",
-        "jurisprudencia": "JDPC 14: a ordem cronológica do art. 153 não será renovada quando houver equívoco atribuível ao Poder Judiciário no cumprimento de despacho ou decisão.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A lista de processos recebidos deverá ser disponibilizada permanentemente para consulta pública.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Excluem-se atos urgentes e preferências legais.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "os atos urgentes, assim reconhecidos pelo juiz;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "as preferências legais.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Após lista própria, respeita-se ordem cronológica entre urgentes e preferências legais.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "A parte preterida pode reclamar ao juiz, que requisitará informações em 2 dias.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 5º",
-            "texto": "Constatada preterição, haverá imediato cumprimento e PAD contra servidor.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "154",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Incumbe ao oficial de justiça:",
-        "comentarios": "Oficial de justiça pratica atos externos de execução de ordens judiciais, certifica proposta de autocomposição e auxilia na manutenção da ordem.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "fazer pessoalmente citações, prisões, penhoras, arrestos e demais diligências, sempre que possível com 2 testemunhas;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "executar as ordens do juiz;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "entregar o mandado em cartório após cumprimento;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "auxiliar o juiz na manutenção da ordem;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "V",
-            "texto": "efetuar avaliações, quando for o caso;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VI",
-            "texto": "certificar proposta de autocomposição apresentada por qualquer das partes.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Certificada a proposta, o juiz intimará a parte contrária para manifestação em 5 dias; silêncio é recusa.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "155",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O escrivão, o chefe de secretaria e o oficial de justiça são responsáveis, civil e regressivamente, quando:",
-        "comentarios": "Responsabilidade civil regressiva por recusa injustificada ou ato nulo praticado com dolo ou culpa.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "sem justo motivo, recusarem-se a cumprir no prazo atos impostos pela lei ou pelo juiz;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "praticarem ato nulo com dolo ou culpa.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "156",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O juiz será assistido por perito quando a prova do fato depender de conhecimento técnico ou científico.",
-        "comentarios": "Perícia exige conhecimento técnico/científico. Regra: nomeação de profissionais habilitados ou órgãos técnicos inscritos em cadastro. Sem cadastro local, nomeação é de livre escolha do juiz, recaindo sobre pessoa/órgão com conhecimento necessário.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Peritos serão nomeados entre profissionais habilitados e órgãos técnicos/científicos inscritos em cadastro do tribunal.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Para formação do cadastro, tribunais farão consulta pública e consulta a instituições/órgãos.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Tribunais realizarão avaliações e reavaliações periódicas.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "Órgão técnico nomeado informará nomes e dados dos profissionais participantes para verificação de impedimento/suspeição.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 5º",
-            "texto": "Sem inscrito no cadastro local, a nomeação é de livre escolha do juiz, recaindo sobre profissional ou órgão com conhecimento necessário.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "157",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O perito tem o dever de cumprir o ofício no prazo que lhe designar o juiz, empregando toda sua diligência, podendo escusar-se do encargo alegando motivo legítimo.",
-        "comentarios": "Escusa do perito deve ocorrer em 15 dias da intimação, suspeição ou impedimento superveniente, sob pena de renúncia. Lista de peritos deve permitir distribuição equitativa.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A escusa será apresentada em 15 dias, sob pena de renúncia.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Será organizada lista de peritos na vara ou secretaria para nomeação equitativa.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "158",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O perito que, por dolo ou culpa, prestar informações inverídicas responderá pelos prejuízos que causar à parte e ficará inabilitado para atuar em outras perícias no prazo de 2 a 5 anos, independentemente das demais sanções previstas em lei, devendo o juiz comunicar o fato ao respectivo órgão de classe.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "159",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A guarda e a conservação de bens penhorados, arrestados, sequestrados ou arrecadados serão confiadas a depositário ou a administrador, não dispondo a lei de outro modo.",
-        "comentarios": "",
-        "jurisprudencia": "Súmula Vinculante 25: é ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.",
-        "subdispositivos": []
-      },
-      {
-        "num": "160",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Por seu trabalho o depositário ou o administrador perceberá remuneração que o juiz fixará levando em conta a situação dos bens, ao tempo do serviço e às dificuldades de sua execução.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "O juiz poderá nomear um ou mais prepostos por indicação do depositário ou administrador.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "161",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O depositário ou o administrador responde pelos prejuízos que, por dolo ou culpa, causar à parte, perdendo a remuneração arbitrada, mas tem direito a haver o que legitimamente despendeu no exercício do encargo.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "O depositário infiel responde civilmente pelos prejuízos, sem prejuízo de responsabilidade penal e sanção por ato atentatório à dignidade da justiça.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "162",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O juiz nomeará intérprete ou tradutor quando necessário para:",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "traduzir documento redigido em língua estrangeira;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "verter para o português declarações de partes e testemunhas que não conhecerem o idioma nacional;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "realizar interpretação simultânea de depoimentos por Libras ou equivalente, quando solicitado.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "163",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Não pode ser intérprete ou tradutor quem:",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "não tiver livre administração de seus bens;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "for arrolado como testemunha ou atuar como perito no processo;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "estiver inabilitado por sentença penal condenatória enquanto durarem seus efeitos.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "164",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O intérprete ou tradutor, oficial ou não, é obrigado a desempenhar seu ofício, aplicando-se-lhe o disposto nos arts. 157 e 158.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "165",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Os tribunais criarão centros judiciários de solução consensual de conflitos, responsáveis por sessões e audiências de conciliação e mediação e por programas destinados a estimular a autocomposição.",
-        "comentarios": "Conciliador atua preferencialmente sem vínculo anterior entre as partes e pode sugerir soluções. Mediador atua preferencialmente quando houver vínculo anterior e auxilia na compreensão dos interesses e restabelecimento da comunicação.",
-        "jurisprudencia": "FPPC 397: a estrutura para autocomposição nos Juizados Especiais deverá contar com conciliação e mediação.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A composição e organização dos centros serão definidas pelo tribunal, observadas normas do CNJ.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Conciliador atua preferencialmente sem vínculo anterior e pode sugerir soluções, vedado constrangimento.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Mediador atua preferencialmente quando houver vínculo anterior, auxiliando interessados a compreender questões e interesses.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "166",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A conciliação e a mediação são informadas pelos princípios da independência, imparcialidade, autonomia da vontade, confidencialidade, oralidade, informalidade e decisão informada.",
-        "comentarios": "Princípios da autocomposição judicial. A confidencialidade abrange informações produzidas no procedimento; mediador/conciliador e equipe não podem depor sobre fatos da mediação/conciliação.",
-        "jurisprudencia": "FPPC 576: admite-se solução parcial do conflito em audiência de conciliação/mediação.\nFPPC 577: sessões adicionais dependem da concordância de ambas as partes.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Confidencialidade alcança todas as informações produzidas no procedimento.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Conciliador, mediador e equipes não podem divulgar ou depor sobre fatos da conciliação/mediação.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Admite-se aplicação de técnicas negociais.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "Mediação e conciliação seguem a autonomia dos interessados, inclusive regras procedimentais.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "167",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Os conciliadores, os mediadores e as câmaras privadas de conciliação e mediação serão inscritos em cadastro nacional e em cadastro de tribunal, com registro de profissionais habilitados e área profissional.",
-        "comentarios": "Cadastro e capacitação de conciliadores/mediadores. Se advogados, ficam impedidos de exercer advocacia nos juízos em que desempenhem suas funções.",
-        "jurisprudencia": "FPPC 625: o sucesso ou insucesso da mediação/conciliação não deve ser apurado apenas pela celebração de acordo.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Capacitação mínima permite requerer inscrição nos cadastros.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Registrado, o nome passa a constar de lista para distribuição alternada e aleatória.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Cadastro conterá dados relevantes de atuação.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "Dados serão classificados e publicados ao menos anualmente.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 5º",
-            "texto": "Se advogados, ficam impedidos de advogar nos juízos em que atuam.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 6º",
-            "texto": "Tribunal pode criar quadro próprio por concurso público.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "168",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "As partes podem escolher, de comum acordo, o conciliador, o mediador ou a câmara privada de conciliação e de mediação.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Escolhido pelas partes pode ou não estar cadastrado no tribunal.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Sem acordo, haverá distribuição entre cadastrados.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Sempre que recomendável, haverá mais de um mediador ou conciliador.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "169",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Ressalvada a hipótese do art. 167, § 6º, o conciliador e o mediador receberão remuneração prevista em tabela fixada pelo tribunal, conforme parâmetros do CNJ.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Mediação e conciliação podem ser trabalho voluntário.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Tribunais fixarão percentual de audiências não remuneradas pelas câmaras privadas em processos com gratuidade.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "170",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "No caso de impedimento, o conciliador ou mediador comunicará imediatamente, de preferência por meio eletrônico, e devolverá os autos ao juiz ou ao coordenador do centro, para nova distribuição.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Se o impedimento for apurado após início, a atividade será interrompida, com ata e nova distribuição.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "171",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "No caso de impossibilidade temporária do exercício da função, o conciliador ou mediador informará o fato ao centro para que não haja novas distribuições durante o período.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "172",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O conciliador e o mediador ficam impedidos, pelo prazo de 1 ano, contado do término da última audiência em que atuaram, de assessorar, representar ou patrocinar qualquer das partes.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "173",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Será excluído do cadastro de conciliadores e mediadores aquele que:",
-        "comentarios": "Exclusão do cadastro exige processo administrativo. O juiz pode afastar preventivamente por até 180 dias, por decisão fundamentada, comunicando ao tribunal.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "agir com dolo ou culpa na condução da conciliação ou mediação ou violar confidencialidade/sigilo;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "atuar apesar de impedido ou suspeito.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Casos serão apurados em processo administrativo.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "O juiz pode afastar o mediador/conciliador por até 180 dias, comunicando o tribunal.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "174",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A União, os Estados, o DF e os Municípios criarão câmaras de mediação e conciliação, com atribuições relacionadas à solução consensual de conflitos no âmbito administrativo, tais como:",
-        "comentarios": "As câmaras públicas de mediação/conciliação viabilizam autocomposição administrativa e solução consensual envolvendo Administração Pública.",
-        "jurisprudencia": "FPPC 398: câmaras de mediação e conciliação têm competência para conciliação/mediação, no âmbito administrativo, de conflitos judiciais e extrajudiciais.\nFPPC 717: a indisponibilidade do direito material, por si só, não impede autocomposição.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "dirimir conflitos envolvendo órgãos e entidades da administração pública;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "avaliar admissibilidade de pedidos de resolução de conflitos por conciliação no âmbito administrativo;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "promover, quando couber, termo de ajustamento de conduta.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "175",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "As disposições desta Seção não excluem outras formas de conciliação e mediação extrajudiciais vinculadas a órgãos institucionais ou realizadas por profissionais independentes, que poderão ser regulamentadas por lei específica.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Os dispositivos desta Seção aplicam-se, no que couber, às câmaras privadas de conciliação e mediação.",
             "comentarios": "",
             "jurisprudencia": ""
           }
