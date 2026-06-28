@@ -3294,6 +3294,125 @@
       }
     ]
   },
+  "lei_6256528494343": {
+    "grupo": "Código de Processo Civil",
+    "materia": "Processo Civil",
+    "nome": "CPC/2015 — Parte 6 — Litisconsórcio — arts. 113 a 118",
+    "artigos": [
+      {
+        "num": "113",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "2 ou mais pessoas podem litigar, no mesmo processo, em conjunto, ativa ou passivamente, quando:",
+        "comentarios": "",
+        "jurisprudencia": "FPPC 10: Em caso de desmembramento do litisconsórcio multitudinário, a interrupção da prescrição retroagirá à data de propositura da demanda original.\nFPPC 116: Quando a formação do litisconsórcio multitudinário for prejudicial à defesa, o juiz poderá substituir a sua limitação pela ampliação de prazos, sem prejuízo da possibilidade de desmembramento na fase de cumprimento de sentença.\nFPPC 117: Em caso de desmembramento do litisconsórcio multitudinário ativo, os efeitos mencionados no art. 240 são considerados produzidos desde o protocolo originário da petição inicial.\nFPPC 386: A limitação do litisconsórcio facultativo multitudinário acarreta o desmembramento do processo.\nFPPC 387: A limitação do litisconsórcio multitudinário não é causa de extinção do processo.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "entre elas houver comunhão de direitos ou de obrigações relativamente à lide;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "entre as causas houver conexão pelo pedido ou pela causa de pedir;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "ocorrer afinidade de questões por ponto comum de fato ou de direito.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "O juiz poderá limitar o litisconsórcio facultativo quanto ao número de litigantes na fase de conhecimento, na liquidação de sentença ou na execução, quando este comprometer a rápida solução do litígio ou dificultar a defesa ou o cumprimento da sentença.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "O requerimento de limitação interrompe o prazo para manifestação ou resposta, que recomeçará da intimação da decisão que o solucionar.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "114",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O litisconsórcio será necessário por disposição de lei ou quando, pela natureza da relação jurídica controvertida, a eficácia da sentença depender da citação de todos que devam ser litisconsortes.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "115",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A sentença de mérito, quando proferida sem a integração do contraditório, será:",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "nula, se a decisão deveria ser uniforme em relação a todos que deveriam ter integrado o processo;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "ineficaz, nos outros casos, apenas para os que não foram citados.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Nos casos de litisconsórcio passivo necessário, o juiz determinará ao autor que requeira a citação de todos que devam ser litisconsortes, dentro do prazo que assinar, sob pena de extinção do processo.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "116",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O litisconsórcio será unitário quando, pela natureza da relação jurídica, o juiz tiver de decidir o mérito de modo uniforme para todos os litisconsortes.",
+        "comentarios": "",
+        "jurisprudencia": "FPPC 11: O litisconsorte unitário, integrado ao processo a partir da fase instrutória, tem direito de especificar, pedir e produzir provas, sem prejuízo daquelas já produzidas, sobre as quais o interveniente tem o ônus de se manifestar na primeira oportunidade em que falar no processo.\nFPPC 118: O litisconsorte unitário ativo pode optar por ingressar no processo no polo ativo ou passivo ou, ainda, adotar outra postura que atenda aos seus interesses.\nFPPC 119: Em caso de relação jurídica plurilateral que envolva diversos titulares do mesmo direito, o juiz deve convocar, por edital, os litisconsortes unitários ativos incertos e indeterminados, cabendo-lhe, na hipótese de dificuldade de formação do litisconsórcio, oficiar ao Ministério Público, à Defensoria Pública ou a outro legitimado para que possa propor a ação coletiva.",
+        "subdispositivos": []
+      },
+      {
+        "num": "117",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Os litisconsortes serão considerados, em suas relações com a parte adversa, como litigantes distintos, exceto no litisconsórcio unitário, caso em que os atos e as omissões de um não prejudicarão os outros, mas os poderão beneficiar.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "118",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Cada litisconsorte tem o direito de promover o andamento do processo, e todos devem ser intimados dos respectivos atos.",
+        "comentarios": "LITISCONSÓRCIO NECESSÁRIO\n- Simples: é necessário exclusivamente por força de lei, sem que no processo se discutam relações jurídicas unas e indivisíveis. Exemplo: ação de usucapião.\n- Unitário: é necessário quando o processo versa sobre relação una, incindível e com vários titulares; todos devem participar e o resultado deve ser o mesmo para todos.\n\nLITISCONSÓRCIO: NECESSÁRIO X FACULTATIVO\n- Necessário simples: formação obrigatória exclusivamente por força de lei, como nas ações de usucapião. Se, além da imposição legal, o processo envolver relação jurídica una e incindível, será necessário e unitário.\n- Necessário unitário: ocorre quando o processo versa sobre coisa ou relação jurídica una e incindível com vários titulares, no campo da legitimidade ordinária. Exemplos: ação de nulidade de casamento ajuizada pelo Ministério Público e ação de anulação de contrato.\n- Facultativo simples: hipóteses do art. 113 — comunhão, conexão e afinidade por ponto comum. Na comunhão ou cotitularidade, será facultativo simples se a coisa ou relação jurídica for una, mas cindível, como na solidariedade.\n- Facultativo unitário: hipótese rara. Pressupõe relação jurídica una e incindível com mais de um titular e autorização legal para que apenas um dos titulares postule ou defenda o direito em juízo, no campo da legitimidade extraordinária.\n\nLITISCONSÓRCIO: REGRA X PARTICULARIDADES\n- Simples, regra: em princípio, como a sentença pode ser diferente para os litisconsortes, prevalece a autonomia ou independência; os atos praticados por um não beneficiam os demais.\n- Unitário, regra: como se discute relação jurídica una e incindível, o resultado deve ser o mesmo para todos; os atos praticados por um litisconsorte podem beneficiar todos.\n- Simples, particularidades: apesar da autonomia, se o ato contiver alegação comum de interesse geral, poderá beneficiar os demais, pois não se devem acolher matérias comuns para uns e não para outros de modo incoerente.\n- Unitário, particularidades: atos vantajosos, como contestação ou recurso, beneficiam todos. Atos prejudiciais, como confissão, renúncia ou reconhecimento do pedido, são ineficazes e não prejudicam nem mesmo quem os praticou.\n\nFonte doutrinária indicada no material: Marcus Vinicius Rios Gonçalves, Direito Processual Civil, 2021.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      }
+    ]
+  },
   "lei_6127655680580": {
     "nome": "CPC/2015 — PARTE 10 — Advocacia Pública — Arts. 182 a 184",
     "grupo": "Código de Processo Civil",
@@ -6589,125 +6708,6 @@
             "jurisprudencia": ""
           }
         ]
-      }
-    ]
-  },
-  "lei_6256528494343": {
-    "grupo": "Código de Processo Civil",
-    "materia": "Processo Civil",
-    "nome": "CPC/2015 — Parte 6 — Litisconsórcio — arts. 113 a 118",
-    "artigos": [
-      {
-        "num": "113",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "2 ou mais pessoas podem litigar, no mesmo processo, em conjunto, ativa ou passivamente, quando:",
-        "comentarios": "",
-        "jurisprudencia": "FPPC 10: Em caso de desmembramento do litisconsórcio multitudinário, a interrupção da prescrição retroagirá à data de propositura da demanda original.\nFPPC 116: Quando a formação do litisconsórcio multitudinário for prejudicial à defesa, o juiz poderá substituir a sua limitação pela ampliação de prazos, sem prejuízo da possibilidade de desmembramento na fase de cumprimento de sentença.\nFPPC 117: Em caso de desmembramento do litisconsórcio multitudinário ativo, os efeitos mencionados no art. 240 são considerados produzidos desde o protocolo originário da petição inicial.\nFPPC 386: A limitação do litisconsórcio facultativo multitudinário acarreta o desmembramento do processo.\nFPPC 387: A limitação do litisconsórcio multitudinário não é causa de extinção do processo.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "entre elas houver comunhão de direitos ou de obrigações relativamente à lide;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "entre as causas houver conexão pelo pedido ou pela causa de pedir;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "ocorrer afinidade de questões por ponto comum de fato ou de direito.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "O juiz poderá limitar o litisconsórcio facultativo quanto ao número de litigantes na fase de conhecimento, na liquidação de sentença ou na execução, quando este comprometer a rápida solução do litígio ou dificultar a defesa ou o cumprimento da sentença.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "O requerimento de limitação interrompe o prazo para manifestação ou resposta, que recomeçará da intimação da decisão que o solucionar.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "114",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O litisconsórcio será necessário por disposição de lei ou quando, pela natureza da relação jurídica controvertida, a eficácia da sentença depender da citação de todos que devam ser litisconsortes.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "115",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A sentença de mérito, quando proferida sem a integração do contraditório, será:",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "nula, se a decisão deveria ser uniforme em relação a todos que deveriam ter integrado o processo;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "ineficaz, nos outros casos, apenas para os que não foram citados.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Nos casos de litisconsórcio passivo necessário, o juiz determinará ao autor que requeira a citação de todos que devam ser litisconsortes, dentro do prazo que assinar, sob pena de extinção do processo.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "116",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O litisconsórcio será unitário quando, pela natureza da relação jurídica, o juiz tiver de decidir o mérito de modo uniforme para todos os litisconsortes.",
-        "comentarios": "",
-        "jurisprudencia": "FPPC 11: O litisconsorte unitário, integrado ao processo a partir da fase instrutória, tem direito de especificar, pedir e produzir provas, sem prejuízo daquelas já produzidas, sobre as quais o interveniente tem o ônus de se manifestar na primeira oportunidade em que falar no processo.\nFPPC 118: O litisconsorte unitário ativo pode optar por ingressar no processo no polo ativo ou passivo ou, ainda, adotar outra postura que atenda aos seus interesses.\nFPPC 119: Em caso de relação jurídica plurilateral que envolva diversos titulares do mesmo direito, o juiz deve convocar, por edital, os litisconsortes unitários ativos incertos e indeterminados, cabendo-lhe, na hipótese de dificuldade de formação do litisconsórcio, oficiar ao Ministério Público, à Defensoria Pública ou a outro legitimado para que possa propor a ação coletiva.",
-        "subdispositivos": []
-      },
-      {
-        "num": "117",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Os litisconsortes serão considerados, em suas relações com a parte adversa, como litigantes distintos, exceto no litisconsórcio unitário, caso em que os atos e as omissões de um não prejudicarão os outros, mas os poderão beneficiar.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "118",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Cada litisconsorte tem o direito de promover o andamento do processo, e todos devem ser intimados dos respectivos atos.",
-        "comentarios": "LITISCONSÓRCIO NECESSÁRIO\n- Simples: é necessário exclusivamente por força de lei, sem que no processo se discutam relações jurídicas unas e indivisíveis. Exemplo: ação de usucapião.\n- Unitário: é necessário quando o processo versa sobre relação una, incindível e com vários titulares; todos devem participar e o resultado deve ser o mesmo para todos.\n\nLITISCONSÓRCIO: NECESSÁRIO X FACULTATIVO\n- Necessário simples: formação obrigatória exclusivamente por força de lei, como nas ações de usucapião. Se, além da imposição legal, o processo envolver relação jurídica una e incindível, será necessário e unitário.\n- Necessário unitário: ocorre quando o processo versa sobre coisa ou relação jurídica una e incindível com vários titulares, no campo da legitimidade ordinária. Exemplos: ação de nulidade de casamento ajuizada pelo Ministério Público e ação de anulação de contrato.\n- Facultativo simples: hipóteses do art. 113 — comunhão, conexão e afinidade por ponto comum. Na comunhão ou cotitularidade, será facultativo simples se a coisa ou relação jurídica for una, mas cindível, como na solidariedade.\n- Facultativo unitário: hipótese rara. Pressupõe relação jurídica una e incindível com mais de um titular e autorização legal para que apenas um dos titulares postule ou defenda o direito em juízo, no campo da legitimidade extraordinária.\n\nLITISCONSÓRCIO: REGRA X PARTICULARIDADES\n- Simples, regra: em princípio, como a sentença pode ser diferente para os litisconsortes, prevalece a autonomia ou independência; os atos praticados por um não beneficiam os demais.\n- Unitário, regra: como se discute relação jurídica una e incindível, o resultado deve ser o mesmo para todos; os atos praticados por um litisconsorte podem beneficiar todos.\n- Simples, particularidades: apesar da autonomia, se o ato contiver alegação comum de interesse geral, poderá beneficiar os demais, pois não se devem acolher matérias comuns para uns e não para outros de modo incoerente.\n- Unitário, particularidades: atos vantajosos, como contestação ou recurso, beneficiam todos. Atos prejudiciais, como confissão, renúncia ou reconhecimento do pedido, são ineficazes e não prejudicam nem mesmo quem os praticou.\n\nFonte doutrinária indicada no material: Marcus Vinicius Rios Gonçalves, Direito Processual Civil, 2021.",
-        "jurisprudencia": "",
-        "subdispositivos": []
       }
     ]
   },
