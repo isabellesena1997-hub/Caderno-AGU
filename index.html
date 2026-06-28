@@ -1767,26 +1767,35 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 <div class="overlay hidden" id="modal-import-lei">
   <div class="modal" style="max-width:580px">
     <div class="modal-title"><span>Importar lei (JSON)</span><button class="modal-close" onclick="closeModal('import-lei')">✕</button></div>
-    <div style="font-size:12px;color:#888780;margin-bottom:4px">Mande o PDF aqui no Claude e peça o JSON. Depois cole abaixo:</div>
-    <div style="font-size:11px;color:#888780;background:#f5f4f0;border-radius:6px;padding:8px 10px;margin-bottom:10px;line-height:1.6">
-      Formato: <code style="font-size:10px">{"nome":"LINDB","materia":"Civil","titulos":[...],"artigos":[{"num":"1","texto":"...","comentarios":"...","jurisprudencia":"...","subdispositivos":[{"tipo":"paragrafo","num":"§ 1º","texto":"..."}]}]}</code>
+    <div class="modal-body">
+      <div style="background:#EFF6FF;border:1px solid #BFDBFE;border-radius:8px;padding:10px 12px;margin-bottom:12px">
+        <div style="font-size:11px;font-weight:600;color:#1D4ED8;margin-bottom:6px">☁️ GitHub — armazenamento das leis</div>
+        <div style="display:flex;gap:6px;align-items:center">
+          <input id="gh-token-input" type="password" placeholder="Cole seu token (github_pat_...)"
+            style="flex:1;padding:5px 8px;font-size:11px;border:1px solid #BFDBFE;border-radius:6px;font-family:monospace">
+          <button onclick="salvarTokenGitHub()" style="padding:5px 10px;background:#185FA5;color:#fff;border:none;border-radius:6px;font-size:11px;cursor:pointer;white-space:nowrap">Salvar token</button>
+        </div>
+        <div id="gh-config-status" style="font-size:11px;margin-top:5px;color:#4B5563;min-height:16px"></div>
+      </div>
+      <div class="mf"><div class="ml">Matéria (para organizar na sidebar)</div>
+        <select class="ms" id="import-lei-materia">
+          <option value="">— Selecione ou deixe no JSON —</option>
+          <option>Constitucional</option><option>Administrativo</option><option>Tributário</option>
+          <option>Civil</option><option>Processo Civil</option><option>Financeiro e Econômico</option>
+          <option>Ambiental</option><option>Internacional Público e Privado</option>
+          <option>Empresarial</option><option>Penal e Processual Penal</option>
+          <option>Trabalhista e Proc. do Trabalho</option><option>Legislação AGU / Conflitos</option>
+        </select>
+      </div>
+      <div style="font-size:12px;color:#888780;margin-bottom:4px">Cole o JSON da lei abaixo:</div>
+      <textarea class="import-ta" id="import-lei-json" style="height:180px" placeholder='{"nome":"LINDB","materia":"Civil","artigos":[]}'></textarea>
+      <div id="import-lei-status" class="import-status"></div>
     </div>
-    <div class="mf"><div class="ml">Matéria (para organizar na sidebar)</div>
-      <select class="ms" id="import-lei-materia">
-        <option value="">— Selecione ou deixe no JSON —</option>
-        <option>Constitucional</option><option>Administrativo</option><option>Tributário</option>
-        <option>Civil</option><option>Processo Civil</option><option>Financeiro e Econômico</option>
-        <option>Ambiental</option><option>Internacional Público e Privado</option>
-        <option>Empresarial</option><option>Penal e Processual Penal</option>
-        <option>Trabalhista e Proc. do Trabalho</option><option>Legislação AGU / Conflitos</option>
-      </select>
-    </div>
-    <textarea class="import-ta" id="import-lei-json" style="height:220px" placeholder='{"nome":"LINDB","materia":"Civil","artigos":[...]}'></textarea>
-    <div id="import-lei-status" class="import-status"></div>
     <div class="modal-actions">
       <button class="mbtn-cancel" onclick="closeModal('import-lei')">Cancelar</button>
       <button class="mbtn-save" onclick="importarLeiJSON()">Importar</button>
     </div>
+  </div>
   </div>
 </div>
 
@@ -6638,7 +6647,12 @@ function salvarTextosEditados(){
 function openImportLeiModal(){
   document.getElementById('import-lei-json').value='';
   document.getElementById('import-lei-status').className='import-status';
-  document.getElementById('import-lei-materia').value='';
+  document.getElementById('import-lei-status').textContent='';
+  const tok=ghToken();
+  const st=document.getElementById('gh-config-status');
+  if(st) st.textContent=tok?'✅ Token configurado — leis salvas no GitHub automaticamente.':'⚠️ Sem token — cole acima para salvar no GitHub (sem limite de espaço).';
+  const inp=document.getElementById('gh-token-input');
+  if(inp) inp.value=tok?'••••••••••••••••••••':'';
   document.getElementById('modal-import-lei').classList.remove('hidden');
 }
 function importarLeiJSON(){
