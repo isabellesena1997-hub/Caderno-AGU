@@ -395,6 +395,491 @@
       }
     ]
   },
+  "lei_2552492358644": {
+    "nome": "CPC/2015 — Parte 3 — Limites da Jurisdição Nacional e Cooperação Internacional — Arts. 21 a 40",
+    "grupo": "Código de Processo Civil",
+    "materia": "Processo Civil",
+    "artigos": [
+      {
+        "num": "21",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Compete à autoridade judiciária brasileira processar e julgar as ações em que:",
+        "comentarios": "",
+        "jurisprudencia": "STJ: Caso exista previsão contratual que faculte ao credor a escolha do foro de execução e este opte pela execução dos contratos de empréstimos celebrados no exterior perante a Justiça brasileira, deve haver submissão à forma processual típica dessa via processual, inclusive quanto ao conhecimento e julgamento dos respectivos embargos à execução. STJ, 4ª Turma, REsp 1.966.276/SP, Rel. Min. Raul Araújo, j. 9/4/2024, Info 807.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "o réu, qualquer que seja a sua nacionalidade, estiver domiciliado no Brasil;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "no Brasil tiver de ser cumprida a obrigação;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "o fundamento seja fato ocorrido ou ato praticado no Brasil.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Para o fim do disposto no inciso I, considera-se domiciliada no Brasil a pessoa jurídica estrangeira que nele tiver agência, filial ou sucursal.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          }
+        ]
+      },
+      {
+        "num": "22",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Compete, ainda, à autoridade judiciária brasileira processar e julgar as ações:",
+        "comentarios": "Foro de eleição estrangeiro em contrato consumerista: o material destaca que o CDC, nos arts. 6º, VIII, e 51, I, permite facilitar a defesa do consumidor e declarar nulas cláusulas abusivas. Em contrato de adesão consumerista com sociedade empresária domiciliada no exterior e consumidores domiciliados no Brasil, pode haver jurisdição brasileira quando a manutenção do foro estrangeiro prejudicar o acesso à Justiça.",
+        "jurisprudencia": "STJ: Cabe à autoridade judiciária brasileira processar e julgar ação de rescisão contratual em que os autores pactuaram contrato de adesão de prestação de serviços hoteleiros, sendo consumidores finais, com sociedade empresária domiciliada no exterior e autores domiciliados no Brasil. STJ, 3ª Turma, REsp 1.797.109/SP, Rel. Min. Ricardo Villas Bôas Cueva, j. 21/3/2023, Info 769.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "de alimentos, quando:",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "alinea",
+            "num": "a",
+            "texto": "o credor tiver domicílio ou residência no Brasil;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "alinea",
+            "num": "b",
+            "texto": "o réu mantiver vínculos no Brasil, tais como posse ou propriedade de bens, recebimento de renda ou obtenção de benefícios econômicos;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "decorrentes de relações de consumo, quando o consumidor tiver domicílio ou residência no Brasil;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "em que as partes, expressa ou tacitamente, se submeterem à jurisdição nacional.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          }
+        ]
+      },
+      {
+        "num": "23",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Compete à autoridade judiciária brasileira, com exclusão de qualquer outra:",
+        "comentarios": "Hipóteses de jurisdição nacional exclusiva: ações relativas a imóveis situados no Brasil; sucessão hereditária quanto a bens situados no Brasil; e partilha de bens situados no Brasil em divórcio, separação judicial ou dissolução de união estável.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "conhecer de ações relativas a imóveis situados no Brasil;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "em matéria de sucessão hereditária, proceder à confirmação de testamento particular e ao inventário e à partilha de bens situados no Brasil, ainda que o autor da herança seja de nacionalidade estrangeira ou tenha domicílio fora do território nacional;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "em divórcio, separação judicial ou dissolução de união estável, proceder à partilha de bens situados no Brasil, ainda que o titular seja de nacionalidade estrangeira ou tenha domicílio fora do território nacional.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          }
+        ]
+      },
+      {
+        "num": "24",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A ação proposta perante tribunal estrangeiro não induz litispendência e não obsta a que a autoridade judiciária brasileira conheça da mesma causa e das que lhe são conexas, ressalvadas as disposições em contrário de tratados internacionais e acordos bilaterais em vigor no Brasil.",
+        "comentarios": "A pendência de ação no exterior não gera, por si só, litispendência no Brasil. Também não impede que a autoridade brasileira conheça da mesma causa ou das causas conexas, salvo tratado ou acordo bilateral em sentido contrário.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "A pendência de causa perante a jurisdição brasileira não impede a homologação de sentença judicial estrangeira quando exigida para produzir efeitos no Brasil.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          }
+        ]
+      },
+      {
+        "num": "25",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Não compete à autoridade judiciária brasileira o processamento e o julgamento da ação quando houver cláusula de eleição de foro exclusivo estrangeiro em contrato internacional, arguida pelo réu na contestação.",
+        "comentarios": "A cláusula de eleição de foro exclusivo estrangeiro, em regra, afasta a jurisdição brasileira se for arguida pelo réu na contestação. A regra não vale para as hipóteses de competência internacional exclusiva do art. 23. O próprio art. 25 remete ao art. 63, §§ 1º a 4º, permitindo o controle de abusividade da cláusula de eleição de foro.\n\nSegundo o material, em contrato de adesão com cláusula de eleição de foro exclusivo estrangeiro, é possível declarar a nulidade da cláusula se presentes cumulativamente: contrato de adesão; hipossuficiência técnica, econômica ou jurídica do aderente; e dificuldade significativa ou impossibilidade de acesso à jurisdição.",
+        "jurisprudencia": "STJ: A cláusula de eleição de foro estrangeiro em contratos de adesão celebrados pela internet entre empresa com sede estrangeira e consumidor brasileiro pode ser declarada nula quando criar obstáculos ao acesso à Justiça pelo consumidor brasileiro. STJ, 4ª Turma, REsp 2.210.341/CE, Rel. Min. Antonio Carlos Ferreira, j. 17/6/2025, Info 26, edição extraordinária.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Não se aplica o disposto no caput às hipóteses de competência internacional exclusiva previstas neste Capítulo.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Aplica-se à hipótese do caput o art. 63, §§ 1º a 4º.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          }
+        ]
+      },
+      {
+        "num": "26",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A cooperação jurídica internacional será regida por tratado de que o Brasil faz parte e observará:",
+        "comentarios": "Cooperação jurídica internacional: em regra, rege-se por tratado de que o Brasil seja parte. Na ausência de tratado, pode realizar-se com base em reciprocidade manifestada por via diplomática. A reciprocidade não é exigida para homologação de sentença estrangeira. A cooperação não pode contrariar nem produzir resultado incompatível com as normas fundamentais do Estado brasileiro. Na ausência de designação específica, o Ministério da Justiça exerce as funções de autoridade central.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "o respeito às garantias do devido processo legal no Estado requerente;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "a igualdade de tratamento entre nacionais e estrangeiros, residentes ou não no Brasil, em relação ao acesso à justiça e à tramitação dos processos, assegurando-se assistência judiciária aos necessitados;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "a publicidade processual, exceto nas hipóteses de sigilo previstas na legislação brasileira ou na do Estado requerente;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "a existência de autoridade central para recepção e transmissão dos pedidos de cooperação;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "V",
+            "texto": "a espontaneidade na transmissão de informações a autoridades estrangeiras.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Na ausência de tratado, a cooperação jurídica internacional poderá realizar-se com base em reciprocidade, manifestada por via diplomática.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Não se exigirá a reciprocidade referida no § 1º para homologação de sentença estrangeira.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Na cooperação jurídica internacional não será admitida a prática de atos que contrariem ou que produzam resultados incompatíveis com as normas fundamentais que regem o Estado brasileiro.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "O Ministério da Justiça exercerá as funções de autoridade central na ausência de designação específica.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          }
+        ]
+      },
+      {
+        "num": "27",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A cooperação jurídica internacional terá por objeto:",
+        "comentarios": "Objeto da cooperação internacional: comunicação de atos, colheita de provas, homologação e cumprimento de decisão, urgência, assistência jurídica internacional e qualquer medida judicial ou extrajudicial não proibida pela lei brasileira.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "citação, intimação e notificação judicial e extrajudicial;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "colheita de provas e obtenção de informações;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "homologação e cumprimento de decisão;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "concessão de medida judicial de urgência;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "V",
+            "texto": "assistência jurídica internacional;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "VI",
+            "texto": "qualquer outra medida judicial ou extrajudicial não proibida pela lei brasileira.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          }
+        ]
+      },
+      {
+        "num": "28",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Cabe auxílio direto quando a medida não decorrer diretamente de decisão de autoridade jurisdicional estrangeira a ser submetida a juízo de delibação no Brasil.",
+        "comentarios": "Auxílio direto: cabível quando a medida não decorre diretamente de decisão jurisdicional estrangeira que precise passar por juízo de delibação no Brasil.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "29",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A solicitação de auxílio direto será encaminhada pelo órgão estrangeiro interessado à autoridade central, cabendo ao Estado requerente assegurar a autenticidade e a clareza do pedido.",
+        "comentarios": "No auxílio direto, o órgão estrangeiro interessado encaminha o pedido à autoridade central. O Estado requerente deve assegurar autenticidade e clareza.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "30",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Além dos casos previstos em tratados de que o Brasil faz parte, o auxílio direto terá os seguintes objetos:",
+        "comentarios": "Além do que estiver previsto em tratados, o CPC admite auxílio direto para informações sobre ordenamento jurídico e processos, colheita de provas e outras medidas lícitas.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "obtenção e prestação de informações sobre o ordenamento jurídico e sobre processos administrativos ou jurisdicionais findos ou em curso;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "colheita de provas, salvo se a medida for adotada em processo, em curso no estrangeiro, de competência exclusiva de autoridade judiciária brasileira;",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "qualquer outra medida judicial ou extrajudicial não proibida pela lei brasileira.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          }
+        ]
+      },
+      {
+        "num": "31",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A autoridade central brasileira comunicar-se-á diretamente com suas congêneres e, se necessário, com outros órgãos estrangeiros responsáveis pela tramitação e pela execução de pedidos de cooperação enviados e recebidos pelo Estado brasileiro, respeitadas disposições específicas constantes de tratado.",
+        "comentarios": "A comunicação da autoridade central brasileira ocorre diretamente com autoridades centrais congêneres e, se necessário, com outros órgãos estrangeiros responsáveis pela tramitação e execução dos pedidos.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "32",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "No caso de auxílio direto para a prática de atos que, segundo a lei brasileira, não necessitem de prestação jurisdicional, a autoridade central adotará as providências necessárias para seu cumprimento.",
+        "comentarios": "Se o ato de auxílio direto não exigir prestação jurisdicional segundo a lei brasileira, a própria autoridade central adota as providências necessárias.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "33",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Recebido o pedido de auxílio direto passivo, a autoridade central o encaminhará à Advocacia-Geral da União, que requererá em juízo a medida solicitada.",
+        "comentarios": "No auxílio direto passivo que demande atuação judicial, a autoridade central encaminha o pedido à AGU, salvo quando o Ministério Público for a autoridade central.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "O Ministério Público requererá em juízo a medida solicitada quando for autoridade central.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          }
+        ]
+      },
+      {
+        "num": "34",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Compete ao juízo federal do lugar em que deva ser executada a medida apreciar pedido de auxílio direto passivo que demande prestação de atividade jurisdicional.",
+        "comentarios": "Competência: o pedido de auxílio direto passivo que exija atividade jurisdicional será apreciado pelo juízo federal do local em que a medida deva ser executada.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "35",
+        "tipo": "artigo",
+        "revogado": true,
+        "texto": "(VETADO)",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "36",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O procedimento da carta rogatória perante o STJ é de jurisdição contenciosa e deve assegurar às partes as garantias do devido processo legal.",
+        "comentarios": "Carta rogatória no STJ: procedimento de jurisdição contenciosa, com devido processo legal. A defesa limita-se aos requisitos para que o pronunciamento estrangeiro produza efeitos no Brasil. É vedada a revisão do mérito do pronunciamento estrangeiro.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A defesa restringir-se-á à discussão quanto ao atendimento dos requisitos para que o pronunciamento judicial estrangeiro produza efeitos no Brasil.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Em qualquer hipótese, é vedada a revisão do mérito do pronunciamento judicial estrangeiro pela autoridade judiciária brasileira.",
+            "comentarios": "",
+            "jurisprudencia": "",
+            "revogado": false
+          }
+        ]
+      },
+      {
+        "num": "37",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O pedido de cooperação jurídica internacional oriundo de autoridade brasileira competente será encaminhado à autoridade central para posterior envio ao Estado requerido para lhe dar andamento.",
+        "comentarios": "Pedido ativo de cooperação internacional: a autoridade brasileira competente encaminha à autoridade central, que providencia o envio ao Estado requerido.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "38",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O pedido de cooperação oriundo de autoridade brasileira competente e os documentos anexos que o instruem serão encaminhados à autoridade central, acompanhados de tradução para a língua oficial do Estado requerido.",
+        "comentarios": "O pedido de cooperação ativa e seus documentos devem ser encaminhados à autoridade central com tradução para a língua oficial do Estado requerido.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "39",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O pedido passivo de cooperação jurídica internacional será recusado se configurar manifesta ofensa à ordem pública.",
+        "comentarios": "A manifesta ofensa à ordem pública é causa de recusa do pedido passivo de cooperação jurídica internacional.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "40",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A cooperação jurídica internacional para execução de decisão estrangeira dar-se-á por meio de carta rogatória ou de ação de homologação de sentença estrangeira, de acordo com o art. 960.",
+        "comentarios": "Execução de decisão estrangeira: ocorre por carta rogatória ou por ação de homologação de sentença estrangeira, conforme o art. 960 do CPC.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      }
+    ]
+  },
   "lei_6127655680580": {
     "nome": "CPC/2015 — PARTE 10 — Advocacia Pública — Arts. 182 a 184",
     "grupo": "Código de Processo Civil",
@@ -3690,491 +4175,6 @@
             "jurisprudencia": ""
           }
         ]
-      }
-    ]
-  },
-  "lei_2552492358644": {
-    "nome": "CPC/2015 — Parte 3 — Limites da Jurisdição Nacional e Cooperação Internacional — Arts. 21 a 40",
-    "grupo": "Código de Processo Civil",
-    "materia": "Processo Civil",
-    "artigos": [
-      {
-        "num": "21",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Compete à autoridade judiciária brasileira processar e julgar as ações em que:",
-        "comentarios": "",
-        "jurisprudencia": "STJ: Caso exista previsão contratual que faculte ao credor a escolha do foro de execução e este opte pela execução dos contratos de empréstimos celebrados no exterior perante a Justiça brasileira, deve haver submissão à forma processual típica dessa via processual, inclusive quanto ao conhecimento e julgamento dos respectivos embargos à execução. STJ, 4ª Turma, REsp 1.966.276/SP, Rel. Min. Raul Araújo, j. 9/4/2024, Info 807.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "o réu, qualquer que seja a sua nacionalidade, estiver domiciliado no Brasil;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "no Brasil tiver de ser cumprida a obrigação;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "o fundamento seja fato ocorrido ou ato praticado no Brasil.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Para o fim do disposto no inciso I, considera-se domiciliada no Brasil a pessoa jurídica estrangeira que nele tiver agência, filial ou sucursal.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          }
-        ]
-      },
-      {
-        "num": "22",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Compete, ainda, à autoridade judiciária brasileira processar e julgar as ações:",
-        "comentarios": "Foro de eleição estrangeiro em contrato consumerista: o material destaca que o CDC, nos arts. 6º, VIII, e 51, I, permite facilitar a defesa do consumidor e declarar nulas cláusulas abusivas. Em contrato de adesão consumerista com sociedade empresária domiciliada no exterior e consumidores domiciliados no Brasil, pode haver jurisdição brasileira quando a manutenção do foro estrangeiro prejudicar o acesso à Justiça.",
-        "jurisprudencia": "STJ: Cabe à autoridade judiciária brasileira processar e julgar ação de rescisão contratual em que os autores pactuaram contrato de adesão de prestação de serviços hoteleiros, sendo consumidores finais, com sociedade empresária domiciliada no exterior e autores domiciliados no Brasil. STJ, 3ª Turma, REsp 1.797.109/SP, Rel. Min. Ricardo Villas Bôas Cueva, j. 21/3/2023, Info 769.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "de alimentos, quando:",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "alinea",
-            "num": "a",
-            "texto": "o credor tiver domicílio ou residência no Brasil;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "alinea",
-            "num": "b",
-            "texto": "o réu mantiver vínculos no Brasil, tais como posse ou propriedade de bens, recebimento de renda ou obtenção de benefícios econômicos;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "decorrentes de relações de consumo, quando o consumidor tiver domicílio ou residência no Brasil;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "em que as partes, expressa ou tacitamente, se submeterem à jurisdição nacional.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          }
-        ]
-      },
-      {
-        "num": "23",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Compete à autoridade judiciária brasileira, com exclusão de qualquer outra:",
-        "comentarios": "Hipóteses de jurisdição nacional exclusiva: ações relativas a imóveis situados no Brasil; sucessão hereditária quanto a bens situados no Brasil; e partilha de bens situados no Brasil em divórcio, separação judicial ou dissolução de união estável.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "conhecer de ações relativas a imóveis situados no Brasil;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "em matéria de sucessão hereditária, proceder à confirmação de testamento particular e ao inventário e à partilha de bens situados no Brasil, ainda que o autor da herança seja de nacionalidade estrangeira ou tenha domicílio fora do território nacional;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "em divórcio, separação judicial ou dissolução de união estável, proceder à partilha de bens situados no Brasil, ainda que o titular seja de nacionalidade estrangeira ou tenha domicílio fora do território nacional.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          }
-        ]
-      },
-      {
-        "num": "24",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A ação proposta perante tribunal estrangeiro não induz litispendência e não obsta a que a autoridade judiciária brasileira conheça da mesma causa e das que lhe são conexas, ressalvadas as disposições em contrário de tratados internacionais e acordos bilaterais em vigor no Brasil.",
-        "comentarios": "A pendência de ação no exterior não gera, por si só, litispendência no Brasil. Também não impede que a autoridade brasileira conheça da mesma causa ou das causas conexas, salvo tratado ou acordo bilateral em sentido contrário.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "A pendência de causa perante a jurisdição brasileira não impede a homologação de sentença judicial estrangeira quando exigida para produzir efeitos no Brasil.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          }
-        ]
-      },
-      {
-        "num": "25",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Não compete à autoridade judiciária brasileira o processamento e o julgamento da ação quando houver cláusula de eleição de foro exclusivo estrangeiro em contrato internacional, arguida pelo réu na contestação.",
-        "comentarios": "A cláusula de eleição de foro exclusivo estrangeiro, em regra, afasta a jurisdição brasileira se for arguida pelo réu na contestação. A regra não vale para as hipóteses de competência internacional exclusiva do art. 23. O próprio art. 25 remete ao art. 63, §§ 1º a 4º, permitindo o controle de abusividade da cláusula de eleição de foro.\n\nSegundo o material, em contrato de adesão com cláusula de eleição de foro exclusivo estrangeiro, é possível declarar a nulidade da cláusula se presentes cumulativamente: contrato de adesão; hipossuficiência técnica, econômica ou jurídica do aderente; e dificuldade significativa ou impossibilidade de acesso à jurisdição.",
-        "jurisprudencia": "STJ: A cláusula de eleição de foro estrangeiro em contratos de adesão celebrados pela internet entre empresa com sede estrangeira e consumidor brasileiro pode ser declarada nula quando criar obstáculos ao acesso à Justiça pelo consumidor brasileiro. STJ, 4ª Turma, REsp 2.210.341/CE, Rel. Min. Antonio Carlos Ferreira, j. 17/6/2025, Info 26, edição extraordinária.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Não se aplica o disposto no caput às hipóteses de competência internacional exclusiva previstas neste Capítulo.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Aplica-se à hipótese do caput o art. 63, §§ 1º a 4º.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          }
-        ]
-      },
-      {
-        "num": "26",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A cooperação jurídica internacional será regida por tratado de que o Brasil faz parte e observará:",
-        "comentarios": "Cooperação jurídica internacional: em regra, rege-se por tratado de que o Brasil seja parte. Na ausência de tratado, pode realizar-se com base em reciprocidade manifestada por via diplomática. A reciprocidade não é exigida para homologação de sentença estrangeira. A cooperação não pode contrariar nem produzir resultado incompatível com as normas fundamentais do Estado brasileiro. Na ausência de designação específica, o Ministério da Justiça exerce as funções de autoridade central.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "o respeito às garantias do devido processo legal no Estado requerente;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "a igualdade de tratamento entre nacionais e estrangeiros, residentes ou não no Brasil, em relação ao acesso à justiça e à tramitação dos processos, assegurando-se assistência judiciária aos necessitados;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "a publicidade processual, exceto nas hipóteses de sigilo previstas na legislação brasileira ou na do Estado requerente;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "a existência de autoridade central para recepção e transmissão dos pedidos de cooperação;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "V",
-            "texto": "a espontaneidade na transmissão de informações a autoridades estrangeiras.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Na ausência de tratado, a cooperação jurídica internacional poderá realizar-se com base em reciprocidade, manifestada por via diplomática.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Não se exigirá a reciprocidade referida no § 1º para homologação de sentença estrangeira.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Na cooperação jurídica internacional não será admitida a prática de atos que contrariem ou que produzam resultados incompatíveis com as normas fundamentais que regem o Estado brasileiro.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "O Ministério da Justiça exercerá as funções de autoridade central na ausência de designação específica.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          }
-        ]
-      },
-      {
-        "num": "27",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A cooperação jurídica internacional terá por objeto:",
-        "comentarios": "Objeto da cooperação internacional: comunicação de atos, colheita de provas, homologação e cumprimento de decisão, urgência, assistência jurídica internacional e qualquer medida judicial ou extrajudicial não proibida pela lei brasileira.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "citação, intimação e notificação judicial e extrajudicial;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "colheita de provas e obtenção de informações;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "homologação e cumprimento de decisão;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "concessão de medida judicial de urgência;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "V",
-            "texto": "assistência jurídica internacional;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "VI",
-            "texto": "qualquer outra medida judicial ou extrajudicial não proibida pela lei brasileira.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          }
-        ]
-      },
-      {
-        "num": "28",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Cabe auxílio direto quando a medida não decorrer diretamente de decisão de autoridade jurisdicional estrangeira a ser submetida a juízo de delibação no Brasil.",
-        "comentarios": "Auxílio direto: cabível quando a medida não decorre diretamente de decisão jurisdicional estrangeira que precise passar por juízo de delibação no Brasil.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "29",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A solicitação de auxílio direto será encaminhada pelo órgão estrangeiro interessado à autoridade central, cabendo ao Estado requerente assegurar a autenticidade e a clareza do pedido.",
-        "comentarios": "No auxílio direto, o órgão estrangeiro interessado encaminha o pedido à autoridade central. O Estado requerente deve assegurar autenticidade e clareza.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "30",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Além dos casos previstos em tratados de que o Brasil faz parte, o auxílio direto terá os seguintes objetos:",
-        "comentarios": "Além do que estiver previsto em tratados, o CPC admite auxílio direto para informações sobre ordenamento jurídico e processos, colheita de provas e outras medidas lícitas.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "obtenção e prestação de informações sobre o ordenamento jurídico e sobre processos administrativos ou jurisdicionais findos ou em curso;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "colheita de provas, salvo se a medida for adotada em processo, em curso no estrangeiro, de competência exclusiva de autoridade judiciária brasileira;",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "qualquer outra medida judicial ou extrajudicial não proibida pela lei brasileira.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          }
-        ]
-      },
-      {
-        "num": "31",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A autoridade central brasileira comunicar-se-á diretamente com suas congêneres e, se necessário, com outros órgãos estrangeiros responsáveis pela tramitação e pela execução de pedidos de cooperação enviados e recebidos pelo Estado brasileiro, respeitadas disposições específicas constantes de tratado.",
-        "comentarios": "A comunicação da autoridade central brasileira ocorre diretamente com autoridades centrais congêneres e, se necessário, com outros órgãos estrangeiros responsáveis pela tramitação e execução dos pedidos.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "32",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "No caso de auxílio direto para a prática de atos que, segundo a lei brasileira, não necessitem de prestação jurisdicional, a autoridade central adotará as providências necessárias para seu cumprimento.",
-        "comentarios": "Se o ato de auxílio direto não exigir prestação jurisdicional segundo a lei brasileira, a própria autoridade central adota as providências necessárias.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "33",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Recebido o pedido de auxílio direto passivo, a autoridade central o encaminhará à Advocacia-Geral da União, que requererá em juízo a medida solicitada.",
-        "comentarios": "No auxílio direto passivo que demande atuação judicial, a autoridade central encaminha o pedido à AGU, salvo quando o Ministério Público for a autoridade central.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "O Ministério Público requererá em juízo a medida solicitada quando for autoridade central.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          }
-        ]
-      },
-      {
-        "num": "34",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Compete ao juízo federal do lugar em que deva ser executada a medida apreciar pedido de auxílio direto passivo que demande prestação de atividade jurisdicional.",
-        "comentarios": "Competência: o pedido de auxílio direto passivo que exija atividade jurisdicional será apreciado pelo juízo federal do local em que a medida deva ser executada.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "35",
-        "tipo": "artigo",
-        "revogado": true,
-        "texto": "(VETADO)",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "36",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O procedimento da carta rogatória perante o STJ é de jurisdição contenciosa e deve assegurar às partes as garantias do devido processo legal.",
-        "comentarios": "Carta rogatória no STJ: procedimento de jurisdição contenciosa, com devido processo legal. A defesa limita-se aos requisitos para que o pronunciamento estrangeiro produza efeitos no Brasil. É vedada a revisão do mérito do pronunciamento estrangeiro.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A defesa restringir-se-á à discussão quanto ao atendimento dos requisitos para que o pronunciamento judicial estrangeiro produza efeitos no Brasil.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Em qualquer hipótese, é vedada a revisão do mérito do pronunciamento judicial estrangeiro pela autoridade judiciária brasileira.",
-            "comentarios": "",
-            "jurisprudencia": "",
-            "revogado": false
-          }
-        ]
-      },
-      {
-        "num": "37",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O pedido de cooperação jurídica internacional oriundo de autoridade brasileira competente será encaminhado à autoridade central para posterior envio ao Estado requerido para lhe dar andamento.",
-        "comentarios": "Pedido ativo de cooperação internacional: a autoridade brasileira competente encaminha à autoridade central, que providencia o envio ao Estado requerido.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "38",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O pedido de cooperação oriundo de autoridade brasileira competente e os documentos anexos que o instruem serão encaminhados à autoridade central, acompanhados de tradução para a língua oficial do Estado requerido.",
-        "comentarios": "O pedido de cooperação ativa e seus documentos devem ser encaminhados à autoridade central com tradução para a língua oficial do Estado requerido.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "39",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O pedido passivo de cooperação jurídica internacional será recusado se configurar manifesta ofensa à ordem pública.",
-        "comentarios": "A manifesta ofensa à ordem pública é causa de recusa do pedido passivo de cooperação jurídica internacional.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "40",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A cooperação jurídica internacional para execução de decisão estrangeira dar-se-á por meio de carta rogatória ou de ação de homologação de sentença estrangeira, de acordo com o art. 960.",
-        "comentarios": "Execução de decisão estrangeira: ocorre por carta rogatória ou por ação de homologação de sentença estrangeira, conforme o art. 960 do CPC.",
-        "jurisprudencia": "",
-        "subdispositivos": []
       }
     ]
   },
