@@ -880,6 +880,771 @@
       }
     ]
   },
+  "lei_1940467939586": {
+    "nome": "CPC/2015 — Parte 4 — Competência Interna — arts. 41 a 69",
+    "grupo": "Código de Processo Civil",
+    "materia": "Processo Civil",
+    "artigos": [
+      {
+        "num": "41",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Considera-se autêntico o documento que instruir pedido de cooperação jurídica internacional, inclusive tradução para a língua portuguesa, quando encaminhado ao Estado brasileiro por meio de autoridade central ou por via diplomática, dispensando-se ajuramentação, autenticação ou qualquer procedimento de legalização.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "O disposto no caput não impede, quando necessária, a aplicação pelo Estado brasileiro do princípio da reciprocidade de tratamento.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "42",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "As causas cíveis serão processadas e decididas pelo juiz nos limites de sua competência, ressalvado às partes o direito de instituir juízo arbitral, na forma da lei.",
+        "comentarios": "COMPETÊNCIA ABSOLUTA X RELATIVA\n\nALTERAÇÃO POR regras de conexão ou regras de conexão ou de CONEXÃO ou continência. É inderrogável continência. É derrogável\n\nCOMPETÊNCIA (art. 62 do CPC). (art. 55, 56 e 57 do CPC). A mudança superveniente A mudança superveniente de uma regra de de uma regra de competência absoluta competência relativa não\n\nMUDANÇA deslocará a competência, ou deslocará a competência.\n\nSUPERVENIENTE DE seja, os processos que Aplica-se, neste caso, o\n\nUMA REGRA DE tramitam perante um princípio da perpetuatio\n\nCOMPETÊNCIA determinado juízo devem ser jurisdictionis remetidos para o novo juízo absolutamente competente. (art. 43 do CPC). Reconhecendo-se a Reconhecendo-se a incompetência absoluta, incompetência relativa, haverá remessa dos autos ao haverá remessa dos autos ao juízo competente. Os atos juízo competente. Os atos decisórios e não decisórios decisórios e não decisórios\n\nCONSEQUÊNCIA DO manter-se-ão válidos, manter-se-ão válidos,\n\nRECONHECIMENTO podendo o juiz competente, podendo o juiz competente,\n\nDA INCOMPETÊNCIA ao receber os autos, decidir ao receber os autos, decidir quanto a validade ou quanto a validade ou invalidade dos atos invalidade dos atos praticados perante o juízo praticados perante o juízo incompetente incompetente (art. 64, §§ 3º e 4º, do CPC). (art. 64, §§ 3º e 4º, do CPC).",
+        "jurisprudencia": "COMPETÊNCIA ABSOLUTA COMPETÊNCIA RELATIVA Têm por objetivo preservar o Têm por objetivo preservar o INTERESSE interesse particular das interesse público. partes. Em regra, a incompetência relativa não pode ser reconhecida de ofício pelo RECONHECIMENTO A incompetência absoluta juiz (STJ, Súmula 33). DE OFÍCIO DA pode ser reconhecida de Exceção: Nos juizados COMPETÊNCIA ofício pelo juiz. especiais, a incompetência territorial pode ser conhecida de ofício (art. 55, III, da Lei 9.099/95). ALTERAÇÃO PELA Pode ser alterada pela Não pode ser alterada pela VONTADE DAS vontade das partes (ex: vontade das partes. PARTES cláusula de eleição de foro). Não pode ser modificada por Pode ser modificada por",
+        "subdispositivos": []
+      },
+      {
+        "num": "43",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Determina-se a competência no momento do registro ou da distribuição da petição inicial, sendo irrelevantes as modificações do estado de fato ou de direito ocorridas posteriormente, salvo quando suprimirem órgão judiciário ou alterarem a competência absoluta.",
+        "comentarios": "O princípio da perpetuação da jurisdição pode ser excepcionado em decorrência de acordo celebrado entre os juízos permutantes, para que cada qual sentencie os processos nos quais colhida diretamente a prova oral antes da substituição.",
+        "jurisprudencia": "STJ. 3ª Turma. REsp 2.104.647/SP, Rel. Min. Daniela Teixeira, Rel. para acórdão Min. Moura Ribeiro, julgado em 11/11/2025 (Info 871). A regra do art. 43 do CPC pode ser superada, sempre em caráter excepcional, quando se constatar que o juízo perante o qual tramita a ação não é adequado ou conveniente para processá-la e julgá-la.\n\nSTJ. 2ª Seção. Processo em segredo de justiça, Rel. Min. Moura Ribeiro, Rel. p/ o ac. Min. Nancy Andrighi, julgado em 13/12/2023 (Edição Extraordinária 15). Atenção! No caso em comento o STJ aplicou a teoria da superação das regras (ou da derrotabilidade das normas) para, em caráter excepcional e diante de um hard case, superar a imutabilidade da regra do art. 43 do CPC (que contém apenas duas exceções explícitas) e reconhecer que, nessa regra, também há uma exceção implícita, relacionada à inadequação e inconveniência do juízo em que tramita a ação com o deslocamento de sua competência para outro juízo abstratamente competente.",
+        "subdispositivos": []
+      },
+      {
+        "num": "44",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Obedecidos os limites estabelecidos pela Constituição Federal, a competência é determinada pelas normas previstas neste Código ou em legislação especial, pelas normas de organização judiciária e, ainda, no que couber, pelas constituições dos Estados.",
+        "comentarios": "",
+        "jurisprudencia": "FPPC 236: O art. 44 não estabelece uma ordem de prevalência, mas apenas elenca as fontes normativas sobre competência, devendo ser observado o art. 125, § 1º, da CF.",
+        "subdispositivos": []
+      },
+      {
+        "num": "45",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Tramitando o processo perante outro juízo, os autos serão remetidos ao juízo federal competente se nele intervier a União, suas empresas públicas, entidades autárquicas e fundações, ou conselho de fiscalização de atividade profissional, na qualidade de parte ou de terceiro interveniente, exceto as ações:",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "de recuperação judicial, falência, insolvência civil e acidente de trabalho;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "sujeitas à justiça eleitoral e à justiça do trabalho.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Os autos não serão remetidos se houver pedido cuja apreciação seja de competência do juízo perante o qual foi proposta a ação.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Na hipótese do § 1º, o juiz, ao não admitir a cumulação de pedidos em razão da incompetência para apreciar qualquer deles, não examinará o mérito daquele em que exista interesse da União, de suas entidades autárquicas ou de suas empresas públicas.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "O juízo federal restituirá os autos ao juízo estadual sem suscitar conflito se o ente federal cuja presença ensejou a remessa for excluído do processo.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "46",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A ação fundada em direito pessoal ou em direito real sobre bens móveis será proposta, em regra, no foro de domicílio do réu.",
+        "comentarios": "É inconstitucional a regra de competência que autoriza que entes subnacionais sejam demandados em qualquer comarca do País, pois a fixação do foro deve se restringir aos seus respectivos limites territoriais. Deve ser conferida INTERPRETAÇÃO CONFORME A CONSTITUIÇÃO aos artigos 46, § 5º, e 52, parágrafo único, ambos do CPC/2015, no sentido de que a competência seja definida nos limites territoriais do respectivo estado ou do Distrito Federal, nos casos de promoção de execução fiscal e de ajuizamento de ação em que qualquer deles seja demandado. A possibilidade de litigar em face da União em qualquer parte do País (art. 109, §§ 1º e 2º, CF/88) é compatível com a estruturação nacional da Advocacia Pública federal. Contudo, estender essa previsão aos entes subnacionais resulta na desconsideração de sua prerrogativa constitucional de auto-organização (arts. 18, 25 e 125, CF/88) e da circunstância de que sua atuação se desenvolve dentro dos seus limites territoriais.",
+        "jurisprudencia": "STF. Plenário. ADI 5.492/DF, Rel. Min. Dias Toffoli, julgado em 25/4/2023 (Info 1092).\n\nSTF. Plenário. ADI 5.737/DF, Rel. Min. Dias Toffoli, redator do acórdão Min. Roberto Barroso, julgado em 25/4/2023 (Info 1092).",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Tendo mais de um domicílio, o réu será demandado no foro de qualquer deles.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Sendo incerto ou desconhecido o domicílio do réu, ele poderá ser demandado onde for encontrado ou no foro de domicílio do autor.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Quando o réu não tiver domicílio ou residência no Brasil, a ação será proposta no foro de domicílio do autor, e, se este também residir fora do Brasil, a ação será proposta em qualquer foro.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "Havendo 2 ou mais réus com diferentes domicílios, serão demandados no foro de qualquer deles, à escolha do autor.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 5º",
+            "texto": "A execução fiscal será proposta no foro de domicílio do réu, no de sua residência ou no do lugar onde for encontrado.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "47",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Para as ações fundadas em direito real sobre imóveis é competente o foro de situação da coisa.",
+        "comentarios": "Segundo a doutrina, o absolutamente e o relativamente incapaz têm como domicílio necessário o domicílio de seu representante ou assistente (art. 76, CC). Dessa forma, qualquer ação em que o incapaz figure como demandado, salvo se incidir o art. 47, §§ 1º e 2º do CPC, deve ser proposta no domicílio de seu representante ou assistente.",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "O autor pode optar pelo foro de domicílio do réu ou pelo foro de eleição se o litígio não recair sobre direito de propriedade, vizinhança, servidão, divisão e demarcação de terras e de nunciação de obra nova.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "A ação possessória imobiliária será proposta no foro de situação da coisa, cujo juízo tem competência absoluta.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "48",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O foro de domicílio do autor da herança, no Brasil, é o competente para o inventário, a partilha, a arrecadação, o cumprimento de disposições de última vontade, a impugnação ou anulação de partilha extrajudicial e para todas as ações em que o espólio for réu, ainda que o óbito tenha ocorrido no estrangeiro.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Se o autor da herança não possuía domicílio certo, é competente:",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "o foro de situação dos bens imóveis;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "havendo bens imóveis em foros diferentes, qualquer destes;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "não havendo bens imóveis, o foro do local de qualquer dos bens do espólio.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "49",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A ação em que o ausente for réu será proposta no foro de seu último domicílio, também competente para a arrecadação, o inventário, a partilha e o cumprimento de disposições testamentárias.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "50",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A ação em que o incapaz for réu será proposta no foro de domicílio de seu representante ou assistente.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "51",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "É competente o foro de domicílio do réu para as causas em que seja autora a União.",
+        "comentarios": "",
+        "jurisprudencia": "SÚMULA 206, STJ: A existência de vara privativa, instituída por lei estadual, não altera a competência territorial resultante das leis de processo.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Se a União for a demandada, a ação poderá ser proposta no foro de domicílio do autor, no de ocorrência do ato ou fato que originou a demanda, no de situação da coisa ou no DF.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "52",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "É competente o foro de domicílio do réu para as causas em que seja autor Estado ou o DF.",
+        "comentarios": "É inconstitucional a regra de competência que autoriza que entes subnacionais sejam demandados em qualquer comarca do País, pois a fixação do foro deve se restringir aos seus respectivos limites territoriais. Deve ser conferida INTERPRETAÇÃO CONFORME A CONSTITUIÇÃO aos artigos 46, § 5º, e 52, parágrafo único, ambos do CPC/2015, no sentido de que a competência seja definida nos limites territoriais do respectivo estado ou do Distrito Federal, nos casos de promoção de execução fiscal e de ajuizamento de ação em que qualquer deles seja demandado. A possibilidade de litigar em face da União em qualquer parte do País (art. 109, §§ 1º e 2º, CF/88) é compatível com a estruturação nacional da Advocacia Pública federal. Contudo, estender essa previsão aos entes subnacionais resulta na desconsideração de sua prerrogativa constitucional de auto-organização (arts. 18, 25 e 125, CF/88) e da circunstância de que sua atuação se desenvolve dentro dos seus limites territoriais.",
+        "jurisprudencia": "STF. Plenário. ADI 5.492/DF, Rel. Min. Dias Toffoli, julgado em 25/4/2023 (Info 1092).\n\nSTF. Plenário. ADI 5.737/DF, Rel. Min. Dias Toffoli, redator do acórdão Min. Roberto Barroso, julgado em 25/4/2023 (Info 1092).",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Se Estado ou o DF for o demandado, a ação poderá ser proposta no foro de domicílio do autor, no de ocorrência do ato ou fato que originou a demanda, no de situação da coisa ou na capital do respectivo ente federado.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "53",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "É competente o foro:",
+        "comentarios": "Na ausência de filhos incapazes, a competência para processar e julgar ações de reconhecimento de união estável, inclusive quando proposta após o falecimento do convivente, é do juízo correspondente ao último domicílio do casal.\n\nCOMPETÊNCIA PARA JULGAMENTO DE AÇÃO DE INDENIZAÇÃO POR DANOS\n\nMORAIS, DECORRENTE DE OFENSAS PROFERIDAS EM REDE SOCIAL",
+        "jurisprudencia": "STJ. 3ª Turma. REsp 1.909.279/SP, Rel. Min. Ricardo Villas Bôas Cueva, julgado em 3/12/2024 (Info 23 - Edição Extraordinária).\n\nJDPC 163: O foro de domicílio da vítima de violência doméstica tem prioridade para a ação de divórcio, separação, anulação de casamento e reconhecimento ou dissolução de união estável.\n\nJDPC 160: A competência para julgamento de ações que envolvam VIOLAÇÃO AOS DIREITOS DA PERSONALIDADE, quando os atos ilícitos são praticados pela internet, é do FORO DO DOMICÍLIO DA VÍTIMA. A competência para julgamento de ação de indenização por danos morais, decorrente de ofensas proferidas em REDE SOCIAL, é do FORO DO DOMICÍLIO DA VÍTIMA, em razão da ampla divulgação do ato ilícito.\n\nSTJ. 4ª Turma. REsp 2.032.427-SP, Rel. Min. Antonio Carlos Ferreira, julgado em 27/4/2023 (Info 774). É firme a jurisprudência desta Corte no sentido de que, em hipóteses de ampla divulgação do ato, inclusive pela internet, como no caso, a competência é do foro do domicílio da vítima do ato ilícito, que é a pessoa que teve o seu direito violado.\n\nSTJ. 3ª Turma. AgRg no AREsp 775.948/RS, Rel. Min. Marco Aurélio Bellizze, julgado em 26/4/2016. Na hipótese de ação de indenização por danos morais ocasionados pela veiculação de matéria jornalística pela internet, tal como nas hipóteses de publicação por jornal ou revista de circulação nacional, considera-se “lugar do ato ou fato”, para efeito de aplicação da regra do art. 100, V, letra “a”, do CPC/1973 (art. 53, IV, “a” do CPC/2015), a localidade em que residem e trabalham as pessoas prejudicadas, pois é na comunidade onde vivem que o evento negativo terá maior repercussão para si e suas famílias.\n\nSTJ. 4ª Turma. AgRg no Ag 808.075/DF, Rel. Min. Fernando Gonçalves, DJe 17/12/2007. A competência para apreciar as demandas que envolvam danos morais por ofensas proferidas na internet é o local em que reside e trabalha a pessoa prejudicada, local de maior repercussão das supostas ofensas.\n\nSTJ. CC 154.928/SP, Rel. Min. Luis Felipe Salomão, DJe 10/09/2019.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "para a ação de divórcio, separação, anulação de casamento e reconhecimento ou dissolução de união estável:",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "a",
+            "texto": "de domicílio do guardião de filho incapaz;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "b",
+            "texto": "do último domicílio do casal, caso não haja filho incapaz;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "c",
+            "texto": "de domicílio do réu, se nenhuma das partes residir no antigo domicílio do casal;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "d",
+            "texto": "de domicílio da vítima de violência doméstica e familiar, nos termos da Lei 11.340/06 (Lei Maria da Penha); (Lei 13.894/19)",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "de domicílio ou residência do alimentando, para a ação em que se pedem alimentos;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "do lugar:",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "a",
+            "texto": "onde está a sede, para a ação em que for ré pessoa jurídica;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "b",
+            "texto": "onde se acha agência ou sucursal, quanto às obrigações que a pessoa jurídica contraiu;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "c",
+            "texto": "onde exerce suas atividades, para a ação em que for ré sociedade ou associação sem personalidade jurídica;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "d",
+            "texto": "onde a obrigação deve ser satisfeita, para a ação em que se lhe exigir o cumprimento;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "e",
+            "texto": "de residência do idoso, para a causa que verse sobre direito previsto no respectivo estatuto;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "f",
+            "texto": "da sede da serventia notarial ou de registro, para a ação de reparação de dano por ato praticado em razão do ofício;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "do lugar do ato ou fato para a ação:",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "a",
+            "texto": "de reparação de dano;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "alinea",
+            "num": "b",
+            "texto": "em que for réu administrador ou gestor de negócios alheios;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "V",
+            "texto": "de domicílio do autor ou do local do fato, para a ação de reparação de dano sofrido em razão de delito ou acidente de veículos, inclusive aeronaves.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "54",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A competência relativa poderá modificar-se pela conexão ou pela continência, observado o disposto nesta Seção.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "55",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Reputam-se conexas 2 ou mais ações quando lhes for comum o pedido ou a causa de pedir.",
+        "comentarios": "",
+        "jurisprudencia": "FPPC 237: O rol do art. 55, § 2º, I e II, é exemplificativo.\n\nSÚMULA 235, STJ: A conexão não determina a reunião dos processos, se um deles já foi julgado. É importante observar também que o STJ consolidou o entendimento de que para a incidência desta súmula não se exige a ocorrência do trânsito em julgado. (STJ. 4ª Turma. AgInt no AREsp 638.447/SP, Rel. Min. Maria Isabel Gallotti, j. 06/04/2017)",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "Os processos de ações conexas serão reunidos para decisão conjunta, salvo se um deles já houver sido sentenciado.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Aplica-se o disposto no caput:",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "à execução de título extrajudicial e à ação de conhecimento relativa ao mesmo ato jurídico;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "às execuções fundadas no mesmo título executivo.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Serão reunidos para julgamento conjunto os processos que possam gerar risco de prolação de decisões conflitantes ou contraditórias caso decididos separadamente, mesmo sem conexão entre eles.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "56",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Dá-se a continência entre 2 ou mais ações quando houver identidade quanto às partes e à causa de pedir, mas o pedido de uma, por ser mais amplo, abrange o das demais.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "57",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Quando houver continência e a ação continente tiver sido proposta anteriormente, no processo relativo à ação contida será proferida sentença sem resolução de mérito, caso contrário, as ações serão necessariamente reunidas.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "58",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A reunião das ações propostas em separado far-se-á no juízo prevento, onde serão decididas simultaneamente.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "59",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O registro ou a distribuição da petição inicial torna prevento o juízo.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "60",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Se o imóvel se achar situado em mais de um Estado, comarca, seção ou subseção judiciária, a competência territorial do juízo prevento estender-se-á sobre a totalidade do imóvel.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "61",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A ação acessória será proposta no juízo competente para a ação principal.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "62",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A competência determinada em razão da matéria, da pessoa ou da função é inderrogável por convenção das partes.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "63",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "As partes podem modificar a competência em razão do valor e do território, elegendo foro onde será proposta ação oriunda de direitos e obrigações.",
+        "comentarios": "",
+        "jurisprudencia": "A nova redação do art. 63, §§ 1º e 5º, do CPC aplica-se aos processos cuja petição inicial tenha sido ajuizada após 4/6/2024, data da vigência da Lei 14.879/24. Quanto às demandas ajuizadas em momento anterior à sua vigência, a nova legislação não será aplicada, sobrevindo a prorrogação da competência relativa - pelo foro de eleição - em razão da inércia da contraparte e da incidência da Súmula 33/STJ.\n\nSTJ. 2ª Seção. CC 206.933/SP, Rel. Min. Nancy Andrighi, julgado em 6/2/2025 (Info 842).\n\nFPPC 668: A convenção de arbitragem e a cláusula de eleição de foro para os atos que necessitem da participação do Poder Judiciário não se excluem, ainda que inseridas em um mesmo instrumento contratual. SÚMULAS SOBRE COMPETÊNCIA TERRITORIAL\n\nSúmula 1, STJ: O foro do domicílio ou da residência do alimentando é o competente para a ação de investigação de paternidade, quando cumulada com a de alimentos.\n\nSúmula 206, STJ: A existência de vara privativa, instituída por lei estadual, não altera a competência territorial resultante das leis de processo.\n\nSúmula 33, STJ: A incompetência relativa não pode ser declarada de ofício. O CPC/15, em seu art. 63, § 3º, traz uma exceção para esta súmula: Antes da citação, a cláusula de eleição de foro, se abusiva, pode ser reputada ineficaz de ofício pelo juiz, que determinará a remessa dos autos ao juízo do foro de domicílio do réu. Dessa forma, a regra é no sentido de que a incompetência relativa não pode ser reconhecida de ofício pelo juiz, é a parte prejudicada que deverá alegar. A exceção, conforme o dispositivo mencionado, é que, apesar do foro de eleição ser uma regra de incompetência relativa, pode ser reconhecida de ofício pelo magistrado se o foro de eleição for abusivo. SÚMULAS SOBRE COMPETÊNCIA DA JUSTIÇA FEDERAL\n\nSúmula 517, STF: As sociedades de economia mista só têm foro na Justiça Federal, quando a União intervém como assistente ou opoente.\n\nSúmula 66, STJ: Compete a Justiça Federal processar e julgar execução fiscal promovida por conselho de fiscalização profissional.\n\nSúmula 82, STJ: Compete a Justiça Federal, excluídas as reclamações trabalhistas, processar e julgar os feitos relativos à movimentação do FGTS.\n\nSúmula 150, STJ: Compete a Justiça Federal decidir sobre a existência de interesse jurídico que justifique a presença, no processo, da União, suas Autarquias ou Empresas públicas.\n\nSúmula 254, STJ: A decisão do Juízo Federal que exclui da relação processual ente federal não pode ser reexaminada no Juízo Estadual.\n\nSúmula 570, STJ: Compete à Justiça Federal o processo e julgamento de demanda em que se discute a ausência de ou o obstáculo ao credenciamento de instituição particular de ensino superior no Ministério da Educação como condição de expedição de diploma de ensino a distância aos estudantes. SÚMULAS SOBRE COMPETÊNCIA DA JUSTIÇA ESTADUAL\n\nSúmula Vinculante 27: Compete à Justiça estadual julgar causas entre consumidor e concessionária de serviço público de telefonia, quando a ANATEL não seja litisconsorte passiva necessária, assistente, nem opoente.\n\nSúmula 34, STJ: Compete a Justiça Estadual processar e julgar causa relativa a mensalidade escolar, cobrada por estabelecimento particular de ensino.\n\nSúmula 150, STJ: Compete a Justiça Federal decidir sobre a existência de interesse jurídico que justifique a presença, no processo, da União, suas Autarquias ou Empresas públicas.\n\nSúmula 224, STJ: Excluído do feito o ente federal, cuja presença levara o Juiz Estadual a declinar da competência, deve o Juiz Federal restituir os autos e não suscitar conflito. O art. 45, § 3º, do CPC/15 prevê expressamente que: O juízo federal restituirá os autos ao juízo estadual sem suscitar conflito se o ente federal cuja presença ensejou a remessa for excluído do processo.\n\nSúmula 254, STJ: A decisão do Juízo Federal que exclui da relação processual ente federal não pode ser reexaminada no Juízo Estadual.\n\nSúmula 506, STJ: A Anatel não é parte legítima nas demandas entre a concessionária e o usuário de telefonia decorrentes de relação contratual.\n\nSúmula 553, STJ: Nos casos de empréstimo compulsório sobre o consumo de energia elétrica, é competente a Justiça estadual para o julgamento de demanda proposta exclusivamente contra a Eletrobrás. Requerida a intervenção da União no feito após a prolação de sentença pelo juízo estadual, os autos devem ser remetidos ao TRF competente para o julgamento da apelação se deferida a intervenção.\n\nSúmula 516, STF: O Serviço Social da Indústria – SESI – está sujeito à jurisdição da Justiça Estadual.\n\nSúmula 15, STJ: Compete a Justiça Estadual processar e julgar os litígios decorrentes de acidente do trabalho. Atenção! Esta súmula será válida na ação proposta pelo acidentado (seu cônjuge, demais herdeiros ou dependentes) contra o INSS pleiteando benefício decorrente de acidente de trabalho.\n\nSúmula 55, STJ: TRF não é competente para julgar recurso de decisão proferida por juiz estadual não investido de Jurisdição Federal.\n\nSúmula 137, STJ: Compete a Justiça Comum Estadual processar e julgar ação de servidor público municipal, pleiteando direitos relativos ao vínculo estatutário.\n\nSúmula 161, STJ: É da competência da Justiça Estadual autorizar o levantamento dos valores relativos ao PIS / PASEP e FGTS, em decorrência do falecimento do titular da conta.\n\nSúmula 218, STJ: Compete à Justiça dos Estados processar e julgar ação de servidor estadual decorrente de direitos e vantagens estatutárias no exercício de cargo em comissão.\n\nSúmula 270, STJ: O protesto pela preferência de crédito, apresentado por ente federal em execução que tramita na Justiça Estadual, não desloca a competência para a Justiça Federal.\n\nSúmula 363, STJ: Compete à Justiça estadual processar e julgar a ação de cobrança ajuizada por profissional liberal contra cliente.\n\nSúmula 505, STJ: A competência para processar e julgar as demandas que têm por objeto obrigações decorrentes dos contratos de planos de previdência privada firmados com a Fundação Rede Ferroviária de Seguridade Social - REFER é da Justiça estadual. SÚMULAS SOBRE COMPETÊNCIA DA JUSTIÇA ELEITORAL\n\nSúmula 368, STJ: Compete à Justiça comum estadual processar e julgar os pedidos de retificação de dados cadastrais da Justiça Eleitoral.\n\nSúmula 374, STJ: Compete à Justiça Eleitoral processar e julgar a ação para anular débito decorrente de multa eleitoral. SÚMULAS SOBRE COMPETÊNCIA PELO FORO DA SITUAÇÃO DA COISA\n\nSúmula 376, STJ: Compete a turma recursal processar e julgar o mandado de segurança contra ato de juizado especial.\n\nSúmula 363, STF: A pessoa jurídica de direito privado pode ser demandada no domicílio da agência, ou estabelecimento, em que se praticou o ato.\n\nSúmula 238, STJ: A avaliação da indenização devida ao proprietário do solo, em razão de alvará de pesquisa mineral, é processada no Juízo Estadual da situação do imóvel.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A eleição de foro somente produz efeito quando constar de instrumento escrito, aludir expressamente a determinado negócio jurídico e guardar pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação, ressalvada a pactuação consumerista, quando favorável ao consumidor. (Lei 14.879/24)",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "O foro contratual obriga os herdeiros e sucessores das partes.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Antes da citação, a cláusula de eleição de foro, se abusiva, pode ser reputada ineficaz de ofício pelo juiz, que determinará a remessa dos autos ao juízo do foro de domicílio do réu.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "Citado, incumbe ao réu alegar a abusividade da cláusula de eleição de foro na contestação, sob pena de preclusão.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 5º",
+            "texto": "O ajuizamento de ação em juízo aleatório, entendido como aquele sem vinculação com o domicílio ou a residência das partes ou com o negócio jurídico discutido na demanda, constitui prática abusiva que justifica a declinação de competência de ofício. (Lei 14.879/24)",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "64",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A INCOMPETÊNCIA, ABSOLUTA OU RELATIVA, será alegada como questão preliminar de contestação.",
+        "comentarios": "",
+        "jurisprudencia": "SÚMULA 33, STJ: A incompetência relativa não pode ser declarada de ofício. O CPC, em seu art. 63, § 3º, traz uma exceção para a súmula 33 do STJ: Antes da citação, a cláusula de eleição de foro, se abusiva, pode ser reputada ineficaz de ofício pelo juiz, que determinará a remessa dos autos ao juízo do foro de domicílio do réu. Dessa forma, a regra é no sentido de que a incompetência relativa não pode ser reconhecida de ofício pelo juiz, é a parte prejudicada que deverá alegar. A exceção, conforme o dispositivo mencionado, é que, apesar do foro de eleição ser uma regra de incompetência relativa, pode ser reconhecida de ofício pelo magistrado se o foro de eleição for abusivo.\n\nFPPC 238: O aproveitamento dos efeitos de decisão proferida por juízo incompetente aplica-se tanto à competência absoluta quanto à relativa.\n\nFPPC 488: No mandado de segurança, havendo equivocada indicação da autoridade coatora, o impetrante deve ser intimado para emendar a petição inicial e, caso haja alteração de competência, o juiz remeterá os autos ao juízo competente.\n\nFPPC 686: Aplicam-se os arts. 64 § 4º, 188 e 277 à hipótese de ato de cooperação que interfira na competência de qualquer dos juízos cooperantes. (arts. 64, § 4º, e 69).",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A incompetência absoluta pode ser alegada em qualquer tempo e grau de jurisdição e deve ser declarada de ofício.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Após manifestação da parte contrária, o juiz decidirá imediatamente a alegação de incompetência.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Caso a alegação de incompetência seja acolhida, os autos serão remetidos ao juízo competente.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "Salvo decisão judicial em sentido contrário, conservar-se-ão os efeitos de decisão proferida pelo juízo incompetente até que outra seja proferida, se for o caso, pelo juízo competente.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "65",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Prorrogar-se-á a competência relativa se o réu não alegar a incompetência em preliminar de contestação.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "A incompetência relativa pode ser alegada pelo Ministério Público nas causas em que atuar.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "66",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Há conflito de competência quando:",
+        "comentarios": "",
+        "jurisprudencia": "SÚMULA 428, STJ: Compete ao TRF decidir os conflitos de competência entre juizado especial federal e juízo federal da mesma seção judiciária.\n\nSÚMULA 59, STJ: Não há conflito de competência se já existe sentença com trânsito em julgado, proferida por um dos juízos conflitantes.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "2 ou mais juízes se declaram competentes;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "2 ou mais juízes se consideram incompetentes, atribuindo um ao outro a competência;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "entre 2 ou mais juízes surge controvérsia acerca da reunião ou separação de processos.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "O juiz que não acolher a competência declinada deverá suscitar o conflito, salvo se a atribuir a outro juízo.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "67",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Aos órgãos do Poder Judiciário, estadual ou federal, especializado ou comum, em todas as instâncias e graus de jurisdição, inclusive aos tribunais superiores, incumbe o dever de recíproca cooperação, por meio de seus magistrados e servidores.",
+        "comentarios": "",
+        "jurisprudencia": "JDPC 231: A cooperação interinstitucional é uma forma de consecução dos processos estruturais e deve ser sempre estimulada.\n\nFPPC 669: O regimento interno pode regulamentar a cooperação entre órgãos do tribunal.\n\nFPPC 670: A cooperação judiciária pode efetivar-se pela prática de atos de natureza administrativa ou jurisdicional.\n\nFPPC 710: Antes de recusar a cooperação ou suscitar conflito de competência, o magistrado deve engajar-se em tratativas ou pedir esclarecimentos aos demais cooperantes para compreender a extensão da cooperação, os objetivos pretendidos e os custos envolvidos.\n\nFPPC 711: A recusa ao pedido de cooperação judiciária pelo juízo destinatário exige fundamentação.\n\nFPPC 712: A cooperação judiciária pode servir para prevenir ou resolver conflitos de competência.",
+        "subdispositivos": []
+      },
+      {
+        "num": "68",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Os juízos poderão formular entre si pedido de cooperação para prática de qualquer ato processual.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "69",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O pedido de cooperação jurisdicional deve ser prontamente atendido, prescinde de forma específica e pode ser executado como:",
+        "comentarios": "",
+        "jurisprudencia": "JDPC 164: É permitido ato concertado entre juízos para resolver questões referentes à validade de penhoras sobre o mesmo bem realizadas em execuções diversas, ainda que propostas em juízos de competências distintas.\n\nFPPC 4: A carta arbitral tramitará e será processada no Poder Judiciário de acordo com o regime previsto no CPC, respeitada a legislação aplicável.\n\nFPPC 5: O pedido de cooperação jurisdicional poderá ser realizado também entre o árbitro e o Poder Judiciário.\n\nFPPC 671: O inciso II do §2º do art. 69 autoriza a produção única de prova comum a diversos processos, assegurada a participação dos interessados.\n\nFPPC 687: A dispensa legal de forma específica para os atos de cooperação judiciária não afasta o dever de sua documentação nos autos do processo.\n\nFPPC 688: Por ato de cooperação judiciária, admite-se a definição de um juízo para a penhora, avaliação ou expropriação de bens de um mesmo devedor que figure como executado em diversos processos, inclusive que tramitem em juízos de competências distintas.\n\nFPPC 713: Nos casos do art. 6º, §§ 7º- A e 7º-B da Lei 11.101/05, a instauração de conflito de competência entre o juízo da execução e o da recuperação depende da frustração da tentativa de cooperação judiciária.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "auxílio direto;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "reunião ou apensamento de processos;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "prestação de informações;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "atos concertados entre os juízes cooperantes.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "As cartas de ordem, precatória e arbitral seguirão o regime previsto neste Código.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Os atos concertados entre os juízes cooperantes poderão consistir, além de outros, no estabelecimento de procedimento para:",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "a prática de citação, intimação ou notificação de ato;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "a obtenção e apresentação de provas e a coleta de depoimentos;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "a efetivação de tutela provisória;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "a efetivação de medidas e providências para recuperação e preservação de empresas;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "V",
+            "texto": "a facilitação de habilitação de créditos na falência e na recuperação judicial;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VI",
+            "texto": "a centralização de processos repetitivos;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VII",
+            "texto": "a execução de decisão jurisdicional.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "O pedido de cooperação judiciária pode ser realizado entre órgãos jurisdicionais de diferentes ramos do Poder Judiciário.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      }
+    ]
+  },
   "lei_6127655680580": {
     "nome": "CPC/2015 — PARTE 10 — Advocacia Pública — Arts. 182 a 184",
     "grupo": "Código de Processo Civil",
@@ -4171,771 +4936,6 @@
             "tipo": "paragrafo",
             "num": "Parágrafo único",
             "texto": "Nas hipóteses dos incisos II e III, o juiz poderá decidir liminarmente.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      }
-    ]
-  },
-  "lei_1940467939586": {
-    "nome": "CPC/2015 — Parte 4 — Competência Interna — arts. 41 a 69",
-    "grupo": "Código de Processo Civil",
-    "materia": "Processo Civil",
-    "artigos": [
-      {
-        "num": "41",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Considera-se autêntico o documento que instruir pedido de cooperação jurídica internacional, inclusive tradução para a língua portuguesa, quando encaminhado ao Estado brasileiro por meio de autoridade central ou por via diplomática, dispensando-se ajuramentação, autenticação ou qualquer procedimento de legalização.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "O disposto no caput não impede, quando necessária, a aplicação pelo Estado brasileiro do princípio da reciprocidade de tratamento.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "42",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "As causas cíveis serão processadas e decididas pelo juiz nos limites de sua competência, ressalvado às partes o direito de instituir juízo arbitral, na forma da lei.",
-        "comentarios": "COMPETÊNCIA ABSOLUTA X RELATIVA\n\nALTERAÇÃO POR regras de conexão ou regras de conexão ou de CONEXÃO ou continência. É inderrogável continência. É derrogável\n\nCOMPETÊNCIA (art. 62 do CPC). (art. 55, 56 e 57 do CPC). A mudança superveniente A mudança superveniente de uma regra de de uma regra de competência absoluta competência relativa não\n\nMUDANÇA deslocará a competência, ou deslocará a competência.\n\nSUPERVENIENTE DE seja, os processos que Aplica-se, neste caso, o\n\nUMA REGRA DE tramitam perante um princípio da perpetuatio\n\nCOMPETÊNCIA determinado juízo devem ser jurisdictionis remetidos para o novo juízo absolutamente competente. (art. 43 do CPC). Reconhecendo-se a Reconhecendo-se a incompetência absoluta, incompetência relativa, haverá remessa dos autos ao haverá remessa dos autos ao juízo competente. Os atos juízo competente. Os atos decisórios e não decisórios decisórios e não decisórios\n\nCONSEQUÊNCIA DO manter-se-ão válidos, manter-se-ão válidos,\n\nRECONHECIMENTO podendo o juiz competente, podendo o juiz competente,\n\nDA INCOMPETÊNCIA ao receber os autos, decidir ao receber os autos, decidir quanto a validade ou quanto a validade ou invalidade dos atos invalidade dos atos praticados perante o juízo praticados perante o juízo incompetente incompetente (art. 64, §§ 3º e 4º, do CPC). (art. 64, §§ 3º e 4º, do CPC).",
-        "jurisprudencia": "COMPETÊNCIA ABSOLUTA COMPETÊNCIA RELATIVA Têm por objetivo preservar o Têm por objetivo preservar o INTERESSE interesse particular das interesse público. partes. Em regra, a incompetência relativa não pode ser reconhecida de ofício pelo RECONHECIMENTO A incompetência absoluta juiz (STJ, Súmula 33). DE OFÍCIO DA pode ser reconhecida de Exceção: Nos juizados COMPETÊNCIA ofício pelo juiz. especiais, a incompetência territorial pode ser conhecida de ofício (art. 55, III, da Lei 9.099/95). ALTERAÇÃO PELA Pode ser alterada pela Não pode ser alterada pela VONTADE DAS vontade das partes (ex: vontade das partes. PARTES cláusula de eleição de foro). Não pode ser modificada por Pode ser modificada por",
-        "subdispositivos": []
-      },
-      {
-        "num": "43",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Determina-se a competência no momento do registro ou da distribuição da petição inicial, sendo irrelevantes as modificações do estado de fato ou de direito ocorridas posteriormente, salvo quando suprimirem órgão judiciário ou alterarem a competência absoluta.",
-        "comentarios": "O princípio da perpetuação da jurisdição pode ser excepcionado em decorrência de acordo celebrado entre os juízos permutantes, para que cada qual sentencie os processos nos quais colhida diretamente a prova oral antes da substituição.",
-        "jurisprudencia": "STJ. 3ª Turma. REsp 2.104.647/SP, Rel. Min. Daniela Teixeira, Rel. para acórdão Min. Moura Ribeiro, julgado em 11/11/2025 (Info 871). A regra do art. 43 do CPC pode ser superada, sempre em caráter excepcional, quando se constatar que o juízo perante o qual tramita a ação não é adequado ou conveniente para processá-la e julgá-la.\n\nSTJ. 2ª Seção. Processo em segredo de justiça, Rel. Min. Moura Ribeiro, Rel. p/ o ac. Min. Nancy Andrighi, julgado em 13/12/2023 (Edição Extraordinária 15). Atenção! No caso em comento o STJ aplicou a teoria da superação das regras (ou da derrotabilidade das normas) para, em caráter excepcional e diante de um hard case, superar a imutabilidade da regra do art. 43 do CPC (que contém apenas duas exceções explícitas) e reconhecer que, nessa regra, também há uma exceção implícita, relacionada à inadequação e inconveniência do juízo em que tramita a ação com o deslocamento de sua competência para outro juízo abstratamente competente.",
-        "subdispositivos": []
-      },
-      {
-        "num": "44",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Obedecidos os limites estabelecidos pela Constituição Federal, a competência é determinada pelas normas previstas neste Código ou em legislação especial, pelas normas de organização judiciária e, ainda, no que couber, pelas constituições dos Estados.",
-        "comentarios": "",
-        "jurisprudencia": "FPPC 236: O art. 44 não estabelece uma ordem de prevalência, mas apenas elenca as fontes normativas sobre competência, devendo ser observado o art. 125, § 1º, da CF.",
-        "subdispositivos": []
-      },
-      {
-        "num": "45",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Tramitando o processo perante outro juízo, os autos serão remetidos ao juízo federal competente se nele intervier a União, suas empresas públicas, entidades autárquicas e fundações, ou conselho de fiscalização de atividade profissional, na qualidade de parte ou de terceiro interveniente, exceto as ações:",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "de recuperação judicial, falência, insolvência civil e acidente de trabalho;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "sujeitas à justiça eleitoral e à justiça do trabalho.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Os autos não serão remetidos se houver pedido cuja apreciação seja de competência do juízo perante o qual foi proposta a ação.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Na hipótese do § 1º, o juiz, ao não admitir a cumulação de pedidos em razão da incompetência para apreciar qualquer deles, não examinará o mérito daquele em que exista interesse da União, de suas entidades autárquicas ou de suas empresas públicas.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "O juízo federal restituirá os autos ao juízo estadual sem suscitar conflito se o ente federal cuja presença ensejou a remessa for excluído do processo.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "46",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A ação fundada em direito pessoal ou em direito real sobre bens móveis será proposta, em regra, no foro de domicílio do réu.",
-        "comentarios": "É inconstitucional a regra de competência que autoriza que entes subnacionais sejam demandados em qualquer comarca do País, pois a fixação do foro deve se restringir aos seus respectivos limites territoriais. Deve ser conferida INTERPRETAÇÃO CONFORME A CONSTITUIÇÃO aos artigos 46, § 5º, e 52, parágrafo único, ambos do CPC/2015, no sentido de que a competência seja definida nos limites territoriais do respectivo estado ou do Distrito Federal, nos casos de promoção de execução fiscal e de ajuizamento de ação em que qualquer deles seja demandado. A possibilidade de litigar em face da União em qualquer parte do País (art. 109, §§ 1º e 2º, CF/88) é compatível com a estruturação nacional da Advocacia Pública federal. Contudo, estender essa previsão aos entes subnacionais resulta na desconsideração de sua prerrogativa constitucional de auto-organização (arts. 18, 25 e 125, CF/88) e da circunstância de que sua atuação se desenvolve dentro dos seus limites territoriais.",
-        "jurisprudencia": "STF. Plenário. ADI 5.492/DF, Rel. Min. Dias Toffoli, julgado em 25/4/2023 (Info 1092).\n\nSTF. Plenário. ADI 5.737/DF, Rel. Min. Dias Toffoli, redator do acórdão Min. Roberto Barroso, julgado em 25/4/2023 (Info 1092).",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Tendo mais de um domicílio, o réu será demandado no foro de qualquer deles.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Sendo incerto ou desconhecido o domicílio do réu, ele poderá ser demandado onde for encontrado ou no foro de domicílio do autor.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Quando o réu não tiver domicílio ou residência no Brasil, a ação será proposta no foro de domicílio do autor, e, se este também residir fora do Brasil, a ação será proposta em qualquer foro.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "Havendo 2 ou mais réus com diferentes domicílios, serão demandados no foro de qualquer deles, à escolha do autor.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 5º",
-            "texto": "A execução fiscal será proposta no foro de domicílio do réu, no de sua residência ou no do lugar onde for encontrado.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "47",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Para as ações fundadas em direito real sobre imóveis é competente o foro de situação da coisa.",
-        "comentarios": "Segundo a doutrina, o absolutamente e o relativamente incapaz têm como domicílio necessário o domicílio de seu representante ou assistente (art. 76, CC). Dessa forma, qualquer ação em que o incapaz figure como demandado, salvo se incidir o art. 47, §§ 1º e 2º do CPC, deve ser proposta no domicílio de seu representante ou assistente.",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "O autor pode optar pelo foro de domicílio do réu ou pelo foro de eleição se o litígio não recair sobre direito de propriedade, vizinhança, servidão, divisão e demarcação de terras e de nunciação de obra nova.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "A ação possessória imobiliária será proposta no foro de situação da coisa, cujo juízo tem competência absoluta.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "48",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O foro de domicílio do autor da herança, no Brasil, é o competente para o inventário, a partilha, a arrecadação, o cumprimento de disposições de última vontade, a impugnação ou anulação de partilha extrajudicial e para todas as ações em que o espólio for réu, ainda que o óbito tenha ocorrido no estrangeiro.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Se o autor da herança não possuía domicílio certo, é competente:",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "o foro de situação dos bens imóveis;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "havendo bens imóveis em foros diferentes, qualquer destes;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "não havendo bens imóveis, o foro do local de qualquer dos bens do espólio.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "49",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A ação em que o ausente for réu será proposta no foro de seu último domicílio, também competente para a arrecadação, o inventário, a partilha e o cumprimento de disposições testamentárias.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "50",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A ação em que o incapaz for réu será proposta no foro de domicílio de seu representante ou assistente.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "51",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "É competente o foro de domicílio do réu para as causas em que seja autora a União.",
-        "comentarios": "",
-        "jurisprudencia": "SÚMULA 206, STJ: A existência de vara privativa, instituída por lei estadual, não altera a competência territorial resultante das leis de processo.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Se a União for a demandada, a ação poderá ser proposta no foro de domicílio do autor, no de ocorrência do ato ou fato que originou a demanda, no de situação da coisa ou no DF.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "52",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "É competente o foro de domicílio do réu para as causas em que seja autor Estado ou o DF.",
-        "comentarios": "É inconstitucional a regra de competência que autoriza que entes subnacionais sejam demandados em qualquer comarca do País, pois a fixação do foro deve se restringir aos seus respectivos limites territoriais. Deve ser conferida INTERPRETAÇÃO CONFORME A CONSTITUIÇÃO aos artigos 46, § 5º, e 52, parágrafo único, ambos do CPC/2015, no sentido de que a competência seja definida nos limites territoriais do respectivo estado ou do Distrito Federal, nos casos de promoção de execução fiscal e de ajuizamento de ação em que qualquer deles seja demandado. A possibilidade de litigar em face da União em qualquer parte do País (art. 109, §§ 1º e 2º, CF/88) é compatível com a estruturação nacional da Advocacia Pública federal. Contudo, estender essa previsão aos entes subnacionais resulta na desconsideração de sua prerrogativa constitucional de auto-organização (arts. 18, 25 e 125, CF/88) e da circunstância de que sua atuação se desenvolve dentro dos seus limites territoriais.",
-        "jurisprudencia": "STF. Plenário. ADI 5.492/DF, Rel. Min. Dias Toffoli, julgado em 25/4/2023 (Info 1092).\n\nSTF. Plenário. ADI 5.737/DF, Rel. Min. Dias Toffoli, redator do acórdão Min. Roberto Barroso, julgado em 25/4/2023 (Info 1092).",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Se Estado ou o DF for o demandado, a ação poderá ser proposta no foro de domicílio do autor, no de ocorrência do ato ou fato que originou a demanda, no de situação da coisa ou na capital do respectivo ente federado.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "53",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "É competente o foro:",
-        "comentarios": "Na ausência de filhos incapazes, a competência para processar e julgar ações de reconhecimento de união estável, inclusive quando proposta após o falecimento do convivente, é do juízo correspondente ao último domicílio do casal.\n\nCOMPETÊNCIA PARA JULGAMENTO DE AÇÃO DE INDENIZAÇÃO POR DANOS\n\nMORAIS, DECORRENTE DE OFENSAS PROFERIDAS EM REDE SOCIAL",
-        "jurisprudencia": "STJ. 3ª Turma. REsp 1.909.279/SP, Rel. Min. Ricardo Villas Bôas Cueva, julgado em 3/12/2024 (Info 23 - Edição Extraordinária).\n\nJDPC 163: O foro de domicílio da vítima de violência doméstica tem prioridade para a ação de divórcio, separação, anulação de casamento e reconhecimento ou dissolução de união estável.\n\nJDPC 160: A competência para julgamento de ações que envolvam VIOLAÇÃO AOS DIREITOS DA PERSONALIDADE, quando os atos ilícitos são praticados pela internet, é do FORO DO DOMICÍLIO DA VÍTIMA. A competência para julgamento de ação de indenização por danos morais, decorrente de ofensas proferidas em REDE SOCIAL, é do FORO DO DOMICÍLIO DA VÍTIMA, em razão da ampla divulgação do ato ilícito.\n\nSTJ. 4ª Turma. REsp 2.032.427-SP, Rel. Min. Antonio Carlos Ferreira, julgado em 27/4/2023 (Info 774). É firme a jurisprudência desta Corte no sentido de que, em hipóteses de ampla divulgação do ato, inclusive pela internet, como no caso, a competência é do foro do domicílio da vítima do ato ilícito, que é a pessoa que teve o seu direito violado.\n\nSTJ. 3ª Turma. AgRg no AREsp 775.948/RS, Rel. Min. Marco Aurélio Bellizze, julgado em 26/4/2016. Na hipótese de ação de indenização por danos morais ocasionados pela veiculação de matéria jornalística pela internet, tal como nas hipóteses de publicação por jornal ou revista de circulação nacional, considera-se “lugar do ato ou fato”, para efeito de aplicação da regra do art. 100, V, letra “a”, do CPC/1973 (art. 53, IV, “a” do CPC/2015), a localidade em que residem e trabalham as pessoas prejudicadas, pois é na comunidade onde vivem que o evento negativo terá maior repercussão para si e suas famílias.\n\nSTJ. 4ª Turma. AgRg no Ag 808.075/DF, Rel. Min. Fernando Gonçalves, DJe 17/12/2007. A competência para apreciar as demandas que envolvam danos morais por ofensas proferidas na internet é o local em que reside e trabalha a pessoa prejudicada, local de maior repercussão das supostas ofensas.\n\nSTJ. CC 154.928/SP, Rel. Min. Luis Felipe Salomão, DJe 10/09/2019.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "para a ação de divórcio, separação, anulação de casamento e reconhecimento ou dissolução de união estável:",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "a",
-            "texto": "de domicílio do guardião de filho incapaz;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "b",
-            "texto": "do último domicílio do casal, caso não haja filho incapaz;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "c",
-            "texto": "de domicílio do réu, se nenhuma das partes residir no antigo domicílio do casal;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "d",
-            "texto": "de domicílio da vítima de violência doméstica e familiar, nos termos da Lei 11.340/06 (Lei Maria da Penha); (Lei 13.894/19)",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "de domicílio ou residência do alimentando, para a ação em que se pedem alimentos;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "do lugar:",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "a",
-            "texto": "onde está a sede, para a ação em que for ré pessoa jurídica;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "b",
-            "texto": "onde se acha agência ou sucursal, quanto às obrigações que a pessoa jurídica contraiu;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "c",
-            "texto": "onde exerce suas atividades, para a ação em que for ré sociedade ou associação sem personalidade jurídica;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "d",
-            "texto": "onde a obrigação deve ser satisfeita, para a ação em que se lhe exigir o cumprimento;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "e",
-            "texto": "de residência do idoso, para a causa que verse sobre direito previsto no respectivo estatuto;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "f",
-            "texto": "da sede da serventia notarial ou de registro, para a ação de reparação de dano por ato praticado em razão do ofício;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "do lugar do ato ou fato para a ação:",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "a",
-            "texto": "de reparação de dano;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "alinea",
-            "num": "b",
-            "texto": "em que for réu administrador ou gestor de negócios alheios;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "V",
-            "texto": "de domicílio do autor ou do local do fato, para a ação de reparação de dano sofrido em razão de delito ou acidente de veículos, inclusive aeronaves.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "54",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A competência relativa poderá modificar-se pela conexão ou pela continência, observado o disposto nesta Seção.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "55",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Reputam-se conexas 2 ou mais ações quando lhes for comum o pedido ou a causa de pedir.",
-        "comentarios": "",
-        "jurisprudencia": "FPPC 237: O rol do art. 55, § 2º, I e II, é exemplificativo.\n\nSÚMULA 235, STJ: A conexão não determina a reunião dos processos, se um deles já foi julgado. É importante observar também que o STJ consolidou o entendimento de que para a incidência desta súmula não se exige a ocorrência do trânsito em julgado. (STJ. 4ª Turma. AgInt no AREsp 638.447/SP, Rel. Min. Maria Isabel Gallotti, j. 06/04/2017)",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "Os processos de ações conexas serão reunidos para decisão conjunta, salvo se um deles já houver sido sentenciado.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Aplica-se o disposto no caput:",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "à execução de título extrajudicial e à ação de conhecimento relativa ao mesmo ato jurídico;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "às execuções fundadas no mesmo título executivo.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Serão reunidos para julgamento conjunto os processos que possam gerar risco de prolação de decisões conflitantes ou contraditórias caso decididos separadamente, mesmo sem conexão entre eles.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "56",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Dá-se a continência entre 2 ou mais ações quando houver identidade quanto às partes e à causa de pedir, mas o pedido de uma, por ser mais amplo, abrange o das demais.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "57",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Quando houver continência e a ação continente tiver sido proposta anteriormente, no processo relativo à ação contida será proferida sentença sem resolução de mérito, caso contrário, as ações serão necessariamente reunidas.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "58",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A reunião das ações propostas em separado far-se-á no juízo prevento, onde serão decididas simultaneamente.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "59",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O registro ou a distribuição da petição inicial torna prevento o juízo.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "60",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Se o imóvel se achar situado em mais de um Estado, comarca, seção ou subseção judiciária, a competência territorial do juízo prevento estender-se-á sobre a totalidade do imóvel.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "61",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A ação acessória será proposta no juízo competente para a ação principal.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "62",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A competência determinada em razão da matéria, da pessoa ou da função é inderrogável por convenção das partes.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "63",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "As partes podem modificar a competência em razão do valor e do território, elegendo foro onde será proposta ação oriunda de direitos e obrigações.",
-        "comentarios": "",
-        "jurisprudencia": "A nova redação do art. 63, §§ 1º e 5º, do CPC aplica-se aos processos cuja petição inicial tenha sido ajuizada após 4/6/2024, data da vigência da Lei 14.879/24. Quanto às demandas ajuizadas em momento anterior à sua vigência, a nova legislação não será aplicada, sobrevindo a prorrogação da competência relativa - pelo foro de eleição - em razão da inércia da contraparte e da incidência da Súmula 33/STJ.\n\nSTJ. 2ª Seção. CC 206.933/SP, Rel. Min. Nancy Andrighi, julgado em 6/2/2025 (Info 842).\n\nFPPC 668: A convenção de arbitragem e a cláusula de eleição de foro para os atos que necessitem da participação do Poder Judiciário não se excluem, ainda que inseridas em um mesmo instrumento contratual. SÚMULAS SOBRE COMPETÊNCIA TERRITORIAL\n\nSúmula 1, STJ: O foro do domicílio ou da residência do alimentando é o competente para a ação de investigação de paternidade, quando cumulada com a de alimentos.\n\nSúmula 206, STJ: A existência de vara privativa, instituída por lei estadual, não altera a competência territorial resultante das leis de processo.\n\nSúmula 33, STJ: A incompetência relativa não pode ser declarada de ofício. O CPC/15, em seu art. 63, § 3º, traz uma exceção para esta súmula: Antes da citação, a cláusula de eleição de foro, se abusiva, pode ser reputada ineficaz de ofício pelo juiz, que determinará a remessa dos autos ao juízo do foro de domicílio do réu. Dessa forma, a regra é no sentido de que a incompetência relativa não pode ser reconhecida de ofício pelo juiz, é a parte prejudicada que deverá alegar. A exceção, conforme o dispositivo mencionado, é que, apesar do foro de eleição ser uma regra de incompetência relativa, pode ser reconhecida de ofício pelo magistrado se o foro de eleição for abusivo. SÚMULAS SOBRE COMPETÊNCIA DA JUSTIÇA FEDERAL\n\nSúmula 517, STF: As sociedades de economia mista só têm foro na Justiça Federal, quando a União intervém como assistente ou opoente.\n\nSúmula 66, STJ: Compete a Justiça Federal processar e julgar execução fiscal promovida por conselho de fiscalização profissional.\n\nSúmula 82, STJ: Compete a Justiça Federal, excluídas as reclamações trabalhistas, processar e julgar os feitos relativos à movimentação do FGTS.\n\nSúmula 150, STJ: Compete a Justiça Federal decidir sobre a existência de interesse jurídico que justifique a presença, no processo, da União, suas Autarquias ou Empresas públicas.\n\nSúmula 254, STJ: A decisão do Juízo Federal que exclui da relação processual ente federal não pode ser reexaminada no Juízo Estadual.\n\nSúmula 570, STJ: Compete à Justiça Federal o processo e julgamento de demanda em que se discute a ausência de ou o obstáculo ao credenciamento de instituição particular de ensino superior no Ministério da Educação como condição de expedição de diploma de ensino a distância aos estudantes. SÚMULAS SOBRE COMPETÊNCIA DA JUSTIÇA ESTADUAL\n\nSúmula Vinculante 27: Compete à Justiça estadual julgar causas entre consumidor e concessionária de serviço público de telefonia, quando a ANATEL não seja litisconsorte passiva necessária, assistente, nem opoente.\n\nSúmula 34, STJ: Compete a Justiça Estadual processar e julgar causa relativa a mensalidade escolar, cobrada por estabelecimento particular de ensino.\n\nSúmula 150, STJ: Compete a Justiça Federal decidir sobre a existência de interesse jurídico que justifique a presença, no processo, da União, suas Autarquias ou Empresas públicas.\n\nSúmula 224, STJ: Excluído do feito o ente federal, cuja presença levara o Juiz Estadual a declinar da competência, deve o Juiz Federal restituir os autos e não suscitar conflito. O art. 45, § 3º, do CPC/15 prevê expressamente que: O juízo federal restituirá os autos ao juízo estadual sem suscitar conflito se o ente federal cuja presença ensejou a remessa for excluído do processo.\n\nSúmula 254, STJ: A decisão do Juízo Federal que exclui da relação processual ente federal não pode ser reexaminada no Juízo Estadual.\n\nSúmula 506, STJ: A Anatel não é parte legítima nas demandas entre a concessionária e o usuário de telefonia decorrentes de relação contratual.\n\nSúmula 553, STJ: Nos casos de empréstimo compulsório sobre o consumo de energia elétrica, é competente a Justiça estadual para o julgamento de demanda proposta exclusivamente contra a Eletrobrás. Requerida a intervenção da União no feito após a prolação de sentença pelo juízo estadual, os autos devem ser remetidos ao TRF competente para o julgamento da apelação se deferida a intervenção.\n\nSúmula 516, STF: O Serviço Social da Indústria – SESI – está sujeito à jurisdição da Justiça Estadual.\n\nSúmula 15, STJ: Compete a Justiça Estadual processar e julgar os litígios decorrentes de acidente do trabalho. Atenção! Esta súmula será válida na ação proposta pelo acidentado (seu cônjuge, demais herdeiros ou dependentes) contra o INSS pleiteando benefício decorrente de acidente de trabalho.\n\nSúmula 55, STJ: TRF não é competente para julgar recurso de decisão proferida por juiz estadual não investido de Jurisdição Federal.\n\nSúmula 137, STJ: Compete a Justiça Comum Estadual processar e julgar ação de servidor público municipal, pleiteando direitos relativos ao vínculo estatutário.\n\nSúmula 161, STJ: É da competência da Justiça Estadual autorizar o levantamento dos valores relativos ao PIS / PASEP e FGTS, em decorrência do falecimento do titular da conta.\n\nSúmula 218, STJ: Compete à Justiça dos Estados processar e julgar ação de servidor estadual decorrente de direitos e vantagens estatutárias no exercício de cargo em comissão.\n\nSúmula 270, STJ: O protesto pela preferência de crédito, apresentado por ente federal em execução que tramita na Justiça Estadual, não desloca a competência para a Justiça Federal.\n\nSúmula 363, STJ: Compete à Justiça estadual processar e julgar a ação de cobrança ajuizada por profissional liberal contra cliente.\n\nSúmula 505, STJ: A competência para processar e julgar as demandas que têm por objeto obrigações decorrentes dos contratos de planos de previdência privada firmados com a Fundação Rede Ferroviária de Seguridade Social - REFER é da Justiça estadual. SÚMULAS SOBRE COMPETÊNCIA DA JUSTIÇA ELEITORAL\n\nSúmula 368, STJ: Compete à Justiça comum estadual processar e julgar os pedidos de retificação de dados cadastrais da Justiça Eleitoral.\n\nSúmula 374, STJ: Compete à Justiça Eleitoral processar e julgar a ação para anular débito decorrente de multa eleitoral. SÚMULAS SOBRE COMPETÊNCIA PELO FORO DA SITUAÇÃO DA COISA\n\nSúmula 376, STJ: Compete a turma recursal processar e julgar o mandado de segurança contra ato de juizado especial.\n\nSúmula 363, STF: A pessoa jurídica de direito privado pode ser demandada no domicílio da agência, ou estabelecimento, em que se praticou o ato.\n\nSúmula 238, STJ: A avaliação da indenização devida ao proprietário do solo, em razão de alvará de pesquisa mineral, é processada no Juízo Estadual da situação do imóvel.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A eleição de foro somente produz efeito quando constar de instrumento escrito, aludir expressamente a determinado negócio jurídico e guardar pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação, ressalvada a pactuação consumerista, quando favorável ao consumidor. (Lei 14.879/24)",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "O foro contratual obriga os herdeiros e sucessores das partes.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Antes da citação, a cláusula de eleição de foro, se abusiva, pode ser reputada ineficaz de ofício pelo juiz, que determinará a remessa dos autos ao juízo do foro de domicílio do réu.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "Citado, incumbe ao réu alegar a abusividade da cláusula de eleição de foro na contestação, sob pena de preclusão.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 5º",
-            "texto": "O ajuizamento de ação em juízo aleatório, entendido como aquele sem vinculação com o domicílio ou a residência das partes ou com o negócio jurídico discutido na demanda, constitui prática abusiva que justifica a declinação de competência de ofício. (Lei 14.879/24)",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "64",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A INCOMPETÊNCIA, ABSOLUTA OU RELATIVA, será alegada como questão preliminar de contestação.",
-        "comentarios": "",
-        "jurisprudencia": "SÚMULA 33, STJ: A incompetência relativa não pode ser declarada de ofício. O CPC, em seu art. 63, § 3º, traz uma exceção para a súmula 33 do STJ: Antes da citação, a cláusula de eleição de foro, se abusiva, pode ser reputada ineficaz de ofício pelo juiz, que determinará a remessa dos autos ao juízo do foro de domicílio do réu. Dessa forma, a regra é no sentido de que a incompetência relativa não pode ser reconhecida de ofício pelo juiz, é a parte prejudicada que deverá alegar. A exceção, conforme o dispositivo mencionado, é que, apesar do foro de eleição ser uma regra de incompetência relativa, pode ser reconhecida de ofício pelo magistrado se o foro de eleição for abusivo.\n\nFPPC 238: O aproveitamento dos efeitos de decisão proferida por juízo incompetente aplica-se tanto à competência absoluta quanto à relativa.\n\nFPPC 488: No mandado de segurança, havendo equivocada indicação da autoridade coatora, o impetrante deve ser intimado para emendar a petição inicial e, caso haja alteração de competência, o juiz remeterá os autos ao juízo competente.\n\nFPPC 686: Aplicam-se os arts. 64 § 4º, 188 e 277 à hipótese de ato de cooperação que interfira na competência de qualquer dos juízos cooperantes. (arts. 64, § 4º, e 69).",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A incompetência absoluta pode ser alegada em qualquer tempo e grau de jurisdição e deve ser declarada de ofício.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Após manifestação da parte contrária, o juiz decidirá imediatamente a alegação de incompetência.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Caso a alegação de incompetência seja acolhida, os autos serão remetidos ao juízo competente.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "Salvo decisão judicial em sentido contrário, conservar-se-ão os efeitos de decisão proferida pelo juízo incompetente até que outra seja proferida, se for o caso, pelo juízo competente.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "65",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Prorrogar-se-á a competência relativa se o réu não alegar a incompetência em preliminar de contestação.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "A incompetência relativa pode ser alegada pelo Ministério Público nas causas em que atuar.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "66",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Há conflito de competência quando:",
-        "comentarios": "",
-        "jurisprudencia": "SÚMULA 428, STJ: Compete ao TRF decidir os conflitos de competência entre juizado especial federal e juízo federal da mesma seção judiciária.\n\nSÚMULA 59, STJ: Não há conflito de competência se já existe sentença com trânsito em julgado, proferida por um dos juízos conflitantes.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "2 ou mais juízes se declaram competentes;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "2 ou mais juízes se consideram incompetentes, atribuindo um ao outro a competência;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "entre 2 ou mais juízes surge controvérsia acerca da reunião ou separação de processos.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "O juiz que não acolher a competência declinada deverá suscitar o conflito, salvo se a atribuir a outro juízo.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "67",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Aos órgãos do Poder Judiciário, estadual ou federal, especializado ou comum, em todas as instâncias e graus de jurisdição, inclusive aos tribunais superiores, incumbe o dever de recíproca cooperação, por meio de seus magistrados e servidores.",
-        "comentarios": "",
-        "jurisprudencia": "JDPC 231: A cooperação interinstitucional é uma forma de consecução dos processos estruturais e deve ser sempre estimulada.\n\nFPPC 669: O regimento interno pode regulamentar a cooperação entre órgãos do tribunal.\n\nFPPC 670: A cooperação judiciária pode efetivar-se pela prática de atos de natureza administrativa ou jurisdicional.\n\nFPPC 710: Antes de recusar a cooperação ou suscitar conflito de competência, o magistrado deve engajar-se em tratativas ou pedir esclarecimentos aos demais cooperantes para compreender a extensão da cooperação, os objetivos pretendidos e os custos envolvidos.\n\nFPPC 711: A recusa ao pedido de cooperação judiciária pelo juízo destinatário exige fundamentação.\n\nFPPC 712: A cooperação judiciária pode servir para prevenir ou resolver conflitos de competência.",
-        "subdispositivos": []
-      },
-      {
-        "num": "68",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Os juízos poderão formular entre si pedido de cooperação para prática de qualquer ato processual.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "69",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O pedido de cooperação jurisdicional deve ser prontamente atendido, prescinde de forma específica e pode ser executado como:",
-        "comentarios": "",
-        "jurisprudencia": "JDPC 164: É permitido ato concertado entre juízos para resolver questões referentes à validade de penhoras sobre o mesmo bem realizadas em execuções diversas, ainda que propostas em juízos de competências distintas.\n\nFPPC 4: A carta arbitral tramitará e será processada no Poder Judiciário de acordo com o regime previsto no CPC, respeitada a legislação aplicável.\n\nFPPC 5: O pedido de cooperação jurisdicional poderá ser realizado também entre o árbitro e o Poder Judiciário.\n\nFPPC 671: O inciso II do §2º do art. 69 autoriza a produção única de prova comum a diversos processos, assegurada a participação dos interessados.\n\nFPPC 687: A dispensa legal de forma específica para os atos de cooperação judiciária não afasta o dever de sua documentação nos autos do processo.\n\nFPPC 688: Por ato de cooperação judiciária, admite-se a definição de um juízo para a penhora, avaliação ou expropriação de bens de um mesmo devedor que figure como executado em diversos processos, inclusive que tramitem em juízos de competências distintas.\n\nFPPC 713: Nos casos do art. 6º, §§ 7º- A e 7º-B da Lei 11.101/05, a instauração de conflito de competência entre o juízo da execução e o da recuperação depende da frustração da tentativa de cooperação judiciária.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "auxílio direto;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "reunião ou apensamento de processos;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "prestação de informações;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "atos concertados entre os juízes cooperantes.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "As cartas de ordem, precatória e arbitral seguirão o regime previsto neste Código.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Os atos concertados entre os juízes cooperantes poderão consistir, além de outros, no estabelecimento de procedimento para:",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "a prática de citação, intimação ou notificação de ato;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "a obtenção e apresentação de provas e a coleta de depoimentos;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "a efetivação de tutela provisória;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "a efetivação de medidas e providências para recuperação e preservação de empresas;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "V",
-            "texto": "a facilitação de habilitação de créditos na falência e na recuperação judicial;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VI",
-            "texto": "a centralização de processos repetitivos;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VII",
-            "texto": "a execução de decisão jurisdicional.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "O pedido de cooperação judiciária pode ser realizado entre órgãos jurisdicionais de diferentes ramos do Poder Judiciário.",
             "comentarios": "",
             "jurisprudencia": ""
           }
