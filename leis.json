@@ -2559,6 +2559,327 @@
       }
     ]
   },
+  "lei_2525790204456": {
+    "nome": "CPC/2015 — Parte 1 — Normas Fundamentais — Arts. 1º a 15",
+    "grupo": "Código de Processo Civil",
+    "materia": "Processo Civil",
+    "artigos": [
+      {
+        "num": "1",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O processo civil será ordenado, disciplinado e interpretado conforme os valores e as normas fundamentais estabelecidos na Constituição da República Federativa do Brasil, observando-se as disposições deste Código.",
+        "comentarios": "",
+        "jurisprudencia": "FPPC 369: O rol de normas fundamentais previsto no Capítulo I do Título Único do Livro I da Parte Geral do CPC não é exaustivo.\n\nFPPC 370: Norma processual fundamental pode ser regra ou princípio.",
+        "subdispositivos": []
+      },
+      {
+        "num": "2",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O processo começa por iniciativa da parte e se desenvolve por impulso oficial, salvo as exceções previstas em lei.",
+        "comentarios": "Regra: princípio da demanda/inércia da jurisdição no início do processo. Depois de instaurado, o processo se desenvolve por impulso oficial, ressalvadas as exceções legais.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "3",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Não se excluirá da apreciação jurisdicional ameaça ou lesão a direito.",
+        "comentarios": "Inafastabilidade da jurisdição: a lei não pode excluir da apreciação do Poder Judiciário lesão ou ameaça a direito.\n\nArbitragem: é permitida na forma da lei.\n\nSolução consensual: o Estado deve promover, sempre que possível, a solução consensual dos conflitos. Conciliação, mediação e outros métodos devem ser estimulados por juízes, advogados, defensores públicos e membros do Ministério Público, inclusive no curso do processo judicial.\n\nEspécies de autocomposição: transação — acordo bilateral, com renúncias recíprocas; renúncia — o autor renuncia integralmente à pretensão; submissão — o réu reconhece a procedência do pedido.",
+        "jurisprudencia": "Súmula 485/STJ: A Lei de Arbitragem aplica-se aos contratos que contenham cláusula arbitral, ainda que celebrados antes da sua edição.\n\nFPPC 371: Os métodos de solução consensual de conflitos devem ser estimulados também nas instâncias recursais.\n\nFPPC 485: É cabível conciliação ou mediação no processo de execução, no cumprimento de sentença e na liquidação de sentença, admitindo-se plano de cumprimento da prestação.\n\nFPPC 573: Fazendas Públicas devem dar publicidade às hipóteses em que seus órgãos de Advocacia Pública estão autorizados a aceitar autocomposição.\n\nFPPC 618: A conciliação e a mediação são compatíveis com o processo de recuperação judicial.\n\nFPPC 707: A atuação das serventias extrajudiciais e dos comitês de resolução de disputas também integra o sistema brasileiro de justiça multiportas.\n\nFPPC 708: As práticas restaurativas são aplicáveis ao processo civil.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "É permitida a arbitragem, na forma da lei.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "O Estado promoverá, sempre que possível, a solução consensual dos conflitos.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "A conciliação, a mediação e outros métodos de solução consensual de conflitos deverão ser estimulados por juízes, advogados, defensores públicos e membros do Ministério Público, inclusive no curso do processo judicial.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "4",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "As partes têm o direito de obter em prazo razoável a solução integral do mérito, incluída a atividade satisfativa.",
+        "comentarios": "O dispositivo consagra a duração razoável do processo e a primazia da solução integral do mérito. A tutela jurisdicional adequada não se limita à decisão de mérito: inclui também a fase satisfativa.",
+        "jurisprudencia": "FPPC 372: O art. 4º aplica-se a todas as fases e a todos os tipos de procedimento, inclusive incidentes processuais e instância recursal, impondo ao órgão jurisdicional viabilizar o saneamento de vícios para examinar o mérito sempre que possível.\n\nFPPC 373: As partes devem cooperar entre si, atuar com ética e lealdade, evitar vícios que extingam o processo sem resolução do mérito e cumprir deveres mútuos de esclarecimento e transparência.\n\nFPPC 574: A identificação de vício processual após a entrada em vigor do CPC/2015 gera para o juiz o dever de oportunizar a regularização do vício, ainda que anterior.\n\nFPPC 666: O processo coletivo não deve ser extinto por falta de legitimidade quando um legitimado adequado assumir o polo ativo ou passivo da demanda.",
+        "subdispositivos": []
+      },
+      {
+        "num": "5",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Aquele que de qualquer forma participa do processo deve comportar-se de acordo com a boa-fé.",
+        "comentarios": "Boa-fé processual objetiva: orienta a conduta de todos os sujeitos processuais, veda comportamento contraditório, abuso do direito processual e condutas dolosas.",
+        "jurisprudencia": "FPPC 374: O art. 5º prevê a boa-fé objetiva.\n\nFPPC 375: O órgão jurisdicional também deve comportar-se de acordo com a boa-fé objetiva.\n\nFPPC 376: A vedação do comportamento contraditório aplica-se ao órgão jurisdicional.\n\nFPPC 377: A boa-fé objetiva impede que o julgador profira, sem motivar a alteração, decisões diferentes sobre uma mesma questão de direito aplicável a situações de fato análogas, ainda que em processos distintos.\n\nFPPC 378: A boa-fé processual orienta a interpretação da postulação e da sentença, permite a reprimenda do abuso de direito processual e das condutas dolosas de todos os sujeitos processuais e veda comportamentos contraditórios.\n\nJDPC 1: A verificação da violação à boa-fé objetiva dispensa a comprovação do animus do sujeito processual.\n\nJDPC 2: As disposições do CPC aplicam-se supletiva e subsidiariamente às Leis 9.099/1995, 10.259/2001 e 12.153/2009, desde que compatíveis.",
+        "subdispositivos": []
+      },
+      {
+        "num": "6",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Todos os sujeitos do processo devem cooperar entre si para que se obtenha, em tempo razoável, decisão de mérito justa e efetiva.",
+        "comentarios": "Cooperação processual: todos os sujeitos do processo devem atuar para viabilizar decisão de mérito justa, efetiva e em prazo razoável.\n\nDeveres de cooperação do juiz: prevenção — advertir as partes sobre riscos e deficiências, permitindo correção; esclarecimento — pedir esclarecimentos sobre manifestações obscuras ou genéricas; consulta/diálogo — submeter fundamentos ao contraditório; auxílio/adequação — eliminar obstáculos ao exercício das faculdades processuais.",
+        "jurisprudencia": "JDPC 220: É necessária a adoção de medidas para a cooperação do Estado e da sociedade civil na construção de soluções para controvérsia estrutural, com participação dos potenciais atingidos e beneficiários.\n\nJDPC 221: A atuação dialógica e cooperativa do magistrado e demais sujeitos processuais é característica essencial do processo estrutural.\n\nFPPC 6: O negócio jurídico processual não pode afastar os deveres inerentes à boa-fé e à cooperação.\n\nFPPC 619: O processo coletivo deverá respeitar técnicas de ampliação do contraditório, como audiências públicas, amicus curiae e outros meios de participação.\n\nFPPC 667: Admite-se a migração de polos nas ações coletivas, desde que compatível com o procedimento.",
+        "subdispositivos": []
+      },
+      {
+        "num": "7",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "É assegurada às partes paridade de tratamento em relação ao exercício de direitos e faculdades processuais, aos meios de defesa, aos ônus, aos deveres e à aplicação de sanções processuais, competindo ao juiz zelar pelo efetivo contraditório.",
+        "comentarios": "Paridade de armas e contraditório efetivo: o juiz deve zelar para que as partes tenham tratamento equilibrado quanto a faculdades, ônus, deveres, meios de defesa e sanções.\n\nVulnerabilidade processual: pode justificar tratamento processual diferenciado para reduzir desvantagens concretas e tornar o procedimento mais equânime. A declaração de vulnerabilidade pode ocorrer, por analogia, mediante procedimento semelhante ao da gratuidade da justiça.",
+        "jurisprudencia": "JDPC 167: A garantia do contraditório aplica-se nos Juizados Especiais, inclusive federais, gerando necessidade de intimação das partes sobre o laudo pericial antes da sentença.\n\nFPPC 107: O juiz pode, de ofício, dilatar o prazo para a parte se manifestar sobre a prova documental produzida.\n\nFPPC 235: Aplicam-se ao procedimento do mandado de segurança os arts. 7º, 9º e 10 do CPC.\n\nFPPC 379: O exercício dos poderes de direção do processo pelo juiz deve observar a paridade de armas das partes.\n\nJDPC 228: É possível a declaração formal da condição de vulnerabilidade processual da parte ou dos membros do grupo nos processos coletivos ou estruturais, de ofício ou mediante requerimento, explicitando-se os institutos processuais voltados à igualdade entre as partes.",
+        "subdispositivos": []
+      },
+      {
+        "num": "8",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Ao aplicar o ordenamento jurídico, o juiz atenderá aos fins sociais e às exigências do bem comum, resguardando e promovendo a dignidade da pessoa humana e observando a proporcionalidade, a razoabilidade, a legalidade, a publicidade e a eficiência.",
+        "comentarios": "Norma de interpretação e aplicação do direito processual: o juiz deve considerar fins sociais, bem comum, dignidade da pessoa humana, proporcionalidade, razoabilidade, legalidade, publicidade e eficiência.",
+        "jurisprudencia": "FPPC 380: A expressão 'ordenamento jurídico', empregada pelo CPC, contempla os precedentes vinculantes.\n\nFPPC 620: O ajuizamento e o julgamento de ações coletivas serão objeto da mais ampla e específica divulgação e publicidade.",
+        "subdispositivos": []
+      },
+      {
+        "num": "9",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Não se proferirá decisão contra uma das partes sem que ela seja previamente ouvida.",
+        "comentarios": "Regra do contraditório prévio. Exceções legais admitem contraditório diferido, especialmente tutelas provisórias de urgência, algumas hipóteses de tutela da evidência e decisão inicial da ação monitória.",
+        "jurisprudencia": "STF: São constitucionais os arts. 9º, parágrafo único, II, e 311, parágrafo único, do CPC/2015, que admitem concessão de tutela de evidência sem prévia citação do réu quando os fatos forem demonstráveis documentalmente e a tese jurídica estiver consolidada em casos repetitivos ou súmula vinculante. Não há ofensa ao contraditório se houver justificativa razoável e proporcional para sua postergação e possibilidade de manifestação posterior. STF, Plenário, ADI 5.492/DF, Rel. Min. Dias Toffoli, j. 25/04/2023; ADI 5.737/DF, Rel. Min. Dias Toffoli, red. p/ acórdão Min. Roberto Barroso, j. 25/04/2023, Info 1092.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "O disposto no caput não se aplica às hipóteses previstas nos incisos I a III.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "À tutela provisória de urgência.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "Às hipóteses de tutela da evidência previstas no art. 311, incisos II e III.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "À decisão prevista no art. 701.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "10",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O juiz não pode decidir, em grau algum de jurisdição, com base em fundamento a respeito do qual não se tenha dado às partes oportunidade de se manifestar, ainda que se trate de matéria sobre a qual deva decidir de ofício.",
+        "comentarios": "Princípio da não surpresa: antes de decidir com base em fundamento não debatido, ainda que cognoscível de ofício, o juiz deve oportunizar manifestação das partes.",
+        "jurisprudencia": "STJ: Em respeito ao princípio da não surpresa, é vedado ao julgador decidir com base em fundamentos jurídicos não submetidos ao contraditório no decorrer do processo. STJ, 2ª Turma, REsp 2.049.725/PE, Rel. Min. Humberto Martins, j. 25/04/2023, Info 772.\n\nSTJ: Não ofende o art. 10 do CPC/2015 o provimento jurisdicional que dá classificação jurídica à questão controvertida apreciada em embargos de divergência. STJ, 1ª Seção, EDcl nos EREsp 1.213.143/RS, Rel. Min. Regina Helena Costa, j. 08/02/2023, Info 763.",
+        "subdispositivos": []
+      },
+      {
+        "num": "11",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade.",
+        "comentarios": "Publicidade dos julgamentos e dever de fundamentação das decisões. Em segredo de justiça, pode-se restringir a presença às partes, advogados, defensores públicos e Ministério Público.",
+        "jurisprudencia": "JDPC 188: Os votos proferidos em julgamentos virtuais dos tribunais devem ser publicizados em tempo real, à medida que disponibilizados pelos julgadores.\n\nFPPC 709: A oposição da parte ao julgamento virtual é suficiente para inclusão do processo em pauta presencial, física ou por videoconferência, independentemente do cabimento de sustentação oral, garantida a participação do advogado.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Nos casos de segredo de justiça, pode ser autorizada a presença somente das partes, de seus advogados, de defensores públicos ou do Ministério Público.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "12",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Os juízes e os tribunais atenderão, preferencialmente, à ordem cronológica de conclusão para proferir sentença ou acórdão.",
+        "comentarios": "Ordem cronológica de conclusão: a regra é preferencial, não absoluta. A lista de processos aptos a julgamento deve estar permanentemente disponível para consulta pública. Há exceções legais, como sentenças em audiência, homologatórias de acordo, improcedência liminar, julgamentos em bloco, repetitivos, IRDR, embargos de declaração, agravo interno, preferências legais, metas do CNJ, processos criminais em órgãos com competência penal e causas urgentes.\n\nApós elaboração de lista própria, respeita-se a ordem cronológica entre as preferências legais. Requerimento da parte, após inclusão na lista, não altera a ordem, salvo se implicar reabertura de instrução ou conversão do julgamento em diligência. Decidido o requerimento, o processo retorna à posição anterior.",
+        "jurisprudencia": "FPPC 382: No juízo com cumulação de competência de processos dos juizados especiais com outros procedimentos, o juiz poderá organizar duas listas cronológicas autônomas.\n\nFPPC 486: A inobservância da ordem cronológica dos julgamentos não implica, por si, invalidade do ato decisório.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A lista de processos aptos a julgamento deverá estar permanentemente à disposição para consulta pública em cartório e na rede mundial de computadores.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Estão excluídos da regra do caput os casos previstos nos incisos I a IX.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "As sentenças proferidas em audiência, homologatórias de acordo ou de improcedência liminar do pedido.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "O julgamento de processos em bloco para aplicação de tese jurídica firmada em julgamento de casos repetitivos.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "O julgamento de recursos repetitivos ou de incidente de resolução de demandas repetitivas.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IV",
+            "texto": "As decisões proferidas com base nos arts. 485 e 932.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "V",
+            "texto": "O julgamento de embargos de declaração.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VI",
+            "texto": "O julgamento de agravo interno.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VII",
+            "texto": "As preferências legais e as metas estabelecidas pelo Conselho Nacional de Justiça.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "VIII",
+            "texto": "Os processos criminais, nos órgãos jurisdicionais que tenham competência penal.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "IX",
+            "texto": "A causa que exija urgência no julgamento, assim reconhecida por decisão fundamentada.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "Após elaboração de lista própria, respeitar-se-á a ordem cronológica das conclusões entre as preferências legais.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "Após a inclusão do processo na lista de que trata o § 1º, o requerimento formulado pela parte não altera a ordem cronológica para a decisão, exceto quando implicar a reabertura da instrução ou a conversão do julgamento em diligência.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 5º",
+            "texto": "Decidido o requerimento previsto no § 4º, o processo retornará à mesma posição em que anteriormente se encontrava na lista.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 6º",
+            "texto": "Ocupará o primeiro lugar na lista prevista no § 1º ou, conforme o caso, no § 3º, o processo previsto nos incisos I e II.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "Tiver sua sentença ou acórdão anulado, salvo quando houver necessidade de realização de diligência ou de complementação da instrução.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "Se enquadrar na hipótese do art. 1.040, inciso II.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "13",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A jurisdição civil será regida pelas normas processuais brasileiras, ressalvadas as disposições específicas previstas em tratados, convenções ou acordos internacionais de que o Brasil seja parte.",
+        "comentarios": "Regra territorial: a jurisdição civil brasileira rege-se pelas normas processuais brasileiras, ressalvadas normas específicas de tratados, convenções ou acordos internacionais incorporados pelo Brasil.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "14",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A norma processual não retroagirá e será aplicável imediatamente aos processos em curso, respeitados os atos processuais praticados e as situações jurídicas consolidadas sob a vigência da norma revogada.",
+        "comentarios": "Teoria dos atos processuais isolados: cada ato processual é considerado separadamente para definir a lei que o regerá. Aplica-se o princípio tempus regit actum: a lei processual nova tem aplicação imediata aos processos em curso, mas não retroage para atingir atos já praticados nem situações jurídicas consolidadas.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "15",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Na ausência de normas que regulem processos eleitorais, trabalhistas ou administrativos, as disposições deste Código lhes serão aplicadas supletiva e subsidiariamente.",
+        "comentarios": "Aplicação supletiva e subsidiária do CPC aos processos eleitorais, trabalhistas e administrativos quando ausentes normas próprias compatíveis.",
+        "jurisprudencia": "STF: A expressão 'administrativos' do art. 15 do CPC foi declarada constitucional nas ADIs 5.492/DF e 5.737/DF, julgadas em 25/04/2023, Info 1092.\n\nJDPC 3: As disposições do CPC aplicam-se supletiva e subsidiariamente ao Código de Processo Penal, no que não forem incompatíveis.",
+        "subdispositivos": []
+      }
+    ]
+  },
   "lei_1695117353563": {
     "nome": "CPC/2015 — Distribuição e Registro — Arts. 284 a 290",
     "grupo": "Código de Processo Civil",
@@ -3294,327 +3615,6 @@
             "jurisprudencia": ""
           }
         ]
-      }
-    ]
-  },
-  "lei_2525790204456": {
-    "nome": "CPC/2015 — Parte 1 — Normas Fundamentais — Arts. 1º a 15",
-    "grupo": "Código de Processo Civil",
-    "materia": "Processo Civil",
-    "artigos": [
-      {
-        "num": "1",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O processo civil será ordenado, disciplinado e interpretado conforme os valores e as normas fundamentais estabelecidos na Constituição da República Federativa do Brasil, observando-se as disposições deste Código.",
-        "comentarios": "",
-        "jurisprudencia": "FPPC 369: O rol de normas fundamentais previsto no Capítulo I do Título Único do Livro I da Parte Geral do CPC não é exaustivo.\n\nFPPC 370: Norma processual fundamental pode ser regra ou princípio.",
-        "subdispositivos": []
-      },
-      {
-        "num": "2",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O processo começa por iniciativa da parte e se desenvolve por impulso oficial, salvo as exceções previstas em lei.",
-        "comentarios": "Regra: princípio da demanda/inércia da jurisdição no início do processo. Depois de instaurado, o processo se desenvolve por impulso oficial, ressalvadas as exceções legais.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "3",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Não se excluirá da apreciação jurisdicional ameaça ou lesão a direito.",
-        "comentarios": "Inafastabilidade da jurisdição: a lei não pode excluir da apreciação do Poder Judiciário lesão ou ameaça a direito.\n\nArbitragem: é permitida na forma da lei.\n\nSolução consensual: o Estado deve promover, sempre que possível, a solução consensual dos conflitos. Conciliação, mediação e outros métodos devem ser estimulados por juízes, advogados, defensores públicos e membros do Ministério Público, inclusive no curso do processo judicial.\n\nEspécies de autocomposição: transação — acordo bilateral, com renúncias recíprocas; renúncia — o autor renuncia integralmente à pretensão; submissão — o réu reconhece a procedência do pedido.",
-        "jurisprudencia": "Súmula 485/STJ: A Lei de Arbitragem aplica-se aos contratos que contenham cláusula arbitral, ainda que celebrados antes da sua edição.\n\nFPPC 371: Os métodos de solução consensual de conflitos devem ser estimulados também nas instâncias recursais.\n\nFPPC 485: É cabível conciliação ou mediação no processo de execução, no cumprimento de sentença e na liquidação de sentença, admitindo-se plano de cumprimento da prestação.\n\nFPPC 573: Fazendas Públicas devem dar publicidade às hipóteses em que seus órgãos de Advocacia Pública estão autorizados a aceitar autocomposição.\n\nFPPC 618: A conciliação e a mediação são compatíveis com o processo de recuperação judicial.\n\nFPPC 707: A atuação das serventias extrajudiciais e dos comitês de resolução de disputas também integra o sistema brasileiro de justiça multiportas.\n\nFPPC 708: As práticas restaurativas são aplicáveis ao processo civil.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "É permitida a arbitragem, na forma da lei.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "O Estado promoverá, sempre que possível, a solução consensual dos conflitos.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "A conciliação, a mediação e outros métodos de solução consensual de conflitos deverão ser estimulados por juízes, advogados, defensores públicos e membros do Ministério Público, inclusive no curso do processo judicial.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "4",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "As partes têm o direito de obter em prazo razoável a solução integral do mérito, incluída a atividade satisfativa.",
-        "comentarios": "O dispositivo consagra a duração razoável do processo e a primazia da solução integral do mérito. A tutela jurisdicional adequada não se limita à decisão de mérito: inclui também a fase satisfativa.",
-        "jurisprudencia": "FPPC 372: O art. 4º aplica-se a todas as fases e a todos os tipos de procedimento, inclusive incidentes processuais e instância recursal, impondo ao órgão jurisdicional viabilizar o saneamento de vícios para examinar o mérito sempre que possível.\n\nFPPC 373: As partes devem cooperar entre si, atuar com ética e lealdade, evitar vícios que extingam o processo sem resolução do mérito e cumprir deveres mútuos de esclarecimento e transparência.\n\nFPPC 574: A identificação de vício processual após a entrada em vigor do CPC/2015 gera para o juiz o dever de oportunizar a regularização do vício, ainda que anterior.\n\nFPPC 666: O processo coletivo não deve ser extinto por falta de legitimidade quando um legitimado adequado assumir o polo ativo ou passivo da demanda.",
-        "subdispositivos": []
-      },
-      {
-        "num": "5",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Aquele que de qualquer forma participa do processo deve comportar-se de acordo com a boa-fé.",
-        "comentarios": "Boa-fé processual objetiva: orienta a conduta de todos os sujeitos processuais, veda comportamento contraditório, abuso do direito processual e condutas dolosas.",
-        "jurisprudencia": "FPPC 374: O art. 5º prevê a boa-fé objetiva.\n\nFPPC 375: O órgão jurisdicional também deve comportar-se de acordo com a boa-fé objetiva.\n\nFPPC 376: A vedação do comportamento contraditório aplica-se ao órgão jurisdicional.\n\nFPPC 377: A boa-fé objetiva impede que o julgador profira, sem motivar a alteração, decisões diferentes sobre uma mesma questão de direito aplicável a situações de fato análogas, ainda que em processos distintos.\n\nFPPC 378: A boa-fé processual orienta a interpretação da postulação e da sentença, permite a reprimenda do abuso de direito processual e das condutas dolosas de todos os sujeitos processuais e veda comportamentos contraditórios.\n\nJDPC 1: A verificação da violação à boa-fé objetiva dispensa a comprovação do animus do sujeito processual.\n\nJDPC 2: As disposições do CPC aplicam-se supletiva e subsidiariamente às Leis 9.099/1995, 10.259/2001 e 12.153/2009, desde que compatíveis.",
-        "subdispositivos": []
-      },
-      {
-        "num": "6",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Todos os sujeitos do processo devem cooperar entre si para que se obtenha, em tempo razoável, decisão de mérito justa e efetiva.",
-        "comentarios": "Cooperação processual: todos os sujeitos do processo devem atuar para viabilizar decisão de mérito justa, efetiva e em prazo razoável.\n\nDeveres de cooperação do juiz: prevenção — advertir as partes sobre riscos e deficiências, permitindo correção; esclarecimento — pedir esclarecimentos sobre manifestações obscuras ou genéricas; consulta/diálogo — submeter fundamentos ao contraditório; auxílio/adequação — eliminar obstáculos ao exercício das faculdades processuais.",
-        "jurisprudencia": "JDPC 220: É necessária a adoção de medidas para a cooperação do Estado e da sociedade civil na construção de soluções para controvérsia estrutural, com participação dos potenciais atingidos e beneficiários.\n\nJDPC 221: A atuação dialógica e cooperativa do magistrado e demais sujeitos processuais é característica essencial do processo estrutural.\n\nFPPC 6: O negócio jurídico processual não pode afastar os deveres inerentes à boa-fé e à cooperação.\n\nFPPC 619: O processo coletivo deverá respeitar técnicas de ampliação do contraditório, como audiências públicas, amicus curiae e outros meios de participação.\n\nFPPC 667: Admite-se a migração de polos nas ações coletivas, desde que compatível com o procedimento.",
-        "subdispositivos": []
-      },
-      {
-        "num": "7",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "É assegurada às partes paridade de tratamento em relação ao exercício de direitos e faculdades processuais, aos meios de defesa, aos ônus, aos deveres e à aplicação de sanções processuais, competindo ao juiz zelar pelo efetivo contraditório.",
-        "comentarios": "Paridade de armas e contraditório efetivo: o juiz deve zelar para que as partes tenham tratamento equilibrado quanto a faculdades, ônus, deveres, meios de defesa e sanções.\n\nVulnerabilidade processual: pode justificar tratamento processual diferenciado para reduzir desvantagens concretas e tornar o procedimento mais equânime. A declaração de vulnerabilidade pode ocorrer, por analogia, mediante procedimento semelhante ao da gratuidade da justiça.",
-        "jurisprudencia": "JDPC 167: A garantia do contraditório aplica-se nos Juizados Especiais, inclusive federais, gerando necessidade de intimação das partes sobre o laudo pericial antes da sentença.\n\nFPPC 107: O juiz pode, de ofício, dilatar o prazo para a parte se manifestar sobre a prova documental produzida.\n\nFPPC 235: Aplicam-se ao procedimento do mandado de segurança os arts. 7º, 9º e 10 do CPC.\n\nFPPC 379: O exercício dos poderes de direção do processo pelo juiz deve observar a paridade de armas das partes.\n\nJDPC 228: É possível a declaração formal da condição de vulnerabilidade processual da parte ou dos membros do grupo nos processos coletivos ou estruturais, de ofício ou mediante requerimento, explicitando-se os institutos processuais voltados à igualdade entre as partes.",
-        "subdispositivos": []
-      },
-      {
-        "num": "8",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Ao aplicar o ordenamento jurídico, o juiz atenderá aos fins sociais e às exigências do bem comum, resguardando e promovendo a dignidade da pessoa humana e observando a proporcionalidade, a razoabilidade, a legalidade, a publicidade e a eficiência.",
-        "comentarios": "Norma de interpretação e aplicação do direito processual: o juiz deve considerar fins sociais, bem comum, dignidade da pessoa humana, proporcionalidade, razoabilidade, legalidade, publicidade e eficiência.",
-        "jurisprudencia": "FPPC 380: A expressão 'ordenamento jurídico', empregada pelo CPC, contempla os precedentes vinculantes.\n\nFPPC 620: O ajuizamento e o julgamento de ações coletivas serão objeto da mais ampla e específica divulgação e publicidade.",
-        "subdispositivos": []
-      },
-      {
-        "num": "9",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Não se proferirá decisão contra uma das partes sem que ela seja previamente ouvida.",
-        "comentarios": "Regra do contraditório prévio. Exceções legais admitem contraditório diferido, especialmente tutelas provisórias de urgência, algumas hipóteses de tutela da evidência e decisão inicial da ação monitória.",
-        "jurisprudencia": "STF: São constitucionais os arts. 9º, parágrafo único, II, e 311, parágrafo único, do CPC/2015, que admitem concessão de tutela de evidência sem prévia citação do réu quando os fatos forem demonstráveis documentalmente e a tese jurídica estiver consolidada em casos repetitivos ou súmula vinculante. Não há ofensa ao contraditório se houver justificativa razoável e proporcional para sua postergação e possibilidade de manifestação posterior. STF, Plenário, ADI 5.492/DF, Rel. Min. Dias Toffoli, j. 25/04/2023; ADI 5.737/DF, Rel. Min. Dias Toffoli, red. p/ acórdão Min. Roberto Barroso, j. 25/04/2023, Info 1092.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "O disposto no caput não se aplica às hipóteses previstas nos incisos I a III.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "À tutela provisória de urgência.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "Às hipóteses de tutela da evidência previstas no art. 311, incisos II e III.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "À decisão prevista no art. 701.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "10",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O juiz não pode decidir, em grau algum de jurisdição, com base em fundamento a respeito do qual não se tenha dado às partes oportunidade de se manifestar, ainda que se trate de matéria sobre a qual deva decidir de ofício.",
-        "comentarios": "Princípio da não surpresa: antes de decidir com base em fundamento não debatido, ainda que cognoscível de ofício, o juiz deve oportunizar manifestação das partes.",
-        "jurisprudencia": "STJ: Em respeito ao princípio da não surpresa, é vedado ao julgador decidir com base em fundamentos jurídicos não submetidos ao contraditório no decorrer do processo. STJ, 2ª Turma, REsp 2.049.725/PE, Rel. Min. Humberto Martins, j. 25/04/2023, Info 772.\n\nSTJ: Não ofende o art. 10 do CPC/2015 o provimento jurisdicional que dá classificação jurídica à questão controvertida apreciada em embargos de divergência. STJ, 1ª Seção, EDcl nos EREsp 1.213.143/RS, Rel. Min. Regina Helena Costa, j. 08/02/2023, Info 763.",
-        "subdispositivos": []
-      },
-      {
-        "num": "11",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade.",
-        "comentarios": "Publicidade dos julgamentos e dever de fundamentação das decisões. Em segredo de justiça, pode-se restringir a presença às partes, advogados, defensores públicos e Ministério Público.",
-        "jurisprudencia": "JDPC 188: Os votos proferidos em julgamentos virtuais dos tribunais devem ser publicizados em tempo real, à medida que disponibilizados pelos julgadores.\n\nFPPC 709: A oposição da parte ao julgamento virtual é suficiente para inclusão do processo em pauta presencial, física ou por videoconferência, independentemente do cabimento de sustentação oral, garantida a participação do advogado.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Nos casos de segredo de justiça, pode ser autorizada a presença somente das partes, de seus advogados, de defensores públicos ou do Ministério Público.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "12",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Os juízes e os tribunais atenderão, preferencialmente, à ordem cronológica de conclusão para proferir sentença ou acórdão.",
-        "comentarios": "Ordem cronológica de conclusão: a regra é preferencial, não absoluta. A lista de processos aptos a julgamento deve estar permanentemente disponível para consulta pública. Há exceções legais, como sentenças em audiência, homologatórias de acordo, improcedência liminar, julgamentos em bloco, repetitivos, IRDR, embargos de declaração, agravo interno, preferências legais, metas do CNJ, processos criminais em órgãos com competência penal e causas urgentes.\n\nApós elaboração de lista própria, respeita-se a ordem cronológica entre as preferências legais. Requerimento da parte, após inclusão na lista, não altera a ordem, salvo se implicar reabertura de instrução ou conversão do julgamento em diligência. Decidido o requerimento, o processo retorna à posição anterior.",
-        "jurisprudencia": "FPPC 382: No juízo com cumulação de competência de processos dos juizados especiais com outros procedimentos, o juiz poderá organizar duas listas cronológicas autônomas.\n\nFPPC 486: A inobservância da ordem cronológica dos julgamentos não implica, por si, invalidade do ato decisório.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A lista de processos aptos a julgamento deverá estar permanentemente à disposição para consulta pública em cartório e na rede mundial de computadores.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Estão excluídos da regra do caput os casos previstos nos incisos I a IX.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "As sentenças proferidas em audiência, homologatórias de acordo ou de improcedência liminar do pedido.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "O julgamento de processos em bloco para aplicação de tese jurídica firmada em julgamento de casos repetitivos.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "O julgamento de recursos repetitivos ou de incidente de resolução de demandas repetitivas.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IV",
-            "texto": "As decisões proferidas com base nos arts. 485 e 932.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "V",
-            "texto": "O julgamento de embargos de declaração.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VI",
-            "texto": "O julgamento de agravo interno.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VII",
-            "texto": "As preferências legais e as metas estabelecidas pelo Conselho Nacional de Justiça.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "VIII",
-            "texto": "Os processos criminais, nos órgãos jurisdicionais que tenham competência penal.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "IX",
-            "texto": "A causa que exija urgência no julgamento, assim reconhecida por decisão fundamentada.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "Após elaboração de lista própria, respeitar-se-á a ordem cronológica das conclusões entre as preferências legais.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "Após a inclusão do processo na lista de que trata o § 1º, o requerimento formulado pela parte não altera a ordem cronológica para a decisão, exceto quando implicar a reabertura da instrução ou a conversão do julgamento em diligência.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 5º",
-            "texto": "Decidido o requerimento previsto no § 4º, o processo retornará à mesma posição em que anteriormente se encontrava na lista.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 6º",
-            "texto": "Ocupará o primeiro lugar na lista prevista no § 1º ou, conforme o caso, no § 3º, o processo previsto nos incisos I e II.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "Tiver sua sentença ou acórdão anulado, salvo quando houver necessidade de realização de diligência ou de complementação da instrução.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "Se enquadrar na hipótese do art. 1.040, inciso II.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "13",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A jurisdição civil será regida pelas normas processuais brasileiras, ressalvadas as disposições específicas previstas em tratados, convenções ou acordos internacionais de que o Brasil seja parte.",
-        "comentarios": "Regra territorial: a jurisdição civil brasileira rege-se pelas normas processuais brasileiras, ressalvadas normas específicas de tratados, convenções ou acordos internacionais incorporados pelo Brasil.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "14",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A norma processual não retroagirá e será aplicável imediatamente aos processos em curso, respeitados os atos processuais praticados e as situações jurídicas consolidadas sob a vigência da norma revogada.",
-        "comentarios": "Teoria dos atos processuais isolados: cada ato processual é considerado separadamente para definir a lei que o regerá. Aplica-se o princípio tempus regit actum: a lei processual nova tem aplicação imediata aos processos em curso, mas não retroage para atingir atos já praticados nem situações jurídicas consolidadas.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "15",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Na ausência de normas que regulem processos eleitorais, trabalhistas ou administrativos, as disposições deste Código lhes serão aplicadas supletiva e subsidiariamente.",
-        "comentarios": "Aplicação supletiva e subsidiária do CPC aos processos eleitorais, trabalhistas e administrativos quando ausentes normas próprias compatíveis.",
-        "jurisprudencia": "STF: A expressão 'administrativos' do art. 15 do CPC foi declarada constitucional nas ADIs 5.492/DF e 5.737/DF, julgadas em 25/04/2023, Info 1092.\n\nJDPC 3: As disposições do CPC aplicam-se supletiva e subsidiariamente ao Código de Processo Penal, no que não forem incompatíveis.",
-        "subdispositivos": []
       }
     ]
   },
