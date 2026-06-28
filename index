@@ -932,7 +932,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
       <div class="lei-sidebar-header">
         <div class="lei-sidebar-title">📖 Leis</div>
         <input class="lei-search" id="lei-search" placeholder="Buscar lei ou artigo..." oninput="leiSearch(this.value)">
-        <div class="lei-sidebar-btns"><button class="lei-upload-btn primary" onclick="openImportLeiModal()">+ JSON</button><button class="lei-upload-btn" onclick="document.getElementById('lei-pdf-input').click()">📄 PDF</button></div>
+        <div class="lei-sidebar-btns"><button class="lei-upload-btn primary" onclick="openImportLeiModal()">+ JSON</button><button class="lei-upload-btn" onclick="document.getElementById('lei-pdf-input').click()">📄 PDF</button><button class="lei-upload-btn" onclick="abrirConfigGitHub()" title="Configurar GitHub" style="padding:4px 7px">⚙️</button></div>
         <div id="lei-storage-bar" style="padding:4px 10px 0;font-size:10px;color:#888780"></div>
         <input type="file" id="lei-pdf-input" accept=".pdf" style="display:none" onchange="processarLeiPDF(event)">
       </div>
@@ -1926,7 +1926,8 @@ function init(){
   try{const r=localStorage.getItem('agu-registros');registros=r?JSON.parse(r):[];}catch(e){registros=[];}
   loadTodasSemanas();
   semanaAtiva=getSemanaAtual();
-  try{const r=localStorage.getItem('agu-leis');leis=r?JSON.parse(r):{};}catch(e){leis={};}
+  // Leis carregadas via GitHub em initAsync() — aqui carregamos do cache local como fallback
+  try{const r=localStorage.getItem('agu-leis-cache')||localStorage.getItem('agu-leis');leis=r?JSON.parse(r):{};}catch(e){leis={};}
   try{metaHoras=parseInt(localStorage.getItem('agu-meta-horas'))||5;document.getElementById('meta-horas').value=metaHoras;}catch(e){}
   buildMateriaNav();
   buildMateriaNavRank();
@@ -1956,6 +1957,32 @@ function init(){
   });
   // Auto-save de marcações a cada 10s enquanto a lei está aberta
   setInterval(function(){ if(leiAtiva) salvarTextosEditados(); }, 10000);
+  // Carrega token do GitHub e inicia async
+  _ghToken = localStorage.getItem('gh-token') || '';
+  initAsync();
+}
+
+// Carrega leis do GitHub de forma assíncrona após init síncrono
+async function initAsync(){
+  const token = ghToken();
+  if(token){
+    const el = document.getElementById('lei-storage-bar');
+    if(el) el.innerHTML = '<span style="color:#D97706">☁️ Carregando leis do GitHub...</span>';
+    const ok = await carregarLeisGitHub();
+    // Busca sha atual para futuros saves
+    if(ok && token){
+      try {
+        const r = await fetch(ghApiUrl(), {
+          headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json'}
+        });
+        if(r.ok){ const d=await r.json(); _ghFileSha=d.sha||''; }
+      } catch(e){}
+    }
+    renderLeiSidebar();
+    _atualizarIndicadorStorage();
+  } else {
+    _atualizarIndicadorStorage();
+  }
 }
 
 function save(m){try{localStorage.setItem('agu-caderno-'+m,JSON.stringify(dados[m]));}catch(e){}}
@@ -1964,32 +1991,106 @@ function salvarMeta(){metaHoras=parseInt(document.getElementById('meta-horas').v
 function _atualizarIndicadorStorage(){
   const el = document.getElementById('lei-storage-bar');
   if (!el) return;
-  const leisJson = localStorage.getItem('agu-leis') || '{}';
-  const kb = Math.round(leisJson.length / 1024);
-  const pct = Math.round(kb / 50); // ~5000KB limit, show as bar
-  const cor = kb > 4000 ? '#B91C1C' : kb > 3000 ? '#D97706' : '#15803D';
-  el.innerHTML = `<span style="color:${cor}">💾 Leis: ${kb}KB / ~5000KB</span>
-    <div style="height:3px;background:#f0ede6;border-radius:2px;margin-top:2px">
-      <div style="height:100%;width:${Math.min(pct,100)}%;background:${cor};border-radius:2px;transition:width .3s"></div>
-    </div>`;
+  const kb = Math.round(JSON.stringify(leis).length / 1024);
+  const tok = ghToken();
+  const source = tok ? '☁️ GitHub' : '💾 Local';
+  el.innerHTML = `<span style="color:#15803D">${source}: ${kb} KB</span>`;
 }
 
+// Salva leis.json no GitHub via API, com debounce de 1s
 function saveLeis(){
+  // Cache local imediato (fallback)
+  try { localStorage.setItem('agu-leis-cache', JSON.stringify(leis)); } catch(e){}
+  _atualizarIndicadorStorage();
+
+  if(!ghToken()){
+    // Sem token: salva só no localStorage (comportamento antigo)
+    try { localStorage.setItem('agu-leis', JSON.stringify(leis)); } catch(e){
+      alert('⚠️ Armazenamento cheio! Configure o GitHub nas configurações.');
+    }
+    return;
+  }
+
+  // Debounce: espera 1s sem novas chamadas antes de salvar
+  if(_ghSaveQueue) clearTimeout(_ghSaveQueue);
+  _ghSaveQueue = setTimeout(()=>{ _saveLeisGitHub(); }, 1000);
+}
+
+async function _saveLeisGitHub(){
+  const token = ghToken();
+  if(!token) return;
+  const el = document.getElementById('lei-storage-bar');
+
   try {
-    const json = JSON.stringify(leis);
-    const kb = Math.round(json.length / 1024);
-    localStorage.setItem('agu-leis', json);
-    _atualizarIndicadorStorage();
-    if (kb > 4000) {
-      console.warn('[LEI] agu-leis está grande:', kb, 'KB — risco de quota exceeded');
+    if(el) el.innerHTML = '<span style="color:#D97706">☁️ Salvando no GitHub...</span>';
+
+    const json = JSON.stringify(leis, null, 2);
+    const content = btoa(unescape(encodeURIComponent(json)));
+
+    // Busca sha atual se não tiver
+    if(!_ghFileSha){
+      const r = await fetch(ghApiUrl(), {
+        headers: { 'Authorization': 'token ' + token, 'Accept': 'application/vnd.github.v3+json' }
+      });
+      if(r.ok){ const d = await r.json(); _ghFileSha = d.sha || ''; }
     }
-  } catch(e) {
-    if (e.name === 'QuotaExceededError' || e.code === 22) {
-      alert('⚠️ ERRO: O armazenamento do navegador está cheio!\n\nA lei NÃO foi salva.\n\nSolução: exporte um backup agora e reimporte as leis em outro navegador ou limpe dados antigos.');
+
+    const body = { message: 'update leis.json', content, branch: GH_BRANCH };
+    if(_ghFileSha) body.sha = _ghFileSha;
+
+    const res = await fetch(ghApiUrl(), {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'token ' + token,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(body)
+    });
+
+    if(res.ok){
+      const data = await res.json();
+      _ghFileSha = data.content?.sha || _ghFileSha;
+      if(el) el.innerHTML = '<span style="color:#15803D">☁️ Salvo no GitHub ✓</span>';
+      setTimeout(()=>_atualizarIndicadorStorage(), 2000);
     } else {
-      alert('Erro ao salvar leis: ' + e.message);
+      const err = await res.json();
+      // sha desatualizado — busca novo sha e tenta de novo
+      if(res.status === 409 || (err.message||'').includes('sha')){
+        _ghFileSha = '';
+        setTimeout(()=>_saveLeisGitHub(), 500);
+      } else {
+        throw new Error(err.message || res.status);
+      }
     }
-    console.error('[LEI] saveLeis erro:', e);
+  } catch(e){
+    console.error('[GH] saveLeis erro:', e);
+    if(el) el.innerHTML = '<span style="color:#B91C1C">☁️ Erro ao salvar: ' + e.message + '</span>';
+  }
+}
+
+// Carrega leis.json do GitHub
+async function carregarLeisGitHub(){
+  const token = ghToken();
+  const url = `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/${GH_BRANCH}/${GH_FILE}?t=${Date.now()}`;
+  try {
+    const headers = token ? { 'Authorization': 'token ' + token } : {};
+    const res = await fetch(url, { headers });
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    leis = data || {};
+    // Atualiza cache local
+    try { localStorage.setItem('agu-leis-cache', JSON.stringify(leis)); } catch(e){}
+    console.log('[GH] Leis carregadas:', Object.keys(leis).length);
+    return true;
+  } catch(e){
+    console.warn('[GH] Erro ao carregar leis do GitHub:', e.message);
+    // Fallback: cache local
+    try {
+      const cache = localStorage.getItem('agu-leis-cache') || localStorage.getItem('agu-leis');
+      if(cache) leis = JSON.parse(cache);
+    } catch(e2){}
+    return false;
   }
 }
 
@@ -4615,6 +4716,50 @@ function _atualizarBadgeBackup(){
   }
 }
 
+// ── GITHUB CONFIG UI ──────────────────────────────────────────────────────────
+function abrirConfigGitHub(){
+  document.getElementById('gh-token-input').value = ghToken() ? '••••••••••••••••••••' : '';
+  document.getElementById('gh-config-status').textContent = ghToken()
+    ? '✅ Token configurado. Leis sincronizadas com GitHub.'
+    : 'Sem token — leis salvas apenas localmente.';
+  document.getElementById('modal-config-github').classList.remove('hidden');
+}
+
+async function salvarTokenGitHub(){
+  const val = document.getElementById('gh-token-input').value.trim();
+  const st = document.getElementById('gh-config-status');
+  if(!val || val.startsWith('•')){ st.textContent = 'Digite o token.'; return; }
+  st.textContent = '🔄 Verificando token...';
+  try {
+    const res = await fetch(ghApiUrl(), {
+      headers:{'Authorization':'token '+val,'Accept':'application/vnd.github.v3+json'}
+    });
+    if(!res.ok) throw new Error('Token inválido (HTTP '+res.status+')');
+    const data = await res.json();
+    _ghFileSha = data.sha || '';
+    _ghToken = val;
+    localStorage.setItem('gh-token', val);
+    st.innerHTML = '✅ Token válido! Carregando leis do GitHub...';
+    closeModal('config-github');
+    // Carrega leis do GitHub com o novo token
+    await carregarLeisGitHub();
+    renderLeiSidebar();
+    _atualizarIndicadorStorage();
+  } catch(e){
+    st.textContent = '❌ ' + e.message;
+  }
+}
+
+function limparTokenGitHub(){
+  if(!confirm('Remover token? As leis voltarão a usar o armazenamento local.')) return;
+  _ghToken = '';
+  _ghFileSha = '';
+  localStorage.removeItem('gh-token');
+  document.getElementById('gh-config-status').textContent = 'Token removido.';
+  setTimeout(()=>closeModal('config-github'), 1000);
+  _atualizarIndicadorStorage();
+}
+
 // ── BUSCA GLOBAL ──────────────────────────────────────────────────────────────
 
 function abrirBuscaGlobal() {
@@ -4896,6 +5041,18 @@ document.addEventListener('click',function(e){
 
 // ============ LEI SECA STATE ============
 let leis={};
+
+// ── GITHUB CONFIG ─────────────────────────────────────────────────────────────
+const GH_OWNER = 'isabellesena1997-hub';
+const GH_REPO  = 'Caderno-AGU';
+const GH_FILE  = 'leis.json';
+const GH_BRANCH = 'main';
+let _ghToken = '';        // carregado do localStorage
+let _ghFileSha = '';      // sha atual do leis.json (necessário para update)
+let _ghSaveQueue = null;  // debounce: evita múltiplos saves simultâneos
+
+function ghToken(){ return _ghToken || localStorage.getItem('gh-token') || ''; }
+function ghApiUrl(){ return `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`; }
 let leiAtiva=null;
 let artigoAtivo=0;
 let tituloAtivo=0;
@@ -8632,6 +8789,31 @@ FORMATO OBRIGATÓRIO — retorne APENAS o HTML completo abaixo, sem nenhum texto
 <!-- BOTÃO BUSCA FIXO -->
 <button onclick="abrirBuscaGlobal()" title="Busca global (Ctrl+K)"
   style="position:fixed;bottom:20px;right:20px;z-index:9999;width:48px;height:48px;border-radius:50%;background:#185FA5;color:#fff;border:none;font-size:20px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.25);display:flex;align-items:center;justify-content:center">🔍</button>
+
+<!-- MODAL CONFIG GITHUB -->
+<div class="overlay hidden" id="modal-config-github" onclick="if(event.target===this)closeModal('config-github')">
+  <div class="modal" style="max-width:480px">
+    <div class="modal-title">
+      <span>⚙️ Configuração GitHub</span>
+      <button class="modal-close" onclick="closeModal('config-github')">✕</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:13px;color:#4a4a45;margin-bottom:1rem">
+        As leis são salvas no repositório <strong>Caderno-AGU</strong> no GitHub.<br>
+        Cole seu Personal Access Token abaixo para habilitar.
+      </p>
+      <div class="mf">
+        <div class="ml">GitHub Personal Access Token</div>
+        <input class="mi" id="gh-token-input" type="password" placeholder="github_pat_..." style="font-family:monospace;font-size:12px">
+      </div>
+      <div id="gh-config-status" style="font-size:12px;margin-top:8px;min-height:18px"></div>
+    </div>
+    <div class="modal-actions">
+      <button class="mbtn-cancel" onclick="limparTokenGitHub()" style="color:#B91C1C">Remover token</button>
+      <button class="mbtn-save" onclick="salvarTokenGitHub()">Salvar token</button>
+    </div>
+  </div>
+</div>
 
 <!-- MODAL BUSCA GLOBAL -->
 <div class="overlay hidden" id="modal-busca-global" onclick="if(event.target===this)fecharBuscaGlobal()">
