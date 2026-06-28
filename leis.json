@@ -1645,55 +1645,6 @@
       }
     ]
   },
-  "lei_6127655680580": {
-    "nome": "CPC/2015 — PARTE 10 — Advocacia Pública — Arts. 182 a 184",
-    "grupo": "Código de Processo Civil",
-    "materia": "Processo Civil",
-    "artigos": [
-      {
-        "num": "182",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Incumbe à Advocacia Pública, na forma da lei, defender e promover os interesses públicos da União, dos Estados, do DF e dos Municípios, por meio da representação judicial, em todos os âmbitos federativos, das pessoas jurídicas de direito público que integram a administração direta e indireta.",
-        "comentarios": "A Advocacia Pública representa judicialmente pessoas jurídicas de direito público da administração direta e indireta, em todos os âmbitos federativos, defendendo e promovendo interesses públicos.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "183",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A União, os Estados, o DF, os Municípios e suas respectivas autarquias e fundações de direito público gozarão de prazo em dobro para todas as suas manifestações processuais, cuja contagem terá início a partir da intimação pessoal.",
-        "comentarios": "Prazo em dobro para Fazenda Pública, autarquias e fundações públicas. A intimação pessoal ocorre por carga, remessa ou meio eletrônico. Não se aplica se houver prazo próprio expresso.",
-        "jurisprudencia": "FPPC 400: art. 183 aplica-se aos processos em autos eletrônicos.\nFPPC 401: no processo eletrônico, publicação no Diário da Justiça Eletrônico não é intimação pessoal da Fazenda Pública.\nFPPC 578: em razão da previsão especial do § 1º, não se aplica à Fazenda Pública o art. 269, § 1º.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A intimação pessoal far-se-á por carga, remessa ou meio eletrônico.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Não se aplica o prazo em dobro quando a lei estabelecer, de forma expressa, prazo próprio para o ente público.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "184",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O membro da Advocacia Pública será civil e regressivamente responsável quando agir com dolo ou fraude no exercício de suas funções.",
-        "comentarios": "Responsabilidade civil e regressiva do membro da Advocacia Pública exige dolo ou fraude.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      }
-    ]
-  },
   "lei_8866275437715": {
     "nome": "CPC/2015 — Parte 5 — Partes e Procuradores — arts. 70 a 112",
     "grupo": "Código de Processo Civil",
@@ -3340,6 +3291,55 @@
             "jurisprudencia": ""
           }
         ]
+      }
+    ]
+  },
+  "lei_6127655680580": {
+    "nome": "CPC/2015 — PARTE 10 — Advocacia Pública — Arts. 182 a 184",
+    "grupo": "Código de Processo Civil",
+    "materia": "Processo Civil",
+    "artigos": [
+      {
+        "num": "182",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Incumbe à Advocacia Pública, na forma da lei, defender e promover os interesses públicos da União, dos Estados, do DF e dos Municípios, por meio da representação judicial, em todos os âmbitos federativos, das pessoas jurídicas de direito público que integram a administração direta e indireta.",
+        "comentarios": "A Advocacia Pública representa judicialmente pessoas jurídicas de direito público da administração direta e indireta, em todos os âmbitos federativos, defendendo e promovendo interesses públicos.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "183",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A União, os Estados, o DF, os Municípios e suas respectivas autarquias e fundações de direito público gozarão de prazo em dobro para todas as suas manifestações processuais, cuja contagem terá início a partir da intimação pessoal.",
+        "comentarios": "Prazo em dobro para Fazenda Pública, autarquias e fundações públicas. A intimação pessoal ocorre por carga, remessa ou meio eletrônico. Não se aplica se houver prazo próprio expresso.",
+        "jurisprudencia": "FPPC 400: art. 183 aplica-se aos processos em autos eletrônicos.\nFPPC 401: no processo eletrônico, publicação no Diário da Justiça Eletrônico não é intimação pessoal da Fazenda Pública.\nFPPC 578: em razão da previsão especial do § 1º, não se aplica à Fazenda Pública o art. 269, § 1º.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A intimação pessoal far-se-á por carga, remessa ou meio eletrônico.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Não se aplica o prazo em dobro quando a lei estabelecer, de forma expressa, prazo próprio para o ente público.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "184",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O membro da Advocacia Pública será civil e regressivamente responsável quando agir com dolo ou fraude no exercício de suas funções.",
+        "comentarios": "Responsabilidade civil e regressiva do membro da Advocacia Pública exige dolo ou fraude.",
+        "jurisprudencia": "",
+        "subdispositivos": []
       }
     ]
   },
