@@ -3413,6 +3413,402 @@
       }
     ]
   },
+  "lei_6799787849503": {
+    "grupo": "Código de Processo Civil",
+    "materia": "Processo Civil",
+    "nome": "CPC/2015 — Parte 7 — Intervenção de Terceiros — arts. 119 a 138",
+    "artigos": [
+      {
+        "num": "119",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Pendendo causa entre 2 ou mais pessoas, o terceiro juridicamente interessado em que a sentença seja favorável a uma delas poderá intervir no processo para assisti-la.",
+        "comentarios": "",
+        "jurisprudencia": "FPPC 388: O assistente simples pode requerer a intervenção de amicus curiae.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "A assistência será admitida em qualquer procedimento e em todos os graus de jurisdição, recebendo o assistente o processo no estado em que se encontre.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "120",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Não havendo impugnação no prazo de 15 dias, o pedido do assistente será deferido, salvo se for caso de rejeição liminar.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Se qualquer parte alegar que falta ao requerente interesse jurídico para intervir, o juiz decidirá o incidente, sem suspensão do processo.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "121",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O assistente simples atuará como auxiliar da parte principal, exercerá os mesmos poderes e sujeitar-se-á aos mesmos ônus processuais que o assistido.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Sendo revel ou, de qualquer outro modo, omisso o assistido, o assistente será considerado seu substituto processual.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "122",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A assistência simples não obsta a que a parte principal reconheça a procedência do pedido, desista da ação, renuncie ao direito sobre o que se funda a ação ou transija sobre direitos controvertidos.",
+        "comentarios": "",
+        "jurisprudencia": "FPPC 389: As hipóteses previstas no art. 122 são meramente exemplificativas.",
+        "subdispositivos": []
+      },
+      {
+        "num": "123",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Transitada em julgado a sentença no processo em que interveio o assistente, este não poderá, em processo posterior, discutir a justiça da decisão, salvo se alegar e provar que:",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "pelo estado em que recebeu o processo ou pelas declarações e pelos atos do assistido, foi impedido de produzir provas suscetíveis de influir na sentença;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "desconhecia a existência de alegações ou de provas das quais o assistido, por dolo ou culpa, não se valeu.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "124",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Considera-se litisconsorte da parte principal o assistente sempre que a sentença influir na relação jurídica entre ele e o adversário do assistido.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "125",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "É admissível a denunciação da lide, promovida por qualquer das partes:",
+        "comentarios": "",
+        "jurisprudencia": "FPPC 120: A ausência de denunciação da lide gera apenas a preclusão do direito de a parte promovê-la, sendo possível ação autônoma de regresso.\nFPPC 121: O cumprimento da sentença diretamente contra o denunciado é admissível em qualquer hipótese de denunciação da lide fundada no inciso II do art. 125.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "ao alienante imediato, no processo relativo à coisa cujo domínio foi transferido ao denunciante, a fim de que possa exercer os direitos que da evicção lhe resultam;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "àquele que estiver obrigado, por lei ou pelo contrato, a indenizar, em ação regressiva, o prejuízo de quem for vencido no processo.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "O direito regressivo será exercido por ação autônoma quando a denunciação da lide for indeferida, deixar de ser promovida ou não for permitida.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Admite-se uma única denunciação sucessiva, promovida pelo denunciado, contra seu antecessor imediato na cadeia dominial ou quem seja responsável por indenizá-lo, não podendo o denunciado sucessivo promover nova denunciação, hipótese em que eventual direito de regresso será exercido por ação autônoma.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "126",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A citação do denunciado será requerida na petição inicial, se o denunciante for autor, ou na contestação, se o denunciante for réu, devendo ser realizada na forma e nos prazos previstos no art. 131.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "127",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Feita a denunciação pelo autor, o denunciado poderá assumir a posição de litisconsorte do denunciante e acrescentar novos argumentos à petição inicial, procedendo-se em seguida à citação do réu.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "128",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Feita a denunciação pelo réu:",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "se o denunciado contestar o pedido formulado pelo autor, o processo prosseguirá tendo, na ação principal, em litisconsórcio, denunciante e denunciado;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "se o denunciado for revel, o denunciante pode deixar de prosseguir com sua defesa, eventualmente oferecida, e abster-se de recorrer, restringindo sua atuação à ação regressiva;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "se o denunciado confessar os fatos alegados pelo autor na ação principal, o denunciante poderá prosseguir com sua defesa ou, aderindo a tal reconhecimento, pedir apenas a procedência da ação de regresso.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Procedente o pedido da ação principal, pode o autor, se for o caso, requerer o cumprimento da sentença também contra o denunciado, nos limites da condenação deste na ação regressiva.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "129",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Se o denunciante for vencido na ação principal, o juiz passará ao julgamento da denunciação da lide.",
+        "comentarios": "CARACTERÍSTICAS FUNDAMENTAIS DA DENUNCIAÇÃO DA LIDE\n- É forma de intervenção de terceiros provocada tanto pelo autor quanto pelo réu, diferentemente do chamamento ao processo, que só pode ser requerido pelo réu.\n- Tem natureza jurídica de ação, mas não implica formação de processo autônomo. Há um processo único, com ampliação do objeto: o juiz decidirá a lide principal e a lide secundária.\n- Todas as hipóteses de denunciação associam-se ao direito de regresso, permitindo que seu titular o exerça nos mesmos autos em que pode ser condenado, em benefício da economia processual.\n\nFonte doutrinária indicada no material: Marcus Vinicius Rios Gonçalves, Direito Processual Civil, 2021.",
+        "jurisprudencia": "JDPC 159: É incabível a condenação sucumbencial do litisdenunciado quando não houver resistência ao pedido de denunciação.\nFPPC 122: Vencido o denunciante na ação principal e não tendo havido resistência à denunciação da lide, não cabe a condenação do denunciado nas verbas de sucumbência.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Se o denunciante for vencedor, a ação de denunciação não terá o seu pedido examinado, sem prejuízo da condenação do denunciante ao pagamento das verbas de sucumbência em favor do denunciado.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "130",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "É admissível o chamamento ao processo, requerido pelo réu:",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "do afiançado, na ação em que o fiador for réu;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "dos demais fiadores, na ação proposta contra um ou alguns deles;",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "III",
+            "texto": "dos demais devedores solidários, quando o credor exigir de um ou de alguns o pagamento da dívida comum.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "131",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A citação daqueles que devam figurar em litisconsórcio passivo será requerida pelo réu na contestação e deve ser promovida no prazo de 30 dias, sob pena de ficar sem efeito o chamamento.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Se o chamado residir em outra comarca, seção ou subseção judiciárias, ou em lugar incerto, o prazo será de 2 meses.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "132",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A sentença de procedência valerá como título executivo em favor do réu que satisfizer a dívida, a fim de que possa exigi-la, por inteiro, do devedor principal, ou, de cada um dos codevedores, a sua quota, na proporção que lhes tocar.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "133",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O incidente de desconsideração da personalidade jurídica será instaurado a pedido da parte ou do Ministério Público, quando lhe couber intervir no processo.",
+        "comentarios": "",
+        "jurisprudencia": "FPPC 123: É desnecessária a intervenção do Ministério Público, como fiscal da ordem jurídica, no incidente de desconsideração da personalidade jurídica, salvo nos casos em que deva intervir obrigatoriamente, previstos no art. 178.\nFPPC 247: Aplica-se o incidente de desconsideração da personalidade jurídica no processo falimentar.\nJDPC 110: A instauração do incidente de desconsideração da personalidade jurídica não suspenderá a tramitação do processo de execução e do cumprimento de sentença em face dos executados originários.\nJDPC 111: O incidente de desconsideração da personalidade jurídica pode ser aplicado ao processo falimentar.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "O pedido de desconsideração da personalidade jurídica observará os pressupostos previstos em lei.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Aplica-se o disposto neste Capítulo à hipótese de desconsideração inversa da personalidade jurídica.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "134",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O incidente de desconsideração é cabível em todas as fases do processo de conhecimento, no cumprimento de sentença e na execução fundada em título executivo extrajudicial.",
+        "comentarios": "",
+        "jurisprudencia": "FPPC 248: Quando a desconsideração da personalidade jurídica for requerida na petição inicial, incumbe ao sócio ou a pessoa jurídica, na contestação, impugnar não somente a própria desconsideração, mas também os demais pontos da causa.\nFPPC 689: A desconsideração da personalidade jurídica requerida em reconvenção processa-se da mesma forma que a deduzida em petição inicial.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A instauração do incidente será imediatamente comunicada ao distribuidor para as anotações devidas.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Dispensa-se a instauração do incidente se a desconsideração da personalidade jurídica for requerida na petição inicial, hipótese em que será citado o sócio ou a pessoa jurídica.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "A instauração do incidente suspenderá o processo, salvo na hipótese do § 2º.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 4º",
+            "texto": "O requerimento deve demonstrar o preenchimento dos pressupostos legais específicos para desconsideração da personalidade jurídica.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "135",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Instaurado o incidente, o sócio ou a pessoa jurídica será citado para manifestar-se e requerer as provas cabíveis no prazo de 15 dias.",
+        "comentarios": "",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "136",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Concluída a instrução, se necessária, o incidente será resolvido por decisão interlocutória.",
+        "comentarios": "RECURSO CABÍVEL CONTRA A DECISÃO QUE JULGA O INCIDENTE DE DESCONSIDERAÇÃO DA PERSONALIDADE JURÍDICA\n- Se o incidente tramitou em 1ª instância, decidido pelo juiz de 1º grau: cabe agravo de instrumento, conforme art. 1.015, IV, do CPC.\n- Se o incidente tramitou originariamente no tribunal e foi decidido monocraticamente pelo relator: cabe agravo interno, conforme art. 136, parágrafo único.",
+        "jurisprudencia": "O trânsito em julgado da decisão que aprecia pedido de desconsideração da personalidade jurídica torna a questão preclusa para as partes da relação processual, inviabilizando a dedução de novo requerimento com base na mesma causa de pedir. STJ. 3ª Turma. REsp 2.123.732-MT, Rel. Min. Nancy Andrighi, j. 19/3/2024 (Info 805).\n\nAGRAVO DE INSTRUMENTO QUE REFORMA DECISÃO EM INCIDENTE DE DESCONSIDERAÇÃO DE PERSONALIDADE JURÍDICA: aplica-se a técnica de julgamento ampliado do art. 942 do CPC ao agravo de instrumento que, por maioria, reforma decisão proferida em incidente de desconsideração direta ou inversa da personalidade jurídica, seja para admitir o pedido ou rejeitá-lo. STJ. 3ª Turma. REsp 2.120.429/SP, Rel. Min. Ricardo Villas Bôas Cueva, julgado em 2/4/2024 (Info 806).\n\nJDPC 168: Salvo nos casos de competência originária dos tribunais, o incidente de desconsideração da personalidade jurídica deve ser instaurado em primeiro grau.\nFPPC 390: Resolvida a desconsideração da personalidade jurídica na sentença, caberá apelação.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Se a decisão for proferida pelo relator, cabe agravo interno.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "137",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Acolhido o pedido de desconsideração, a alienação ou a oneração de bens, havida em fraude de execução, será ineficaz em relação ao requerente.",
+        "comentarios": "",
+        "jurisprudencia": "JDPC 11: Aplica-se o disposto nos arts. 133 a 137 do CPC às hipóteses de desconsideração indireta e expansiva da personalidade jurídica.",
+        "subdispositivos": []
+      },
+      {
+        "num": "138",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O juiz ou o relator, considerando a relevância da matéria, a especificidade do tema objeto da demanda ou a repercussão social da controvérsia, poderá, por decisão irrecorrível, de ofício ou a requerimento das partes ou de quem pretenda manifestar-se, solicitar ou admitir a participação de pessoa natural ou jurídica, órgão ou entidade especializada, com representatividade adequada, no prazo de 15 dias de sua intimação.",
+        "comentarios": "Ver tabela “Amicus curiae x Custos vulnerabilis” após o art. 185.\n\nPANORAMA GERAL DAS ESPÉCIES DE INTERVENÇÃO\n\nQuem pode requerer:\n- Assistência simples: terceiro com interesse jurídico na causa.\n- Assistência litisconsorcial: o substituído processual.\n- Incidente de desconsideração da personalidade jurídica: parte ou Ministério Público. O requerimento é feito pelo credor que pretende estender a responsabilidade patrimonial a sócio, na desconsideração direta, ou à pessoa jurídica, na inversa.\n- Amicus curiae: terceiro sem interesse próprio discutido no processo, mas portador de interesse institucional, que contribui com informações para aprimorar o julgamento.\n- Denunciação da lide: autor ou réu com direito de regresso que queira exercê-lo no mesmo processo.\n\nIniciativa:\n- Assistência: sempre espontânea, requerida pelo terceiro.\n- Incidente de desconsideração: intervenção provocada.\n- Amicus curiae: pode ser determinada de ofício, requerida pelas partes ou solicitada pelo próprio terceiro.\n- Denunciação da lide: intervenção provocada pelo autor ou pelo réu.\n\nCabimento:\n- Assistência simples: quando o terceiro tem relação jurídica com uma das partes, distinta da discutida, mas que pode ser afetada pela decisão. Assistência litisconsorcial: quando há legitimidade extraordinária, pois o assistente é o substituído.\n- Incidente de desconsideração: tem natureza de ação incidente, embora chamado de incidente. Cabe no processo de conhecimento, no cumprimento de sentença ou na execução de título extrajudicial, quando preenchidos os requisitos de direito material para estender a responsabilidade patrimonial.\n- Amicus curiae: cabe diante da relevância da matéria, da especificidade do tema ou da repercussão social da controvérsia, com representatividade adequada.\n- Denunciação da lide: tem natureza de ação e serve ao exercício do direito de regresso, especialmente em caso de evicção ou direito de regresso decorrente de lei ou contrato.\n\nEfeitos:\n- Assistência: o assistente simples admitido será atingido pela justiça da decisão, salvo se ingressar em fase muito avançada ou tiver atuação cerceada. O assistente litisconsorcial será atingido pela coisa julgada, intervindo ou não.\n- Incidente de desconsideração: acolhido o incidente, admite-se atingir, na execução, a esfera patrimonial do sócio ou da pessoa jurídica a quem foi estendida a responsabilidade.\n- Amicus curiae: emite manifestação/opinião sobre questão jurídica relevante para auxiliar o julgamento.\n- Denunciação da lide: se feita pelo réu e a ação principal for procedente, o juiz examinará o direito de regresso contra o denunciado; se a ação principal for improcedente, a denunciação fica prejudicada. Se requerida pelo autor e a ação principal for procedente, a denunciação também fica prejudicada.\n\nParticularidades:\n- Assistência: o assistente simples não é titular da relação discutida em juízo e não tem os mesmos poderes da parte. O assistente litisconsorcial é verdadeiro litisconsorte facultativo unitário ulterior e recebe o processo no estado em que se encontra.\n- Incidente de desconsideração: não se confundem o objeto da ação e o pedido de desconsideração. O acolhimento não transforma o sócio ou a pessoa jurídica em codevedores; apenas estende a eles a responsabilidade patrimonial.\n- Amicus curiae: não é parte nem auxiliar da parte, mas auxiliar do juízo; sua intervenção se limita à manifestação sobre a questão jurídica apresentada.\n- Denunciação da lide: predomina o entendimento de que não cabe quando introduz fundamento fático novo que exige provas desnecessárias à lide principal. Por isso, tende-se a indeferir denunciação da Fazenda ao agente público quando a ação principal se funda em responsabilidade objetiva e a denunciação exigiria prova de culpa do agente.\n\nObservação: o PDF encerra a tabela na linha “Procedimento — Assistência”, sem trazer, nesta parte, a continuação completa do procedimento.",
+        "jurisprudencia": "JDPC 207: Nos processos em que houver intervenção de amicus curiae, deve-se garantir o efetivo diálogo processual e constar na fundamentação da decisão a adequada manifestação acerca dos argumentos por ele trazidos.\nFPPC 127: A representatividade adequada exigida do amicus curiae não pressupõe a concordância unânime daqueles a quem representa.\nFPPC 128: No processo em que há intervenção do amicus curiae, a decisão deve enfrentar as alegações por ele apresentadas, nos termos do inciso IV do § 1º do art. 489.\nFPPC 249: A intervenção do amicus curiae é cabível no mandado de segurança.\nFPPC 391: O amicus curiae pode recorrer da decisão que julgar recursos repetitivos.\nFPPC 392: As partes não podem estabelecer, em convenção processual, a vedação da participação do amicus curiae.\nFPPC 393: É cabível a intervenção de amicus curiae no procedimento de edição, revisão e cancelamento de enunciados de súmula pelos tribunais.\nFPPC 394: As partes podem opor embargos de declaração para corrigir vício da decisão relativo aos argumentos trazidos pelo amicus curiae.\nFPPC 395: Os requisitos objetivos exigidos para a intervenção do amicus curiae são alternativos.\nFPPC 575: Verificada a relevância da matéria, a repercussão social da controvérsia ou a especificidade do tema objeto da demanda, o juiz poderá promover a ampla divulgação do processo, inclusive por meio dos cadastros eletrônicos dos tribunais e do CNJ, para incentivar a participação de mais sujeitos como amicus curiae.\nFPPC 690: A representatividade adequada do amicus curiae não pressupõe legitimidade extraordinária.\nJDPC 12: É cabível a intervenção de amicus curiae no procedimento do Mandado de Injunção.\n\nO amicus curiae não tem legitimidade para opor embargos de declaração em recurso extraordinário com repercussão geral. Todavia, em sede de recurso extraordinário, o relator eventualmente pode ouvir terceiros sobre a questão da repercussão geral e levar a matéria para esclarecimentos. STF. Plenário. RE 955.227 ED e ED-segundos/BA; RE 949.297 ED a ED-quartos/CE, Rel. Min. Luís Roberto Barroso, julgado em 04/04/2024 (Repercussão Geral – Tema 881) (Info 1131).",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "§ 1º",
+            "texto": "A intervenção de que trata o caput não implica alteração de competência nem autoriza a interposição de recursos, ressalvadas a oposição de embargos de declaração e a hipótese do § 3º.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 2º",
+            "texto": "Caberá ao juiz ou ao relator, na decisão que solicitar ou admitir a intervenção, definir os poderes do amicus curiae.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "paragrafo",
+            "num": "§ 3º",
+            "texto": "O amicus curiae pode recorrer da decisão que julgar o incidente de resolução de demandas repetitivas.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      }
+    ]
+  },
   "lei_6127655680580": {
     "nome": "CPC/2015 — PARTE 10 — Advocacia Pública — Arts. 182 a 184",
     "grupo": "Código de Processo Civil",
@@ -6704,402 +7100,6 @@
             "tipo": "paragrafo",
             "num": "Parágrafo único",
             "texto": "Nas hipóteses dos incisos II e III, o juiz poderá decidir liminarmente.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      }
-    ]
-  },
-  "lei_6799787849503": {
-    "grupo": "Código de Processo Civil",
-    "materia": "Processo Civil",
-    "nome": "CPC/2015 — Parte 7 — Intervenção de Terceiros — arts. 119 a 138",
-    "artigos": [
-      {
-        "num": "119",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Pendendo causa entre 2 ou mais pessoas, o terceiro juridicamente interessado em que a sentença seja favorável a uma delas poderá intervir no processo para assisti-la.",
-        "comentarios": "",
-        "jurisprudencia": "FPPC 388: O assistente simples pode requerer a intervenção de amicus curiae.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "A assistência será admitida em qualquer procedimento e em todos os graus de jurisdição, recebendo o assistente o processo no estado em que se encontre.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "120",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Não havendo impugnação no prazo de 15 dias, o pedido do assistente será deferido, salvo se for caso de rejeição liminar.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Se qualquer parte alegar que falta ao requerente interesse jurídico para intervir, o juiz decidirá o incidente, sem suspensão do processo.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "121",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O assistente simples atuará como auxiliar da parte principal, exercerá os mesmos poderes e sujeitar-se-á aos mesmos ônus processuais que o assistido.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Sendo revel ou, de qualquer outro modo, omisso o assistido, o assistente será considerado seu substituto processual.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "122",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A assistência simples não obsta a que a parte principal reconheça a procedência do pedido, desista da ação, renuncie ao direito sobre o que se funda a ação ou transija sobre direitos controvertidos.",
-        "comentarios": "",
-        "jurisprudencia": "FPPC 389: As hipóteses previstas no art. 122 são meramente exemplificativas.",
-        "subdispositivos": []
-      },
-      {
-        "num": "123",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Transitada em julgado a sentença no processo em que interveio o assistente, este não poderá, em processo posterior, discutir a justiça da decisão, salvo se alegar e provar que:",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "pelo estado em que recebeu o processo ou pelas declarações e pelos atos do assistido, foi impedido de produzir provas suscetíveis de influir na sentença;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "desconhecia a existência de alegações ou de provas das quais o assistido, por dolo ou culpa, não se valeu.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "124",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Considera-se litisconsorte da parte principal o assistente sempre que a sentença influir na relação jurídica entre ele e o adversário do assistido.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "125",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "É admissível a denunciação da lide, promovida por qualquer das partes:",
-        "comentarios": "",
-        "jurisprudencia": "FPPC 120: A ausência de denunciação da lide gera apenas a preclusão do direito de a parte promovê-la, sendo possível ação autônoma de regresso.\nFPPC 121: O cumprimento da sentença diretamente contra o denunciado é admissível em qualquer hipótese de denunciação da lide fundada no inciso II do art. 125.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "ao alienante imediato, no processo relativo à coisa cujo domínio foi transferido ao denunciante, a fim de que possa exercer os direitos que da evicção lhe resultam;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "àquele que estiver obrigado, por lei ou pelo contrato, a indenizar, em ação regressiva, o prejuízo de quem for vencido no processo.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "O direito regressivo será exercido por ação autônoma quando a denunciação da lide for indeferida, deixar de ser promovida ou não for permitida.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Admite-se uma única denunciação sucessiva, promovida pelo denunciado, contra seu antecessor imediato na cadeia dominial ou quem seja responsável por indenizá-lo, não podendo o denunciado sucessivo promover nova denunciação, hipótese em que eventual direito de regresso será exercido por ação autônoma.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "126",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A citação do denunciado será requerida na petição inicial, se o denunciante for autor, ou na contestação, se o denunciante for réu, devendo ser realizada na forma e nos prazos previstos no art. 131.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "127",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Feita a denunciação pelo autor, o denunciado poderá assumir a posição de litisconsorte do denunciante e acrescentar novos argumentos à petição inicial, procedendo-se em seguida à citação do réu.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "128",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Feita a denunciação pelo réu:",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "se o denunciado contestar o pedido formulado pelo autor, o processo prosseguirá tendo, na ação principal, em litisconsórcio, denunciante e denunciado;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "se o denunciado for revel, o denunciante pode deixar de prosseguir com sua defesa, eventualmente oferecida, e abster-se de recorrer, restringindo sua atuação à ação regressiva;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "se o denunciado confessar os fatos alegados pelo autor na ação principal, o denunciante poderá prosseguir com sua defesa ou, aderindo a tal reconhecimento, pedir apenas a procedência da ação de regresso.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Procedente o pedido da ação principal, pode o autor, se for o caso, requerer o cumprimento da sentença também contra o denunciado, nos limites da condenação deste na ação regressiva.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "129",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Se o denunciante for vencido na ação principal, o juiz passará ao julgamento da denunciação da lide.",
-        "comentarios": "CARACTERÍSTICAS FUNDAMENTAIS DA DENUNCIAÇÃO DA LIDE\n- É forma de intervenção de terceiros provocada tanto pelo autor quanto pelo réu, diferentemente do chamamento ao processo, que só pode ser requerido pelo réu.\n- Tem natureza jurídica de ação, mas não implica formação de processo autônomo. Há um processo único, com ampliação do objeto: o juiz decidirá a lide principal e a lide secundária.\n- Todas as hipóteses de denunciação associam-se ao direito de regresso, permitindo que seu titular o exerça nos mesmos autos em que pode ser condenado, em benefício da economia processual.\n\nFonte doutrinária indicada no material: Marcus Vinicius Rios Gonçalves, Direito Processual Civil, 2021.",
-        "jurisprudencia": "JDPC 159: É incabível a condenação sucumbencial do litisdenunciado quando não houver resistência ao pedido de denunciação.\nFPPC 122: Vencido o denunciante na ação principal e não tendo havido resistência à denunciação da lide, não cabe a condenação do denunciado nas verbas de sucumbência.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Se o denunciante for vencedor, a ação de denunciação não terá o seu pedido examinado, sem prejuízo da condenação do denunciante ao pagamento das verbas de sucumbência em favor do denunciado.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "130",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "É admissível o chamamento ao processo, requerido pelo réu:",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "do afiançado, na ação em que o fiador for réu;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "dos demais fiadores, na ação proposta contra um ou alguns deles;",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "III",
-            "texto": "dos demais devedores solidários, quando o credor exigir de um ou de alguns o pagamento da dívida comum.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "131",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A citação daqueles que devam figurar em litisconsórcio passivo será requerida pelo réu na contestação e deve ser promovida no prazo de 30 dias, sob pena de ficar sem efeito o chamamento.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Se o chamado residir em outra comarca, seção ou subseção judiciárias, ou em lugar incerto, o prazo será de 2 meses.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "132",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A sentença de procedência valerá como título executivo em favor do réu que satisfizer a dívida, a fim de que possa exigi-la, por inteiro, do devedor principal, ou, de cada um dos codevedores, a sua quota, na proporção que lhes tocar.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "133",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O incidente de desconsideração da personalidade jurídica será instaurado a pedido da parte ou do Ministério Público, quando lhe couber intervir no processo.",
-        "comentarios": "",
-        "jurisprudencia": "FPPC 123: É desnecessária a intervenção do Ministério Público, como fiscal da ordem jurídica, no incidente de desconsideração da personalidade jurídica, salvo nos casos em que deva intervir obrigatoriamente, previstos no art. 178.\nFPPC 247: Aplica-se o incidente de desconsideração da personalidade jurídica no processo falimentar.\nJDPC 110: A instauração do incidente de desconsideração da personalidade jurídica não suspenderá a tramitação do processo de execução e do cumprimento de sentença em face dos executados originários.\nJDPC 111: O incidente de desconsideração da personalidade jurídica pode ser aplicado ao processo falimentar.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "O pedido de desconsideração da personalidade jurídica observará os pressupostos previstos em lei.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Aplica-se o disposto neste Capítulo à hipótese de desconsideração inversa da personalidade jurídica.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "134",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O incidente de desconsideração é cabível em todas as fases do processo de conhecimento, no cumprimento de sentença e na execução fundada em título executivo extrajudicial.",
-        "comentarios": "",
-        "jurisprudencia": "FPPC 248: Quando a desconsideração da personalidade jurídica for requerida na petição inicial, incumbe ao sócio ou a pessoa jurídica, na contestação, impugnar não somente a própria desconsideração, mas também os demais pontos da causa.\nFPPC 689: A desconsideração da personalidade jurídica requerida em reconvenção processa-se da mesma forma que a deduzida em petição inicial.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A instauração do incidente será imediatamente comunicada ao distribuidor para as anotações devidas.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Dispensa-se a instauração do incidente se a desconsideração da personalidade jurídica for requerida na petição inicial, hipótese em que será citado o sócio ou a pessoa jurídica.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "A instauração do incidente suspenderá o processo, salvo na hipótese do § 2º.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 4º",
-            "texto": "O requerimento deve demonstrar o preenchimento dos pressupostos legais específicos para desconsideração da personalidade jurídica.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "135",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Instaurado o incidente, o sócio ou a pessoa jurídica será citado para manifestar-se e requerer as provas cabíveis no prazo de 15 dias.",
-        "comentarios": "",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "136",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Concluída a instrução, se necessária, o incidente será resolvido por decisão interlocutória.",
-        "comentarios": "RECURSO CABÍVEL CONTRA A DECISÃO QUE JULGA O INCIDENTE DE DESCONSIDERAÇÃO DA PERSONALIDADE JURÍDICA\n- Se o incidente tramitou em 1ª instância, decidido pelo juiz de 1º grau: cabe agravo de instrumento, conforme art. 1.015, IV, do CPC.\n- Se o incidente tramitou originariamente no tribunal e foi decidido monocraticamente pelo relator: cabe agravo interno, conforme art. 136, parágrafo único.",
-        "jurisprudencia": "O trânsito em julgado da decisão que aprecia pedido de desconsideração da personalidade jurídica torna a questão preclusa para as partes da relação processual, inviabilizando a dedução de novo requerimento com base na mesma causa de pedir. STJ. 3ª Turma. REsp 2.123.732-MT, Rel. Min. Nancy Andrighi, j. 19/3/2024 (Info 805).\n\nAGRAVO DE INSTRUMENTO QUE REFORMA DECISÃO EM INCIDENTE DE DESCONSIDERAÇÃO DE PERSONALIDADE JURÍDICA: aplica-se a técnica de julgamento ampliado do art. 942 do CPC ao agravo de instrumento que, por maioria, reforma decisão proferida em incidente de desconsideração direta ou inversa da personalidade jurídica, seja para admitir o pedido ou rejeitá-lo. STJ. 3ª Turma. REsp 2.120.429/SP, Rel. Min. Ricardo Villas Bôas Cueva, julgado em 2/4/2024 (Info 806).\n\nJDPC 168: Salvo nos casos de competência originária dos tribunais, o incidente de desconsideração da personalidade jurídica deve ser instaurado em primeiro grau.\nFPPC 390: Resolvida a desconsideração da personalidade jurídica na sentença, caberá apelação.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Se a decisão for proferida pelo relator, cabe agravo interno.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "137",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Acolhido o pedido de desconsideração, a alienação ou a oneração de bens, havida em fraude de execução, será ineficaz em relação ao requerente.",
-        "comentarios": "",
-        "jurisprudencia": "JDPC 11: Aplica-se o disposto nos arts. 133 a 137 do CPC às hipóteses de desconsideração indireta e expansiva da personalidade jurídica.",
-        "subdispositivos": []
-      },
-      {
-        "num": "138",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O juiz ou o relator, considerando a relevância da matéria, a especificidade do tema objeto da demanda ou a repercussão social da controvérsia, poderá, por decisão irrecorrível, de ofício ou a requerimento das partes ou de quem pretenda manifestar-se, solicitar ou admitir a participação de pessoa natural ou jurídica, órgão ou entidade especializada, com representatividade adequada, no prazo de 15 dias de sua intimação.",
-        "comentarios": "Ver tabela “Amicus curiae x Custos vulnerabilis” após o art. 185.\n\nPANORAMA GERAL DAS ESPÉCIES DE INTERVENÇÃO\n\nQuem pode requerer:\n- Assistência simples: terceiro com interesse jurídico na causa.\n- Assistência litisconsorcial: o substituído processual.\n- Incidente de desconsideração da personalidade jurídica: parte ou Ministério Público. O requerimento é feito pelo credor que pretende estender a responsabilidade patrimonial a sócio, na desconsideração direta, ou à pessoa jurídica, na inversa.\n- Amicus curiae: terceiro sem interesse próprio discutido no processo, mas portador de interesse institucional, que contribui com informações para aprimorar o julgamento.\n- Denunciação da lide: autor ou réu com direito de regresso que queira exercê-lo no mesmo processo.\n\nIniciativa:\n- Assistência: sempre espontânea, requerida pelo terceiro.\n- Incidente de desconsideração: intervenção provocada.\n- Amicus curiae: pode ser determinada de ofício, requerida pelas partes ou solicitada pelo próprio terceiro.\n- Denunciação da lide: intervenção provocada pelo autor ou pelo réu.\n\nCabimento:\n- Assistência simples: quando o terceiro tem relação jurídica com uma das partes, distinta da discutida, mas que pode ser afetada pela decisão. Assistência litisconsorcial: quando há legitimidade extraordinária, pois o assistente é o substituído.\n- Incidente de desconsideração: tem natureza de ação incidente, embora chamado de incidente. Cabe no processo de conhecimento, no cumprimento de sentença ou na execução de título extrajudicial, quando preenchidos os requisitos de direito material para estender a responsabilidade patrimonial.\n- Amicus curiae: cabe diante da relevância da matéria, da especificidade do tema ou da repercussão social da controvérsia, com representatividade adequada.\n- Denunciação da lide: tem natureza de ação e serve ao exercício do direito de regresso, especialmente em caso de evicção ou direito de regresso decorrente de lei ou contrato.\n\nEfeitos:\n- Assistência: o assistente simples admitido será atingido pela justiça da decisão, salvo se ingressar em fase muito avançada ou tiver atuação cerceada. O assistente litisconsorcial será atingido pela coisa julgada, intervindo ou não.\n- Incidente de desconsideração: acolhido o incidente, admite-se atingir, na execução, a esfera patrimonial do sócio ou da pessoa jurídica a quem foi estendida a responsabilidade.\n- Amicus curiae: emite manifestação/opinião sobre questão jurídica relevante para auxiliar o julgamento.\n- Denunciação da lide: se feita pelo réu e a ação principal for procedente, o juiz examinará o direito de regresso contra o denunciado; se a ação principal for improcedente, a denunciação fica prejudicada. Se requerida pelo autor e a ação principal for procedente, a denunciação também fica prejudicada.\n\nParticularidades:\n- Assistência: o assistente simples não é titular da relação discutida em juízo e não tem os mesmos poderes da parte. O assistente litisconsorcial é verdadeiro litisconsorte facultativo unitário ulterior e recebe o processo no estado em que se encontra.\n- Incidente de desconsideração: não se confundem o objeto da ação e o pedido de desconsideração. O acolhimento não transforma o sócio ou a pessoa jurídica em codevedores; apenas estende a eles a responsabilidade patrimonial.\n- Amicus curiae: não é parte nem auxiliar da parte, mas auxiliar do juízo; sua intervenção se limita à manifestação sobre a questão jurídica apresentada.\n- Denunciação da lide: predomina o entendimento de que não cabe quando introduz fundamento fático novo que exige provas desnecessárias à lide principal. Por isso, tende-se a indeferir denunciação da Fazenda ao agente público quando a ação principal se funda em responsabilidade objetiva e a denunciação exigiria prova de culpa do agente.\n\nObservação: o PDF encerra a tabela na linha “Procedimento — Assistência”, sem trazer, nesta parte, a continuação completa do procedimento.",
-        "jurisprudencia": "JDPC 207: Nos processos em que houver intervenção de amicus curiae, deve-se garantir o efetivo diálogo processual e constar na fundamentação da decisão a adequada manifestação acerca dos argumentos por ele trazidos.\nFPPC 127: A representatividade adequada exigida do amicus curiae não pressupõe a concordância unânime daqueles a quem representa.\nFPPC 128: No processo em que há intervenção do amicus curiae, a decisão deve enfrentar as alegações por ele apresentadas, nos termos do inciso IV do § 1º do art. 489.\nFPPC 249: A intervenção do amicus curiae é cabível no mandado de segurança.\nFPPC 391: O amicus curiae pode recorrer da decisão que julgar recursos repetitivos.\nFPPC 392: As partes não podem estabelecer, em convenção processual, a vedação da participação do amicus curiae.\nFPPC 393: É cabível a intervenção de amicus curiae no procedimento de edição, revisão e cancelamento de enunciados de súmula pelos tribunais.\nFPPC 394: As partes podem opor embargos de declaração para corrigir vício da decisão relativo aos argumentos trazidos pelo amicus curiae.\nFPPC 395: Os requisitos objetivos exigidos para a intervenção do amicus curiae são alternativos.\nFPPC 575: Verificada a relevância da matéria, a repercussão social da controvérsia ou a especificidade do tema objeto da demanda, o juiz poderá promover a ampla divulgação do processo, inclusive por meio dos cadastros eletrônicos dos tribunais e do CNJ, para incentivar a participação de mais sujeitos como amicus curiae.\nFPPC 690: A representatividade adequada do amicus curiae não pressupõe legitimidade extraordinária.\nJDPC 12: É cabível a intervenção de amicus curiae no procedimento do Mandado de Injunção.\n\nO amicus curiae não tem legitimidade para opor embargos de declaração em recurso extraordinário com repercussão geral. Todavia, em sede de recurso extraordinário, o relator eventualmente pode ouvir terceiros sobre a questão da repercussão geral e levar a matéria para esclarecimentos. STF. Plenário. RE 955.227 ED e ED-segundos/BA; RE 949.297 ED a ED-quartos/CE, Rel. Min. Luís Roberto Barroso, julgado em 04/04/2024 (Repercussão Geral – Tema 881) (Info 1131).",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "§ 1º",
-            "texto": "A intervenção de que trata o caput não implica alteração de competência nem autoriza a interposição de recursos, ressalvadas a oposição de embargos de declaração e a hipótese do § 3º.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 2º",
-            "texto": "Caberá ao juiz ou ao relator, na decisão que solicitar ou admitir a intervenção, definir os poderes do amicus curiae.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "paragrafo",
-            "num": "§ 3º",
-            "texto": "O amicus curiae pode recorrer da decisão que julgar o incidente de resolução de demandas repetitivas.",
             "comentarios": "",
             "jurisprudencia": ""
           }
