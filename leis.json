@@ -320,6 +320,81 @@
       }
     ]
   },
+  "lei_8372276871438": {
+    "nome": "CPC/2015 — Parte 2 — Jurisdição e Ação — Arts. 16 a 20",
+    "grupo": "Código de Processo Civil",
+    "materia": "Processo Civil",
+    "artigos": [
+      {
+        "num": "16",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "A jurisdição civil é exercida pelos juízes e pelos tribunais em todo o território nacional, conforme as disposições deste Código.",
+        "comentarios": "Características essenciais da jurisdição: substitutividade — o Estado-juiz substitui as partes na solução imparcial dos conflitos; definitividade — decisões judiciais podem adquirir imutabilidade; imperatividade — decisões judiciais têm força coativa; inafastabilidade — nenhuma lesão ou ameaça a direito pode ser excluída da apreciação judicial; indelegabilidade — a função jurisdicional não pode ser delegada, em respeito ao juiz natural; inércia — a jurisdição depende de provocação; investidura — só exerce jurisdição quem foi regularmente investido na função de juiz.",
+        "jurisprudencia": "Comentário doutrinário conforme Marcus Vinicius Rios Gonçalves: a jurisdição possui, entre outras, as características da substitutividade, definitividade, imperatividade, inafastabilidade, indelegabilidade, inércia e investidura.",
+        "subdispositivos": []
+      },
+      {
+        "num": "17",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Para postular em juízo é necessário ter interesse e legitimidade.",
+        "comentarios": "Condições da ação no CPC/2015: interesse processual e legitimidade. A análise costuma ser feita conforme as afirmações da petição inicial, nos termos da teoria da asserção.",
+        "jurisprudencia": "",
+        "subdispositivos": []
+      },
+      {
+        "num": "18",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "Ninguém poderá pleitear direito alheio em nome próprio, salvo quando autorizado pelo ordenamento jurídico.",
+        "comentarios": "Regra: vedação à atuação em nome próprio na defesa de direito alheio. Exceção: substituição processual autorizada pelo ordenamento jurídico. Havendo substituição processual, o substituído pode intervir como assistente litisconsorcial.",
+        "jurisprudencia": "FPPC 110: Havendo substituição processual, e sendo possível identificar o substituído, o juiz deve determinar sua intimação para, querendo, integrar o processo.\n\nFPPC 487: No mandado de segurança, havendo substituição processual, o substituído poderá ser assistente litisconsorcial do impetrante que o substituiu.",
+        "subdispositivos": [
+          {
+            "tipo": "paragrafo",
+            "num": "Parágrafo único",
+            "texto": "Havendo substituição processual, o substituído poderá intervir como assistente litisconsorcial.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "19",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "O interesse do autor pode limitar-se à declaração da existência, da inexistência ou do modo de ser de uma relação jurídica, ou da autenticidade ou da falsidade de documento.",
+        "comentarios": "Ação declaratória: o interesse processual pode se limitar à obtenção de declaração sobre relação jurídica ou documento, sem necessidade de pedido condenatório ou constitutivo.",
+        "jurisprudencia": "FPPC 111: Persiste o interesse no ajuizamento de ação declaratória quanto à questão prejudicial incidental.",
+        "subdispositivos": [
+          {
+            "tipo": "inciso",
+            "num": "I",
+            "texto": "Da existência, da inexistência ou do modo de ser de uma relação jurídica.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          },
+          {
+            "tipo": "inciso",
+            "num": "II",
+            "texto": "Da autenticidade ou da falsidade de documento.",
+            "comentarios": "",
+            "jurisprudencia": ""
+          }
+        ]
+      },
+      {
+        "num": "20",
+        "tipo": "artigo",
+        "revogado": false,
+        "texto": "É admissível a ação meramente declaratória, ainda que tenha ocorrido a violação do direito.",
+        "comentarios": "Ação meramente declaratória: é admissível mesmo após violação do direito.\n\nDoutrina de Fredie Didier: ações meramente declaratórias são ações dúplices. Admite-se reconvenção em ação declaratória, mas o réu não pode reconvir apenas para negar o pedido do autor por falta de interesse; pode reconvir para formular outra pretensão.\n\nTeorias da ação: imanentista/civilista/clássica — não há ação sem direito; publicista — direito de ação tem natureza pública; ação como direito autônomo e concreto — direito independente do material, mas dependente de sentença favorável; ação como direito autônomo e abstrato — preexiste ao processo e independe do resultado; teoria eclética — direito de ação é autônomo, mas exige condições da ação, adotada pelo CPC/2015; teoria da asserção — condições da ação analisadas com base nas afirmações da petição inicial, adotada pelo STJ.\n\nModelos de processo: adversarial/simétrico — conduzido pelas partes, com preponderância do princípio dispositivo; partes são protagonistas do processo.",
+        "jurisprudencia": "Súmula 181/STJ: É admissível ação declaratória, visando a obter certeza quanto à exata interpretação de cláusula contratual.\n\nSúmula 258/STF: É admissível reconvenção em ação declaratória.\n\nSTJ: As condições da ação, entre elas interesse processual e legitimidade ativa, definem-se pela narrativa inicial, não pela análise do mérito da demanda, conforme a teoria da asserção; não se recomenda ao julgador, na fase postulatória, aprofundar-se no exame dessas preliminares. STJ, REsp 1.561.498/RJ.",
+        "subdispositivos": []
+      }
+    ]
+  },
   "lei_6127655680580": {
     "nome": "CPC/2015 — PARTE 10 — Advocacia Pública — Arts. 182 a 184",
     "grupo": "Código de Processo Civil",
@@ -3615,81 +3690,6 @@
             "jurisprudencia": ""
           }
         ]
-      }
-    ]
-  },
-  "lei_8372276871438": {
-    "nome": "CPC/2015 — Parte 2 — Jurisdição e Ação — Arts. 16 a 20",
-    "grupo": "Código de Processo Civil",
-    "materia": "Processo Civil",
-    "artigos": [
-      {
-        "num": "16",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "A jurisdição civil é exercida pelos juízes e pelos tribunais em todo o território nacional, conforme as disposições deste Código.",
-        "comentarios": "Características essenciais da jurisdição: substitutividade — o Estado-juiz substitui as partes na solução imparcial dos conflitos; definitividade — decisões judiciais podem adquirir imutabilidade; imperatividade — decisões judiciais têm força coativa; inafastabilidade — nenhuma lesão ou ameaça a direito pode ser excluída da apreciação judicial; indelegabilidade — a função jurisdicional não pode ser delegada, em respeito ao juiz natural; inércia — a jurisdição depende de provocação; investidura — só exerce jurisdição quem foi regularmente investido na função de juiz.",
-        "jurisprudencia": "Comentário doutrinário conforme Marcus Vinicius Rios Gonçalves: a jurisdição possui, entre outras, as características da substitutividade, definitividade, imperatividade, inafastabilidade, indelegabilidade, inércia e investidura.",
-        "subdispositivos": []
-      },
-      {
-        "num": "17",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Para postular em juízo é necessário ter interesse e legitimidade.",
-        "comentarios": "Condições da ação no CPC/2015: interesse processual e legitimidade. A análise costuma ser feita conforme as afirmações da petição inicial, nos termos da teoria da asserção.",
-        "jurisprudencia": "",
-        "subdispositivos": []
-      },
-      {
-        "num": "18",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "Ninguém poderá pleitear direito alheio em nome próprio, salvo quando autorizado pelo ordenamento jurídico.",
-        "comentarios": "Regra: vedação à atuação em nome próprio na defesa de direito alheio. Exceção: substituição processual autorizada pelo ordenamento jurídico. Havendo substituição processual, o substituído pode intervir como assistente litisconsorcial.",
-        "jurisprudencia": "FPPC 110: Havendo substituição processual, e sendo possível identificar o substituído, o juiz deve determinar sua intimação para, querendo, integrar o processo.\n\nFPPC 487: No mandado de segurança, havendo substituição processual, o substituído poderá ser assistente litisconsorcial do impetrante que o substituiu.",
-        "subdispositivos": [
-          {
-            "tipo": "paragrafo",
-            "num": "Parágrafo único",
-            "texto": "Havendo substituição processual, o substituído poderá intervir como assistente litisconsorcial.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "19",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "O interesse do autor pode limitar-se à declaração da existência, da inexistência ou do modo de ser de uma relação jurídica, ou da autenticidade ou da falsidade de documento.",
-        "comentarios": "Ação declaratória: o interesse processual pode se limitar à obtenção de declaração sobre relação jurídica ou documento, sem necessidade de pedido condenatório ou constitutivo.",
-        "jurisprudencia": "FPPC 111: Persiste o interesse no ajuizamento de ação declaratória quanto à questão prejudicial incidental.",
-        "subdispositivos": [
-          {
-            "tipo": "inciso",
-            "num": "I",
-            "texto": "Da existência, da inexistência ou do modo de ser de uma relação jurídica.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          },
-          {
-            "tipo": "inciso",
-            "num": "II",
-            "texto": "Da autenticidade ou da falsidade de documento.",
-            "comentarios": "",
-            "jurisprudencia": ""
-          }
-        ]
-      },
-      {
-        "num": "20",
-        "tipo": "artigo",
-        "revogado": false,
-        "texto": "É admissível a ação meramente declaratória, ainda que tenha ocorrido a violação do direito.",
-        "comentarios": "Ação meramente declaratória: é admissível mesmo após violação do direito.\n\nDoutrina de Fredie Didier: ações meramente declaratórias são ações dúplices. Admite-se reconvenção em ação declaratória, mas o réu não pode reconvir apenas para negar o pedido do autor por falta de interesse; pode reconvir para formular outra pretensão.\n\nTeorias da ação: imanentista/civilista/clássica — não há ação sem direito; publicista — direito de ação tem natureza pública; ação como direito autônomo e concreto — direito independente do material, mas dependente de sentença favorável; ação como direito autônomo e abstrato — preexiste ao processo e independe do resultado; teoria eclética — direito de ação é autônomo, mas exige condições da ação, adotada pelo CPC/2015; teoria da asserção — condições da ação analisadas com base nas afirmações da petição inicial, adotada pelo STJ.\n\nModelos de processo: adversarial/simétrico — conduzido pelas partes, com preponderância do princípio dispositivo; partes são protagonistas do processo.",
-        "jurisprudencia": "Súmula 181/STJ: É admissível ação declaratória, visando a obter certeza quanto à exata interpretação de cláusula contratual.\n\nSúmula 258/STF: É admissível reconvenção em ação declaratória.\n\nSTJ: As condições da ação, entre elas interesse processual e legitimidade ativa, definem-se pela narrativa inicial, não pela análise do mérito da demanda, conforme a teoria da asserção; não se recomenda ao julgador, na fase postulatória, aprofundar-se no exame dessas preliminares. STJ, REsp 1.561.498/RJ.",
-        "subdispositivos": []
       }
     ]
   },
