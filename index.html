@@ -888,6 +888,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
     <button class="btn-nova" onclick="openAddModal()">+ Nova questão</button>
     <button class="btn-sm azul" onclick="openImportModal()">↓ Importar</button>
     <button class="btn-sm" id="backup-btn" onclick="exportarBackup()">↑ Backup</button>
+    <button class="btn-sm" id="btn-publicar-app" onclick="window.publicarAppGitHub&&window.publicarAppGitHub()" title="Publica o app no GitHub/Vercel" style="display:none;background:#15803D;color:#fff">☁️ Publicar</button>
   </div>
 </div>
 
@@ -932,7 +933,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
       <div class="lei-sidebar-header">
         <div class="lei-sidebar-title">📖 Leis</div>
         <input class="lei-search" id="lei-search" placeholder="Buscar lei ou artigo..." oninput="leiSearch(this.value)">
-        <div class="lei-sidebar-btns"><button class="lei-upload-btn primary" onclick="openImportLeiModal()">+ JSON</button><button class="lei-upload-btn" onclick="document.getElementById('lei-pdf-input').click()">📄 PDF</button><button class="lei-upload-btn" onclick="abrirConfigGitHub()" title="Configurar GitHub" style="padding:4px 7px">⚙️</button></div>
+        <div class="lei-sidebar-btns"><button class="lei-upload-btn primary" onclick="openImportLeiModal()">+ JSON</button><button class="lei-upload-btn" onclick="document.getElementById('lei-pdf-input').click()">📄 PDF</button></div>
         <div id="lei-storage-bar" style="padding:4px 10px 0;font-size:10px;color:#888780"></div>
         <input type="file" id="lei-pdf-input" accept=".pdf" style="display:none" onchange="processarLeiPDF(event)">
       </div>
@@ -1952,6 +1953,9 @@ function init(){
   _atualizarIndicadorStorage();
   // Busca global
   window.abrirBuscaGlobal = abrirBuscaGlobal;
+  window.salvarTokenGitHub = salvarTokenGitHub;
+  window.limparTokenGitHub = limparTokenGitHub;
+  window.publicarAppGitHub = publicarAppGitHub;
   window.fecharBuscaGlobal = fecharBuscaGlobal;
   var btnBusca = document.getElementById('btn-busca-global');
   if (btnBusca) btnBusca.addEventListener('click', function(e){ e.stopPropagation(); abrirBuscaGlobal(); });
@@ -1989,6 +1993,8 @@ async function initAsync(){
     }
     renderLeiSidebar();
     _atualizarIndicadorStorage();
+    const btnP = document.getElementById('btn-publicar-app');
+    if(btnP) btnP.style.display = '';
   } else {
     _atualizarIndicadorStorage();
   }
@@ -4737,8 +4743,8 @@ function abrirConfigGitHub(){
 async function salvarTokenGitHub(){
   const val = document.getElementById('gh-token-input').value.trim();
   const st = document.getElementById('gh-config-status');
-  if(!val || val.startsWith('•')){ st.textContent = 'Digite o token.'; return; }
-  st.textContent = '🔄 Verificando token...';
+  if(!val || val.startsWith('\u2022')){ if(st) st.textContent = 'Digite o token.'; return; }
+  if(st) st.textContent = 'Verificando token...';
   try {
     const res = await fetch(ghApiUrl(), {
       headers:{'Authorization':'token '+val,'Accept':'application/vnd.github.v3+json'}
@@ -4748,14 +4754,14 @@ async function salvarTokenGitHub(){
     _ghFileSha = data.sha || '';
     _ghToken = val;
     localStorage.setItem('gh-token', val);
-    st.innerHTML = '✅ Token válido! Carregando leis do GitHub...';
-    closeModal('config-github');
-    // Carrega leis do GitHub com o novo token
+    if(st) st.innerHTML = '\u2705 Token salvo! Leis sincronizadas com GitHub.';
+    const btnP = document.getElementById('btn-publicar-app');
+    if(btnP){ btnP.style.display = ''; }
     await carregarLeisGitHub();
     renderLeiSidebar();
     _atualizarIndicadorStorage();
   } catch(e){
-    st.textContent = '❌ ' + e.message;
+    if(st) st.textContent = 'Erro: ' + e.message;
   }
 }
 
@@ -4767,6 +4773,36 @@ function limparTokenGitHub(){
   document.getElementById('gh-config-status').textContent = 'Token removido.';
   setTimeout(()=>closeModal('config-github'), 1000);
   _atualizarIndicadorStorage();
+}
+
+// Publica index.html no GitHub (auto-atualização sem precisar subir manualmente)
+async function publicarAppGitHub(){
+  const token = ghToken();
+  if(!token){ alert('Configure o token GitHub primeiro (clique em + JSON na Lei Seca).'); return; }
+  const btn = document.getElementById('btn-publicar-app');
+  if(btn){ btn.textContent = 'Publicando...'; btn.disabled = true; }
+  try {
+    const metaUrl = 'https://api.github.com/repos/'+GH_OWNER+'/'+GH_REPO+'/contents/index.html';
+    const metaRes = await fetch(metaUrl, {
+      headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json'}
+    });
+    let sha = '';
+    if(metaRes.ok){ const d = await metaRes.json(); sha = d.sha || ''; }
+    const html = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+    const content = btoa(unescape(encodeURIComponent(html)));
+    const body = { message: 'update index.html via app', content, branch: GH_BRANCH };
+    if(sha) body.sha = sha;
+    const res = await fetch(metaUrl, {
+      method: 'PUT',
+      headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},
+      body: JSON.stringify(body)
+    });
+    if(!res.ok){ const e=await res.json(); throw new Error(e.message||res.status); }
+    if(btn){ btn.textContent = 'Publicado!'; btn.style.background='#15803D'; setTimeout(()=>{ btn.textContent='Publicar'; btn.disabled=false; },3000); }
+  } catch(e){
+    if(btn){ btn.textContent = 'Erro!'; btn.disabled=false; }
+    alert('Erro ao publicar: ' + e.message);
+  }
 }
 
 // ── BUSCA GLOBAL ──────────────────────────────────────────────────────────────
