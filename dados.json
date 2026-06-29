@@ -1,0 +1,328 @@
+{
+  "versao": "4.0",
+  "salvoEm": "2026-06-29T14:12:22.511Z",
+  "caderno": {
+    "Constitucional": [
+      {
+        "id": 1,
+        "topico": "Federação brasileira: características e repartição de competências",
+        "art": "ADI 7.319/MT; ADI 7.656/SC",
+        "artigoTese": "Art. 22, IV + Art. 20, VIII CF — lei estadual não pode proibir hidrelétricas em bem da União",
+        "regra": "É inconstitucional lei estadual que proíbe construção de instalações hidrelétricas em curso d'água da União.",
+        "confundiu": "Art. 176 CF: potencial hidráulico pertence à União, mesmo que rio esteja integralmente em território estadual.",
+        "pegadinha": "Competência concorrente em meio ambiente não cobre bloqueio de bem/serviço federal.",
+        "fonte": "stf",
+        "banca": "FGV",
+        "cargo": "Juiz Federal",
+        "resultado": "acertei",
+        "ano": "",
+        "ids": {
+          "lei": [
+            "CF/88 Art. 22, IV",
+            "CF/88 Art. 20, VIII"
+          ],
+          "juri": [
+            "STF ADI 7.319",
+            "STF ADI 7.656"
+          ]
+        },
+        "erros": [],
+        "ultimaRev": null,
+        "proxRev": null,
+        "vezes": 0,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 2,
+        "topico": "Federação brasileira: características e repartição de competências",
+        "art": "RE 1567603 AgR (2025)",
+        "artigoTese": "Art. 24 CF — transparência hospitalar ≠ obrigação contratual do plano de saúde",
+        "regra": "Lei estadual que obriga hospitais a fornecerem extrato detalhado de procedimentos e custos é VÁLIDA.",
+        "confundiu": "Confundiu com leis estaduais que interferem na relação contratual entre operadora e usuário.",
+        "pegadinha": "Transparência/informação = constitucional (art. 24). Obrigação contratual ao plano = inconstitucional (art. 22, I e VII).",
+        "fonte": "stf",
+        "banca": "FGV",
+        "cargo": "Juiz Estadual",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [
+            "CF/88 Art. 24"
+          ],
+          "juri": [
+            "STF RE 1567603"
+          ]
+        },
+        "erros": [
+          {
+            "data": "sem data",
+            "obs": "Confundiu lei de transparência com obrigação contratual"
+          }
+        ],
+        "ultimaRev": null,
+        "proxRev": "2026-06-25",
+        "vezes": 0,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 9,
+        "topico": "Intervenção federal nos estados-membros",
+        "art": "Art. 35, I CF; Art. 98 Lei 4.320/64",
+        "artigoTese": "Dívida FUNDADA (> 12 meses) autoriza intervenção. Dívida flutuante (< 12 meses) NÃO.",
+        "regra": "A dívida que autoriza intervenção estadual é a DÍVIDA FUNDADA (exigibilidade superior a 12 meses).",
+        "confundiu": "Não distinguiu dívida fundada de dívida flutuante.",
+        "pegadinha": "",
+        "fonte": "lei",
+        "banca": "FGV",
+        "cargo": "Juiz Estadual",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [
+            "CF/88 Art. 35, I",
+            "Lei 4.320/64 Art. 98"
+          ],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "sem data",
+            "obs": "Não distinguiu dívida fundada de flutuante"
+          }
+        ],
+        "ultimaRev": null,
+        "proxRev": "2026-06-25",
+        "vezes": 2,
+        "revisado": true,
+        "imgs": [],
+        "tbl": null,
+        "dataRevisao": "2026-06-23"
+      },
+      {
+        "id": 13,
+        "topico": "Intervenção federal nos estados-membros",
+        "art": "Informativo STF 1113/2023",
+        "artigoTese": "CEs não podem ampliar NEM restringir hipóteses de intervenção estadual — art. 35 CF é taxativo",
+        "regra": "As CEs NÃO podem acrescentar NEM restringir hipóteses de intervenção estadual.",
+        "confundiu": "Marcou \"ampliar\" quando a CE restringia.",
+        "pegadinha": "Tanto ampliar quanto restringir = inconstitucional.",
+        "fonte": "stf",
+        "banca": "FGV",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "2023",
+        "ids": {
+          "lei": [
+            "CF/88 Art. 35"
+          ],
+          "juri": [
+            "STF Informativo 1113"
+          ]
+        },
+        "erros": [
+          {
+            "data": "26/05/2026",
+            "obs": "Confundiu restrição com ampliação"
+          }
+        ],
+        "ultimaRev": null,
+        "proxRev": "2026-06-25",
+        "vezes": 3,
+        "revisado": true,
+        "imgs": [],
+        "tbl": null,
+        "dataRevisao": "2026-06-23"
+      },
+      {
+        "id": 17,
+        "topico": "Normas constitucionais: classificação e eficácia",
+        "art": "STF Tema 548",
+        "artigoTese": "Direito à educação básica = eficácia PLENA (não programática)",
+        "regra": "Direito à educação básica = norma de eficácia PLENA — exigível diretamente do Poder Público.",
+        "confundiu": "Marcou como programática.",
+        "pegadinha": "Direitos sociais não são automaticamente programáticos.",
+        "fonte": "stf",
+        "banca": "CESPE-CEBRASPE",
+        "cargo": "Analista",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": [
+            "STF Tema 548"
+          ]
+        },
+        "erros": [
+          {
+            "data": "01/06/2026",
+            "obs": "Marcou como programática"
+          }
+        ],
+        "ultimaRev": null,
+        "proxRev": "2026-06-25",
+        "vezes": 0,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      }
+    ],
+    "Administrativo": [],
+    "Tributário": [
+      {
+        "id": 101,
+        "topico": "Espécies tributárias: taxas",
+        "art": "STF. RE 1.417.155/RN, Tema 1.282",
+        "artigoTese": "Taxa de bombeiros: município = inconstitucional / estado = constitucional (Tema 1.282)",
+        "regra": "É constitucional lei ESTADUAL que institui taxa pelos serviços de prevenção e combate a incêndios pelo CBM.",
+        "confundiu": "Taxa criada por MUNICÍPIO = INCONSTITUCIONAL. Taxa criada por ESTADO = CONSTITUCIONAL.",
+        "pegadinha": "Município não pode; estado pode.",
+        "fonte": "stf",
+        "banca": "FGV",
+        "cargo": "Juiz Estadual",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": [
+            "STF Tema 1.282",
+            "STF RE 1.417.155"
+          ]
+        },
+        "erros": [
+          {
+            "data": "sem data",
+            "obs": "Confundiu competência municipal com estadual"
+          }
+        ],
+        "ultimaRev": null,
+        "proxRev": "2026-06-25",
+        "vezes": 0,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 102,
+        "topico": "Reforma Tributária (EC 132/2023): IBS, CBS e Imposto Seletivo",
+        "art": "Art. 156-A CF",
+        "artigoTese": "Art. 156-A CF — IBS: competência de Estados, DF e Municípios (NÃO inclui a União)",
+        "regra": "O IBS é de competência compartilhada entre Estados, DF e Municípios. A União NÃO integra a competência do IBS.",
+        "confundiu": "Incluiu a União na competência do IBS.",
+        "pegadinha": "IBS = Estados + DF + Municípios. CBS = União.",
+        "fonte": "lei",
+        "banca": "CESPE-CEBRASPE",
+        "cargo": "",
+        "resultado": "errei",
+        "ano": "2025",
+        "ids": {
+          "lei": [
+            "CF/88 Art. 156-A"
+          ],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "05/06/2026",
+            "obs": "Incluiu a União na competência do IBS"
+          }
+        ],
+        "ultimaRev": null,
+        "proxRev": "2026-06-25",
+        "vezes": 0,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 103,
+        "topico": "Reforma Tributária (EC 132/2023): IBS, CBS e Imposto Seletivo",
+        "art": "Art. 153, VIII CF",
+        "artigoTese": "Imposto Seletivo: seletividade por PREJUDICIALIDADE, não por essencialidade",
+        "regra": "A seletividade do IS decorre da PREJUDICIALIDADE do bem à saúde ou ao meio ambiente — não da essencialidade.",
+        "confundiu": "A questão dizia que o IS seria seletivo em função da essencialidade — ERRADO.",
+        "pegadinha": "Essencialidade = IPI/ICMS. Prejudicialidade = Imposto Seletivo.",
+        "fonte": "lei",
+        "banca": "CESPE-CEBRASPE",
+        "cargo": "",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [
+            "CF/88 Art. 153, VIII"
+          ],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "05/06/2026",
+            "obs": "Confundiu seletividade por essencialidade com prejudicialidade"
+          }
+        ],
+        "ultimaRev": null,
+        "proxRev": "2026-06-25",
+        "vezes": 0,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 105,
+        "topico": "Responsabilidade tributária",
+        "art": "STJ. REsp 1.881.788-SP, Tema 1118",
+        "artigoTese": "Responsabilidade solidária do alienante por IPVA: somente por LEI estadual/distrital específica",
+        "regra": "Somente mediante lei estadual/distrital específica poderá ser atribuída ao alienante responsabilidade solidária pelo IPVA.",
+        "confundiu": "A questão falava em decreto — insuficiente.",
+        "pegadinha": "Decreto não basta. Precisa de lei estadual/distrital específica.",
+        "fonte": "stj",
+        "banca": "FGV",
+        "cargo": "Outros",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": [
+            "STJ Tema 1118",
+            "STJ REsp 1.881.788"
+          ]
+        },
+        "erros": [
+          {
+            "data": "12/06/2026",
+            "obs": "Achou que decreto seria suficiente"
+          }
+        ],
+        "ultimaRev": null,
+        "proxRev": "2026-06-25",
+        "vezes": 0,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      }
+    ],
+    "Financeiro e Econômico": [],
+    "Ambiental": [],
+    "Civil": [],
+    "Processo Civil": [],
+    "Internacional Público e Privado": [],
+    "Empresarial": [],
+    "Penal e Processual Penal": [],
+    "Trabalhista e Proc. do Trabalho": [],
+    "Seguridade Social": [],
+    "Eleitoral": [],
+    "Legislação AGU / Conflitos": []
+  },
+  "registros": [],
+  "semanas": {},
+  "simulados": [],
+  "tarefas": [],
+  "diagnostico": {},
+  "leiAnotacoes": {},
+  "leiTags": {},
+  "leiTopicos": [],
+  "questoesIA": [],
+  "metaHoras": 5
+}
