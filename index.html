@@ -1979,6 +1979,21 @@ function init(){
 async function initAsync(){
   const token = ghToken();
   const el = document.getElementById('lei-storage-bar');
+  if(el) el.innerHTML = '<span style="color:#D97706">☁️ Carregando dados...</span>';
+
+  // Carrega dados.json (caderno, registros, simulados, semanas etc.)
+  await carregarDadosGitHub();
+
+  // Busca sha do dados.json para futuros saves
+  if(token){
+    try {
+      const r = await fetch(ghDadosApiUrl(), {
+        headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json'}
+      });
+      if(r.ok){ const d=await r.json(); _ghDadosSha=d.sha||''; }
+    } catch(e){}
+  }
+
   if(el) el.innerHTML = '<span style="color:#D97706">☁️ Carregando leis...</span>';
   // Sempre tenta carregar do GitHub (repositório público)
   const ok = await carregarLeisGitHub();
@@ -1995,12 +2010,17 @@ async function initAsync(){
       if(btnP) btnP.style.display = '';
     }
   }
+
+  // Re-renderiza tudo com dados frescos do GitHub
+  renderCaderno();
+  renderSemana();
+  renderTarefasHoje();
   renderLeiSidebar();
   _atualizarIndicadorStorage();
 }
 
-function save(m){try{localStorage.setItem('agu-caderno-'+m,JSON.stringify(dados[m]));}catch(e){}}
-function saveRegistros(){try{localStorage.setItem('agu-registros',JSON.stringify(registros));}catch(e){}}
+function save(m){try{localStorage.setItem('agu-caderno-'+m,JSON.stringify(dados[m]));}catch(e){} agendarSaveDados();}
+function saveRegistros(){try{localStorage.setItem('agu-registros',JSON.stringify(registros));}catch(e){} agendarSaveDados();}
 function salvarMeta(){metaHoras=parseInt(document.getElementById('meta-horas').value)||5;try{localStorage.setItem('agu-meta-horas',metaHoras);}catch(e){}renderHoje();}
 function _atualizarIndicadorStorage(){
   const el = document.getElementById('lei-storage-bar');
@@ -2628,6 +2648,7 @@ function getTarefas() {
 }
 function saveTarefas(lista) {
   try { localStorage.setItem(TAREFAS_KEY, JSON.stringify(lista)); } catch(e) {}
+  agendarSaveDados();
 }
 
 function adicionarTarefa() {
@@ -2794,7 +2815,7 @@ function calcStreak(){const dias=new Set(registros.map(r=>r.data));let streak=0,
 function getSemanaInicio(n){const d=new Date(SEMANA_BASE);d.setDate(d.getDate()+(n-1)*7);return d.toISOString().split('T')[0];}
 function getSemanaAtual(){const hoje=new Date();const base=new Date(SEMANA_BASE);const diff=Math.floor((hoje-base)/(7*86400000));return Math.max(1,Math.min(TOTAL_SEMANAS,diff+1));}
 function loadTodasSemanas(){try{const r=localStorage.getItem('agu-semanas-all');todasSemanas=r?JSON.parse(r):{};}catch(e){todasSemanas={};}}
-function saveTodasSemanas(){try{localStorage.setItem('agu-semanas-all',JSON.stringify(todasSemanas));}catch(e){}}
+function saveTodasSemanas(){try{localStorage.setItem('agu-semanas-all',JSON.stringify(todasSemanas));}catch(e){} agendarSaveDados();}
 function getSemanaData(n){
   if(todasSemanas[n])return todasSemanas[n];
   const inicio=getSemanaInicio(n);const dias=[];
@@ -3557,6 +3578,7 @@ function getDiagnosticoComentarios() {
 }
 function saveDiagnosticoComentarios(obj) {
   try { localStorage.setItem(DIAG_COMENT_KEY, JSON.stringify(obj)); } catch(e) {}
+  agendarSaveDados();
 }
 function salvarComentarioDiagnostico(chave, texto) {
   const obj = getDiagnosticoComentarios();
@@ -3859,6 +3881,7 @@ function getSimulados() {
 }
 function saveSimulados(lista) {
   try { localStorage.setItem(SIMULADOS_KEY, JSON.stringify(lista)); } catch(e) {}
+  agendarSaveDados();
 }
 
 // Parseia "1:30" → 90 min ou "240" → 240 min
@@ -5090,13 +5113,139 @@ let leis={};
 const GH_OWNER = 'isabellesena1997-hub';
 const GH_REPO  = 'Caderno-AGU';
 const GH_FILE  = 'leis.json';
+const GH_DADOS_FILE = 'dados.json';
 const GH_BRANCH = 'main';
 let _ghToken = '';        // carregado do localStorage
 let _ghFileSha = '';      // sha atual do leis.json (necessário para update)
 let _ghSaveQueue = null;  // debounce: evita múltiplos saves simultâneos
+let _ghDadosSha = '';     // sha atual do dados.json
+let _ghDadosQueue = null; // debounce para dados.json
 
 function ghToken(){ return _ghToken || localStorage.getItem('gh-token') || ''; }
 function ghApiUrl(){ return `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`; }
+function ghDadosApiUrl(){ return `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_DADOS_FILE}`; }
+
+// ── DADOS.JSON: coleta todos os dados do app ──────────────────────────────────
+function _coletarTodosDados(){
+  return {
+    versao: '4.0',
+    salvoEm: new Date().toISOString(),
+    caderno: dados,
+    registros: registros,
+    semanas: todasSemanas,
+    simulados: (()=>{ try{ return JSON.parse(localStorage.getItem(SIMULADOS_KEY)||'[]'); }catch(e){ return []; } })(),
+    tarefas: (()=>{ try{ return JSON.parse(localStorage.getItem(TAREFAS_KEY)||'[]'); }catch(e){ return []; } })(),
+    diagnostico: (()=>{ try{ return JSON.parse(localStorage.getItem(DIAG_COMENT_KEY)||'{}'); }catch(e){ return {}; } })(),
+    leiAnotacoes: (()=>{ try{ return JSON.parse(localStorage.getItem(ANOT_KEY)||'{}'); }catch(e){ return {}; } })(),
+    leiTags: (()=>{ try{ return JSON.parse(localStorage.getItem(LEI_TAGS_KEY)||'{}'); }catch(e){ return {}; } })(),
+    leiTopicos: (()=>{ try{ return JSON.parse(localStorage.getItem(TOPICOS_KEY)||'[]'); }catch(e){ return []; } })(),
+    questoesIA: (()=>{ try{ return JSON.parse(localStorage.getItem(IA_QUESTOES_KEY)||'[]'); }catch(e){ return []; } })(),
+    metaHoras: metaHoras,
+  };
+}
+
+// Aplica dados.json carregado do GitHub nos objetos do app
+function _aplicarDadosGitHub(data){
+  if(!data) return;
+  if(data.caderno && typeof data.caderno === 'object'){
+    Object.keys(data.caderno).forEach(m=>{
+      if(MATERIAS[m]){
+        dados[m] = data.caderno[m];
+        dados[m].forEach(d=>{
+          if(!d.imgs) d.imgs=[];
+          if(d.tbl===undefined) d.tbl=null;
+          if(!d.artigoTese) d.artigoTese='';
+          if(!d.revisado) d.revisado=false;
+          if(!d.ids) d.ids={lei:[],juri:[]};
+          if(!d.ano) d.ano='';
+          if(d.ids&&Array.isArray(d.ids.lei)){
+            d.ids.lei=d.ids.lei.map(t=>{
+              if(typeof t==='string') return t;
+              if(t&&typeof t==='object') return String((t.leiNome||'')+(t.art?' '+t.art:'')).trim()||'?';
+              return String(t||'');
+            }).filter(Boolean);
+          }
+        });
+        try{ localStorage.setItem('agu-caderno-'+m, JSON.stringify(dados[m])); }catch(e){}
+      }
+    });
+  }
+  if(data.registros){ registros=data.registros; try{ localStorage.setItem('agu-registros', JSON.stringify(registros)); }catch(e){} }
+  if(data.semanas){ todasSemanas=data.semanas; try{ localStorage.setItem('agu-semanas-all', JSON.stringify(todasSemanas)); }catch(e){} }
+  if(data.simulados){ try{ localStorage.setItem(SIMULADOS_KEY, JSON.stringify(data.simulados)); }catch(e){} }
+  if(data.tarefas){ try{ localStorage.setItem(TAREFAS_KEY, JSON.stringify(data.tarefas)); }catch(e){} }
+  if(data.diagnostico){ try{ localStorage.setItem(DIAG_COMENT_KEY, JSON.stringify(data.diagnostico)); }catch(e){} }
+  if(data.leiAnotacoes){ try{ localStorage.setItem(ANOT_KEY, JSON.stringify(data.leiAnotacoes)); }catch(e){} }
+  if(data.leiTags){ try{ localStorage.setItem(LEI_TAGS_KEY, JSON.stringify(data.leiTags)); }catch(e){} }
+  if(data.leiTopicos){ try{ localStorage.setItem(TOPICOS_KEY, JSON.stringify(data.leiTopicos)); }catch(e){} }
+  if(data.questoesIA){ try{ localStorage.setItem(IA_QUESTOES_KEY, JSON.stringify(data.questoesIA)); }catch(e){} }
+  if(data.metaHoras){ metaHoras=data.metaHoras; try{ localStorage.setItem('agu-meta-horas', metaHoras); }catch(e){} }
+}
+
+// Carrega dados.json do GitHub
+async function carregarDadosGitHub(){
+  const url = `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/${GH_BRANCH}/${GH_DADOS_FILE}?t=${Date.now()}`;
+  try {
+    const res = await fetch(url);
+    if(!res.ok) return false;
+    const data = await res.json();
+    _aplicarDadosGitHub(data);
+    console.log('[GH] dados.json carregado ✓');
+    return true;
+  } catch(e){
+    console.warn('[GH] dados.json não encontrado ou erro:', e.message);
+    return false;
+  }
+}
+
+// Salva dados.json no GitHub (com debounce)
+function agendarSaveDados(){
+  if(_ghDadosQueue) clearTimeout(_ghDadosQueue);
+  _ghDadosQueue = setTimeout(()=>{ _saveDadosGitHub(); }, 1500);
+}
+
+async function _saveDadosGitHub(){
+  const token = ghToken();
+  if(!token) return;
+  try {
+    const json = JSON.stringify(_coletarTodosDados(), null, 2);
+    const content = btoa(unescape(encodeURIComponent(json)));
+
+    if(!_ghDadosSha){
+      const r = await fetch(ghDadosApiUrl(), {
+        headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json'}
+      });
+      if(r.ok){ const d=await r.json(); _ghDadosSha=d.sha||''; }
+    }
+
+    const body = { message: 'update dados.json', content, branch: GH_BRANCH };
+    if(_ghDadosSha) body.sha = _ghDadosSha;
+
+    const res = await fetch(ghDadosApiUrl(), {
+      method: 'PUT',
+      headers:{
+        'Authorization':'token '+token,
+        'Accept':'application/vnd.github.v3+json',
+        'Content-Type':'application/json'
+      },
+      body: JSON.stringify(body)
+    });
+
+    if(res.ok){
+      const d = await res.json();
+      _ghDadosSha = d.content?.sha || _ghDadosSha;
+      console.log('[GH] dados.json salvo ✓');
+    } else {
+      const err = await res.json();
+      if(res.status===409 || (err.message||'').includes('sha')){
+        _ghDadosSha='';
+        setTimeout(()=>_saveDadosGitHub(), 500);
+      }
+    }
+  } catch(e){
+    console.error('[GH] saveDados erro:', e);
+  }
+}
 let leiAtiva=null;
 let artigoAtivo=0;
 let tituloAtivo=0;
@@ -6976,7 +7125,7 @@ function saveAnotacoes(dispId,arr){
     const all=getAllAnotacoes();
     const dedup = deduplicarAnotacoes(arr);
     if(dedup&&dedup.length)all[dispId]=dedup;else delete all[dispId];
-    localStorage.setItem(ANOT_KEY,JSON.stringify(all));
+    localStorage.setItem(ANOT_KEY,JSON.stringify(all)); agendarSaveDados();
   }catch(e){}
 }
 function getDispId(leiId,artIdx,subIdx){
@@ -7758,7 +7907,7 @@ function getLeiTags() {
   try { return JSON.parse(localStorage.getItem(LEI_TAGS_KEY)) || {}; } catch(e) { return {}; }
 }
 function saveLeiTags(obj) {
-  try { localStorage.setItem(LEI_TAGS_KEY, JSON.stringify(obj)); } catch(e) {}
+  try { localStorage.setItem(LEI_TAGS_KEY, JSON.stringify(obj)); agendarSaveDados(); } catch(e) {}
 }
 
 function normalizarTagLei(tag) {
@@ -8004,7 +8153,7 @@ function getTopicosStatus(){
   catch(e){return[];}
 }
 function saveTopicosStatus(arr){
-  try{localStorage.setItem(TOPICOS_KEY,JSON.stringify(arr));}catch(e){}
+  try{localStorage.setItem(TOPICOS_KEY,JSON.stringify(arr)); agendarSaveDados();}catch(e){}
 }
 
 function getBlocoId(leiId,ti){
@@ -8164,7 +8313,7 @@ function getQuestoesIA() {
   try { return JSON.parse(localStorage.getItem(IA_QUESTOES_KEY) || '[]'); } catch(e) { return []; }
 }
 function saveQuestoesIA(arr) {
-  try { localStorage.setItem(IA_QUESTOES_KEY, JSON.stringify(arr)); } catch(e) {}
+  try { localStorage.setItem(IA_QUESTOES_KEY, JSON.stringify(arr)); agendarSaveDados(); } catch(e) {}
 }
 
 function abrirModalIA() {
