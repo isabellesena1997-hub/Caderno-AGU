@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T20:27:35.063Z",
+  "salvoEm": "2026-06-30T21:43:19.612Z",
   "caderno": {
     "Constitucional": [
       {
@@ -423,7 +423,9 @@
               "tipo": "Questoes",
               "plataforma": "QConcursos",
               "conteudo": "Questões de Ambiental — Introdução ao Direito Ambiental, Bens Ambientais e Princípios do Direito Ambiental",
-              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=76&exclude_nullified=true&exclude_outdated=true&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=18408&subject_ids%5B%5D=18419"
+              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=76&exclude_nullified=true&exclude_outdated=true&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=18408&subject_ids%5B%5D=18419",
+              "pendente": false,
+              "feito": true
             },
             {
               "tipo": "Jurisprudencia",
