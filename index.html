@@ -5570,7 +5570,7 @@ function buildToolbar(){
     {cls:'tc-lilas',cor:'#6D28D9',label:'A'},
     {cls:'tc-rosa',cor:'#BE185D',label:'A'},
   ];
-  return`<div class="lei-toolbar" onmousedown="event.preventDefault()">
+  return`<div class="lei-toolbar" onmousedown="event.preventDefault()" ontouchstart="event.preventDefault()">
     <div class="lei-toolbar-row">
       <button class="vm-btn${modoVisualizacao==='puro'?' active':''}" onclick="setModoVis('puro')">Lei pura</button>
       <button class="vm-btn${modoVisualizacao==='comentarios'?' active':''}" onclick="setModoVis('comentarios')">+ Comentários</button>
@@ -5686,11 +5686,19 @@ function renderLeiReader(){
 
   // Highlight on mouseup + save on focusout
   const contentArea=document.getElementById('lei-content-area');
-  contentArea.addEventListener('mouseup',()=>{
+  function _aoSoltarSelecao(){
     // Highlight: aplica se ferramenta hl-* ativa
     if(ferramentaAtiva&&ferramentaAtiva.startsWith('hl-')){aplicarHighlightSel();return;}
     // Formatações de modo ativo (B, I, U, S, cor)
     aplicarFormAtivos();
+  }
+  contentArea.addEventListener('mouseup',_aoSoltarSelecao);
+  // iPad/touch: o evento equivalente a mouseup é touchend. Sem isso, marcação não
+  // funciona com o dedo ou Apple Pencil pois mouseup nunca dispara em touch.
+  contentArea.addEventListener('touchend',()=>{
+    // Pequeno delay: no iOS a seleção via toque/pencil só fica "fixa" um instante
+    // depois do touchend (as alças de seleção ainda podem estar sendo ajustadas).
+    setTimeout(_aoSoltarSelecao, 80);
   });
   contentArea.addEventListener('focusout',()=>{
     // Usa setTimeout para garantir que qualquer formatação em andamento termine antes de salvar
