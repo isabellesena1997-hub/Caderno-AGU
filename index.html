@@ -12137,6 +12137,25 @@ function renderLeiReader(){
     aplicarFormAtivos();
   }
   contentArea.addEventListener('mouseup',_aoSoltarSelecao);
+
+  // Bloqueios extras contra o menu nativo do iOS (Cortar/Copiar/Colar): mesmo
+  // com contentEditable desabilitado, o iOS pode tentar iniciar seleção nativa
+  // em alguns casos. Bloqueamos esses dois eventos diretamente quando há
+  // ferramenta ativa, fechando a brecha por completo.
+  function _algumaFerramentaAtiva(){
+    return !!(ferramentaAtiva || leiFormAtivos.bold || leiFormAtivos.italic ||
+      leiFormAtivos.underline || leiFormAtivos.strikethrough || leiFormAtivos.corTexto || leiFormAtivos.maiusculo);
+  }
+  if(window._leiSelectstartHandler){
+    document.removeEventListener('selectstart', window._leiSelectstartHandler);
+  }
+  window._leiSelectstartHandler = (e)=>{
+    if(_algumaFerramentaAtiva() && contentArea.contains(e.target)) e.preventDefault();
+  };
+  document.addEventListener('selectstart', window._leiSelectstartHandler);
+  contentArea.addEventListener('contextmenu',(e)=>{
+    if(_algumaFerramentaAtiva()) e.preventDefault();
+  });
   // iPad/touch: o evento equivalente a mouseup é touchend. Sem isso, marcação não
   // funciona com o dedo ou Apple Pencil pois mouseup nunca dispara em touch.
   contentArea.addEventListener('touchend',()=>{
@@ -13016,6 +13035,13 @@ function _atualizarCursorAreaTexto(){
     : ferramentaAtiva==='borracha' ? 'cell'
     : algumaAtiva ? 'crosshair'
     : 'default';
+  // IMPORTANTE: contentEditable=true é o que faz o iOS mostrar o menu nativo
+  // (Cortar/Copiar/Colar) durante o toque/arraste com a Apple Pencil. Enquanto
+  // uma ferramenta de marcação estiver ativa, desabilitamos a edição direta —
+  // ela só volta quando nenhuma ferramenta estiver "armada".
+  area.querySelectorAll('.lei-disp-inner').forEach(inner=>{
+    inner.contentEditable = algumaAtiva ? 'false' : 'true';
+  });
 }
 
 // ── ATALHOS DE TECLADO (PC) PARA A LEI SECA ──────────────────────────────────
