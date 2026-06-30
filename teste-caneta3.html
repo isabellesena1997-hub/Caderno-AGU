@@ -136,11 +136,15 @@ texto.addEventListener('pointerdown',(e)=>{
 });
 texto.addEventListener('pointermove',(e)=>{
   if(!pintando) return;
-  const agora = performance.now();
-  if(agora - ultimoProcessamento < INTERVALO_MIN_MS) return;
-  ultimoProcessamento = agora;
-  const p = acharPalavraNoPonto(e.clientX, e.clientY);
-  pintarPalavra(p);
+  // Processa TODOS os pontos que a caneta realmente tocou entre um frame e outro
+  // (não só o último) — como a busca por palavra agora é uma comparação simples de
+  // coordenadas (não mais caretRangeFromPoint), é barato processar todos eles, o
+  // que elimina o problema de "pular palavras" em traços rápidos.
+  const eventos=(e.getCoalescedEvents&&e.getCoalescedEvents().length)?e.getCoalescedEvents():[e];
+  eventos.forEach(ev=>{
+    const p = acharPalavraNoPonto(ev.clientX, ev.clientY);
+    pintarPalavra(p);
+  });
   atualizarStatus(e.pointerType);
 });
 function parar(){ pintando = false; }
