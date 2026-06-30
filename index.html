@@ -8531,13 +8531,15 @@ async function _saveLeisGitHub(){
     const json = JSON.stringify(leis, null, 2);
     const content = btoa(unescape(encodeURIComponent(json)));
 
-    // Busca sha atual se não tiver
-    if(!_ghFileSha){
+    // Sempre busca o SHA mais recente antes de salvar — usar um SHA em cache
+    // (mesmo que só às vezes) causava avisos de conflito repetidos e falsos,
+    // mesmo sem ninguém mais editando, porque o SHA local ficava desatualizado.
+    try {
       const r = await fetch(ghApiUrl(), {
         headers: { 'Authorization': 'token ' + token, 'Accept': 'application/vnd.github.v3+json' }
       });
       if(r.ok){ const d = await r.json(); _ghFileSha = d.sha || ''; }
-    }
+    } catch(e){ /* se falhar, segue com o SHA que já tinha em memória */ }
 
     const body = { message: 'update leis.json', content, branch: GH_BRANCH };
     if(_ghFileSha) body.sha = _ghFileSha;
@@ -11769,12 +11771,14 @@ async function _saveDadosGitHub(){
     const json = JSON.stringify(_coletarTodosDados(), null, 2);
     const content = btoa(unescape(encodeURIComponent(json)));
 
-    if(!_ghDadosSha){
+    // Sempre busca o SHA mais recente antes de salvar (mesmo motivo do leis.json:
+    // SHA em cache causava conflitos falsos e sobrescritas silenciosas).
+    try {
       const r = await fetch(ghDadosApiUrl(), {
         headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json'}
       });
       if(r.ok){ const d=await r.json(); _ghDadosSha=d.sha||''; }
-    }
+    } catch(e){ /* segue com o SHA em memória se a busca falhar */ }
 
     const body = { message: 'update dados.json', content, branch: GH_BRANCH };
     if(_ghDadosSha) body.sha = _ghDadosSha;
@@ -11796,8 +11800,10 @@ async function _saveDadosGitHub(){
     } else {
       const err = await res.json();
       if(res.status===409 || (err.message||'').includes('sha')){
+        // Não tenta sobrescrever automaticamente — outro dispositivo salvou algo
+        // mais recente. Limpa o SHA pra próxima tentativa buscar atualizado.
         _ghDadosSha='';
-        setTimeout(()=>_saveDadosGitHub(), 500);
+        console.warn('[GH] Conflito ao salvar dados.json — outro dispositivo salvou algo mais recente. Não sobrescrevendo automaticamente.');
       }
     }
   } catch(e){
@@ -12137,25 +12143,6 @@ function renderLeiReader(){
     aplicarFormAtivos();
   }
   contentArea.addEventListener('mouseup',_aoSoltarSelecao);
-
-  // Bloqueios extras contra o menu nativo do iOS (Cortar/Copiar/Colar): mesmo
-  // com contentEditable desabilitado, o iOS pode tentar iniciar seleção nativa
-  // em alguns casos. Bloqueamos esses dois eventos diretamente quando há
-  // ferramenta ativa, fechando a brecha por completo.
-  function _algumaFerramentaAtiva(){
-    return !!(ferramentaAtiva || leiFormAtivos.bold || leiFormAtivos.italic ||
-      leiFormAtivos.underline || leiFormAtivos.strikethrough || leiFormAtivos.corTexto || leiFormAtivos.maiusculo);
-  }
-  if(window._leiSelectstartHandler){
-    document.removeEventListener('selectstart', window._leiSelectstartHandler);
-  }
-  window._leiSelectstartHandler = (e)=>{
-    if(_algumaFerramentaAtiva() && contentArea.contains(e.target)) e.preventDefault();
-  };
-  document.addEventListener('selectstart', window._leiSelectstartHandler);
-  contentArea.addEventListener('contextmenu',(e)=>{
-    if(_algumaFerramentaAtiva()) e.preventDefault();
-  });
   // iPad/touch: o evento equivalente a mouseup é touchend. Sem isso, marcação não
   // funciona com o dedo ou Apple Pencil pois mouseup nunca dispara em touch.
   contentArea.addEventListener('touchend',()=>{
@@ -13035,13 +13022,6 @@ function _atualizarCursorAreaTexto(){
     : ferramentaAtiva==='borracha' ? 'cell'
     : algumaAtiva ? 'crosshair'
     : 'default';
-  // IMPORTANTE: contentEditable=true é o que faz o iOS mostrar o menu nativo
-  // (Cortar/Copiar/Colar) durante o toque/arraste com a Apple Pencil. Enquanto
-  // uma ferramenta de marcação estiver ativa, desabilitamos a edição direta —
-  // ela só volta quando nenhuma ferramenta estiver "armada".
-  area.querySelectorAll('.lei-disp-inner').forEach(inner=>{
-    inner.contentEditable = algumaAtiva ? 'false' : 'true';
-  });
 }
 
 // ── ATALHOS DE TECLADO (PC) PARA A LEI SECA ──────────────────────────────────
