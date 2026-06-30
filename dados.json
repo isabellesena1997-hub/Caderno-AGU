@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T21:51:34.051Z",
+  "salvoEm": "2026-06-30T22:58:07.602Z",
   "caderno": {
     "Constitucional": [
       {
@@ -570,6 +570,24 @@
           "nome": "Amarelo",
           "hex": "#FFF8D6",
           "borda": "#F59E0B"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-06-30",
+        "atualizadaEm": "2026-06-30"
+      }
+    ],
+    "lei-6-938-1981-pol-tica-nacional-do-meio-ambiente-pnma-art-2-x": [
+      {
+        "id": "nota-1782860286099-6fwu",
+        "tipo": "doutrina",
+        "conteudo": "TESTE",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Laranja",
+          "hex": "#FFF7ED",
+          "borda": "#F97316"
         },
         "detalhesQuestao": {},
         "gabarito": "",
