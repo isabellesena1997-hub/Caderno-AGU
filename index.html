@@ -13018,6 +13018,69 @@ function _atualizarCursorAreaTexto(){
     : 'default';
 }
 
+// ── ATALHOS DE TECLADO (PC) PARA A LEI SECA ──────────────────────────────────
+// Ctrl+1 a Ctrl+6: marca-texto (mesma ordem das cores na toolbar)
+// Ctrl+B/I/U: negrito/itálico/sublinhado | Ctrl+Shift+X: tachado
+// Ctrl+\: borracha | F1: mostra/esconde esta lista
+const LEI_ATALHOS_HL = ['hl-amarelo','hl-laranja','hl-vermelho','hl-verde','hl-rosa','hl-azul'];
+document.addEventListener('keydown', (e)=>{
+  // Só ativa se a tela de Lei Seca estiver visível e o foco não estiver num campo de texto
+  const area = document.getElementById('lei-content-area');
+  if(!area) return;
+  const ativo = document.activeElement;
+  const emCampoTexto = ativo && (ativo.tagName==='INPUT' || ativo.tagName==='TEXTAREA' || ativo.isContentEditable && !area.contains(ativo));
+  if(emCampoTexto) return;
+
+  if(e.key==='F1'){
+    e.preventDefault();
+    _toggleModalAtalhosLei();
+    return;
+  }
+  if(!(e.ctrlKey||e.metaKey)) return;
+
+  const k = e.key.toLowerCase();
+  if(/^[1-6]$/.test(k)){
+    e.preventDefault();
+    setFerramenta(LEI_ATALHOS_HL[parseInt(k,10)-1]);
+  } else if(k==='b'){
+    e.preventDefault(); toggleFormAtivo('bold');
+  } else if(k==='i'){
+    e.preventDefault(); toggleFormAtivo('italic');
+  } else if(k==='u'){
+    e.preventDefault(); toggleFormAtivo('underline');
+  } else if(k==='x' && e.shiftKey){
+    e.preventDefault(); toggleFormAtivo('strikethrough');
+  } else if(e.key==='\\'){
+    e.preventDefault(); toggleBorracha();
+  }
+});
+
+function _toggleModalAtalhosLei(){
+  let modal = document.getElementById('modal-atalhos-lei');
+  if(modal){ modal.remove(); return; }
+  modal = document.createElement('div');
+  modal.id = 'modal-atalhos-lei';
+  modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px';
+  modal.innerHTML = `
+    <div style="background:#fff;border-radius:12px;max-width:380px;width:100%;padding:20px;box-shadow:0 10px 40px rgba(0,0,0,.3)">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <span style="font-weight:700;font-size:15px">⌨️ Atalhos de teclado</span>
+        <button onclick="document.getElementById('modal-atalhos-lei').remove()" style="background:none;border:none;font-size:18px;cursor:pointer;color:#6B7280">✕</button>
+      </div>
+      <div style="font-size:13px;color:#374151;line-height:2">
+        <div><kbd style="background:#F3F4F6;border:1px solid #D1D5DB;border-radius:4px;padding:1px 6px;font-family:monospace">Ctrl+1</kbd> a <kbd style="background:#F3F4F6;border:1px solid #D1D5DB;border-radius:4px;padding:1px 6px;font-family:monospace">Ctrl+6</kbd> — marca-texto (cores na ordem da barra)</div>
+        <div><kbd style="background:#F3F4F6;border:1px solid #D1D5DB;border-radius:4px;padding:1px 6px;font-family:monospace">Ctrl+B</kbd> — negrito</div>
+        <div><kbd style="background:#F3F4F6;border:1px solid #D1D5DB;border-radius:4px;padding:1px 6px;font-family:monospace">Ctrl+I</kbd> — itálico</div>
+        <div><kbd style="background:#F3F4F6;border:1px solid #D1D5DB;border-radius:4px;padding:1px 6px;font-family:monospace">Ctrl+U</kbd> — sublinhado</div>
+        <div><kbd style="background:#F3F4F6;border:1px solid #D1D5DB;border-radius:4px;padding:1px 6px;font-family:monospace">Ctrl+Shift+X</kbd> — tachado</div>
+        <div><kbd style="background:#F3F4F6;border:1px solid #D1D5DB;border-radius:4px;padding:1px 6px;font-family:monospace">Ctrl+\\</kbd> — borracha</div>
+        <div><kbd style="background:#F3F4F6;border:1px solid #D1D5DB;border-radius:4px;padding:1px 6px;font-family:monospace">F1</kbd> — mostra/esconde esta lista</div>
+      </div>
+      <div style="font-size:11px;color:#9CA3AF;margin-top:10px">Ative o atalho e depois selecione o texto pra aplicar — igual aos botões da barra.</div>
+    </div>`;
+  document.body.appendChild(modal);
+}
+
 // Toggle cor de texto ativa (exclusiva)
 function toggleCorTextoAtiva(cls){
   _fmtTriggerByClick = true;
