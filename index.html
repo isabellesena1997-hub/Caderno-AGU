@@ -5693,87 +5693,13 @@ function renderLeiReader(){
     aplicarFormAtivos();
   }
   contentArea.addEventListener('mouseup',_aoSoltarSelecao);
-
-  // ===== MODO PINTURA (passar a caneta/dedo por cima, sem precisar selecionar) =====
-  // Técnica validada isoladamente antes de trazer pro app: detecta a palavra sob o
-  // ponteiro a cada movimento e aplica um span leve diretamente (sem execCommand,
-  // sem salvar a cada toque — só ao soltar o gesto).
-  let _pintando=false;
-  let _palavrasNoGesto=new Set();
-  let _gestoTeveMudanca=false;
-
-  function _temFerramentaPintura(){
-    return !!(ferramentaAtiva || leiFormAtivos.bold || leiFormAtivos.italic ||
-      leiFormAtivos.underline || leiFormAtivos.strikethrough || leiFormAtivos.corTexto);
-  }
-
-  function _pegarPalavraRange(x,y){
-    if(!document.caretRangeFromPoint) return null;
-    const range=document.caretRangeFromPoint(x,y);
-    if(!range) return null;
-    const node=range.startContainer;
-    if(node.nodeType!==Node.TEXT_NODE) return null;
-    if(!contentArea.contains(node)) return null;
-    const txt=node.textContent;
-    let start=range.startOffset, end=range.startOffset;
-    while(start>0 && !/\s/.test(txt[start-1])) start--;
-    while(end<txt.length && !/\s/.test(txt[end])) end++;
-    if(start===end) return null;
-    const r=document.createRange();
-    r.setStart(node,start); r.setEnd(node,end);
-    return r;
-  }
-
-  function _pintarPalavra(x,y){
-    const wordRange=_pegarPalavraRange(x,y);
-    if(!wordRange) return;
-    const parent=wordRange.startContainer.parentElement;
-    const idKey=parent?(parent.dataset._pid||(parent.dataset._pid='p'+Math.random().toString(36).slice(2))):'np';
-    const uniq=`${idKey}_${wordRange.startOffset}_${wordRange.endOffset}`;
-    if(_palavrasNoGesto.has(uniq)) return;
-    _palavrasNoGesto.add(uniq);
-
-    const inner=parent?.closest('.lei-disp-inner');
-    if(inner) inner.contentEditable='true';
-
-    const span=document.createElement('span');
-    if(ferramentaAtiva && ferramentaAtiva.startsWith('hl-')){
-      span.className=ferramentaAtiva;
-    } else {
-      const estilos=[];
-      if(leiFormAtivos.bold) estilos.push('font-weight:700');
-      if(leiFormAtivos.italic) estilos.push('font-style:italic');
-      if(leiFormAtivos.underline) estilos.push('text-decoration:underline');
-      if(leiFormAtivos.strikethrough) estilos.push('text-decoration:line-through');
-      if(leiFormAtivos.corTexto) span.className=leiFormAtivos.corTexto;
-      if(estilos.length) span.style.cssText=estilos.join(';');
-      if(!estilos.length && !span.className) return; // nenhuma ferramenta de fato ativa
-    }
-    try{ wordRange.surroundContents(span); _gestoTeveMudanca=true; }catch(e){}
-  }
-
-  contentArea.addEventListener('pointerdown',(e)=>{
-    if(!_temFerramentaPintura()) return; // sem ferramenta ativa: deixa seleção normal acontecer
-    e.preventDefault();
-    _pintando=true;
-    _gestoTeveMudanca=false;
-    _palavrasNoGesto=new Set();
-    salvarEstadoAntesDaEdicaoLei();
-    _pintarPalavra(e.clientX,e.clientY);
+  // iPad/touch: o evento equivalente a mouseup é touchend. Sem isso, marcação não
+  // funciona com o dedo ou Apple Pencil pois mouseup nunca dispara em touch.
+  contentArea.addEventListener('touchend',()=>{
+    // Pequeno delay: no iOS a seleção via toque/pencil só fica "fixa" um instante
+    // depois do touchend (as alças de seleção ainda podem estar sendo ajustadas).
+    setTimeout(_aoSoltarSelecao, 80);
   });
-  contentArea.addEventListener('pointermove',(e)=>{
-    if(!_pintando) return;
-    const eventos=(e.getCoalescedEvents&&e.getCoalescedEvents().length)?e.getCoalescedEvents():[e];
-    eventos.forEach(ev=>_pintarPalavra(ev.clientX,ev.clientY));
-  });
-  function _pararPintura(){
-    if(!_pintando) return;
-    _pintando=false;
-    if(_gestoTeveMudanca) salvarTextosEditados();
-  }
-  contentArea.addEventListener('pointerup',_pararPintura);
-  contentArea.addEventListener('pointercancel',_pararPintura);
-  contentArea.addEventListener('pointerleave',()=>{ if(_pintando) _pararPintura(); });
   contentArea.addEventListener('focusout',()=>{
     // Usa setTimeout para garantir que qualquer formatação em andamento termine antes de salvar
     setTimeout(()=>{ salvarTextosEditados(); }, 50);
