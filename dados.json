@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T21:43:19.612Z",
+  "salvoEm": "2026-06-30T21:51:34.051Z",
   "caderno": {
     "Constitucional": [
       {
@@ -429,7 +429,9 @@
             },
             {
               "tipo": "Jurisprudencia",
-              "conteudo": "Caderno de Jurisprudência - Março – 2026 - Ambiental e Urbanístico"
+              "conteudo": "Caderno de Jurisprudência - Março – 2026 - Ambiental e Urbanístico",
+              "pendente": false,
+              "feito": true
             }
           ]
         },
