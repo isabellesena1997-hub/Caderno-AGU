@@ -13380,8 +13380,16 @@ function aplicarHighlightSel(){
   if(!sel||sel.isCollapsed)return;
   salvarEstadoAntesDaEdicaoLei();
   const range=sel.getRangeAt(0);
+  // contentEditable pode estar desabilitado (ferramenta ativa bloqueia o menu
+  // nativo do iOS) — religamos só durante a operação, que precisa disso pra
+  // surroundContents funcionar de forma confiável, e desligamos de novo depois.
+  const node0=range.commonAncestorContainer;
+  const inner0=(node0.nodeType===1?node0:node0.parentElement)?.closest('.lei-disp-inner');
+  const estavaEditavel = inner0 ? inner0.contentEditable : null;
+  if(inner0) inner0.contentEditable='true';
   const span=document.createElement('span');span.className=ferramentaAtiva;
-  try{range.surroundContents(span);}catch(e){}
+  try{range.surroundContents(span);}catch(e){ console.warn('[highlight] surroundContents falhou:', e); }
+  if(inner0 && estavaEditavel!==null) inner0.contentEditable=estavaEditavel;
   sel.removeAllRanges();
   salvarTextosEditados();
 }
