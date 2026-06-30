@@ -2,8 +2,14 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Caderno AGU</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1a1a18">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Caderno AGU">
+<link rel="apple-touch-icon" href="icon-192.png">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f5f4f0;color:#1a1a18;min-height:100vh}
@@ -867,6 +873,46 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .lei-lei-item.dragging{opacity:0.4}
 .highlight-ver-lei{outline:3px solid #f59e0b!important;background:#fff7ed!important;transition:background .3s ease}
 .treino-btn-ver-lei,.treino-btn-caderno{pointer-events:auto!important;cursor:pointer!important}
+
+/* ===== MOBILE / TABLET RESPONSIVE PATCH ===== */
+@media(max-width:768px){
+  .container{padding:1rem .75rem}
+  .app-header{padding:0 .6rem;height:auto;min-height:52px;gap:.5rem;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+  .app-title{font-size:14px}
+  .app-subtitle{display:none}
+  .main-nav{width:100%;order:3;justify-content:flex-start;margin-left:0;padding-top:4px;border-top:0.5px solid #e0ddd5}
+  .header-btns{margin-left:auto}
+  .main-tab{padding:6px 9px;font-size:11.5px}
+  .metrics{grid-template-columns:repeat(2,1fr)}
+  .form-row-3{grid-template-columns:1fr}
+  .form-row-2{grid-template-columns:1fr}
+  .mr3,.mr4{grid-template-columns:1fr 1fr}
+  .q-meta{grid-template-columns:1fr}
+  .anot-questao-grid{grid-template-columns:1fr}
+  .ia-grid,.ia-grid-3{grid-template-columns:1fr}
+  .desemp-cards-mini{grid-template-columns:1fr 1fr}
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .materia-nav-wrap{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}
+  table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;white-space:nowrap}
+  button,.btn-sm,.btn-nova,.main-tab,.m-tab{min-height:34px}
+  input,select,textarea{font-size:14px!important}
+}
+@media(max-width:480px){
+  .metrics{grid-template-columns:1fr 1fr}
+  .mr3,.mr4{grid-template-columns:1fr}
+  .desemp-cards-mini{grid-template-columns:1fr 1fr}
+  .app-title{font-size:13px}
+  .main-tab{padding:5px 8px;font-size:11px}
+  .container{padding:.75rem .5rem}
+}
+@media(max-width:600px){
+  div[style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr!important}
+  div[style*="repeat(auto-fill,minmax(110px"]{grid-template-columns:repeat(auto-fill,minmax(85px,1fr))!important}
+}
+input[type="text"],input[type="number"],input[type="date"],textarea,select{font-size:16px}
+@media(min-width:769px){
+  input[type="text"],input[type="number"],input[type="date"],textarea,select{font-size:inherit}
+}
 </style>
 </head>
 <body>
@@ -11363,5 +11409,12 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </div>
 
+<script>
+if('serviceWorker' in navigator){
+  window.addEventListener('load',function(){
+    navigator.serviceWorker.register('sw.js').catch(function(){});
+  });
+}
+</script>
 </body>
 </html>
