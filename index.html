@@ -934,7 +934,28 @@ input[type="text"],input[type="number"],input[type="date"],textarea,select{font-
     <button class="btn-nova" onclick="openAddModal()">+ Nova questão</button>
     <button class="btn-sm azul" onclick="openImportModal()">↓ Importar</button>
     <button class="btn-sm" id="backup-btn" onclick="exportarBackup()">↑ Backup</button>
+    <button class="btn-sm" id="btn-config-token" onclick="abrirModalToken()" title="Configurar token do GitHub neste dispositivo">🔑 Token</button>
     <button class="btn-sm" id="btn-publicar-app" onclick="window.publicarAppGitHub&&window.publicarAppGitHub()" title="Publica o app no GitHub/Vercel" style="display:none;background:#15803D;color:#fff">☁️ Publicar</button>
+  </div>
+</div>
+
+<!-- MODAL CONFIGURAR TOKEN GITHUB -->
+<div class="overlay hidden" id="modal-token-github">
+  <div class="modal" style="max-width:480px">
+    <div class="modal-title"><span>🔑 Token do GitHub</span><button class="modal-close" onclick="closeModal('token-github')">✕</button></div>
+    <div class="modal-body">
+      <div style="font-size:12px;color:#4B5563;margin-bottom:12px;line-height:1.5">
+        Esse token fica salvo só neste navegador/dispositivo e é usado para salvar leis e publicar o app no GitHub.
+        Se você está em um celular ou iPad novo, cole aqui o mesmo token que você já usa no computador.
+      </div>
+      <div style="display:flex;gap:6px;align-items:center;margin-bottom:6px">
+        <input id="gh-token-input-2" type="password" placeholder="Cole seu token (github_pat_...)"
+          style="flex:1;padding:7px 9px;font-size:12px;border:1px solid #BFDBFE;border-radius:6px;font-family:monospace">
+        <button onclick="salvarTokenGitHub2()" style="padding:7px 12px;background:#185FA5;color:#fff;border:none;border-radius:6px;font-size:12px;cursor:pointer;white-space:nowrap">Salvar</button>
+      </div>
+      <div id="gh-config-status-2" style="font-size:11px;margin-top:5px;color:#4B5563;min-height:16px"></div>
+      <button onclick="removerTokenGitHub2()" style="margin-top:8px;padding:5px 10px;background:#fff;color:#A32D2D;border:1px solid #FCA5A5;border-radius:6px;font-size:11px;cursor:pointer">Remover token deste dispositivo</button>
+    </div>
   </div>
 </div>
 
@@ -4808,6 +4829,53 @@ function abrirConfigGitHub(){
   document.getElementById('modal-config-github').classList.remove('hidden');
 }
 
+function abrirModalToken(){
+  const inp = document.getElementById('gh-token-input-2');
+  const st = document.getElementById('gh-config-status-2');
+  if(inp) inp.value = ghToken() ? '••••••••••••••••••••' : '';
+  if(st) st.textContent = ghToken()
+    ? '✅ Token configurado neste dispositivo.'
+    : 'Sem token configurado neste dispositivo.';
+  document.getElementById('modal-token-github').classList.remove('hidden');
+}
+
+async function salvarTokenGitHub2(){
+  const val = document.getElementById('gh-token-input-2').value.trim();
+  const st = document.getElementById('gh-config-status-2');
+  if(!val || val.startsWith('\u2022')){ if(st) st.textContent = 'Cole o token primeiro.'; return; }
+  if(st) st.textContent = 'Verificando token...';
+  try {
+    const res = await fetch(ghApiUrl(), {
+      headers:{'Authorization':'token '+val,'Accept':'application/vnd.github.v3+json'}
+    });
+    if(!res.ok) throw new Error('Token inválido (HTTP '+res.status+')');
+    const data = await res.json();
+    _ghFileSha = data.sha || '';
+    _ghToken = val;
+    localStorage.setItem('gh-token', val);
+    if(st) st.innerHTML = '✅ Token salvo neste dispositivo!';
+    const btnP = document.getElementById('btn-publicar-app');
+    if(btnP){ btnP.style.display = ''; }
+    await carregarLeisGitHub();
+    renderLeiSidebar();
+    setTimeout(()=>{ closeModal('token-github'); }, 900);
+  } catch(e){
+    if(st) st.innerHTML = '❌ '+e.message;
+  }
+}
+
+function removerTokenGitHub2(){
+  if(!confirm('Remover o token deste dispositivo? Você só vai conseguir editar/publicar de novo se colar o token novamente.')) return;
+  localStorage.removeItem('gh-token');
+  _ghToken = '';
+  const st = document.getElementById('gh-config-status-2');
+  const inp = document.getElementById('gh-token-input-2');
+  if(inp) inp.value = '';
+  if(st) st.textContent = 'Token removido deste dispositivo.';
+  const btnP = document.getElementById('btn-publicar-app');
+  if(btnP){ btnP.style.display = 'none'; }
+}
+
 async function salvarTokenGitHub(){
   const val = document.getElementById('gh-token-input').value.trim();
   const st = document.getElementById('gh-config-status');
@@ -5146,7 +5214,7 @@ function closeModal(ctx){
   if(ctx==='add' && treinoQuestaoPendenteCaderno){ treinoQuestaoPendenteCaderno=null; }
 }
 document.addEventListener('click',function(e){
-  ['modal-edit','modal-add','modal-import','modal-semana-import','modal-edit-item','modal-add-item','modal-nota','modal-ia'].forEach(id=>{
+  ['modal-edit','modal-add','modal-import','modal-semana-import','modal-edit-item','modal-add-item','modal-nota','modal-ia','modal-token-github'].forEach(id=>{
     const el=document.getElementById(id);
     if(el&&e.target===el)closeModal(id.replace('modal-',''));
   });
