@@ -8546,12 +8546,20 @@ async function _saveLeisGitHub(){
     // Sempre busca o SHA mais recente antes de salvar — usar um SHA em cache
     // (mesmo que só às vezes) causava avisos de conflito repetidos e falsos,
     // mesmo sem ninguém mais editando, porque o SHA local ficava desatualizado.
+    const shaAntesDoFetch = _ghFileSha;
+    let erroAoBuscarSha = null;
     try {
       const r = await fetch(ghApiUrl(), {
         headers: { 'Authorization': 'token ' + token, 'Accept': 'application/vnd.github.v3+json' }
       });
-      if(r.ok){ const d = await r.json(); _ghFileSha = d.sha || ''; }
-    } catch(e){ /* se falhar, segue com o SHA que já tinha em memória */ }
+      if(r.ok){
+        const d = await r.json();
+        _ghFileSha = d.sha || '';
+      } else {
+        erroAoBuscarSha = `HTTP ${r.status} ao buscar SHA`;
+      }
+    } catch(e){ erroAoBuscarSha = `Exceção ao buscar SHA: ${e.message}`; }
+    console.log('[DIAG-SAVE] SHA antes:', shaAntesDoFetch, '| SHA depois do fetch:', _ghFileSha, '| erro busca:', erroAoBuscarSha);
 
     const body = { message: 'update leis.json', content, branch: GH_BRANCH };
     if(_ghFileSha) body.sha = _ghFileSha;
@@ -8574,13 +8582,14 @@ async function _saveLeisGitHub(){
       setTimeout(()=>_atualizarIndicadorStorage(), 2000);
     } else {
       const err = await res.json();
+      console.log('[DIAG-SAVE] PUT falhou. Status:', res.status, '| Mensagem do GitHub:', err.message, '| SHA enviado:', _ghFileSha, '| erro busca SHA:', erroAoBuscarSha);
       if(res.status === 409 || (err.message||'').includes('sha')){
         // CONFLITO: outro dispositivo/aba salvou algo depois que esta sessão carregou.
         // Antes isso era resolvido automaticamente sobrescrevendo com a versão local,
         // o que apagava silenciosamente edições feitas em outro dispositivo. Agora
         // avisamos e deixamos a pessoa decidir, em vez de perder dados sem aviso.
         if(el) el.innerHTML = '<span style="color:#B91C1C">⚠️ Conflito: outro dispositivo salvou algo. Veja o aviso.</span>';
-        _mostrarAvisoConflitoSave();
+        _mostrarAvisoConflitoSave(err.message, erroAoBuscarSha);
       } else {
         throw new Error(err.message || res.status);
       }
@@ -8601,7 +8610,7 @@ async function _saveLeisGitHub(){
 // ── AVISO DE CONFLITO DE SALVAMENTO ──────────────────────────────────────────
 // Mostrado quando esta sessão tenta salvar mas detecta que outro dispositivo/aba
 // já salvou uma versão mais nova no GitHub. Evita perder edições silenciosamente.
-function _mostrarAvisoConflitoSave(){
+function _mostrarAvisoConflitoSave(mensagemGithub, erroAoBuscarSha){
   if(document.getElementById('modal-conflito-save')) return; // já está mostrando
   const div=document.createElement('div');
   div.id='modal-conflito-save';
@@ -8615,6 +8624,10 @@ function _mostrarAvisoConflitoSave(){
         <br><br>
         Recomendado: recarregue esta página para pegar a versão mais recente antes de continuar editando
         (suas últimas alterações nesta aba podem ser perdidas ao recarregar).
+      </div>
+      <div style="font-size:11px;color:#6B7280;background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;padding:8px;margin-bottom:16px;font-family:monospace;word-break:break-word">
+        Diagnóstico — mensagem do GitHub: ${mensagemGithub||'(nenhuma)'}<br>
+        Erro ao buscar SHA antes de salvar: ${erroAoBuscarSha||'(nenhum, buscou normalmente)'}
       </div>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         <button onclick="location.reload()" style="flex:1;padding:9px 12px;background:#185FA5;color:#fff;border:none;border-radius:6px;font-size:13px;cursor:pointer">🔄 Recarregar agora</button>
