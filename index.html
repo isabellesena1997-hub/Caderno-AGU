@@ -8520,9 +8520,21 @@ function saveLeis(){
   window._salvamentoLeisPendente = true;
 }
 
+let _salvandoLeisAgora = false; // trava: evita duas chamadas de save rodando ao mesmo tempo
+let _saveLeisRefilaPendente = false;
+
 async function _saveLeisGitHub(){
   const token = ghToken();
   if(!token) return;
+  // Se já existe um salvamento em andamento (aguardando resposta de rede), não
+  // inicia outro em paralelo — isso causava "conflitos" falsos mesmo num único
+  // dispositivo: duas chamadas buscando SHA e fazendo PUT ao mesmo tempo.
+  // Em vez disso, marca que precisa salvar de novo assim que a atual terminar.
+  if(_salvandoLeisAgora){
+    _saveLeisRefilaPendente = true;
+    return;
+  }
+  _salvandoLeisAgora = true;
   const el = document.getElementById('lei-storage-bar');
 
   try {
@@ -8576,6 +8588,13 @@ async function _saveLeisGitHub(){
   } catch(e){
     console.error('[GH] saveLeis erro:', e);
     if(el) el.innerHTML = '<span style="color:#B91C1C">☁️ Erro ao salvar: ' + e.message + '</span>';
+  } finally {
+    _salvandoLeisAgora = false;
+    if(_saveLeisRefilaPendente){
+      _saveLeisRefilaPendente = false;
+      // Pequeno delay pra não emendar PUTs em sequência imediata no GitHub
+      setTimeout(()=>_saveLeisGitHub(), 300);
+    }
   }
 }
 
@@ -13380,16 +13399,8 @@ function aplicarHighlightSel(){
   if(!sel||sel.isCollapsed)return;
   salvarEstadoAntesDaEdicaoLei();
   const range=sel.getRangeAt(0);
-  // contentEditable pode estar desabilitado (ferramenta ativa bloqueia o menu
-  // nativo do iOS) — religamos só durante a operação, que precisa disso pra
-  // surroundContents funcionar de forma confiável, e desligamos de novo depois.
-  const node0=range.commonAncestorContainer;
-  const inner0=(node0.nodeType===1?node0:node0.parentElement)?.closest('.lei-disp-inner');
-  const estavaEditavel = inner0 ? inner0.contentEditable : null;
-  if(inner0) inner0.contentEditable='true';
   const span=document.createElement('span');span.className=ferramentaAtiva;
-  try{range.surroundContents(span);}catch(e){ console.warn('[highlight] surroundContents falhou:', e); }
-  if(inner0 && estavaEditavel!==null) inner0.contentEditable=estavaEditavel;
+  try{range.surroundContents(span);}catch(e){}
   sel.removeAllRanges();
   salvarTextosEditados();
 }
