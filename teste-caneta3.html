@@ -8,6 +8,7 @@
   body{font-family:-apple-system,sans-serif;margin:0;padding:16px;background:#f5f4f0}
   h2{font-size:14px;color:#1a1a18;margin-bottom:4px}
   .texto{font-size:17px;line-height:2.1;background:#fff;border-radius:12px;padding:24px;touch-action:pan-y}
+  .texto.modo-pintura{touch-action:none}
   .texto.modo-pintura .lei-disp-inner{user-select:none;-webkit-user-select:none}
   .texto:not(.modo-pintura) .lei-disp-inner{user-select:text;-webkit-user-select:text}
   .lei-disp-inner span.hl-amarelo{background:#FEF08A}
@@ -134,17 +135,23 @@ texto.addEventListener('pointerdown',(e)=>{
   pintarPalavra(p);
   atualizarStatus(e.pointerType);
 });
+// Bloqueios extras: mesmo com contenteditable=false e user-select:none, o iOS às
+// vezes ainda tentava mostrar o menu de seleção (Cortar/Copiar/Colar). Esses dois
+// eventos são o gatilho direto desse menu — bloqueando-os explicitamente quando
+// há ferramenta ativa, o menu não tem mais como aparecer.
+document.addEventListener('selectstart',(e)=>{
+  if(ferramentaAtiva && texto.contains(e.target)) e.preventDefault();
+});
+texto.addEventListener('contextmenu',(e)=>{
+  if(ferramentaAtiva) e.preventDefault();
+});
 texto.addEventListener('pointermove',(e)=>{
   if(!pintando) return;
-  // Processa TODOS os pontos que a caneta realmente tocou entre um frame e outro
-  // (não só o último) — como a busca por palavra agora é uma comparação simples de
-  // coordenadas (não mais caretRangeFromPoint), é barato processar todos eles, o
-  // que elimina o problema de "pular palavras" em traços rápidos.
-  const eventos=(e.getCoalescedEvents&&e.getCoalescedEvents().length)?e.getCoalescedEvents():[e];
-  eventos.forEach(ev=>{
-    const p = acharPalavraNoPonto(ev.clientX, ev.clientY);
-    pintarPalavra(p);
-  });
+  const agora = performance.now();
+  if(agora - ultimoProcessamento < INTERVALO_MIN_MS) return;
+  ultimoProcessamento = agora;
+  const p = acharPalavraNoPonto(e.clientX, e.clientY);
+  pintarPalavra(p);
   atualizarStatus(e.pointerType);
 });
 function parar(){ pintando = false; }
