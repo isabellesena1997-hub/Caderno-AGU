@@ -5698,11 +5698,6 @@ function renderLeiReader(){
     // Formatações de modo ativo (B, I, U, S, cor)
     aplicarFormAtivos();
   }
-  // Abordagem robusta independente do tipo de input (mouse, dedo ou Apple Pencil):
-  // escuta 'selectionchange' do documento, que dispara nativamente sempre que a
-  // seleção de texto muda, e usa um pequeno debounce pra só agir quando a seleção
-  // "parar de mudar" (estabilizar) — em vez de adivinhar um delay fixo após touchend,
-  // que era inconsistente entre dispositivos e tipos de toque.
   let _selChangeTimer=null;
   if(window._leiSelectionChangeHandler){
     document.removeEventListener('selectionchange', window._leiSelectionChangeHandler);
@@ -5712,6 +5707,89 @@ function renderLeiReader(){
     _selChangeTimer=setTimeout(_aoSoltarSelecao, 140);
   };
   document.addEventListener('selectionchange', window._leiSelectionChangeHandler);
+
+  // ===== MODO PINTURA (estilo marca-texto/caneta) =====
+  // Em vez de "selecionar e soltar", aplica a formatação em tempo real, palavra por
+  // palavra, conforme a caneta/dedo arrasta sobre o texto — como um marcador real.
+  // Só ativa quando há uma ferramenta de formatação ou highlight selecionada.
+  let _pintando=false;
+  let _palavrasJaPintadasNoGesto=new Set();
+
+  function _algumaFerramentaAtiva(){
+    return !!(ferramentaAtiva || leiFormAtivos.bold || leiFormAtivos.italic ||
+      leiFormAtivos.underline || leiFormAtivos.strikethrough || leiFormAtivos.corTexto ||
+      leiFormAtivos.maiusculo);
+  }
+
+  function _pegarPalavraNoPonto(x,y){
+    let range=null;
+    if(document.caretRangeFromPoint){
+      range=document.caretRangeFromPoint(x,y);
+    } else if(document.caretPositionFromPoint){
+      const pos=document.caretPositionFromPoint(x,y);
+      if(pos){ range=document.createRange(); range.setStart(pos.offsetNode,pos.offset); range.collapse(true); }
+    }
+    if(!range) return null;
+    const node=range.startContainer;
+    if(node.nodeType!==Node.TEXT_NODE) return null;
+    if(!contentArea.contains(node)) return null;
+    const txt=node.textContent;
+    let start=range.startOffset, end=range.startOffset;
+    while(start>0 && !/\s/.test(txt[start-1])) start--;
+    while(end<txt.length && !/\s/.test(txt[end])) end++;
+    if(start===end) return null;
+    const wordRange=document.createRange();
+    wordRange.setStart(node,start);
+    wordRange.setEnd(node,end);
+    return wordRange;
+  }
+
+  function _pintarNoPonto(x,y){
+    const wordRange=_pegarPalavraNoPonto(x,y);
+    if(!wordRange) return;
+    // Chave única pra não reprocessar a mesma palavra repetidamente durante o mesmo gesto
+    const idKey = wordRange.startContainer.parentElement
+      ? (wordRange.startContainer.parentElement.dataset._pintId ||
+         (wordRange.startContainer.parentElement.dataset._pintId = 'p'+Math.random().toString(36).slice(2)))
+      : 'no-parent';
+    const uniq=`${idKey}_${wordRange.startOffset}_${wordRange.endOffset}`;
+    if(_palavrasJaPintadasNoGesto.has(uniq)) return;
+    _palavrasJaPintadasNoGesto.add(uniq);
+
+    const sel=window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(wordRange);
+
+    if(ferramentaAtiva && ferramentaAtiva.startsWith('hl-')){
+      aplicarHighlightSel();
+    } else if(_algumaFerramentaAtiva()){
+      aplicarFormAtivos();
+    }
+  }
+
+  contentArea.addEventListener('pointerdown',(e)=>{
+    if(!_algumaFerramentaAtiva()) return; // sem ferramenta ativa, comportamento normal (seleção manual)
+    e.preventDefault(); // evita lupa/alças de seleção nativas do iOS competindo com o desenho
+    _pintando=true;
+    _palavrasJaPintadasNoGesto=new Set();
+    _pintarNoPonto(e.clientX,e.clientY);
+  });
+  contentArea.addEventListener('pointermove',(e)=>{
+    if(!_pintando) return;
+    const eventos=(e.getCoalescedEvents&&e.getCoalescedEvents().length)?e.getCoalescedEvents():[e];
+    eventos.forEach(ev=>_pintarNoPonto(ev.clientX,ev.clientY));
+  });
+  function _pararDePintar(){
+    if(_pintando){
+      _pintando=false;
+      window.getSelection()?.removeAllRanges();
+      salvarTextosEditados();
+    }
+  }
+  contentArea.addEventListener('pointerup',_pararDePintar);
+  contentArea.addEventListener('pointercancel',_pararDePintar);
+  contentArea.addEventListener('pointerleave',()=>{ if(_pintando) _pararDePintar(); });
+
   contentArea.addEventListener('focusout',()=>{
     // Usa setTimeout para garantir que qualquer formatação em andamento termine antes de salvar
     setTimeout(()=>{ salvarTextosEditados(); }, 50);
