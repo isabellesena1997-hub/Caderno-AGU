@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T03:08:12.797Z",
+  "salvoEm": "2026-06-30T03:08:15.534Z",
   "caderno": {
     "Constitucional": [
       {
@@ -330,7 +330,8 @@
               "tipo": "PDFULL",
               "materia": "Constitucional",
               "topico": "Controle de Constitucionalidade - Parte 4",
-              "detalhes": "• Amicus curiae na ADI: compreenda os requisitos para admissão, a possibilidade de apresentação de razões escritas e sustentação oral, bem como as regras atuais do STF sobre legitimidade recursal e embargos de declaração.\n• Medida cautelar na ADI: estude os requisitos para concessão da cautelar, os efeitos erga omnes, vinculantes, ex nunc e repristinatórios, além das hipóteses em que o STF admite eficácia retroativa da medida.\n• Decisão definitiva da ADI: atenção ao quórum para instalação da sessão e para declaração de constitucionalidade ou inconstitucionalidade, às consequências da ausência de maioria absoluta e aos efeitos da procedência da ação.\n• Efeitos da decisão final da ADI e repercussão sobre a coisa julgada: concentre seus estudos nos efeitos vinculante, erga omnes, retroativo e repristinatório, nas hipóteses de modulação e na relação entre decisões do STF em controle de constitucionalidade, ação rescisória, inexigibilidade do título e coisa julgada."
+              "detalhes": "• Amicus curiae na ADI: compreenda os requisitos para admissão, a possibilidade de apresentação de razões escritas e sustentação oral, bem como as regras atuais do STF sobre legitimidade recursal e embargos de declaração.\n• Medida cautelar na ADI: estude os requisitos para concessão da cautelar, os efeitos erga omnes, vinculantes, ex nunc e repristinatórios, além das hipóteses em que o STF admite eficácia retroativa da medida.\n• Decisão definitiva da ADI: atenção ao quórum para instalação da sessão e para declaração de constitucionalidade ou inconstitucionalidade, às consequências da ausência de maioria absoluta e aos efeitos da procedência da ação.\n• Efeitos da decisão final da ADI e repercussão sobre a coisa julgada: concentre seus estudos nos efeitos vinculante, erga omnes, retroativo e repristinatório, nas hipóteses de modulação e na relação entre decisões do STF em controle de constitucionalidade, ação rescisória, inexigibilidade do título e coisa julgada.",
+              "pendente": true
             },
             {
               "tipo": "LEGPROC",
