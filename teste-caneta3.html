@@ -7,7 +7,9 @@
 <style>
   body{font-family:-apple-system,sans-serif;margin:0;padding:16px;background:#f5f4f0}
   h2{font-size:14px;color:#1a1a18;margin-bottom:4px}
-  .texto{font-size:17px;line-height:2.1;background:#fff;border-radius:12px;padding:24px;touch-action:pan-y;user-select:text}
+  .texto{font-size:17px;line-height:2.1;background:#fff;border-radius:12px;padding:24px;touch-action:pan-y}
+  .texto.modo-pintura .lei-disp-inner{user-select:none;-webkit-user-select:none}
+  .texto:not(.modo-pintura) .lei-disp-inner{user-select:text;-webkit-user-select:text}
   .lei-disp-inner span.hl-amarelo{background:#FEF08A}
   .lei-disp-inner span.hl-verde{background:#BBF7D0}
   .lei-disp-inner b{font-weight:700}
@@ -58,6 +60,14 @@ function setTool(t){
   if(t==='hl-amarelo') document.getElementById('tb-amarelo').classList.add('active');
   if(t==='hl-verde') document.getElementById('tb-verde').classList.add('active');
   if(t==='bold') document.getElementById('tb-negrito').classList.add('active');
+  // Desativa a seleção nativa de texto do iOS enquanto uma ferramenta de pintura
+  // estiver ativa — sem isso, a Apple Pencil em campos editáveis ativa o gesto de
+  // seleção (lupa + alças azuis) do próprio sistema antes do nosso código de
+  // pintura conseguir capturar o evento, mesmo com preventDefault().
+  texto.classList.toggle('modo-pintura', !!t);
+  texto.querySelectorAll('.lei-disp-inner').forEach(el=>{
+    el.contentEditable = t ? 'false' : 'true';
+  });
 }
 
 const status = document.getElementById('status');
