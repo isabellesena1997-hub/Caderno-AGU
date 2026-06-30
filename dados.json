@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T03:08:15.534Z",
+  "salvoEm": "2026-06-30T03:08:17.175Z",
   "caderno": {
     "Constitucional": [
       {
@@ -342,7 +342,8 @@
               "tipo": "Questoes",
               "plataforma": "QConcursos",
               "conteudo": "Questões de Constitucional — Controle de Constitucionalidade - Parte 4",
-              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=3&exclude_nullified=true&exclude_outdated=true&my_questions=not_resolved&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=16299"
+              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=3&exclude_nullified=true&exclude_outdated=true&my_questions=not_resolved&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=16299",
+              "pendente": true
             },
             {
               "tipo": "Jurisprudencia",
