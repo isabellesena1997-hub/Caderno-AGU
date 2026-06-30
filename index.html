@@ -318,7 +318,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .lei-tool-sep{width:0.5px;height:20px;background:#e0ddd5;margin:0 3px;flex-shrink:0}
 .lt-btn{width:30px;height:30px;border-radius:6px;border:0.5px solid #e0ddd5;background:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:13px;position:relative;flex-shrink:0;transition:all .15s;color:#1a1a18}
 .lt-btn:hover{background:#f0ede8;border-color:#b4b2a9}
-.lt-btn.active{border-color:#1a1a18;background:#1a1a18;color:#fff}
+.lt-btn.active{border-color:#1a1a18;background:#1a1a18;color:#fff;animation:lt-btn-pulse 1.6s ease-in-out infinite;box-shadow:0 0 0 2px rgba(26,26,24,.25)}
+@keyframes lt-btn-pulse{0%,100%{box-shadow:0 0 0 2px rgba(26,26,24,.25)}50%{box-shadow:0 0 0 5px rgba(26,26,24,.12)}}
 .lt-btn.hl-amarelo-btn{background:#FFF9C4;border-color:#FFF176}
 .lt-btn.hl-amarelo-btn.active{background:#F59E0B;border-color:#F59E0B;color:#fff}
 .lt-btn.hl-laranja-btn{background:#FFE5CC;border-color:#FFCC80}
@@ -12136,84 +12137,12 @@ function renderLeiReader(){
     aplicarFormAtivos();
   }
   contentArea.addEventListener('mouseup',_aoSoltarSelecao);
-
-  // ===== MARCAÇÃO POR TOQUE/CANETA (técnica validada: expande a seleção nativa) =====
-  // Em vez de "pintar" palavra por palavra a cada movimento (caro, trava o navegador),
-  // deixamos a seleção de texto NATIVA do navegador crescer durante o arraste — o
-  // navegador já é otimizado pra isso. A formatação só é aplicada UMA VEZ, ao soltar.
-  // Decide se o gesto é "scroll" ou "pintura" comparando o quanto se moveu na vertical
-  // vs horizontal logo no início — isso evita competir com o gesto nativo de scroll.
-  let _pintando=false, _scrollando=false;
-  let _pontoInicial=null, _rangeInicial=null;
-
-  function _pegarCaretDoToque(touch){
-    if(document.caretRangeFromPoint){
-      return document.caretRangeFromPoint(touch.clientX, touch.clientY);
-    } else if(document.caretPositionFromPoint){
-      const pos=document.caretPositionFromPoint(touch.clientX, touch.clientY);
-      if(pos){ const r=document.createRange(); r.setStart(pos.offsetNode,pos.offset); r.collapse(true); return r; }
-    }
-    return null;
-  }
-
-  contentArea.addEventListener('touchstart',(e)=>{
-    if(!ferramentaAtiva && !(leiFormAtivos.bold||leiFormAtivos.italic||leiFormAtivos.underline||leiFormAtivos.strikethrough||leiFormAtivos.corTexto||leiFormAtivos.maiusculo)) return;
-    if(e.touches.length!==1) return;
-    const touch=e.touches[0];
-    if(e.target.closest('button,select,input,.lei-disp-actions,.modal')) return;
-    _pintando=false; _scrollando=false;
-    _pontoInicial={x:touch.clientX,y:touch.clientY};
-    const startRange=_pegarCaretDoToque(touch);
-    if(startRange && contentArea.contains(startRange.commonAncestorContainer)){
-      _rangeInicial=startRange;
-    } else {
-      _rangeInicial=null;
-    }
-  },{passive:true});
-
-  contentArea.addEventListener('touchmove',(e)=>{
-    if(!ferramentaAtiva && !(leiFormAtivos.bold||leiFormAtivos.italic||leiFormAtivos.underline||leiFormAtivos.strikethrough||leiFormAtivos.corTexto||leiFormAtivos.maiusculo)) return;
-    if(_scrollando) return;
-    const touch=e.touches[0];
-    if(!_pintando){
-      if(!_pontoInicial) return;
-      const dx=Math.abs(touch.clientX-_pontoInicial.x);
-      const dy=Math.abs(touch.clientY-_pontoInicial.y);
-      if(dx<5 && dy<5) return;
-      if(dy>dx){ _scrollando=true; return; } // mais vertical = deixa rolar normalmente
-      _pintando=true; // mais horizontal = é um gesto de marcação
-      if(_rangeInicial){
-        const sel=window.getSelection();
-        sel.removeAllRanges();
-        sel.addRange(_rangeInicial);
-      }
-    }
-    if(e.cancelable) e.preventDefault(); // só bloqueia o scroll quando já confirmamos que é pintura
-    const currentRange=_pegarCaretDoToque(touch);
-    if(currentRange && _rangeInicial && contentArea.contains(currentRange.commonAncestorContainer)){
-      const sel=window.getSelection();
-      const newRange=document.createRange();
-      if(_rangeInicial.compareBoundaryPoints(Range.START_TO_START,currentRange)<=0){
-        newRange.setStart(_rangeInicial.startContainer,_rangeInicial.startOffset);
-        newRange.setEnd(currentRange.startContainer,currentRange.startOffset);
-      } else {
-        newRange.setStart(currentRange.startContainer,currentRange.startOffset);
-        newRange.setEnd(_rangeInicial.startContainer,_rangeInicial.startOffset);
-      }
-      sel.removeAllRanges();
-      sel.addRange(newRange);
-    }
-  },{passive:false});
-
-  contentArea.addEventListener('touchend',(e)=>{
-    if(_pintando){
-      _pintando=false;
-      if(e.cancelable) e.preventDefault();
-      _aoSoltarSelecao();
-    }
-    _scrollando=false;
-    _rangeInicial=null;
-    _pontoInicial=null;
+  // iPad/touch: o evento equivalente a mouseup é touchend. Sem isso, marcação não
+  // funciona com o dedo ou Apple Pencil pois mouseup nunca dispara em touch.
+  contentArea.addEventListener('touchend',()=>{
+    // Pequeno delay: no iOS a seleção via toque/pencil só fica "fixa" um instante
+    // depois do touchend (as alças de seleção ainda podem estar sendo ajustadas).
+    setTimeout(_aoSoltarSelecao, 80);
   });
   contentArea.addEventListener('focusout',()=>{
     // Usa setTimeout para garantir que qualquer formatação em andamento termine antes de salvar
@@ -13043,7 +12972,7 @@ function setFerramenta(f){
     btn.classList.toggle('active',bid===ferramentaAtiva);
   });
   const area=document.getElementById('lei-content-area');
-  if(area)area.style.cursor=ferramentaAtiva&&ferramentaAtiva.startsWith('hl-')?'crosshair':ferramentaAtiva==='borracha'?'cell':'default';
+  _atualizarCursorAreaTexto();
 }
 
 // Sincroniza estado visual da toolbar com o estado JS atual
@@ -13073,6 +13002,20 @@ function toggleFormAtivo(tipo){
   // Atualiza só o botão específico visualmente (sem rebuild completo)
   const btn=document.getElementById('tb-'+tipo);
   if(btn)btn.classList.toggle('active',leiFormAtivos[tipo]);
+  _atualizarCursorAreaTexto();
+}
+
+// Cursor da área de texto reflete se alguma ferramenta "armada" está ativa —
+// dá um feedback visual claro de que a próxima seleção vai aplicar formatação.
+function _atualizarCursorAreaTexto(){
+  const area=document.getElementById('lei-content-area');
+  if(!area) return;
+  const algumaAtiva = ferramentaAtiva || leiFormAtivos.bold || leiFormAtivos.italic ||
+    leiFormAtivos.underline || leiFormAtivos.strikethrough || leiFormAtivos.corTexto || leiFormAtivos.maiusculo;
+  area.style.cursor = ferramentaAtiva&&ferramentaAtiva.startsWith('hl-') ? 'crosshair'
+    : ferramentaAtiva==='borracha' ? 'cell'
+    : algumaAtiva ? 'crosshair'
+    : 'default';
 }
 
 // Toggle cor de texto ativa (exclusiva)
@@ -13083,6 +13026,7 @@ function toggleCorTextoAtiva(cls){
   document.querySelectorAll('[id^="tb-cor-"]').forEach(btn=>{
     btn.classList.toggle('active',btn.dataset.cls===leiFormAtivos.corTexto);
   });
+  _atualizarCursorAreaTexto();
 }
 
 // Aplica todas as formatações ativas ao texto selecionado (chamado no mouseup)
