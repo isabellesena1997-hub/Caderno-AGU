@@ -25,6 +25,7 @@
 </head>
 <body>
 <h2>Teste 3: posições das palavras pré-calculadas (sem caretRangeFromPoint durante o movimento)</h2>
+<div id="diag" style="background:#000;color:#0f0;font-family:monospace;font-size:10px;padding:8px;border-radius:8px;margin-bottom:10px;white-space:pre-line;min-height:90px">aguardando eventos...</div>
 <div class="toolbar">
   <button id="tb-amarelo" onclick="setTool('hl-amarelo')">🟡 Amarelo</button>
   <button id="tb-verde" onclick="setTool('hl-verde')">🟢 Verde</button>
@@ -72,6 +73,13 @@ function setTool(t){
 }
 
 const status = document.getElementById('status');
+const diagLog = [];
+function logDiag(msg){
+  const t = new Date().toISOString().slice(11,19);
+  diagLog.unshift(`${t} ${msg}`);
+  if(diagLog.length > 8) diagLog.length = 8;
+  document.getElementById('diag').textContent = diagLog.join('\n');
+}
 
 // ===== POSIÇÕES PRÉ-CALCULADAS =====
 // Em vez de perguntar ao navegador "qual palavra está em (x,y)" a cada movimento da
@@ -126,6 +134,7 @@ function atualizarStatus(tipo){
 }
 
 texto.addEventListener('pointerdown',(e)=>{
+  logDiag(`pointerdown (tipo:${e.pointerType}) ferramenta:${ferramentaAtiva||'nenhuma'}`);
   if(!ferramentaAtiva) return;
   e.preventDefault();
   pintando = true;
@@ -140,11 +149,17 @@ texto.addEventListener('pointerdown',(e)=>{
 // eventos são o gatilho direto desse menu — bloqueando-os explicitamente quando
 // há ferramenta ativa, o menu não tem mais como aparecer.
 document.addEventListener('selectstart',(e)=>{
+  logDiag(`selectstart disparado! bloqueado:${!!ferramentaAtiva}`);
   if(ferramentaAtiva && texto.contains(e.target)) e.preventDefault();
 });
 texto.addEventListener('contextmenu',(e)=>{
+  logDiag(`contextmenu disparado! bloqueado:${!!ferramentaAtiva}`);
   if(ferramentaAtiva) e.preventDefault();
 });
+texto.addEventListener('touchstart',(e)=>{
+  logDiag(`touchstart (toques:${e.touches.length})`);
+  if(ferramentaAtiva) e.preventDefault();
+}, {passive:false});
 texto.addEventListener('pointermove',(e)=>{
   if(!pintando) return;
   const agora = performance.now();
