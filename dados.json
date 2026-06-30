@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T03:22:32.177Z",
+  "salvoEm": "2026-06-30T14:34:34.743Z",
   "caderno": {
     "Constitucional": [
       {
@@ -509,7 +509,11 @@
   "tarefas": [],
   "diagnostico": {},
   "leiAnotacoes": {},
-  "leiTags": {},
+  "leiTags": {
+    "lei_09bc2a842672::art::225::sub::11": [
+      "decoreba"
+    ]
+  },
   "leiTopicos": [],
   "questoesIA": [],
   "metaHoras": 5
