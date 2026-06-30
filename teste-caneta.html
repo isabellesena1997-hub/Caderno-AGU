@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teste Caneta</title>
+<style>
+  body{font-family:-apple-system,sans-serif;margin:0;padding:20px;background:#f5f4f0}
+  h2{font-size:16px;color:#1a1a18}
+  .texto{font-size:18px;line-height:2.2;background:#fff;border-radius:12px;padding:20px;touch-action:pan-y;user-select:text}
+  .texto span{padding:2px 0;border-radius:3px}
+  .marcado{background:#FEF08A}
+  .status{position:fixed;bottom:0;left:0;right:0;background:#1a1a18;color:#fff;padding:12px;font-size:13px;font-family:monospace}
+</style>
+</head>
+<body>
+<h2>Teste: arraste o dedo ou a caneta sobre as palavras abaixo</h2>
+<div class="texto" id="texto">
+Art. 1º Este Decreto estabelece normas para a execução da Lei 11.107 de 2005 que dispõe sobre normas gerais de contratação de consórcios públicos e demais providências relacionadas à matéria.
+</div>
+<div class="status" id="status">aguardando...</div>
+<script>
+const texto = document.getElementById('texto');
+const status = document.getElementById('status');
+
+// Quebra o texto em spans por palavra, pra poder marcar individualmente
+const palavras = texto.textContent.trim().split(/\s+/);
+texto.innerHTML = palavras.map(p => `<span>${p}</span>`).join(' ');
+
+let pintando = false;
+let contador = 0;
+let palavrasMarcadas = new Set();
+
+function pegarSpanNoPonto(x, y) {
+  const el = document.elementFromPoint(x, y);
+  if (el && el.tagName === 'SPAN' && texto.contains(el)) return el;
+  return null;
+}
+
+function marcar(span) {
+  if (!span || palavrasMarcadas.has(span)) return;
+  palavrasMarcadas.add(span);
+  span.classList.add('marcado');
+  contador++;
+  status.textContent = `palavras marcadas: ${contador} | último evento: ${window._ultimoTipo||'-'}`;
+}
+
+texto.addEventListener('pointerdown', (e) => {
+  pintando = true;
+  window._ultimoTipo = e.pointerType;
+  marcar(pegarSpanNoPonto(e.clientX, e.clientY));
+  e.preventDefault();
+});
+texto.addEventListener('pointermove', (e) => {
+  if (!pintando) return;
+  window._ultimoTipo = e.pointerType;
+  const eventos = (e.getCoalescedEvents && e.getCoalescedEvents().length) ? e.getCoalescedEvents() : [e];
+  eventos.forEach(ev => marcar(pegarSpanNoPonto(ev.clientX, ev.clientY)));
+});
+texto.addEventListener('pointerup', () => { pintando = false; });
+texto.addEventListener('pointercancel', () => { pintando = false; });
+</script>
+</body>
+</html>
