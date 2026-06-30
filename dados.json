@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-29T14:12:22.511Z",
+  "salvoEm": "2026-06-30T03:08:12.797Z",
   "caderno": {
     "Constitucional": [
       {
@@ -316,7 +316,187 @@
     "Legislação AGU / Conflitos": []
   },
   "registros": [],
-  "semanas": {},
+  "semanas": {
+    "5": {
+      "semana": 5,
+      "titulo": "Semana 05",
+      "inicio": "2026-06-29",
+      "dias": [
+        {
+          "data": "2026-06-29",
+          "dia": "Segunda-feira",
+          "itens": [
+            {
+              "tipo": "PDFULL",
+              "materia": "Constitucional",
+              "topico": "Controle de Constitucionalidade - Parte 4",
+              "detalhes": "• Amicus curiae na ADI: compreenda os requisitos para admissão, a possibilidade de apresentação de razões escritas e sustentação oral, bem como as regras atuais do STF sobre legitimidade recursal e embargos de declaração.\n• Medida cautelar na ADI: estude os requisitos para concessão da cautelar, os efeitos erga omnes, vinculantes, ex nunc e repristinatórios, além das hipóteses em que o STF admite eficácia retroativa da medida.\n• Decisão definitiva da ADI: atenção ao quórum para instalação da sessão e para declaração de constitucionalidade ou inconstitucionalidade, às consequências da ausência de maioria absoluta e aos efeitos da procedência da ação.\n• Efeitos da decisão final da ADI e repercussão sobre a coisa julgada: concentre seus estudos nos efeitos vinculante, erga omnes, retroativo e repristinatório, nas hipóteses de modulação e na relação entre decisões do STF em controle de constitucionalidade, ação rescisória, inexigibilidade do título e coisa julgada."
+            },
+            {
+              "tipo": "LEGPROC",
+              "materia": "Constitucional",
+              "artigos": "CF/88: Art. 167-A a 202"
+            },
+            {
+              "tipo": "Questoes",
+              "plataforma": "QConcursos",
+              "conteudo": "Questões de Constitucional — Controle de Constitucionalidade - Parte 4",
+              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=3&exclude_nullified=true&exclude_outdated=true&my_questions=not_resolved&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=16299"
+            },
+            {
+              "tipo": "Jurisprudencia",
+              "conteudo": "RE 732686 (Tema 970)"
+            }
+          ]
+        },
+        {
+          "data": "2026-06-30",
+          "dia": "Terça-feira",
+          "itens": [
+            {
+              "tipo": "PDFULL",
+              "materia": "Ambiental",
+              "topico": "Introdução ao Direito Ambiental, Bens Ambientais e Princípios do Direito Ambiental",
+              "detalhes": "• Espécies de meio ambiente: decore as quatro espécies reconhecidas pela doutrina e pela jurisprudência do STF — meio ambiente natural, artificial (urbano), cultural e do trabalho — bem como suas principais características e exemplos.\n• Princípios da prevenção e da precaução: atenção às diferenças entre risco certo (prevenção) e risco incerto (precaução), aos seus instrumentos de aplicação e à frequente cobrança em provas discursivas e objetivas.\n• Princípio do poluidor-pagador: compreenda a lógica da internalização das externalidades negativas, a possibilidade de cumulação de obrigação de fazer, não fazer e indenizar e a vedação à socialização dos prejuízos ambientais.\n• Princípio da vedação ao retrocesso ambiental (efeito cliquet): estude sua relação com a proteção progressiva do meio ambiente, a presunção de inconstitucionalidade de normas menos protetivas e sua aplicação pelo STF.\n• Vaquejada e Código Florestal: atenção aos recentes entendimentos do STF sobre a constitucionalidade da EC 96/2017 (vaquejada) e às principais teses fixadas no julgamento do Código Florestal."
+            },
+            {
+              "tipo": "LEGPROC",
+              "materia": "Ambiental",
+              "artigos": "Lei 12.651/12 Código Florestal Arts. 1º a 34"
+            },
+            {
+              "tipo": "Questoes",
+              "plataforma": "QConcursos",
+              "conteudo": "Questões de Ambiental — Introdução ao Direito Ambiental, Bens Ambientais e Princípios do Direito Ambiental",
+              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=76&exclude_nullified=true&exclude_outdated=true&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=18408&subject_ids%5B%5D=18419"
+            },
+            {
+              "tipo": "Jurisprudencia",
+              "conteudo": "Caderno de Jurisprudência - Março – 2026 - Ambiental e Urbanístico"
+            }
+          ]
+        },
+        {
+          "data": "2026-07-01",
+          "dia": "Quarta-feira",
+          "itens": [
+            {
+              "tipo": "PDFULL",
+              "materia": "Tributário",
+              "topico": "Limitações Constitucionais ao Poder de Tributar: Princípios Tributários",
+              "detalhes": "• Princípio da legalidade tributária: estude suas finalidades, a necessidade de lei para criação e majoração de tributos, as hipóteses excepcionais de flexibilização e as principais exceções constitucionais.\n• Princípio da isonomia tributária: compreenda a vedação a discriminações arbitrárias, a possibilidade de tratamento diferenciado em situações distintas e os recentes debates envolvendo contribuintes cooperativos e devedores contumazes.\n• Princípio da não surpresa: atenção às diferenças entre irretroatividade, anterioridade anual e anterioridade nonagesimal, especialmente quanto às exceções e à jurisprudência recente do STF.\n• Capacidade contributiva e vedação ao confisco: compreenda a aplicação do princípio a todas as espécies tributárias, os limites da tributação excessiva e os parâmetros fixados pelo STF para multas tributárias.\n• Novos princípios da Reforma Tributária: estude os princípios da simplicidade, transparência, justiça tributária, cooperação, defesa do meio ambiente e neutralidade, tema com forte potencial de cobrança nos próximos concursos."
+            },
+            {
+              "tipo": "LEGPROC",
+              "materia": "Tributário",
+              "artigos": "CTN: Arts. 180 a 218"
+            },
+            {
+              "tipo": "Questoes",
+              "plataforma": "QConcursos",
+              "conteudo": "Questões de Tributário — Limitações Constitucionais ao Poder de Tributar: Princípios Tributários",
+              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=18&examining_board_ids%5B%5D=1&examining_board_ids%5B%5D=2&examining_board_ids%5B%5D=63&examining_board_ids%5B%5D=152&exclude_nullified=true&exclude_outdated=true&per_page=20&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&publication_year%5B%5D=2026&subject_ids%5B%5D=16988"
+            },
+            {
+              "tipo": "Jurisprudencia",
+              "conteudo": "Caderno de Jurisprudência - Março – 2026 - Tributário e Financeiro"
+            }
+          ]
+        },
+        {
+          "data": "2026-07-02",
+          "dia": "Quinta-feira",
+          "itens": [
+            {
+              "tipo": "PDFULL",
+              "materia": "Constitucional",
+              "topico": "Controle de Constitucionalidade - Parte 5",
+              "detalhes": "• Ação Declaratória de Constitucionalidade (ADC): compreenda suas finalidades, especialmente a confirmação da constitucionalidade da norma, a eliminação da insegurança jurídica e a uniformização das decisões judiciais.\n• Aspectos processuais da ADC: atenção à legitimidade ativa, à ausência de legitimidade passiva, ao objeto restrito a leis e atos normativos federais e à exigência de demonstração de controvérsia judicial relevante.\n• Cautelar na ADC: estude os requisitos para concessão, os efeitos da medida cautelar, a suspensão dos processos em curso e a possibilidade de prorrogação de sua eficácia pelo STF.\n• Ação Direta de Inconstitucionalidade por Omissão (ADO): compreenda as hipóteses de omissão total e parcial, a legitimidade das partes, o objeto da ação e as diferenças em relação ao mandado de injunção.\n• Decisão final na ADO: atenção aos efeitos da decisão, à distinção entre omissões legislativas e administrativas, aos efeitos erga omnes e vinculantes e às hipóteses excepcionais em que o STF atribui eficácia concretizadora à decisão."
+            },
+            {
+              "tipo": "LEGPROC",
+              "materia": "Constitucional",
+              "artigos": "CF/88: Art. 203 a 250"
+            },
+            {
+              "tipo": "Questoes",
+              "plataforma": "QConcursos",
+              "conteudo": "Questões de Constitucional — Controle de Constitucionalidade - Parte 5",
+              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=3&exclude_nullified=true&exclude_outdated=true&my_questions=all&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=16300&subject_ids%5B%5D=16301&subject_ids%5B%5D=16303"
+            },
+            {
+              "tipo": "Jurisprudencia",
+              "conteudo": "RE 1053254 AgR"
+            }
+          ]
+        },
+        {
+          "data": "2026-07-03",
+          "dia": "Sexta-feira",
+          "itens": [
+            {
+              "tipo": "PDFULL",
+              "materia": "Constitucional",
+              "topico": "Controle de Constitucionalidade - Parte 6",
+              "detalhes": "• Arguição de Descumprimento de Preceito Fundamental (ADPF): estude suas espécies, pressupostos de cabimento, legitimidade ativa e passiva e o conceito de preceito fundamental adotado pelo STF.\n• Princípio da subsidiariedade da ADPF: atenção às hipóteses em que a existência de outro meio eficaz impede o cabimento da ação e aos entendimentos do STF sobre a teoria da equivalência dos resultados.\n• Objeto da ADPF: compreenda as hipóteses envolvendo atos normativos, administrativos, judiciais, omissões do poder público, atos municipais, normas pré-constitucionais e situações excepcionais admitidas pela jurisprudência.\n• Controle concentrado abstrato estadual: estude os legitimados, o parâmetro de controle, os efeitos das decisões, a coexistência de ações simultâneas no STF e no TJ e as hipóteses de cabimento de recurso extraordinário.\n• Controle de constitucionalidade difuso estadual: atenção às características do controle incidental, aos parâmetros de controle, à cláusula de reserva de plenário e aos efeitos das decisões proferidas pelos órgãos jurisdicionais estaduais."
+            },
+            {
+              "tipo": "LEGPROC",
+              "materia": "Legislação AGU / Conflitos",
+              "artigos": "LEI 11.417/06 - Súmula Vinculante"
+            },
+            {
+              "tipo": "Questoes",
+              "plataforma": "QConcursos",
+              "conteudo": "Questões de Constitucional — Controle de Constitucionalidade - Parte 6",
+              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=3&exclude_nullified=true&exclude_outdated=true&my_questions=all&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=432&subject_ids%5B%5D=16300&subject_ids%5B%5D=16301&subject_ids%5B%5D=16303"
+            },
+            {
+              "tipo": "Jurisprudencia",
+              "conteudo": "ADI 3937"
+            }
+          ]
+        },
+        {
+          "data": "2026-07-04",
+          "dia": "Sábado",
+          "itens": [
+            {
+              "tipo": "PDFULL",
+              "materia": "Civil",
+              "topico": "Domicílio e Bens",
+              "detalhes": "• Domicílio da pessoa física: compreenda os conceitos de moradia, residência e domicílio, os elementos objetivo e subjetivo do domicílio e as hipóteses de pluralidade de domicílios previstas no Código Civil.\n• Domicílio necessário (art. 76 do CC): decore os domicílios legais do incapaz, servidor público, militar, marítimo e preso, tema frequentemente cobrado de forma literal pelas bancas.\n• Classificação dos bens: atenção às distinções entre bens móveis e imóveis, fungíveis e infungíveis, consumíveis e inconsumíveis, divisíveis e indivisíveis, com especial foco nos exemplos e exceções legais.\n• Bens reciprocamente considerados: estude o princípio da gravitação jurídica (\"o acessório segue o principal\"), bem como as exceções relacionadas às pertenças e suas repercussões práticas na jurisprudência do STJ.\n• Bem de família: atenção às hipóteses de impenhorabilidade, às exceções legais, às súmulas do STJ e ao Tema 1127 do STF sobre a penhora do bem de família do fiador em contratos de locação residencial e comercial."
+            },
+            {
+              "tipo": "LEGPROC",
+              "materia": "Civil",
+              "artigos": "CC Arts. 251 a 300"
+            },
+            {
+              "tipo": "Questoes",
+              "plataforma": "QConcursos",
+              "conteudo": "Questões de Civil — Domicílio e Bens",
+              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=8&exclude_nullified=true&exclude_outdated=true&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=61"
+            },
+            {
+              "tipo": "Jurisprudencia",
+              "conteudo": "Caderno de Jurisprudência - Março – 2026 - Civil"
+            }
+          ]
+        },
+        {
+          "data": "2026-07-05",
+          "dia": "Domingo",
+          "itens": [
+            {
+              "tipo": "Revisao",
+              "conteudo": "Não teremos meta de PDF nesse dia. Utilize o domingo para cumprir pendências e para fazer o Caderno de questões da semana. Caso prefira, você também pode ir adiantando o cronograma da semana seguinte."
+            }
+          ]
+        }
+      ]
+    }
+  },
   "simulados": [],
   "tarefas": [],
   "diagnostico": {},
