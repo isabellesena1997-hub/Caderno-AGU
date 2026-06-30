@@ -2043,6 +2043,17 @@ function init(){
 }
 
 // Carrega leis do GitHub de forma assíncrona após init síncrono
+// Avisa antes de fechar/recarregar se houver um salvamento de leis ainda em andamento.
+// Isso é a rede de segurança para o bug identificado: editar e fechar/recarregar
+// rápido demais podia perder a edição antes dela realmente chegar ao GitHub.
+window.addEventListener('beforeunload', (e) => {
+  if(window._salvamentoLeisPendente){
+    e.preventDefault();
+    e.returnValue = '';
+    return '';
+  }
+});
+
 async function initAsync(){
   const token = ghToken();
   const el = document.getElementById('lei-storage-bar');
@@ -2112,9 +2123,14 @@ function saveLeis(){
     return;
   }
 
-  // Debounce: espera 1s sem novas chamadas antes de salvar
+  // Debounce curto: evita disparar uma chamada de rede a cada caractere digitado em
+  // edições de texto contínuas, mas é curto o suficiente pra não arriscar perder uma
+  // edição caso a página seja recarregada logo em seguida (problema identificado:
+  // edições feitas em sequência rápida — ex. renomear várias leis seguidas — podiam
+  // nunca chegar a salvar de verdade se o debounce era interrompido por um reload).
   if(_ghSaveQueue) clearTimeout(_ghSaveQueue);
-  _ghSaveQueue = setTimeout(()=>{ _saveLeisGitHub(); }, 1000);
+  _ghSaveQueue = setTimeout(()=>{ _saveLeisGitHub(); }, 250);
+  window._salvamentoLeisPendente = true;
 }
 
 async function _saveLeisGitHub(){
@@ -2152,6 +2168,7 @@ async function _saveLeisGitHub(){
     if(res.ok){
       const data = await res.json();
       _ghFileSha = data.content?.sha || _ghFileSha;
+      window._salvamentoLeisPendente = false;
       if(el) el.innerHTML = '<span style="color:#15803D">☁️ Salvo no GitHub ✓</span>';
       setTimeout(()=>_atualizarIndicadorStorage(), 2000);
     } else {
