@@ -12136,12 +12136,84 @@ function renderLeiReader(){
     aplicarFormAtivos();
   }
   contentArea.addEventListener('mouseup',_aoSoltarSelecao);
-  // iPad/touch: o evento equivalente a mouseup é touchend. Sem isso, marcação não
-  // funciona com o dedo ou Apple Pencil pois mouseup nunca dispara em touch.
-  contentArea.addEventListener('touchend',()=>{
-    // Pequeno delay: no iOS a seleção via toque/pencil só fica "fixa" um instante
-    // depois do touchend (as alças de seleção ainda podem estar sendo ajustadas).
-    setTimeout(_aoSoltarSelecao, 80);
+
+  // ===== MARCAÇÃO POR TOQUE/CANETA (técnica validada: expande a seleção nativa) =====
+  // Em vez de "pintar" palavra por palavra a cada movimento (caro, trava o navegador),
+  // deixamos a seleção de texto NATIVA do navegador crescer durante o arraste — o
+  // navegador já é otimizado pra isso. A formatação só é aplicada UMA VEZ, ao soltar.
+  // Decide se o gesto é "scroll" ou "pintura" comparando o quanto se moveu na vertical
+  // vs horizontal logo no início — isso evita competir com o gesto nativo de scroll.
+  let _pintando=false, _scrollando=false;
+  let _pontoInicial=null, _rangeInicial=null;
+
+  function _pegarCaretDoToque(touch){
+    if(document.caretRangeFromPoint){
+      return document.caretRangeFromPoint(touch.clientX, touch.clientY);
+    } else if(document.caretPositionFromPoint){
+      const pos=document.caretPositionFromPoint(touch.clientX, touch.clientY);
+      if(pos){ const r=document.createRange(); r.setStart(pos.offsetNode,pos.offset); r.collapse(true); return r; }
+    }
+    return null;
+  }
+
+  contentArea.addEventListener('touchstart',(e)=>{
+    if(!ferramentaAtiva && !(leiFormAtivos.bold||leiFormAtivos.italic||leiFormAtivos.underline||leiFormAtivos.strikethrough||leiFormAtivos.corTexto||leiFormAtivos.maiusculo)) return;
+    if(e.touches.length!==1) return;
+    const touch=e.touches[0];
+    if(e.target.closest('button,select,input,.lei-disp-actions,.modal')) return;
+    _pintando=false; _scrollando=false;
+    _pontoInicial={x:touch.clientX,y:touch.clientY};
+    const startRange=_pegarCaretDoToque(touch);
+    if(startRange && contentArea.contains(startRange.commonAncestorContainer)){
+      _rangeInicial=startRange;
+    } else {
+      _rangeInicial=null;
+    }
+  },{passive:true});
+
+  contentArea.addEventListener('touchmove',(e)=>{
+    if(!ferramentaAtiva && !(leiFormAtivos.bold||leiFormAtivos.italic||leiFormAtivos.underline||leiFormAtivos.strikethrough||leiFormAtivos.corTexto||leiFormAtivos.maiusculo)) return;
+    if(_scrollando) return;
+    const touch=e.touches[0];
+    if(!_pintando){
+      if(!_pontoInicial) return;
+      const dx=Math.abs(touch.clientX-_pontoInicial.x);
+      const dy=Math.abs(touch.clientY-_pontoInicial.y);
+      if(dx<5 && dy<5) return;
+      if(dy>dx){ _scrollando=true; return; } // mais vertical = deixa rolar normalmente
+      _pintando=true; // mais horizontal = é um gesto de marcação
+      if(_rangeInicial){
+        const sel=window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(_rangeInicial);
+      }
+    }
+    if(e.cancelable) e.preventDefault(); // só bloqueia o scroll quando já confirmamos que é pintura
+    const currentRange=_pegarCaretDoToque(touch);
+    if(currentRange && _rangeInicial && contentArea.contains(currentRange.commonAncestorContainer)){
+      const sel=window.getSelection();
+      const newRange=document.createRange();
+      if(_rangeInicial.compareBoundaryPoints(Range.START_TO_START,currentRange)<=0){
+        newRange.setStart(_rangeInicial.startContainer,_rangeInicial.startOffset);
+        newRange.setEnd(currentRange.startContainer,currentRange.startOffset);
+      } else {
+        newRange.setStart(currentRange.startContainer,currentRange.startOffset);
+        newRange.setEnd(_rangeInicial.startContainer,_rangeInicial.startOffset);
+      }
+      sel.removeAllRanges();
+      sel.addRange(newRange);
+    }
+  },{passive:false});
+
+  contentArea.addEventListener('touchend',(e)=>{
+    if(_pintando){
+      _pintando=false;
+      if(e.cancelable) e.preventDefault();
+      _aoSoltarSelecao();
+    }
+    _scrollando=false;
+    _rangeInicial=null;
+    _pontoInicial=null;
   });
   contentArea.addEventListener('focusout',()=>{
     // Usa setTimeout para garantir que qualquer formatação em andamento termine antes de salvar
