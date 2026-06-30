@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T03:08:17.175Z",
+  "salvoEm": "2026-06-30T03:08:25.495Z",
   "caderno": {
     "Constitucional": [
       {
@@ -331,7 +331,8 @@
               "materia": "Constitucional",
               "topico": "Controle de Constitucionalidade - Parte 4",
               "detalhes": "• Amicus curiae na ADI: compreenda os requisitos para admissão, a possibilidade de apresentação de razões escritas e sustentação oral, bem como as regras atuais do STF sobre legitimidade recursal e embargos de declaração.\n• Medida cautelar na ADI: estude os requisitos para concessão da cautelar, os efeitos erga omnes, vinculantes, ex nunc e repristinatórios, além das hipóteses em que o STF admite eficácia retroativa da medida.\n• Decisão definitiva da ADI: atenção ao quórum para instalação da sessão e para declaração de constitucionalidade ou inconstitucionalidade, às consequências da ausência de maioria absoluta e aos efeitos da procedência da ação.\n• Efeitos da decisão final da ADI e repercussão sobre a coisa julgada: concentre seus estudos nos efeitos vinculante, erga omnes, retroativo e repristinatório, nas hipóteses de modulação e na relação entre decisões do STF em controle de constitucionalidade, ação rescisória, inexigibilidade do título e coisa julgada.",
-              "pendente": true
+              "pendente": false,
+              "feito": true
             },
             {
               "tipo": "LEGPROC",
@@ -343,11 +344,14 @@
               "plataforma": "QConcursos",
               "conteudo": "Questões de Constitucional — Controle de Constitucionalidade - Parte 4",
               "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=3&exclude_nullified=true&exclude_outdated=true&my_questions=not_resolved&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=16299",
-              "pendente": true
+              "pendente": false,
+              "feito": true
             },
             {
               "tipo": "Jurisprudencia",
-              "conteudo": "RE 732686 (Tema 970)"
+              "conteudo": "RE 732686 (Tema 970)",
+              "pendente": false,
+              "feito": true
             }
           ]
         },
