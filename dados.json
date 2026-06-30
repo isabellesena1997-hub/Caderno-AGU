@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T14:34:34.743Z",
+  "salvoEm": "2026-06-30T14:35:28.446Z",
   "caderno": {
     "Constitucional": [
       {
@@ -508,7 +508,26 @@
   "simulados": [],
   "tarefas": [],
   "diagnostico": {},
-  "leiAnotacoes": {},
+  "leiAnotacoes": {
+    "cf-viii-da-ordem-social-arts-193-a-232-art-225--4-": [
+      {
+        "id": "nota-1782830126936-gf7s",
+        "tipo": "pegadinha",
+        "conteudo": "<p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\"><span style=\"font-family:\n&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:&quot;Segoe UI Symbol&quot;\">✓</span> <b><span style=\"color:red\">F</span></b>loresta <b><span style=\"color:red\">A</span></b>mazônica\n<span style=\"font-family:&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:\n&quot;Segoe UI Symbol&quot;\"><o:p></o:p></span></p>\n\n<p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\"><span style=\"font-family:\n&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:&quot;Segoe UI Symbol&quot;\">✓</span> <b><span style=\"color:#00B050\">M</span></b>ata <b><span style=\"color:#00B050\">A</span></b>tlântica\n<o:p></o:p></p>\n\n<p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\"><span style=\"font-family:\n&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:&quot;Segoe UI Symbol&quot;\">✓</span> <b><span style=\"color:#CC6600\">SERRA</span></b> do Mar<o:p></o:p></p>\n\n<p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\"><span style=\"font-family:\n&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:&quot;Segoe UI Symbol&quot;\">✓</span> <b><span style=\"color:#4472C4;mso-themecolor:accent1\">PA</span></b>ntanal Mato-Grossense\n<span style=\"font-family:&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:\n&quot;Segoe UI Symbol&quot;\"><o:p></o:p></span></p>\n\n<p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\"><span style=\"font-family:\n&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:&quot;Segoe UI Symbol&quot;\">✓</span> <b><span style=\"color:#7030A0\">ZONA</span></b> Costeira <o:p></o:p></p>\n\n<p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\">\"a <b><span style=\"color:red\">FA</span><span style=\"color:#00B050\">MA</span></b> do <b><span style=\"color:#4472C4;mso-themecolor:accent1\">PA</span></b>i é conhecida na <b><span style=\"color:#7030A0\">ZONA</span></b><span style=\"color:#7030A0\"> </span>e na <b><span style=\"color:#CC6600\">SERRA</span></b>.\"<o:p></o:p></p>\n\n<p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\">Vale ressaltar que não\nconsta na lista o CERRADO, esse costuma ser um ponto de “pegadinha” nas provas\nde concursos.<o:p></o:p></p>",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Amarelo",
+          "hex": "#FFF8D6",
+          "borda": "#F59E0B"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-06-30",
+        "atualizadaEm": "2026-06-30"
+      }
+    ]
+  },
   "leiTags": {
     "lei_09bc2a842672::art::225::sub::11": [
       "decoreba"
