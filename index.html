@@ -5711,9 +5711,16 @@ function renderLeiReader(){
   // ===== MODO PINTURA (estilo marca-texto/caneta) =====
   // Em vez de "selecionar e soltar", aplica a formatação em tempo real, palavra por
   // palavra, conforme a caneta/dedo arrasta sobre o texto — como um marcador real.
-  // Só ativa quando há uma ferramenta de formatação ou highlight selecionada.
+  // IMPORTANTE: aplicarFormAtivos()/aplicarHighlightSel() fazem operações pesadas
+  // (execCommand, salvar histórico de undo, salvar no storage) — chamá-las a cada
+  // palavra durante o arraste trava o navegador. Por isso aqui fazemos a marcação
+  // visual de forma leve (só manipula o span diretamente) e só salvamos/registramos
+  // undo UMA VEZ, quando o gesto termina.
   let _pintando=false;
   let _palavrasJaPintadasNoGesto=new Set();
+  let _pintRafPendente=false;
+  let _ultimoPonto=null;
+  let _algumaMudancaNoGesto=false;
 
   function _algumaFerramentaAtiva(){
     return !!(ferramentaAtiva || leiFormAtivos.bold || leiFormAtivos.italic ||
@@ -5744,10 +5751,43 @@ function renderLeiReader(){
     return wordRange;
   }
 
+  // Aplica a marcação de forma leve e direta no DOM (sem execCommand, sem salvar)
+  function _pintarPalavraLeve(wordRange){
+    const inner=wordRange.startContainer.parentElement?.closest('.lei-disp-inner');
+    if(inner) inner.contentEditable='true';
+
+    if(ferramentaAtiva && ferramentaAtiva.startsWith('hl-')){
+      const span=document.createElement('span');
+      span.className=ferramentaAtiva;
+      try{ wordRange.surroundContents(span); }catch(e){ return; }
+      _algumaMudancaNoGesto=true;
+      return;
+    }
+    // B/I/U/S/cor via document.execCommand é pesado e mexe na seleção global;
+    // para o modo pintura usamos span com estilo direto, mais leve e previsível.
+    const span=document.createElement('span');
+    const estilos=[];
+    if(leiFormAtivos.bold) estilos.push('font-weight:700');
+    if(leiFormAtivos.italic) estilos.push('font-style:italic');
+    if(leiFormAtivos.underline) estilos.push('text-decoration:underline');
+    if(leiFormAtivos.strikethrough) estilos.push('text-decoration:line-through');
+    if(leiFormAtivos.corTexto) span.className=leiFormAtivos.corTexto;
+    if(leiFormAtivos.maiusculo){
+      const txt=wordRange.toString();
+      if(txt && txt!==txt.toUpperCase()){
+        try{ wordRange.deleteContents(); wordRange.insertNode(document.createTextNode(txt.toUpperCase())); _algumaMudancaNoGesto=true; }catch(e){}
+      }
+      return;
+    }
+    if(!estilos.length && !span.className) return;
+    if(estilos.length) span.style.cssText=estilos.join(';');
+    try{ wordRange.surroundContents(span); }catch(e){ return; }
+    _algumaMudancaNoGesto=true;
+  }
+
   function _pintarNoPonto(x,y){
     const wordRange=_pegarPalavraNoPonto(x,y);
     if(!wordRange) return;
-    // Chave única pra não reprocessar a mesma palavra repetidamente durante o mesmo gesto
     const idKey = wordRange.startContainer.parentElement
       ? (wordRange.startContainer.parentElement.dataset._pintId ||
          (wordRange.startContainer.parentElement.dataset._pintId = 'p'+Math.random().toString(36).slice(2)))
@@ -5755,35 +5795,41 @@ function renderLeiReader(){
     const uniq=`${idKey}_${wordRange.startOffset}_${wordRange.endOffset}`;
     if(_palavrasJaPintadasNoGesto.has(uniq)) return;
     _palavrasJaPintadasNoGesto.add(uniq);
+    _pintarPalavraLeve(wordRange);
+  }
 
-    const sel=window.getSelection();
-    sel.removeAllRanges();
-    sel.addRange(wordRange);
-
-    if(ferramentaAtiva && ferramentaAtiva.startsWith('hl-')){
-      aplicarHighlightSel();
-    } else if(_algumaFerramentaAtiva()){
-      aplicarFormAtivos();
-    }
+  function _processarFilaPintura(){
+    _pintRafPendente=false;
+    if(!_ultimoPonto) return;
+    const {x,y}=_ultimoPonto;
+    _pintarNoPonto(x,y);
   }
 
   contentArea.addEventListener('pointerdown',(e)=>{
     if(!_algumaFerramentaAtiva()) return; // sem ferramenta ativa, comportamento normal (seleção manual)
     e.preventDefault(); // evita lupa/alças de seleção nativas do iOS competindo com o desenho
     _pintando=true;
+    _algumaMudancaNoGesto=false;
     _palavrasJaPintadasNoGesto=new Set();
+    salvarEstadoAntesDaEdicaoLei(); // registra UM estado de undo pro gesto inteiro
     _pintarNoPonto(e.clientX,e.clientY);
   });
   contentArea.addEventListener('pointermove',(e)=>{
     if(!_pintando) return;
+    // Throttle: processa no máximo 1x por frame de tela, evitando que uma rajada
+    // de eventos coalescidos (comum com Apple Pencil) trave a thread principal.
     const eventos=(e.getCoalescedEvents&&e.getCoalescedEvents().length)?e.getCoalescedEvents():[e];
+    const ultimo=eventos[eventos.length-1];
+    _ultimoPonto={x:ultimo.clientX,y:ultimo.clientY};
+    // Processa também os pontos intermediários (sem await de frame) pra não pular
+    // palavras em traços rápidos, mas sem chamar funções pesadas — só o span leve.
     eventos.forEach(ev=>_pintarNoPonto(ev.clientX,ev.clientY));
   });
   function _pararDePintar(){
     if(_pintando){
       _pintando=false;
       window.getSelection()?.removeAllRanges();
-      salvarTextosEditados();
+      if(_algumaMudancaNoGesto) salvarTextosEditados(); // salva UMA VEZ, ao final do gesto
     }
   }
   contentArea.addEventListener('pointerup',_pararDePintar);
