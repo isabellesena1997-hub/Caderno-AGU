@@ -2169,7 +2169,7 @@ async function _saveLeisGitHub(){
       const data = await res.json();
       _ghFileSha = data.content?.sha || _ghFileSha;
       window._salvamentoLeisPendente = false;
-      if(el) el.innerHTML = '<span style="color:#15803D">☁️ Salvo no GitHub ✓</span>';
+      if(el) el.innerHTML = '<span style="color:#15803D">☁️ Salvo no GitHub ✓ — se recarregar agora, espere ~1 min (o GitHub demora pra atualizar)</span>';
       setTimeout(()=>_atualizarIndicadorStorage(), 2000);
     } else {
       const err = await res.json();
