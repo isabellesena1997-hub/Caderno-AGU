@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T14:43:14.286Z",
+  "salvoEm": "2026-06-30T20:27:35.063Z",
   "caderno": {
     "Constitucional": [
       {
@@ -410,7 +410,9 @@
               "tipo": "PDFULL",
               "materia": "Ambiental",
               "topico": "Introdução ao Direito Ambiental, Bens Ambientais e Princípios do Direito Ambiental",
-              "detalhes": "• Espécies de meio ambiente: decore as quatro espécies reconhecidas pela doutrina e pela jurisprudência do STF — meio ambiente natural, artificial (urbano), cultural e do trabalho — bem como suas principais características e exemplos.\n• Princípios da prevenção e da precaução: atenção às diferenças entre risco certo (prevenção) e risco incerto (precaução), aos seus instrumentos de aplicação e à frequente cobrança em provas discursivas e objetivas.\n• Princípio do poluidor-pagador: compreenda a lógica da internalização das externalidades negativas, a possibilidade de cumulação de obrigação de fazer, não fazer e indenizar e a vedação à socialização dos prejuízos ambientais.\n• Princípio da vedação ao retrocesso ambiental (efeito cliquet): estude sua relação com a proteção progressiva do meio ambiente, a presunção de inconstitucionalidade de normas menos protetivas e sua aplicação pelo STF.\n• Vaquejada e Código Florestal: atenção aos recentes entendimentos do STF sobre a constitucionalidade da EC 96/2017 (vaquejada) e às principais teses fixadas no julgamento do Código Florestal."
+              "detalhes": "• Espécies de meio ambiente: decore as quatro espécies reconhecidas pela doutrina e pela jurisprudência do STF — meio ambiente natural, artificial (urbano), cultural e do trabalho — bem como suas principais características e exemplos.\n• Princípios da prevenção e da precaução: atenção às diferenças entre risco certo (prevenção) e risco incerto (precaução), aos seus instrumentos de aplicação e à frequente cobrança em provas discursivas e objetivas.\n• Princípio do poluidor-pagador: compreenda a lógica da internalização das externalidades negativas, a possibilidade de cumulação de obrigação de fazer, não fazer e indenizar e a vedação à socialização dos prejuízos ambientais.\n• Princípio da vedação ao retrocesso ambiental (efeito cliquet): estude sua relação com a proteção progressiva do meio ambiente, a presunção de inconstitucionalidade de normas menos protetivas e sua aplicação pelo STF.\n• Vaquejada e Código Florestal: atenção aos recentes entendimentos do STF sobre a constitucionalidade da EC 96/2017 (vaquejada) e às principais teses fixadas no julgamento do Código Florestal.",
+              "pendente": false,
+              "feito": true
             },
             {
               "tipo": "LEGPROC",
