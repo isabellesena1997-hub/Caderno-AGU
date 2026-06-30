@@ -12192,15 +12192,23 @@ function renderLeiReader(){
     // Usa setTimeout para garantir que qualquer formatação em andamento termine antes de salvar
     setTimeout(()=>{ salvarTextosEditados(); }, 50);
   });
+  // Quando um elemento editável dentro da lei recebe foco, o browser tenta
+  // scrollar automaticamente pra torná-lo visível — isso causa o "volta pro Art.1".
+  // Capturamos o scroll antes do foco e restauramos logo depois para cancelar esse efeito.
+  contentArea.addEventListener('focusin', (e)=>{
+    const scrollAtual = contentArea.scrollTop;
+    requestAnimationFrame(()=>{ contentArea.scrollTop = scrollAtual; });
+  });
   // Restaura estado visual dos botões após render
   sincronizarToolbar();
   // Restaura a posição de scroll que estava antes do re-render.
-  // Usa requestAnimationFrame para garantir que o DOM já foi pintado antes de rolar.
+  // Usa setTimeout com pequeno delay pra garantir que o DOM complexo
+  // já terminou de ser pintado pelo browser antes de rolar.
   if(_scrollAntes > 0){
-    requestAnimationFrame(()=>{
+    setTimeout(()=>{
       const area = document.getElementById('lei-content-area');
       if(area) area.scrollTop = _scrollAntes;
-    });
+    }, 50);
   }
 }
 
