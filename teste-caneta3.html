@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teste Caneta 3 - Posicoes pre-calculadas</title>
+<style>
+  body{font-family:-apple-system,sans-serif;margin:0;padding:16px;background:#f5f4f0}
+  h2{font-size:14px;color:#1a1a18;margin-bottom:4px}
+  .texto{font-size:17px;line-height:2.1;background:#fff;border-radius:12px;padding:24px;touch-action:pan-y;user-select:text}
+  .lei-disp-inner span.hl-amarelo{background:#FEF08A}
+  .lei-disp-inner span.hl-verde{background:#BBF7D0}
+  .lei-disp-inner b{font-weight:700}
+  .status{position:fixed;bottom:0;left:0;right:0;background:#1a1a18;color:#fff;padding:10px;font-size:12px;font-family:monospace;line-height:1.6}
+  .toolbar{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+  .toolbar button{padding:8px 12px;border-radius:8px;border:1px solid #ddd;background:#fff;font-size:13px}
+  .toolbar button.active{background:#185FA5;color:#fff;border-color:#185FA5}
+  .art{margin-bottom:18px;padding:14px;border:1px solid #eee;border-radius:10px}
+  .art b.num{color:#185FA5}
+  .palavra{display:inline-block}
+</style>
+</head>
+<body>
+<h2>Teste 3: posições das palavras pré-calculadas (sem caretRangeFromPoint durante o movimento)</h2>
+<div class="toolbar">
+  <button id="tb-amarelo" onclick="setTool('hl-amarelo')">🟡 Amarelo</button>
+  <button id="tb-verde" onclick="setTool('hl-verde')">🟢 Verde</button>
+  <button id="tb-negrito" onclick="setTool('bold')">B Negrito</button>
+  <button onclick="setTool(null)">✕ Desativar</button>
+  <button onclick="recalcularPosicoes()">🔄 Recalcular posições</button>
+</div>
+<div class="texto" id="texto"></div>
+<div class="status" id="status">aguardando...</div>
+
+<script>
+const ARTIGOS_BASE = [];
+for(let i=1;i<=8;i++){
+  ARTIGOS_BASE.push(`Art. ${i}º Este dispositivo estabelece normas gerais aplicáveis à matéria, dispondo sobre direitos, deveres e obrigações dos entes federativos, observados os princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência, conforme disposto na legislação vigente e nos termos do regulamento próprio editado pelo órgão competente para tal finalidade específica.`);
+}
+
+const texto = document.getElementById('texto');
+texto.innerHTML = ARTIGOS_BASE.map((art,i)=>{
+  const palavras = art.split(/\s+/);
+  // Cada palavra vira um span individual com classe .palavra — isso é o que torna
+  // possível pré-calcular a posição de cada uma sem precisar de caretRangeFromPoint.
+  const html = palavras.map((p,idx)=>{
+    let conteudo = p;
+    if(idx % 11 === 0 && idx > 0) conteudo = `<b class="pre-marcado">${p}</b>`; // simula marcação pré-existente
+    return `<span class="palavra">${conteudo}</span>`;
+  }).join(' ');
+  return `<div class="art"><b class="num">Art. ${i+1}</b><div class="lei-disp-inner" contenteditable="true">${html}</div></div>`;
+}).join('');
+
+let ferramentaAtiva = null;
+function setTool(t){
+  ferramentaAtiva = t;
+  document.querySelectorAll('.toolbar button').forEach(b=>b.classList.remove('active'));
+  if(t==='hl-amarelo') document.getElementById('tb-amarelo').classList.add('active');
+  if(t==='hl-verde') document.getElementById('tb-verde').classList.add('active');
+  if(t==='bold') document.getElementById('tb-negrito').classList.add('active');
+}
+
+const status = document.getElementById('status');
+
+// ===== POSIÇÕES PRÉ-CALCULADAS =====
+// Em vez de perguntar ao navegador "qual palavra está em (x,y)" a cada movimento da
+// caneta (caro), calculamos a posição (retângulo) de CADA palavra UMA VEZ, guardamos
+// numa lista simples, e durante o movimento só comparamos coordenadas com essa lista
+// — uma operação muito mais barata (é só matemática, não consulta ao DOM).
+let posicoesPalavras = [];
+function recalcularPosicoes(){
+  const spans = texto.querySelectorAll('.palavra');
+  posicoesPalavras = Array.from(spans).map(span => {
+    const r = span.getBoundingClientRect();
+    return { el: span, top: r.top, left: r.left, right: r.right, bottom: r.bottom };
+  });
+  status.textContent = `posições recalculadas: ${posicoesPalavras.length} palavras mapeadas`;
+}
+recalcularPosicoes();
+// Recalcula se a tela rolar ou redimensionar (a posição na tela muda mesmo que o texto não mude)
+let recalcTimer=null;
+window.addEventListener('scroll', ()=>{ if(recalcTimer) clearTimeout(recalcTimer); recalcTimer=setTimeout(recalcularPosicoes, 150); }, {passive:true});
+window.addEventListener('resize', recalcularPosicoes);
+
+function acharPalavraNoPonto(x,y){
+  // Busca linear simples — para uma página/artigo (centenas de palavras, não milhares)
+  // isso é rapidíssimo, muito mais barato que perguntar ao DOM a cada vez.
+  for(const p of posicoesPalavras){
+    if(x >= p.left && x <= p.right && y >= p.top && y <= p.bottom) return p;
+  }
+  return null;
+}
+
+let pintando = false;
+let palavrasNoGesto = new Set();
+let contadorPintadas = 0;
+let ultimoProcessamento = 0;
+const INTERVALO_MIN_MS = 30; // ~33x/seg — operação leve agora, pode ser mais frequente
+
+function pintarPalavra(p){
+  if(!p) return;
+  if(palavrasNoGesto.has(p.el)) return;
+  palavrasNoGesto.add(p.el);
+  contadorPintadas++;
+
+  if(ferramentaAtiva && ferramentaAtiva.startsWith('hl-')){
+    p.el.style.background = ferramentaAtiva==='hl-amarelo' ? '#FEF08A' : '#BBF7D0';
+  } else if(ferramentaAtiva === 'bold'){
+    p.el.style.fontWeight = '700';
+  }
+}
+
+function atualizarStatus(tipo){
+  status.textContent = `ferramenta: ${ferramentaAtiva||'nenhuma'} | palavras pintadas no gesto: ${contadorPintadas} | tipo: ${tipo||'-'}`;
+}
+
+texto.addEventListener('pointerdown',(e)=>{
+  if(!ferramentaAtiva) return;
+  e.preventDefault();
+  pintando = true;
+  palavrasNoGesto = new Set();
+  contadorPintadas = 0;
+  const p = acharPalavraNoPonto(e.clientX, e.clientY);
+  pintarPalavra(p);
+  atualizarStatus(e.pointerType);
+});
+texto.addEventListener('pointermove',(e)=>{
+  if(!pintando) return;
+  const agora = performance.now();
+  if(agora - ultimoProcessamento < INTERVALO_MIN_MS) return;
+  ultimoProcessamento = agora;
+  const p = acharPalavraNoPonto(e.clientX, e.clientY);
+  pintarPalavra(p);
+  atualizarStatus(e.pointerType);
+});
+function parar(){ pintando = false; }
+texto.addEventListener('pointerup', parar);
+texto.addEventListener('pointercancel', parar);
+texto.addEventListener('pointerleave', ()=>{ if(pintando) parar(); });
+</script>
+</body>
+</html>
