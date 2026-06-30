@@ -5687,34 +5687,31 @@ function renderLeiReader(){
   // Highlight on mouseup + save on focusout
   const contentArea=document.getElementById('lei-content-area');
   function _aoSoltarSelecao(){
+    // Só processa se a seleção atual está dentro desta área de leitura (evita
+    // disparar formatação ao selecionar texto em outro lugar da tela, ex. sidebar).
+    const sel=window.getSelection();
+    if(!sel||sel.isCollapsed||!sel.rangeCount) return;
+    const range=sel.getRangeAt(0);
+    if(!contentArea.contains(range.commonAncestorContainer)) return;
     // Highlight: aplica se ferramenta hl-* ativa
     if(ferramentaAtiva&&ferramentaAtiva.startsWith('hl-')){aplicarHighlightSel();return;}
     // Formatações de modo ativo (B, I, U, S, cor)
     aplicarFormAtivos();
   }
-  // Evita disparo duplicado quando mouseup/touchend/pointerup acontecem em sequência
-  // rápida pro mesmo gesto (o que aplicaria e desaplicaria a formatação).
-  let _ultimoDisparoSelecao=0;
-  function _aoSoltarSelecaoDebounced(){
-    const agora=Date.now();
-    if(agora-_ultimoDisparoSelecao<200) return;
-    _ultimoDisparoSelecao=agora;
-    _aoSoltarSelecao();
+  // Abordagem robusta independente do tipo de input (mouse, dedo ou Apple Pencil):
+  // escuta 'selectionchange' do documento, que dispara nativamente sempre que a
+  // seleção de texto muda, e usa um pequeno debounce pra só agir quando a seleção
+  // "parar de mudar" (estabilizar) — em vez de adivinhar um delay fixo após touchend,
+  // que era inconsistente entre dispositivos e tipos de toque.
+  let _selChangeTimer=null;
+  if(window._leiSelectionChangeHandler){
+    document.removeEventListener('selectionchange', window._leiSelectionChangeHandler);
   }
-  contentArea.addEventListener('mouseup',_aoSoltarSelecaoDebounced);
-  // iPad/touch: o evento equivalente a mouseup é touchend. Sem isso, marcação não
-  // funciona com o dedo ou Apple Pencil pois mouseup nunca dispara em touch.
-  contentArea.addEventListener('touchend',()=>{
-    // Pequeno delay: no iOS a seleção via toque/pencil só fica "fixa" um instante
-    // depois do touchend (as alças de seleção ainda podem estar sendo ajustadas).
-    setTimeout(_aoSoltarSelecaoDebounced, 80);
-  });
-  // Apple Pencil: o iPadOS às vezes não dispara touchend de forma confiável durante
-  // seleção de texto com a caneta, mas sempre dispara pointerup (pointerType 'pen').
-  // Cobrindo pointerup também garante que funcione com a Pencil, não só o dedo.
-  contentArea.addEventListener('pointerup',()=>{
-    setTimeout(_aoSoltarSelecaoDebounced, 80);
-  });
+  window._leiSelectionChangeHandler=()=>{
+    if(_selChangeTimer) clearTimeout(_selChangeTimer);
+    _selChangeTimer=setTimeout(_aoSoltarSelecao, 220);
+  };
+  document.addEventListener('selectionchange', window._leiSelectionChangeHandler);
   contentArea.addEventListener('focusout',()=>{
     // Usa setTimeout para garantir que qualquer formatação em andamento termine antes de salvar
     setTimeout(()=>{ salvarTextosEditados(); }, 50);
