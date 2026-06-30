@@ -2156,10 +2156,13 @@ async function _saveLeisGitHub(){
       setTimeout(()=>_atualizarIndicadorStorage(), 2000);
     } else {
       const err = await res.json();
-      // sha desatualizado — busca novo sha e tenta de novo
       if(res.status === 409 || (err.message||'').includes('sha')){
-        _ghFileSha = '';
-        setTimeout(()=>_saveLeisGitHub(), 500);
+        // CONFLITO: outro dispositivo/aba salvou algo depois que esta sessão carregou.
+        // Antes isso era resolvido automaticamente sobrescrevendo com a versão local,
+        // o que apagava silenciosamente edições feitas em outro dispositivo. Agora
+        // avisamos e deixamos a pessoa decidir, em vez de perder dados sem aviso.
+        if(el) el.innerHTML = '<span style="color:#B91C1C">⚠️ Conflito: outro dispositivo salvou algo. Veja o aviso.</span>';
+        _mostrarAvisoConflitoSave();
       } else {
         throw new Error(err.message || res.status);
       }
@@ -2168,6 +2171,43 @@ async function _saveLeisGitHub(){
     console.error('[GH] saveLeis erro:', e);
     if(el) el.innerHTML = '<span style="color:#B91C1C">☁️ Erro ao salvar: ' + e.message + '</span>';
   }
+}
+
+// ── AVISO DE CONFLITO DE SALVAMENTO ──────────────────────────────────────────
+// Mostrado quando esta sessão tenta salvar mas detecta que outro dispositivo/aba
+// já salvou uma versão mais nova no GitHub. Evita perder edições silenciosamente.
+function _mostrarAvisoConflitoSave(){
+  if(document.getElementById('modal-conflito-save')) return; // já está mostrando
+  const div=document.createElement('div');
+  div.id='modal-conflito-save';
+  div.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px';
+  div.innerHTML=`
+    <div style="background:#fff;border-radius:12px;max-width:420px;padding:20px;box-shadow:0 10px 40px rgba(0,0,0,.3)">
+      <div style="font-weight:700;font-size:15px;margin-bottom:8px;color:#B91C1C">⚠️ Conflito ao salvar</div>
+      <div style="font-size:13px;color:#374151;line-height:1.5;margin-bottom:16px">
+        Outro dispositivo ou aba salvou uma alteração nas leis depois que esta sessão foi aberta.
+        Se você continuar salvando aqui, pode <strong>sobrescrever</strong> o que foi salvo no outro lugar.
+        <br><br>
+        Recomendado: recarregue esta página para pegar a versão mais recente antes de continuar editando
+        (suas últimas alterações nesta aba podem ser perdidas ao recarregar).
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button onclick="location.reload()" style="flex:1;padding:9px 12px;background:#185FA5;color:#fff;border:none;border-radius:6px;font-size:13px;cursor:pointer">🔄 Recarregar agora</button>
+        <button onclick="_forcarSobrescreverSave()" style="flex:1;padding:9px 12px;background:#fff;color:#B91C1C;border:1px solid #FCA5A5;border-radius:6px;font-size:13px;cursor:pointer">Sobrescrever mesmo assim</button>
+      </div>
+    </div>`;
+  document.body.appendChild(div);
+}
+async function _forcarSobrescreverSave(){
+  const m=document.getElementById('modal-conflito-save');
+  if(m) m.remove();
+  // Busca o sha mais recente e força salvar por cima com a versão local desta aba
+  try {
+    const token=ghToken();
+    const r=await fetch(ghApiUrl(), { headers:{'Authorization':'token '+token,'Accept':'application/vnd.github.v3+json'} });
+    if(r.ok){ const d=await r.json(); _ghFileSha=d.sha||''; }
+  } catch(e){}
+  _saveLeisGitHub();
 }
 
 // Carrega leis.json do GitHub
