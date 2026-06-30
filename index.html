@@ -8650,8 +8650,8 @@ async function _forcarSobrescreverSave(){
 
 // Carrega leis.json do GitHub
 async function carregarLeisGitHub(){
-  // Repositório público — lê sem token para evitar problemas de CORS
-  const url = `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/${GH_BRANCH}/${GH_FILE}?t=${Date.now()}`;
+  // Carrega do próprio Vercel (sem delay de CDN do GitHub) — atualiza junto com o deploy
+  const url = `/leis.json?t=${Date.now()}`;
   const el = document.getElementById('lei-storage-bar');
   try {
     const res = await fetch(url);
@@ -11774,9 +11774,9 @@ function _aplicarDadosGitHub(data){
   if(data.metaHoras){ metaHoras=data.metaHoras; try{ localStorage.setItem('agu-meta-horas', metaHoras); }catch(e){} }
 }
 
-// Carrega dados.json do GitHub
+// Carrega dados.json do Vercel (sem delay de CDN)
 async function carregarDadosGitHub(){
-  const url = `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/${GH_BRANCH}/${GH_DADOS_FILE}?t=${Date.now()}`;
+  const url = `/dados.json?t=${Date.now()}`;
   try {
     const res = await fetch(url);
     if(!res.ok) return false;
