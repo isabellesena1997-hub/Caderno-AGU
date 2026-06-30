@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T14:35:28.446Z",
+  "salvoEm": "2026-06-30T14:43:14.286Z",
   "caderno": {
     "Constitucional": [
       {
@@ -304,7 +304,52 @@
       }
     ],
     "Financeiro e Econômico": [],
-    "Ambiental": [],
+    "Ambiental": [
+      {
+        "id": 1782830592780,
+        "topico": "A Constituição Federal e o meio ambiente",
+        "art": "",
+        "artigoTese": "CF - VIII - Da Ordem Social - Arts. 193 a 232 — Art. 225, § 4º.",
+        "regra": "A Floresta Amazônica brasileira, a Mata Atlântica, a Serra do Mar, o Pantanal Mato-Grossense e a Zona Costeira são PATRIMÔNIO NACIONAL, e sua utilização far-se-á, na forma da lei, dentro de condições que assegurem a preservação do meio ambiente, inclusive quanto ao uso dos recursos naturais.",
+        "confundiu": "",
+        "pegadinha": "<p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\"><span style=\"font-family:\n&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:&quot;Segoe UI Symbol&quot;\">✓</span> <b><span style=\"color:red\">F</span></b>loresta <b><span style=\"color:red\">A</span></b>mazônica</p><p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\"><span style=\"font-family:\n&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:&quot;Segoe UI Symbol&quot;\">✓</span> <b><span style=\"color:#00B050\">M</span></b>ata <b><span style=\"color:#00B050\">A</span></b>tlântica</p><p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\"><span style=\"font-family: &quot;Segoe UI Symbol&quot;, sans-serif;\">✓</span><span style=\"font-family: inherit;\"> </span><b style=\"font-family: inherit;\"><span style=\"color:#CC6600\">SERRA</span></b><span style=\"font-family: inherit;\"> do Mar</span></p><p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\"><span style=\"font-family:\n&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:&quot;Segoe UI Symbol&quot;\">✓</span> <b><span style=\"color:#4472C4;mso-themecolor:accent1\">PA</span></b>ntanal Mato-Grossense</p><p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\"><span style=\"font-family:\n&quot;Segoe UI Symbol&quot;,sans-serif;mso-bidi-font-family:&quot;Segoe UI Symbol&quot;\">✓</span> <b><span style=\"color:#7030A0\">ZONA</span></b> Costeira </p>\n<p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\">\"a <b><span style=\"color:red\">FA</span><span style=\"color:#00B050\">MA</span></b> do <b><span style=\"color:#4472C4;mso-themecolor:accent1\">PA</span></b>i é conhecida na <b><span style=\"color:#7030A0\">ZONA</span></b><span style=\"color:#7030A0\"> </span>e na <b><span style=\"color:#CC6600\">SERRA</span></b>.\"</p>\n<p class=\"Base\" style=\"margin-left:-14.2pt;mso-list:none\">Vale ressaltar que não consta na lista o CERRADO, esse costuma ser um ponto de “pegadinha” nas provas e concursos.<o:p></o:p></p>",
+        "fonte": "lei",
+        "banca": "",
+        "cargo": "",
+        "resultado": "errei",
+        "ano": "",
+        "questaoId": null,
+        "ids": {
+          "lei": [
+            "CF - VIII - Da Ordem Social - Arts. 193 a 232 — Art. 225, § 4º."
+          ],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-06-30",
+            "obs": ""
+          }
+        ],
+        "ultimaRev": "2026-06-30",
+        "proxRev": "2026-07-03",
+        "vezes": 0,
+        "revisado": false,
+        "imgs": [],
+        "tbl": {
+          "headers": [
+            "Col 1",
+            "Col 2"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
+          ]
+        }
+      }
+    ],
     "Civil": [],
     "Processo Civil": [],
     "Internacional Público e Privado": [],
