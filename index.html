@@ -12094,6 +12094,12 @@ let _mapaErrosPessoais = null;
 let _mapaErrosPessoaisLeiId = null;
 
 function renderLeiReader(){
+  // Salva a posição de scroll atual antes de re-renderizar, para restaurar depois.
+  // Isso evita que qualquer ação (favoritar, comentar, formatar...) jogue de volta
+  // para o Art. 1º. A exceção é abrirLei(), que zera o scroll explicitamente.
+  const _areaAntes = document.getElementById('lei-content-area');
+  const _scrollAntes = _areaAntes ? _areaAntes.scrollTop : 0;
+
   // Recalcula mapa de erros pessoais para a lei atual
   _mapaErrosPessoais = null;
   _mapaErrosPessoaisLeiId = leiAtiva;
@@ -12188,6 +12194,14 @@ function renderLeiReader(){
   });
   // Restaura estado visual dos botões após render
   sincronizarToolbar();
+  // Restaura a posição de scroll que estava antes do re-render.
+  // Usa requestAnimationFrame para garantir que o DOM já foi pintado antes de rolar.
+  if(_scrollAntes > 0){
+    requestAnimationFrame(()=>{
+      const area = document.getElementById('lei-content-area');
+      if(area) area.scrollTop = _scrollAntes;
+    });
+  }
 }
 
 // ===== HELPERS DE NORMALIZAÇÃO DE LEI =====
@@ -12996,10 +13010,7 @@ function revisaoGerarPrompt(ignored) {
 // ===== FORMATAÇÃO =====
 function setModoVis(modo){
   modoVisualizacao=modo;
-  const scrollEl=document.getElementById('lei-content-area');
-  const scrollTop=scrollEl?scrollEl.scrollTop:0;
   renderLeiReader();
-  setTimeout(()=>{const s=document.getElementById('lei-content-area');if(s)s.scrollTop=scrollTop;},50);
 }
 function setFerramenta(f){
   _fmtTriggerByClick = true;
@@ -13754,12 +13765,9 @@ function excluirDispositivo(){
 // ===== STAR / QUESTÃO =====
 function toggleStarDisp(leiId,idx,event){
   if(event){event.preventDefault();event.stopPropagation();}
-  const scrollEl=document.getElementById('lei-content-area');
-  const scrollTop=scrollEl?scrollEl.scrollTop:0;
   leis[leiId].artigos[idx].starred=!leis[leiId].artigos[idx].starred;
   saveLeis();
   renderLeiReader();
-  setTimeout(()=>{const s=document.getElementById('lei-content-area');if(s)s.scrollTop=scrollTop;},50);
   renderLeiSidebar();
 }
 function toggleStarSub(leiId,artIdx,si){
