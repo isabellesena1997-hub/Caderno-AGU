@@ -1,4 +1,4 @@
-const CACHE_NAME = 'caderno-agu-v1';
+const CACHE_NAME = 'caderno-agu-v2';
 const SHELL_FILES = ['./index.html', './manifest.json'];
 
 self.addEventListener('install', (event) => {
@@ -17,10 +17,20 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Network-first para tudo: garante que index.html e leis.json sempre tentem buscar
-// a versão mais nova primeiro, caindo para o cache só se estiver offline.
+// IMPORTANTE: leis.json tem ~19MB. Cachear esse arquivo a cada carregamento causava
+// acúmulo progressivo no Cache Storage do dispositivo, levando a lentidão/travamento
+// depois de um tempo de uso. Por isso ele (e qualquer arquivo .json grande de dados)
+// é explicitamente ignorado pelo cache do service worker — vai sempre direto na rede.
+function ehArquivoGrandeIgnorado(url) {
+  return url.includes('leis.json') || url.includes('dados.json');
+}
+
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+  if (ehArquivoGrandeIgnorado(event.request.url)) {
+    // Não intercepta nem cacheia — deixa o navegador lidar normalmente.
+    return;
+  }
 
   event.respondWith(
     fetch(event.request)
