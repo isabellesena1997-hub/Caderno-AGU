@@ -5570,7 +5570,7 @@ function buildToolbar(){
     {cls:'tc-lilas',cor:'#6D28D9',label:'A'},
     {cls:'tc-rosa',cor:'#BE185D',label:'A'},
   ];
-  return`<div class="lei-toolbar" onmousedown="event.preventDefault()" ontouchstart="event.preventDefault()">
+  return`<div class="lei-toolbar" onmousedown="event.preventDefault()">
     <div class="lei-toolbar-row">
       <button class="vm-btn${modoVisualizacao==='puro'?' active':''}" onclick="setModoVis('puro')">Lei pura</button>
       <button class="vm-btn${modoVisualizacao==='comentarios'?' active':''}" onclick="setModoVis('comentarios')">+ Comentários</button>
