@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-06-30T03:20:28.533Z",
+  "salvoEm": "2026-06-30T03:21:28.408Z",
   "caderno": {
     "Constitucional": [
       {
@@ -339,7 +339,7 @@
               "materia": "Constitucional",
               "artigos": "CF/88: Art. 167-A a 202",
               "pendente": false,
-              "feito": true
+              "feito": false
             },
             {
               "tipo": "Questoes",
@@ -347,7 +347,7 @@
               "conteudo": "Questões de Constitucional — Controle de Constitucionalidade - Parte 4",
               "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=3&exclude_nullified=true&exclude_outdated=true&my_questions=not_resolved&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&subject_ids%5B%5D=16299",
               "pendente": false,
-              "feito": false
+              "feito": true
             },
             {
               "tipo": "Jurisprudencia",
