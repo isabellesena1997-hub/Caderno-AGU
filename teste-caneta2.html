@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teste Caneta 2 - Realista</title>
+<style>
+  body{font-family:-apple-system,sans-serif;margin:0;padding:16px;background:#f5f4f0}
+  h2{font-size:14px;color:#1a1a18;margin-bottom:4px}
+  .texto{font-size:17px;line-height:2.1;background:#fff;border-radius:12px;padding:24px;touch-action:pan-y;user-select:text}
+  .lei-disp-inner span.hl-amarelo{background:#FEF08A}
+  .lei-disp-inner span.hl-verde{background:#BBF7D0}
+  .lei-disp-inner span.hl-rosa{background:#FBCFE8}
+  .lei-disp-inner b{font-weight:700}
+  .lei-disp-inner u{text-decoration:underline}
+  .lei-disp-inner .pintando{outline:1px dashed #185FA5}
+  .status{position:fixed;bottom:0;left:0;right:0;background:#1a1a18;color:#fff;padding:10px;font-size:12px;font-family:monospace;line-height:1.6}
+  .toolbar{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+  .toolbar button{padding:8px 12px;border-radius:8px;border:1px solid #ddd;background:#fff;font-size:13px}
+  .toolbar button.active{background:#185FA5;color:#fff;border-color:#185FA5}
+  .art{margin-bottom:18px;padding:14px;border:1px solid #eee;border-radius:10px}
+  .art b.num{color:#185FA5}
+</style>
+</head>
+<body>
+<h2>Teste 2: simula conteúdo real (vários artigos, marcações pré-existentes)</h2>
+<div class="toolbar">
+  <button id="tb-amarelo" onclick="setTool('hl-amarelo')">🟡 Amarelo</button>
+  <button id="tb-verde" onclick="setTool('hl-verde')">🟢 Verde</button>
+  <button id="tb-negrito" onclick="setTool('bold')">B Negrito</button>
+  <button onclick="setTool(null)">✕ Desativar</button>
+</div>
+<div class="texto" id="texto"></div>
+<div class="status" id="status">ferramenta: nenhuma | palavras pintadas no gesto: 0 | chamadas a caretRangeFromPoint: 0 | tipo: -</div>
+
+<script>
+// Gera um conteúdo parecido com uma lei real: vários artigos, com marcações já existentes
+const ARTIGOS_BASE = [];
+for(let i=1;i<=8;i++){
+  ARTIGOS_BASE.push(`Art. ${i}º Este dispositivo estabelece normas gerais aplicáveis à matéria, dispondo sobre direitos, deveres e obrigações dos entes federativos, observados os princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência, conforme disposto na legislação vigente e nos termos do regulamento próprio editado pelo órgão competente para tal finalidade específica.`);
+}
+
+const texto = document.getElementById('texto');
+texto.innerHTML = ARTIGOS_BASE.map((art,i)=>{
+  const palavras = art.split(/\s+/);
+  // Simula marcações pré-existentes em algumas palavras (como aconteceria numa lei real já estudada)
+  const html = palavras.map((p,idx)=>{
+    if(idx % 11 === 0 && idx > 0) return `<span class="hl-amarelo">${p}</span>`;
+    if(idx % 17 === 0) return `<b>${p}</b>`;
+    return p;
+  }).join(' ');
+  return `<div class="art"><b class="num">Art. ${i+1}</b><div class="lei-disp-inner" contenteditable="true">${html}</div></div>`;
+}).join('');
+
+let ferramentaAtiva = null;
+function setTool(t){
+  ferramentaAtiva = t;
+  document.querySelectorAll('.toolbar button').forEach(b=>b.classList.remove('active'));
+  if(t==='hl-amarelo') document.getElementById('tb-amarelo').classList.add('active');
+  if(t==='hl-verde') document.getElementById('tb-verde').classList.add('active');
+  if(t==='bold') document.getElementById('tb-negrito').classList.add('active');
+}
+
+const status = document.getElementById('status');
+let pintando = false;
+let palavrasNoGesto = new Set();
+let contadorChamadas = 0;
+let contadorPintadas = 0;
+
+// ===== LIMITE DE FREQUÊNCIA =====
+// Em vez de processar TODA chamada de pointermove (que pode disparar até 240x/seg
+// com Apple Pencil), processamos no máximo a cada X milissegundos. Isso reduz
+// drasticamente quantas vezes perguntamos "qual palavra está aqui" ao navegador.
+let ultimoProcessamento = 0;
+const INTERVALO_MIN_MS = 50; // ~20x por segundo — imperceptível ao olho, leve pro navegador
+
+function pegarPalavraRange(x,y){
+  contadorChamadas++;
+  if(!document.caretRangeFromPoint) return null;
+  const range = document.caretRangeFromPoint(x,y);
+  if(!range) return null;
+  const node = range.startContainer;
+  if(node.nodeType !== Node.TEXT_NODE) return null;
+  if(!texto.contains(node)) return null;
+  const txt = node.textContent;
+  let start = range.startOffset, end = range.startOffset;
+  while(start>0 && !/\s/.test(txt[start-1])) start--;
+  while(end<txt.length && !/\s/.test(txt[end])) end++;
+  if(start===end) return null;
+  const r = document.createRange();
+  r.setStart(node,start); r.setEnd(node,end);
+  return r;
+}
+
+function pintarPalavra(x,y){
+  const wordRange = pegarPalavraRange(x,y);
+  if(!wordRange) return;
+  const parent = wordRange.startContainer.parentElement;
+  const key = parent.dataset._pid || (parent.dataset._pid = 'p'+Math.random().toString(36).slice(2));
+  const uniq = `${key}_${wordRange.startOffset}_${wordRange.endOffset}`;
+  if(palavrasNoGesto.has(uniq)) return;
+  palavrasNoGesto.add(uniq);
+  contadorPintadas++;
+
+  const span = document.createElement('span');
+  if(ferramentaAtiva && ferramentaAtiva.startsWith('hl-')){
+    span.className = ferramentaAtiva;
+  } else if(ferramentaAtiva === 'bold'){
+    span.style.fontWeight = '700';
+  } else {
+    return;
+  }
+  try{ wordRange.surroundContents(span); }catch(e){}
+}
+
+function atualizarStatus(tipo){
+  status.textContent = `ferramenta: ${ferramentaAtiva||'nenhuma'} | palavras pintadas no gesto: ${contadorPintadas} | chamadas a caretRangeFromPoint: ${contadorChamadas} | tipo: ${tipo||'-'}`;
+}
+
+texto.addEventListener('pointerdown',(e)=>{
+  if(!ferramentaAtiva) return;
+  e.preventDefault();
+  pintando = true;
+  palavrasNoGesto = new Set();
+  contadorChamadas = 0;
+  contadorPintadas = 0;
+  ultimoProcessamento = 0;
+  pintarPalavra(e.clientX, e.clientY);
+  atualizarStatus(e.pointerType);
+});
+texto.addEventListener('pointermove',(e)=>{
+  if(!pintando) return;
+  const agora = performance.now();
+  if(agora - ultimoProcessamento < INTERVALO_MIN_MS) return; // throttle: ignora chamadas muito próximas
+  ultimoProcessamento = agora;
+  pintarPalavra(e.clientX, e.clientY);
+  atualizarStatus(e.pointerType);
+});
+function parar(){ pintando = false; }
+texto.addEventListener('pointerup', parar);
+texto.addEventListener('pointercancel', parar);
+texto.addEventListener('pointerleave', ()=>{ if(pintando) parar(); });
+</script>
+</body>
+</html>
