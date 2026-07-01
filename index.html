@@ -13689,10 +13689,14 @@ let editDispLeiId=null,editDispIdx=null,editDispSubIdx=null,isAddDisp=false,posO
 function openEditArtigoModal(leiId,idx){
   editDispLeiId=leiId;editDispIdx=idx;editDispSubIdx=null;isAddDisp=false;
   const art=leis[leiId].artigos[idx];
+  // Primeiro sincroniza o estado atual da tela pro objeto em memória,
+  // pra garantir que edições inline já feitas apareçam no modal
+  salvarTextosEditados();
   document.getElementById('edit-art-title').textContent=`Editar — ${art.tipo==='artigo'?'Art.':art.tipo==='paragrafo'?'§':art.tipo==='inciso'?'Inciso':'Alínea'} ${art.num}`;
   document.getElementById('ea-tipo').value=art.tipo||'artigo';
   document.getElementById('ea-num').value=art.num||'';
-  document.getElementById('ea-texto').value=art.texto||'';
+  // Usa textoHtml (conteúdo editado na tela) se existir, senão cai pro texto original
+  document.getElementById('ea-texto').value=art.textoHtml||art.texto||'';
   document.getElementById('ea-comentarios').value=art.comentarios||'';
   document.getElementById('ea-jurisprudencia').value=art.jurisprudencia||'';
   document.getElementById('ea-extra').value=art.extra||'';
@@ -13726,6 +13730,7 @@ function salvarDispositivo(){
     tipo:g('ea-tipo')||'artigo',
     num:g('ea-num').trim(),
     texto:g('ea-texto').trim(),
+    textoHtml:g('ea-texto').trim(), // sincroniza textoHtml com o texto editado no modal
     comentarios:g('ea-comentarios').trim(),
     jurisprudencia:g('ea-jurisprudencia').trim(),
     extra:g('ea-extra').trim(),
