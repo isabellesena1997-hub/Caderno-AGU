@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T15:16:52.569Z",
+  "salvoEm": "2026-07-01T15:17:27.767Z",
   "caderno": {
     "Constitucional": [
       {
@@ -617,6 +617,22 @@
         "id": "nota-1782919011061-8wrk",
         "tipo": "comentario",
         "conteudo": "Lei 9.784/99, art. 13. <b>Não podem </b>ser objeto de delegação:&nbsp;<div>I. a edição de atos de caráter normativo;</div><div>II. a decisão de recursos administrativos;&nbsp;</div><div>III. as matérias de competência exclusiva do órgão ou autoridade.</div><div><br></div><div><b><u>CE-NO-RA</u></b></div>",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Azul",
+          "hex": "#EFF6FF",
+          "borda": "#3B82F6"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      },
+      {
+        "id": "nota-1782919046265-mbei",
+        "tipo": "comentario",
+        "conteudo": "DECRETO 83.937/79 – Dispõe sobre a regulamentação do Capítulo IV, do Título II, do\nDL 200/67, referente à delegação de competência.&nbsp;<div>Art. 1º. A delegação de competência prevista nos arts. 11 e 12 do DL 200/67 terá por\nobjetivo acelerar a decisão dos assuntos de interesse público ou da própria\nadministração.&nbsp;</div><div>Art. 2º. O ato de delegação, que será expedido a critério da autoridade delegante,\nindicará a autoridade delegada, as atribuições objeto da delegação e, quando for o\ncaso, o prazo de Vigência, que, na omissão, ter-se-á por indeterminado.\nParágrafo único. A delegação de competência não envolve a perda, pelo delegante, dos\ncorrespondentes poderes, sendo-lhe facultado, quando entender conveniente,\nexercê-los mediante avocação do caso, sem prejuízo da validade da delegação.</div><div>&nbsp;Art. 3º. A delegação poderá ser feita a autoridade não diretamente subordinada ao\ndelegante.&nbsp;</div><div>Art. 4º. A mudança do titular do cargo não acarreta a cessação da delegação.&nbsp;</div><div>Art. 5º. Quando conveniente ao interesse da Administração, as competências objeto de&nbsp;delegação poderão ser incorporadas, em caráter permanente, aos regimentos ou\nnormas internas dos órgãos e entidades interessados.&nbsp;</div><div>Art. 6º. O ato de delegar pressupõe a autoridade para subdelegar, ficando revogadas as\ndisposições em contrário constantes de decretos, regulamentos ou atos normativos em\nvigor no âmbito da Administração Direta e Indireta.&nbsp;</div><div>Art. 7º. Cabe ao Ministro Extraordinário para a Desburocratização orientar e\nacompanhar as medidas constantes deste Decreto, assim como dirimir as dúvidas\nsuscitadas em sua execução.</div>",
         "ehQuestao": false,
         "corCard": {
           "nome": "Azul",
