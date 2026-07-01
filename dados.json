@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T15:26:46.016Z",
+  "salvoEm": "2026-07-01T15:26:59.053Z",
   "caderno": {
     "Constitucional": [
       {
@@ -850,6 +850,22 @@
         "id": "nota-1782919604502-5uzp",
         "tipo": "jurisprudencia",
         "conteudo": "A qualificação de uma fundação instituída pelo Estado como sujeita ao regime público\nou privado depende:<div>&nbsp;i) do estatuto de sua criação ou autorização e</div><div>&nbsp;ii) das atividades por ela prestadas.\nAs atividades de conteúdo econômico e as passíveis de delegação, quando definidas\ncomo objetos de dada fundação, ainda que essa seja instituída ou mantida pelo poder\npúblico, podem se submeter ao regime jurídico de direito privado.&nbsp;</div><div>STF. Plenário. RE 716.378/SP, Rel. Min. Dias Toffoli, j. 1º e 7/8/19 (repercussão geral) (Info\n946).&nbsp;</div>",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Verde",
+          "hex": "#F0FDF4",
+          "borda": "#22C55E"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      },
+      {
+        "id": "nota-1782919617537-z9vt",
+        "tipo": "jurisprudencia",
+        "conteudo": "É constitucional a constituição de fundação pública de direito privado para a\nprestação de serviço público de saúde.&nbsp;<div>STF. Plenário. ADI 4197/SE, Rel. Min. Roberto Barroso, julgado em 1º/3/2023 (Info 1085).</div>",
         "ehQuestao": false,
         "corCard": {
           "nome": "Verde",
