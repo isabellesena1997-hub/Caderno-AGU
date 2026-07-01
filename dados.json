@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T15:23:58.364Z",
+  "salvoEm": "2026-07-01T15:24:49.849Z",
   "caderno": {
     "Constitucional": [
       {
@@ -771,6 +771,23 @@
         "ehQuestao": false,
         "corCard": {
           "nome": "Amarelo",
+          "hex": "#FFF8D6",
+          "borda": "#F59E0B"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      }
+    ],
+    "decreto-lei-200-1967-organiza-o-da-administra-o-federal-art-5-iii": [
+      {
+        "id": "nota-1782919488334-7hhh",
+        "tipo": "comentario",
+        "conteudo": "<b>Atenção</b>! Rafael Carvalho ressalta q<b>ue a noção tradicional de controle no Direito\nAdministrativo tem relação com o critério da maioria das ações com direito a voto</b>,\nnos termos do art. 5º, III, do DL 200/67, o que é criticado por desconsiderar outras\nformas de dominação societárias previstas na atualidade. <b>No Direito Societário, por\nsua vez, o controle vincula-se ao direito que assegure, de modo permanente, a maioria\ndos votos nas deliberações das assembleias e na eleição dos administradores, bem\ncomo o poder de direção sobre os atos e funcionamento da companhia, </b>o que pode\nocorrer, por exemplo, através de acordos de acionistas (art. 116 da Lei 6.404/76).&nbsp;<div><b>Normalmente, o Estado exerce o seu poder de controle finalístico, no interior da\ncompanhia, por meio de sua participação nas deliberações da Assembleia Geral</b> (arts.\n121 e 238 da Lei 6.404/76). A sociedade de economia mista conta, ainda, com o\nConselho de Administração, órgão responsável pela escolha do diretor da entidade, e\ncom o Conselho Fiscal (arts. 239 e 240 da Lei 6.404/76).&nbsp;</div>",
+        "ehQuestao": false,
+        "corCard": {
           "hex": "#FFF8D6",
           "borda": "#F59E0B"
         },
