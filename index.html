@@ -615,6 +615,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .anot-tb-sep{width:0.5px;height:16px;background:#d3d1c7;margin:0 3px;display:inline-block;flex-shrink:0}
 .anot-modal-body{flex:1;overflow-y:auto;min-height:0}
 .anot-main-editor{min-height:160px;padding:16px 20px;font-size:14px;line-height:1.75;color:#1a1a18;outline:none;font-family:inherit}
+.anot-main-editor *{font-family:inherit!important;font-size:inherit!important;line-height:inherit!important}
+.anot-main-editor b,.anot-main-editor strong{font-weight:700!important}
+.anot-main-editor h3{font-size:16px!important;font-weight:500!important;margin:8px 0 4px}
+.anot-main-editor h4{font-size:15px!important;font-weight:500!important;margin:6px 0 4px}
 .anot-main-editor:empty:before{content:attr(data-placeholder);color:#c0bdb5;pointer-events:none;display:block}
 .anot-main-editor table{border-collapse:collapse;width:100%;margin:6px 0;font-size:13px}
 .anot-main-editor table td,.anot-main-editor table th{border:0.5px solid #d3d1c7;padding:4px 8px;min-width:50px}
@@ -14338,6 +14342,46 @@ function anotMostrarPaletaCor(btn) {
 }
 
 function anotExecCmd(cmd) { document.getElementById('anot-main-editor').focus(); document.execCommand(cmd); }
+
+// Ao colar no editor de anotações da lei, limpa fonte e tamanho externos
+// mas mantém negrito, itálico, cor de texto e alinhamento.
+(function(){
+  const editor = document.getElementById('anot-main-editor');
+  if(!editor) return;
+  editor.addEventListener('paste', function(e){
+    e.preventDefault();
+    const html = e.clipboardData.getData('text/html');
+    const text = e.clipboardData.getData('text/plain');
+    let conteudo;
+    if(html){
+      // Remove atributos de fonte/tamanho mas mantém estrutura e cores
+      const tmp = document.createElement('div');
+      tmp.innerHTML = html;
+      tmp.querySelectorAll('*').forEach(el=>{
+        el.style.fontFamily = '';
+        el.style.fontSize = '';
+        el.style.lineHeight = '';
+        el.style.fontWeight = el.style.fontWeight; // mantém
+        // Remove tags de fonte HTML legadas
+        if(el.tagName==='FONT'){
+          el.removeAttribute('face');
+          el.removeAttribute('size');
+        }
+      });
+      // Remove spans vazios que só definiam fonte
+      tmp.querySelectorAll('span').forEach(span=>{
+        if(!span.style.cssText.trim() && span.attributes.length===0){
+          span.replaceWith(...span.childNodes);
+        }
+      });
+      conteudo = tmp.innerHTML;
+    } else {
+      // Texto puro: preserva quebras de linha
+      conteudo = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>');
+    }
+    document.execCommand('insertHTML', false, conteudo);
+  });
+})();
 function anotFormatBlock(tag) { if(!tag)return; document.getElementById('anot-main-editor').focus(); document.execCommand('formatBlock',false,tag); }
 function anotExecCmdComment(cmd) { document.getElementById('anot-comment-editor').focus(); document.execCommand(cmd); }
 function anotInserirImagem() { document.getElementById('anot-img-input').click(); }
