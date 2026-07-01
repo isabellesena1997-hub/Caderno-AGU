@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T00:47:55.855Z",
+  "salvoEm": "2026-07-01T15:09:53.800Z",
   "caderno": {
     "Constitucional": [
       {
@@ -594,6 +594,24 @@
         "comentario": "",
         "criadaEm": "2026-06-30",
         "atualizadaEm": "2026-06-30"
+      }
+    ],
+    "decreto-lei-200-1967-organiza-o-da-administra-o-federal-art-12": [
+      {
+        "id": "nota-1782918592074-mshr",
+        "tipo": "jurisprudencia",
+        "conteudo": "<b>O ato de delegação <u>não retira </u>a atribuição da autoridade delegante, que continua\ncompetente cumulativamente com a autoridade delegada para o exercício da função</b>.\nContudo, importante observar a Súmula 510 do STF, que afirma que, praticado o ato\npor autoridade, no exercício de competência delegada, contra ela cabe o mandado de\nsegurança ou a medida judicial. Essa súmula está de acordo com o art. 14, § 3º, da Lei\n9.784/99, a<b>o dizer que o ato praticado se considera editado pelo delegado</b>",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Verde",
+          "hex": "#F0FDF4",
+          "borda": "#22C55E"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
       }
     ]
   },
