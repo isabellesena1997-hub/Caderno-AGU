@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T21:15:43.685Z",
+  "salvoEm": "2026-07-01T21:17:02.252Z",
   "caderno": {
     "Constitucional": [
       {
@@ -676,14 +676,14 @@
       },
       {
         "id": 1782940542182.6199,
-        "topico": "Princípio da Seletividade - IPI x ICMS",
+        "topico": "Princípios Tributários",
         "art": "Art. 153, §3º, I, CF (IPI) e Art. 155, §2º, III, CF (ICMS)",
         "artigoTese": "Seletividade é obrigatória no IPI e facultativa no ICMS - a diferença está no verbo usado pelo constituinte",
         "regra": "Subprincípio da seletividade: quanto mais essencial o produto, menor a alíquota. No IPI, o texto diz que o imposto 'SERÁ seletivo' (art. 153, §3º, I, CF) - verbo impositivo, obrigação imperativa à União, sem margem de escolha. No ICMS, o texto diz que o imposto 'PODERÁ ser seletivo' (art. 155, §2º, III, CF) - verbo que confere faculdade aos Estados e ao DF.",
         "confundiu": "Achar que a seletividade é obrigatória para os dois impostos, ou tratar IPI e ICMS como se tivessem o mesmo regime quanto à seletividade",
         "pegadinha": "Banca troca 'será' por 'poderá' entre os dois artigos, ou afirma que a seletividade é facultativa/obrigatória para o imposto errado - a diferença entre os dois verbos constitucionais é o ponto central da pegadinha",
         "fonte": "lei",
-        "banca": "CEBRASPE",
+        "banca": "",
         "cargo": "Procurador",
         "resultado": "errei",
         "ano": "",
@@ -702,7 +702,19 @@
         "vezes": 1,
         "revisado": false,
         "imgs": [],
-        "tbl": null
+        "tbl": {
+          "headers": [
+            "Col 1",
+            "Col 2"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
+          ]
+        },
+        "materia": "Tributário"
       }
     ],
     "Financeiro e Econômico": [],
