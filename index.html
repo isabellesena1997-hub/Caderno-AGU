@@ -990,6 +990,8 @@ input[type="text"],input[type="number"],input[type="date"],textarea,select{font-
     <div class="view-toggle">
       <button class="view-btn active" id="btn-lista" onclick="setView('lista')">≡ Lista</button>
       <button class="view-btn" id="btn-grupo" onclick="setView('grupo')">⊞ Tópico</button>
+      <button class="view-btn" id="btn-ordem" onclick="toggleOrdemCaderno()" title="Ordenar">↕ Recente</button>
+      <button class="view-btn" id="btn-expand-all" onclick="toggleTodosCards()" title="Expandir/recolher todos">⊟ Expandir</button>
     </div>
   </div>
   <div id="article-list" style="margin-top:1rem"><div class="article-list"><div class="card" id="card-Constitucional-13">
@@ -8350,6 +8352,27 @@ let activeMain='caderno';
 let activeMateria='Constitucional';
 let activeMateriaRank='Constitucional';
 let filtroStatus='todos',filtroFonte=null,filtroTopico='',viewMode='lista',sortDir='desc';
+let cardOrdem='recente'; // 'recente' = mais novo primeiro, 'antigo' = mais antigo primeiro
+let todosAbertos=false;  // estado do botão expandir/recolher todos
+
+function toggleOrdemCaderno(){
+  cardOrdem = cardOrdem==='recente' ? 'antigo' : 'recente';
+  const btn = document.getElementById('btn-ordem');
+  if(btn) btn.textContent = cardOrdem==='recente' ? '↕ Recente' : '↕ Antigo';
+  renderCaderno();
+}
+
+function toggleTodosCards(){
+  todosAbertos = !todosAbertos;
+  const btn = document.getElementById('btn-expand-all');
+  if(btn) btn.textContent = todosAbertos ? '⊞ Recolher' : '⊟ Expandir';
+  document.querySelectorAll('.card-detail').forEach(el=>{
+    el.classList.toggle('open', todosAbertos);
+  });
+  document.querySelectorAll('.card').forEach(el=>{
+    el.classList.toggle('expanded', todosAbertos);
+  });
+}
 let dados={};
 let editingId=null,editingMateria=null;
 let modalImgs={edit:[],add:[]};
@@ -8783,7 +8806,14 @@ function filtrados(){
       (i.ids&&i.ids.juri&&i.ids.juri.some(t=>t.toLowerCase().includes(ql)))
     );
   }
-  return list.sort((a,b)=>prioridade(b)-prioridade(a));
+  // Ordenação por prioridade + data de criação (id como proxy de mais novo/mais antigo)
+  list.sort((a,b)=>{
+    const prioDiff = prioridade(b)-prioridade(a);
+    if(prioDiff!==0) return prioDiff;
+    return cardOrdem==='recente' ? b.id-a.id : a.id-b.id;
+  });
+  if(cardOrdem==='antigo') list.reverse();
+  return list;
 }
 
 function incBadge(item){
@@ -8941,16 +8971,21 @@ function cardHTML(m,item,maxScore){
   const _tp=obterTextoPrincipalErro(item).replace(/<[^>]*>/g,'');
   const _id=obterIdentificadorErro(item);
   const _mv=obterMotivoErro(item);
-  const _sub=_tp;
+  // Tese é o elemento dominante — fonte/artigo vira legenda discreta acima
+  const fonteLabel=[_id,item.banca,item.ano].filter(Boolean).join(' · ');
   return`<div class="card" id="card-${m}-${item.id}">
     <div class="card-top" onclick="toggle('${m}',${item.id})">
-      <span class="dot ${revStatus(item)}"></span>${fbadge(item.fonte)}
-      <span class="card-title">${item.topico?`<small style="color:#888780;font-weight:400">${item.topico}</small><br>`:''}${_id?`<b style="color:#185FA5;font-size:12px">${_id}</b><br>`:''}${_sub?`<small style="font-weight:400;color:#1a1a18">${_sub}</small>`:''}${_mv?`<br><small style="color:#633806">💡 ${_mv}</small>`:''}</span>
-      <div class="card-meta">${item.banca?`<span class="banca-tag">${item.banca}</span>`:''} ${item.ano?`<span class="banca-tag">${item.ano}</span>`:''} ${rbadge(item.resultado,item.erros)} ${ib}</div>
+      <span class="dot ${revStatus(item)}"></span>
+      <div style="flex:1;min-width:0">
+        ${fonteLabel?`<div style="font-size:11px;color:#888780;margin-bottom:2px">${fonteLabel}</div>`:''}
+        <div style="font-size:14px;font-weight:500;color:#1a1a18;line-height:1.4;margin-bottom:${_mv?'5px':'0'}">${_tp||_id||'—'}</div>
+        ${_mv?`<div style="font-size:12px;color:#633806;background:#fdf6ee;border-radius:5px;padding:2px 7px;display:inline-block">💡 ${_mv}</div>`:''}
+      </div>
+      <div class="card-meta" style="align-self:flex-start">${fbadge(item.fonte)} ${rbadge(item.resultado,item.erros)} ${ib}</div>
     </div>
     <div class="pbar" onclick="toggle('${m}',${item.id})"><div class="ptrack"><div class="pfill" style="width:${pct}%"></div></div><span>${revLabel}</span></div>
     <div class="card-detail" id="detail-${m}-${item.id}">
-      ${item.artigoTese?`<div class="dl">Artigo/Tese</div><div class="dt" style="font-weight:500">${item.artigoTese}</div>`:''}
+      ${item.artigoTese?`<div style="font-size:15px;font-weight:500;color:#1a1a18;margin-bottom:8px">${item.artigoTese}</div>`:''}
       ${idsHtml(item)}
       <div class="dl">Regra correta</div><div class="dt">${item.regra||''}</div>
       ${item.confundiu?`<div class="dl">O que confundiu</div><div class="dt">${item.confundiu}</div>`:''}
@@ -8967,6 +9002,7 @@ function cardHTML(m,item,maxScore){
       </div>
     </div>
   </div>`;
+}
 }
 
 function renderCaderno(){
