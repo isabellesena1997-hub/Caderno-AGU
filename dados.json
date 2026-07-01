@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T15:09:53.800Z",
+  "salvoEm": "2026-07-01T15:10:52.635Z",
   "caderno": {
     "Constitucional": [
       {
@@ -606,6 +606,22 @@
           "nome": "Verde",
           "hex": "#F0FDF4",
           "borda": "#22C55E"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      },
+      {
+        "id": "nota-1782918651133-luir",
+        "tipo": "comentario",
+        "conteudo": "Lei 9.784/99, art. 13. <b>Não podem ser</b> objeto de delegação:<div>&nbsp;I. a edição de atos de <b>caráter normativo</b>;&nbsp;</div><div>II. a decisão de <b>recursos administrativos</b>;</div><div>&nbsp;III. as matérias de <b>competência exclusiva</b> do órgão ou autoridade</div><div><br></div><div><b><u>CE-NO-RA</u></b></div>",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Azul",
+          "hex": "#EFF6FF",
+          "borda": "#3B82F6"
         },
         "detalhesQuestao": {},
         "gabarito": "",
