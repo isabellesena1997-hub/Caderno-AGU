@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T20:20:18.639Z",
+  "salvoEm": "2026-07-01T20:35:30.079Z",
   "caderno": {
     "Constitucional": [
       {
@@ -298,6 +298,336 @@
         "ultimaRev": null,
         "proxRev": "2026-06-25",
         "vezes": 0,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128572.3298,
+        "topico": "Princípio da legalidade tributária - Tipicidade",
+        "art": "Doutrina - Paulo de Barros Carvalho x Ricardo Lobo Torres",
+        "artigoTese": "Tipicidade fechada (SP/MG) exige tudo na lei; tipicidade aberta (RJ/UERJ) permite ampla delegação; STF adota posição intermediária",
+        "regra": "O STF não adota tipicidade fechada nem tipicidade aberta pura. Adota a 'legalidade suficiente': a lei define os elementos essenciais do tributo e o restante pode ser delegado a ato infralegal, desde que dialogue com a lei.",
+        "confundiu": "Confundir 'legalidade suficiente' com 'tipicidade fechada' - são posições opostas na lógica. Legalidade suficiente permite diálogo com o regulamento; tipicidade fechada não permite nada fora da lei.",
+        "pegadinha": "Banca testa se o candidato acha que STF exige tudo na lei (tipicidade fechada) quando na verdade admite delegação controlada",
+        "fonte": "doutrina",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Confundir 'legalidade suficiente' com 'tipicidade fechada' - são posições opostas na lógica. Legalidade suficiente permite diálogo com o regulamento; tipicidade fechada não permite nada fora da lei."
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128572.5962,
+        "topico": "Princípio da legalidade tributária - Elementos essenciais do tributo",
+        "art": "Art. 150, I, CF/88",
+        "artigoTese": "Lei deve prever: fato gerador, sujeito passivo, sujeito ativo, teto do valor, índice de correção monetária e graduação pela capacidade contributiva",
+        "regra": "São 6 elementos que a lei tributária deve necessariamente prever, mesmo quando admite diálogo com o regulamento: fato gerador, sujeito ativo, sujeito passivo, teto/valor máximo, índice de correção monetária e graduação conforme capacidade contributiva.",
+        "confundiu": "Trocar 'sujeito ativo' por 'base de cálculo' na lista dos elementos essenciais exigidos pelo STF",
+        "pegadinha": "Banca pode listar 5 dos 6 elementos e pedir o que falta, ou incluir um elemento que não está na lista (como base de cálculo isolada) para confundir",
+        "fonte": "stf",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Trocar 'sujeito ativo' por 'base de cálculo' na lista dos elementos essenciais exigidos pelo STF"
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128572.1306,
+        "topico": "Diálogo com o regulamento",
+        "art": "RE 704292/PR e RE 838284/SC, Rel. Min. Dias Toffoli",
+        "artigoTese": "Diálogo com o regulamento exige 3 parâmetros: subordinação, desenvolvimento e complementaridade",
+        "regra": "Regulamento pode complementar o tributo, nunca criá-lo. Sem teto legal, a delegação é inconstitucional (RE 704292). Com teto fixado em lei, o ato infralegal pode fixar valor proporcional aos custos (RE 838284).",
+        "confundiu": "Achar que qualquer delegação ao regulamento é válida desde que exista lei autorizando, sem verificar se há teto fixado",
+        "pegadinha": "Diferença entre RE 704292 (sem teto = inconstitucional) e RE 838284 (com teto = constitucional) - questão pode trocar os dois",
+        "fonte": "stf",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Achar que qualquer delegação ao regulamento é válida desde que exista lei autorizando, sem verificar se há teto fixado"
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128572.5295,
+        "topico": "Diálogo com o regulamento - vício de delegação genérica",
+        "art": "Art. 2º da Lei nº 11.000/2004",
+        "artigoTese": "Delegação ampla e genérica sem teto faz o regulamento criar o tributo em vez de complementá-lo - inconstitucional",
+        "regra": "Quando a lei não impõe limites de subordinação e complementariedade, o ato infralegal deixa de complementar o tributo e passa a criá-lo, inovando na ordem jurídica - o que viola a reserva legal do art. 150, I, CF.",
+        "confundiu": "Não perceber que o vício está na ausência de teto/critério, e não na existência da delegação em si",
+        "pegadinha": "",
+        "fonte": "stf",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Não perceber que o vício está na ausência de teto/critério, e não na existência da delegação em si"
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128572.3977,
+        "topico": "Diálogo com o regulamento - critérios de validade",
+        "art": "RE 343.446/SC",
+        "artigoTese": "3 critérios para aferir constitucionalidade da norma regulamentar: revogabilidade, standards do Congresso, razoabilidade",
+        "regra": "A delegação normativa é válida quando: (a) pode ser retirada pelo Congresso a qualquer momento; (b) o Congresso fixa standards/padrões que limitam o delegado; (c) há razoabilidade na delegação.",
+        "confundiu": "Confundir esses critérios com os parâmetros do diálogo com o regulamento (subordinação/desenvolvimento/complementaridade) - são testes diferentes, ambos aplicáveis",
+        "pegadinha": "",
+        "fonte": "stf",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Confundir esses critérios com os parâmetros do diálogo com o regulamento (subordinação/desenvolvimento/complementaridade) - são testes diferentes, ambos aplicáveis"
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128573.5107,
+        "topico": "Tipicidade - tributos vinculados x impostos",
+        "art": "STF - jurisprudência consolidada",
+        "artigoTese": "STF aceita tipicidade mais aberta em taxas/contribuições (vinculados); exige tipicidade fechada em regra para impostos",
+        "regra": "Tributos vinculados (taxas, contribuições) têm retributividade imediata, o que reduz o grau de coatividade e justifica maior abertura regulamentar. Impostos, em regra, seguem tipicidade fechada - exceção clássica: IPI (Lei 7.798/89, art. 3º), que só esmiúça o conceito de valor da operação sem alterar a base de cálculo.",
+        "confundiu": "Achar que a abertura regulamentar vale igualmente para impostos e taxas",
+        "pegadinha": "Banca cobra o IPI como exceção à regra dos impostos - se esquecer da exceção, erra a questão",
+        "fonte": "stf",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Achar que a abertura regulamentar vale igualmente para impostos e taxas"
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128573.849,
+        "topico": "IPTU - Planta Genérica de Valores (PGV)",
+        "art": "Art. 97, II e IV, CTN; Súmula 160/STJ",
+        "artigoTese": "PGV exige lei formal; correção por decreto limitada ao índice oficial (regra pré-EC 132/2023)",
+        "regra": "A instituição da PGV está sob reserva legal (art. 97, II e IV, CTN). Antes da EC 132/2023, o decreto só podia corrigir a base de cálculo do IPTU até o índice oficial de correção monetária (Súmula 160/STJ); acima disso, exigia lei.",
+        "confundiu": "Aplicar a Súmula 160/STJ sem considerar que ela foi superada pela EC 132/2023 segundo a posição do curso",
+        "pegadinha": "Questões de prova anteriores a 2023 (ex: UFMT/Várzea Grande 2018) davam a Súmula 160 como correta e absoluta - hoje está desatualizada",
+        "fonte": "stj",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Aplicar a Súmula 160/STJ sem considerar que ela foi superada pela EC 132/2023 segundo a posição do curso"
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128573.3245,
+        "topico": "IPTU - EC 132/2023 e superação da Súmula 160/STJ",
+        "art": "Art. 156, §1º, III, CF/88 (EC nº 132/2023)",
+        "artigoTese": "IPTU pode ter base de cálculo atualizada pelo Executivo, conforme critérios de lei municipal - segundo o curso, supera a Súmula 160/STJ",
+        "regra": "A EC 132/2023 excepcionou expressamente o princípio da legalidade para o IPTU: havendo lei municipal fixando critérios, o Executivo pode atualizar a base de cálculo acima da inflação, sem precisar de nova lei para cada majoração. Isso implica, segundo o curso, o cancelamento/superação da Súmula 160/STJ.",
+        "confundiu": "Achar que a superação da Súmula 160 é total e que decreto pode fazer qualquer coisa no IPTU sem lei - a superação é parcial",
+        "pegadinha": "Tema controvertido: doutrina ainda não é unânime (há autores como Kiyoshi Harada defendendo que 'atualizar' não significa 'majorar' e que a Súmula 160 continua valendo) - seguir a posição do curso na prova, mas saber que existe divergência",
+        "fonte": "lei",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Achar que a superação da Súmula 160 é total e que decreto pode fazer qualquer coisa no IPTU sem lei - a superação é parcial"
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128573.0532,
+        "topico": "IPTU - exceção que sobrevive à superação da Súmula 160",
+        "art": "ARE 820.303, 2ª Turma, Rel. Min. Ricardo Lewandowski, j. 17.09.2014",
+        "artigoTese": "Primeira fixação dos critérios/valores de cálculo do IPTU por um Município sempre exige lei, nunca decreto",
+        "regra": "Mesmo após a EC 132/2023, quando o Município divulga pela primeira vez seus critérios de cálculo do IPTU, deve fazê-lo por lei. Decreto que fixa pela primeira vez valores de base de cálculo é inconstitucional, por violar o art. 97 do CTN e o art. 150, I, CF.",
+        "confundiu": "Achar que a EC 132/2023 dispensa lei também para a primeira fixação dos critérios - só dispensa para atualizações subsequentes",
+        "pegadinha": "Distinguir 'atualizar valores já fixados por lei' (pode ser por decreto, pós-EC 132) de 'fixar critérios pela primeira vez' (sempre exige lei)",
+        "fonte": "stf",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Achar que a EC 132/2023 dispensa lei também para a primeira fixação dos critérios - só dispensa para atualizações subsequentes"
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128573.7432,
+        "topico": "IPTU - avaliação individualizada de imóvel novo",
+        "art": "Tema 1.084/STF, ARE 1.245.097, Rel. Min. Roberto Barroso, j. 05.06.2023",
+        "artigoTese": "É constitucional lei municipal que delega ao Executivo a avaliação individualizada de imóvel novo fora da PGV, se houver critérios técnicos e contraditório",
+        "regra": "Imóvel novo não previsto na PGV pode ter seu IPTU lançado por avaliação individualizada feita pelo Executivo, desde que a lei municipal fixe os critérios da avaliação técnica e assegure ao contribuinte o direito ao contraditório.",
+        "confundiu": "Confundir esse cenário (imóvel novo fora da PGV) com o de correção geral da PGV existente - são hipóteses diferentes, com requisitos diferentes",
+        "pegadinha": "",
+        "fonte": "stf",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Confundir esse cenário (imóvel novo fora da PGV) com o de correção geral da PGV existente - são hipóteses diferentes, com requisitos diferentes"
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782938128573.4622,
+        "topico": "Taxas municipais - delegação sem parâmetros",
+        "art": "ADPF 351/SP, Rel. Min. Nunes Marques, julgado em 26/05/2025 (Info 1179)",
+        "artigoTese": "Não é compatível com a CF delegar ao Chefe do Executivo local o poder de definir valores de taxas municipais sem parâmetros ou teto legal",
+        "regra": "É inconstitucional norma que delega ao Executivo municipal a fixação de taxas sem qualquer parâmetro ou teto fixado em lei - viola o princípio da legalidade tributária, na mesma lógica do RE 704292 (conselhos de fiscalização).",
+        "confundiu": "",
+        "pegadinha": "Precedente recente (2025) - fica atento a esse Info na revisão, é jurisprudência nova sobre tema clássico",
+        "fonte": "stf",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": ""
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
         "revisado": false,
         "imgs": [],
         "tbl": null
