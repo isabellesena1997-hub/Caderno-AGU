@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T15:23:07.490Z",
+  "salvoEm": "2026-07-01T15:23:58.364Z",
   "caderno": {
     "Constitucional": [
       {
@@ -752,6 +752,22 @@
         "id": "nota-1782919385976-fqsf",
         "tipo": "doutrina",
         "conteudo": "Atenção! Bruno Betti destaca que, em que pese o DL 200/67 estabeleça que a\nautarquia é um serviço autônomo, atualmente, ela não é considerada um serviço, mas,\nsim, uma PESSOA JURÍDICA DE DIREITO PÚBLICO, nos termos do art. 41, IV, do CC.",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Amarelo",
+          "hex": "#FFF8D6",
+          "borda": "#F59E0B"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      },
+      {
+        "id": "nota-1782919436856-z7hj",
+        "tipo": "doutrina",
+        "conteudo": "<b><u>ASSOCIAÇÕES PÚBLICAS DA LEI 11.107/05&nbsp;</u></b><div><b><u><br></u></b></div><div><span style=\"font-family: inherit;\">As ASSOCIAÇÕES PÚBLICAS decorrem da edição da Lei 11.107/05, que criou os\nchamados CONSÓRCIOS PÚBLICOS. A lei dispõe sobre normas gerais para a União, os\nEstados, o DF e os Municípios contratarem consórcios públicos para a realização de\nobjetivos de interesse comum e estabelece que a nova entidade criada, ou seja, o\nconsórcio público constituirá associação pública ou pessoa jurídica de direito privado.\nÉ importante entender que a estrutura federativa do estado brasileiro não admitiria a&nbsp;</span><span style=\"font-family: inherit;\">criação de uma nova pessoa da Administração Indireta, diversa das entidades apontadas no\nart. 37, XIX da CF e, por esse motivo, a associação pública terá natureza jurídica de entidade\nautárquica.</span></div><div><span style=\"font-family: inherit;\">&nbsp;Assim, quando o consórcio público for formalizado com personalidade jurídica de\ndireito público, será parte integrante da administração indireta de cada um dos entes\nfederativos consorciados e terá qualificação jurídica de AUTARQUIA.&nbsp;</span></div><div><span style=\"font-family: inherit;\">Nesse sentido, o inciso IV do art. 41 do CC estabelece que “são pessoas jurídicas de direito\npúblico interno: (...) as autarquias, inclusive as associações públicas”.\nDesse modo, todas as regras aplicáveis às autarquias se espelham para as associações\npública.</span></div>",
         "ehQuestao": false,
         "corCard": {
           "nome": "Amarelo",
