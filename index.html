@@ -8128,7 +8128,11 @@ input[type="text"],input[type="number"],input[type="date"],textarea,select{font-
         <button class="anot-tb-btn" onclick="anotExecCmd('underline')" title="Sublinhado"><u>U</u></button>
         <button class="anot-tb-btn" onclick="anotExecCmd('strikeThrough')" title="Riscado"><s>S</s></button>
         <div class="anot-tb-sep"></div>
-        <button class="anot-tb-btn" id="anot-cor-btn" onclick="anotMostrarPaletaCor(this)" title="Cor do texto" style="font-weight:800;color:#E24B4A;font-size:14px">A</button>
+        <button class="anot-tb-btn" id="anot-cor-btn" onmousedown="event.preventDefault();anotMostrarPaletaCor(this)" title="Cor do texto" style="font-weight:800;color:#E24B4A;font-size:14px">A</button>
+        <div class="anot-tb-sep"></div>
+        <button class="anot-tb-btn" onmousedown="event.preventDefault();anotExecCmd('justifyLeft')" title="Alinhar à esquerda" style="font-size:13px">⬅</button>
+        <button class="anot-tb-btn" onmousedown="event.preventDefault();anotExecCmd('justifyCenter')" title="Centralizar" style="font-size:13px">≡</button>
+        <button class="anot-tb-btn" onmousedown="event.preventDefault();anotExecCmd('justifyFull')" title="Justificar" style="font-size:12px;font-weight:600">⇔</button>
         <div class="anot-tb-sep"></div>
         <button class="anot-tb-btn" onclick="anotExecCmd('insertUnorderedList')" title="Lista">≡</button>
         <button class="anot-tb-btn" onclick="anotExecCmd('insertOrderedList')" title="Numerada" style="font-size:11px;font-weight:600">1.</button>
@@ -14275,34 +14279,23 @@ const ANOT_CORES_TEXTO = [
 function anotMostrarPaletaCor(btn) {
   const old = document.getElementById('anot-cor-popover');
   if (old) { old.remove(); return; }
-  // Salva a seleção atual ANTES de abrir a paleta — ao clicar no botão da paleta
-  // o editor perde o foco e a seleção é descartada, então precisamos guardá-la
-  // e restaurá-la na hora de aplicar a cor.
-  const sel = window.getSelection();
-  const selRange = (sel && sel.rangeCount > 0) ? sel.getRangeAt(0).cloneRange() : null;
-
   const pop = document.createElement('div');
   pop.id = 'anot-cor-popover';
   pop.className = 'anot-cor-popover';
   ANOT_CORES_TEXTO.forEach(c => {
     const dot = document.createElement('div');
     dot.className = 'cor-dot'; dot.style.background = c.hex; dot.title = c.nome;
-    dot.onclick = () => {
-      // Restaura a seleção salva antes de aplicar a cor
-      const editor = document.getElementById('anot-main-editor');
-      editor.focus();
-      if (selRange) {
-        const s = window.getSelection();
-        s.removeAllRanges();
-        s.addRange(selRange);
-      }
+    // mousedown + preventDefault garante que a seleção não seja perdida ao clicar no dot
+    dot.addEventListener('mousedown', (e) => {
+      e.preventDefault();
+      document.getElementById('anot-main-editor').focus();
       document.execCommand('foreColor', false, c.hex);
       pop.remove();
-    };
+    });
     pop.appendChild(dot);
   });
   const rect = btn.getBoundingClientRect();
-  pop.style.cssText = `position:fixed;top:${rect.bottom+4}px;left:${rect.left}px`;
+  pop.style.cssText = `position:fixed;top:${rect.bottom+4}px;left:${rect.left}px;z-index:9999`;
   document.body.appendChild(pop);
   setTimeout(() => {
     document.addEventListener('click', function h(e){ if(!pop.contains(e.target)&&e.target!==btn){pop.remove();document.removeEventListener('click',h);} });
