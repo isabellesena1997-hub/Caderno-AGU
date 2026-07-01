@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T15:24:49.849Z",
+  "salvoEm": "2026-07-01T15:25:12.987Z",
   "caderno": {
     "Constitucional": [
       {
@@ -790,6 +790,22 @@
         "corCard": {
           "hex": "#FFF8D6",
           "borda": "#F59E0B"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      },
+      {
+        "id": "nota-1782919511474-jutn",
+        "tipo": "jurisprudencia",
+        "conteudo": "É<b><u> desnecessária</u></b>, em regra, lei específica para inclusão de sociedade de economia mista\nou de empresa pública em programa de desestatização.&nbsp;<div>STF. Plenário. ADI 6241/DF, Rel. Min. Cármen Lúcia, julgado em 6/2/2021 (Info 1004).</div>",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Verde",
+          "hex": "#F0FDF4",
+          "borda": "#22C55E"
         },
         "detalhesQuestao": {},
         "gabarito": "",
