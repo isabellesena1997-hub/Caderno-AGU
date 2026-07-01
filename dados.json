@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T21:17:02.252Z",
+  "salvoEm": "2026-07-01T21:53:28.364Z",
   "caderno": {
     "Constitucional": [
       {
@@ -715,6 +715,36 @@
           ]
         },
         "materia": "Tributário"
+      },
+      {
+        "id": 1782942806856.2954,
+        "topico": "Multas tributárias - vedação ao confisco e limites por tipo",
+        "art": "STF Tema 863 (repercussão geral); Lei nº 4.502/1964, arts. 71-73; art. 146, III, CF/88",
+        "artigoTese": "Multas não podem ser confiscatórias (punitiva ou moratória) - teto varia por tipo: moratória 20%, ofício 75%, ofício qualificada 100-150%, isolada sem teto fixo mas sujeita a redução judicial",
+        "regra": "4 tipos de multa tributária, do menos ao mais grave:\n\n1) MORATÓRIA - atraso no pagamento, sem dolo. Incide automaticamente (sem auto de infração), contribuinte calcula na própria guia. Teto: 20% do débito (STF, proporcionalidade/razoabilidade).\n\n2) DE OFÍCIO (não qualificada) - conduta culposa (omissão, erro, negligência, descumprimento de obrigação acessória que afeta o principal). Exige auto de infração e processo administrativo fiscal. Teto: até 75% do tributo devido (regra federal tradicional, pode variar por legislação local desde que respeite proporcionalidade).\n\n3) DE OFÍCIO QUALIFICADA - conduta dolosa: sonegação (art. 71), fraude (art. 72) ou conluio (art. 73), Lei 4.502/1964. Associada a crimes contra ordem tributária (Lei 8.137/90). Teto: até 100% do débito, podendo chegar a 150% em reincidência. Parâmetro vale até edição de LC federal (art. 146, III, CF).\n\n4) ISOLADA - decorre do descumprimento de obrigação acessória, mesmo que o tributo tenha sido pago corretamente. Sem teto fixo na CF, mas STF/STJ têm reduzido multas desarrazoadas (>100-200%).",
+        "confundiu": "Confundir multa moratória (automática, sem processo) com multa de ofício (exige auto de infração); ou achar que todas as multas têm o mesmo teto de 20%",
+        "pegadinha": "Banca troca os percentuais entre os tipos (ex: atribui 75% à moratória) ou afirma que multa isolada não se submete à vedação ao confisco por não ter teto fixado na lei - o STF exige proporcionalidade mesmo sem teto expresso",
+        "fonte": "stf",
+        "banca": "CEBRASPE",
+        "cargo": "Procurador",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-01",
+            "obs": "Confundir multa moratória (automática, sem processo) com multa de ofício (exige auto de infração); ou achar que todas as multas têm o mesmo teto de 20%"
+          }
+        ],
+        "ultimaRev": "2026-07-01",
+        "proxRev": "2026-07-04",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
       }
     ],
     "Financeiro e Econômico": [],
