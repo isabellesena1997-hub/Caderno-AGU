@@ -14275,13 +14275,30 @@ const ANOT_CORES_TEXTO = [
 function anotMostrarPaletaCor(btn) {
   const old = document.getElementById('anot-cor-popover');
   if (old) { old.remove(); return; }
+  // Salva a seleção atual ANTES de abrir a paleta — ao clicar no botão da paleta
+  // o editor perde o foco e a seleção é descartada, então precisamos guardá-la
+  // e restaurá-la na hora de aplicar a cor.
+  const sel = window.getSelection();
+  const selRange = (sel && sel.rangeCount > 0) ? sel.getRangeAt(0).cloneRange() : null;
+
   const pop = document.createElement('div');
   pop.id = 'anot-cor-popover';
   pop.className = 'anot-cor-popover';
   ANOT_CORES_TEXTO.forEach(c => {
     const dot = document.createElement('div');
     dot.className = 'cor-dot'; dot.style.background = c.hex; dot.title = c.nome;
-    dot.onclick = () => { document.getElementById('anot-main-editor').focus(); document.execCommand('foreColor', false, c.hex); pop.remove(); };
+    dot.onclick = () => {
+      // Restaura a seleção salva antes de aplicar a cor
+      const editor = document.getElementById('anot-main-editor');
+      editor.focus();
+      if (selRange) {
+        const s = window.getSelection();
+        s.removeAllRanges();
+        s.addRange(selRange);
+      }
+      document.execCommand('foreColor', false, c.hex);
+      pop.remove();
+    };
     pop.appendChild(dot);
   });
   const rect = btn.getBoundingClientRect();
