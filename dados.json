@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-02T01:43:21.376Z",
+  "salvoEm": "2026-07-02T02:29:44.799Z",
   "caderno": {
     "Constitucional": [
       {
@@ -899,7 +899,9 @@
               "tipo": "PDFULL",
               "materia": "Tributário",
               "topico": "Limitações Constitucionais ao Poder de Tributar: Princípios Tributários",
-              "detalhes": "• Princípio da legalidade tributária: estude suas finalidades, a necessidade de lei para criação e majoração de tributos, as hipóteses excepcionais de flexibilização e as principais exceções constitucionais.\n• Princípio da isonomia tributária: compreenda a vedação a discriminações arbitrárias, a possibilidade de tratamento diferenciado em situações distintas e os recentes debates envolvendo contribuintes cooperativos e devedores contumazes.\n• Princípio da não surpresa: atenção às diferenças entre irretroatividade, anterioridade anual e anterioridade nonagesimal, especialmente quanto às exceções e à jurisprudência recente do STF.\n• Capacidade contributiva e vedação ao confisco: compreenda a aplicação do princípio a todas as espécies tributárias, os limites da tributação excessiva e os parâmetros fixados pelo STF para multas tributárias.\n• Novos princípios da Reforma Tributária: estude os princípios da simplicidade, transparência, justiça tributária, cooperação, defesa do meio ambiente e neutralidade, tema com forte potencial de cobrança nos próximos concursos."
+              "detalhes": "• Princípio da legalidade tributária: estude suas finalidades, a necessidade de lei para criação e majoração de tributos, as hipóteses excepcionais de flexibilização e as principais exceções constitucionais.\n• Princípio da isonomia tributária: compreenda a vedação a discriminações arbitrárias, a possibilidade de tratamento diferenciado em situações distintas e os recentes debates envolvendo contribuintes cooperativos e devedores contumazes.\n• Princípio da não surpresa: atenção às diferenças entre irretroatividade, anterioridade anual e anterioridade nonagesimal, especialmente quanto às exceções e à jurisprudência recente do STF.\n• Capacidade contributiva e vedação ao confisco: compreenda a aplicação do princípio a todas as espécies tributárias, os limites da tributação excessiva e os parâmetros fixados pelo STF para multas tributárias.\n• Novos princípios da Reforma Tributária: estude os princípios da simplicidade, transparência, justiça tributária, cooperação, defesa do meio ambiente e neutralidade, tema com forte potencial de cobrança nos próximos concursos.",
+              "pendente": false,
+              "feito": true
             },
             {
               "tipo": "LEGPROC",
@@ -1221,16 +1223,47 @@
         "atualizadaEm": "2026-07-01"
       }
     ],
-    "decreto-11-531-2023-conv-nios-e-contratos-de-repasse-art-1-par-grafo-nico": [
+    "cf-iv-da-organiza-o-dos-poderes-cap-tulo-iii-do-poder-judici-rio-arts-92-a-126-art-93": [
       {
-        "id": "nota-1782956580324-s424",
-        "tipo": "jurisprudencia",
-        "conteudo": "<table><thead><tr><th>Col 1</th><th>Col 2</th><th>Col 3</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table><p></p>",
+        "id": "nota-1782955659998-dsme",
+        "tipo": "comentario",
+        "conteudo": "TESTE",
         "ehQuestao": false,
         "corCard": {
-          "nome": "Azul",
-          "hex": "#EFF6FF",
-          "borda": "#3B82F6"
+          "hex": "#FFF8D6",
+          "borda": "#F59E0B"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      },
+      {
+        "id": "nota-1782955677166-0kk5",
+        "tipo": "jurisprudencia",
+        "conteudo": "teste para o chatgpt",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Verde",
+          "hex": "#F0FDF4",
+          "borda": "#22C55E"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      },
+      {
+        "id": "nota-1782955750413-uh8z",
+        "tipo": "jurisprudencia",
+        "conteudo": "oieee",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Lilás",
+          "hex": "#F3E8FF",
+          "borda": "#A855F7"
         },
         "detalhesQuestao": {},
         "gabarito": "",
