@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-02T03:11:58.221Z",
+  "salvoEm": "2026-07-02T03:12:54.503Z",
   "caderno": {
     "Constitucional": [
       {
@@ -757,6 +757,86 @@
           ]
         },
         "materia": "Tributário"
+      },
+      {
+        "id": 1782961973000.1162,
+        "topico": "Impostos estaduais — IPVA",
+        "art": "CF art. 155, §6º, III (EC 132/2023); STF ADI 5.654",
+        "artigoTese": "Lei estadual anterior à EC 132/2023 não podia instituir IPVA sobre embarcações e aeronaves — inconstitucionalidade material insanável",
+        "regra": "Antes da EC 132/2023, o IPVA só incidia sobre veículos automotores terrestres (interpretação restritiva do STF). Lei estadual editada antes da EC prevendo IPVA sobre veículos aquáticos e aéreos é inconstitucional desde a origem e NÃO se convalida com a superveniência da emenda — não há constitucionalidade superveniente no direito brasileiro. A lei não produz efeitos em tempo algum.",
+        "confundiu": "Tratei o problema como questão de eficácia temporal (anterioridade anual/nonagesimal), quando na verdade o vício é material: a hipótese de incidência não era constitucionalmente admitida à época da edição da lei, e a EC 132/2023 posterior não convalida a norma nula",
+        "pegadinha": "Banca coloca alternativas com anterioridade anual e noventena para induzir o candidato a achar que a lei era válida e só precisava esperar prazo. Também testa se sabe que não existe constitucionalidade superveniente",
+        "fonte": "stf",
+        "banca": "FGV",
+        "cargo": "",
+        "resultado": "errei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [
+          {
+            "data": "2026-07-02",
+            "obs": "Tratei o problema como questão de eficácia temporal (anterioridade anual/nonagesimal), quando na verdade o vício é material: a hipótese de incidência não era constitucionalmente admitida à época da edição da lei, e a EC 132/2023 posterior não convalida a norma nula"
+          }
+        ],
+        "ultimaRev": "2026-07-02",
+        "proxRev": "2026-07-05",
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782961973001.939,
+        "topico": "Limitações constitucionais ao poder de tributar — isonomia",
+        "art": "CF art. 150, II; art. 170, IV",
+        "artigoTese": "Regimes especiais de fiscalização para devedores contumazes fundam-se em isonomia material, capacidade contributiva e livre concorrência",
+        "regra": "Devedor contumaz (faz da inadimplência modelo de negócio) não se confunde com devedor eventual. O tratamento diferenciado por Regime Especial de Fiscalização é legítimo: concretiza a isonomia material (tratar desigualmente os desiguais) e protege a livre concorrência, evitando vantagem competitiva indevida (dumping fiscal) do sonegador contumaz.",
+        "confundiu": "Acertei — registrado para fixação",
+        "pegadinha": "Alternativas com princípios plausíveis (legalidade, segurança jurídica, vedação ao confisco) que não são o fundamento específico dos REF segundo o STF",
+        "fonte": "stf",
+        "banca": "FGV",
+        "cargo": "Promotor de Justiça (MPE-RJ)",
+        "resultado": "acertei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [],
+        "ultimaRev": "2026-07-02",
+        "proxRev": null,
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
+      },
+      {
+        "id": 1782961973001.944,
+        "topico": "Suspensão da exigibilidade do crédito tributário — depósito judicial e parcelamento",
+        "art": "CTN art. 151, II; STF RE 640.905 (RG, Info 851)",
+        "artigoTese": "É constitucional vedar adesão a parcelamento para débitos garantidos por depósito judicial — não viola isonomia nem acesso à justiça",
+        "regra": "Quem depositou o montante integral (CTN art. 151, II) está em situação jurídica distinta do inadimplente: o crédito já está garantido e com exigibilidade suspensa. Por isso, lei pode vedar a inclusão desses débitos em parcelamento sem ofender a isonomia ou o livre acesso à jurisdição (STF, RE 640.905/SP, repercussão geral).",
+        "confundiu": "Acertei — registrado para fixação",
+        "pegadinha": "Alternativas sugerindo violação à isonomia ou obstáculo ao acesso à justiça; o STF entende que a situação do depositante é distinta, o que justifica o tratamento diferenciado",
+        "fonte": "stf",
+        "banca": "FGV",
+        "cargo": "Juiz Federal (TRF2)",
+        "resultado": "acertei",
+        "ano": "",
+        "ids": {
+          "lei": [],
+          "juri": []
+        },
+        "erros": [],
+        "ultimaRev": "2026-07-02",
+        "proxRev": null,
+        "vezes": 1,
+        "revisado": false,
+        "imgs": [],
+        "tbl": null
       }
     ],
     "Financeiro e Econômico": [],
@@ -912,9 +992,7 @@
               "tipo": "Questoes",
               "plataforma": "QConcursos",
               "conteudo": "Questões de Tributário — Limitações Constitucionais ao Poder de Tributar: Princípios Tributários",
-              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=18&examining_board_ids%5B%5D=1&examining_board_ids%5B%5D=2&examining_board_ids%5B%5D=63&examining_board_ids%5B%5D=152&exclude_nullified=true&exclude_outdated=true&per_page=20&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&publication_year%5B%5D=2026&subject_ids%5B%5D=16988",
-              "pendente": false,
-              "feito": true
+              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=18&examining_board_ids%5B%5D=1&examining_board_ids%5B%5D=2&examining_board_ids%5B%5D=63&examining_board_ids%5B%5D=152&exclude_nullified=true&exclude_outdated=true&per_page=20&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&publication_year%5B%5D=2026&subject_ids%5B%5D=16988"
             },
             {
               "tipo": "Jurisprudencia",
