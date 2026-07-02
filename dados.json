@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-02T01:27:41.510Z",
+  "salvoEm": "2026-07-02T01:27:58.673Z",
   "caderno": {
     "Constitucional": [
       {
@@ -1230,6 +1230,22 @@
         "corCard": {
           "hex": "#FFF8D6",
           "borda": "#F59E0B"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      },
+      {
+        "id": "nota-1782955677166-0kk5",
+        "tipo": "jurisprudencia",
+        "conteudo": "teste para o chatgpt",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Verde",
+          "hex": "#F0FDF4",
+          "borda": "#22C55E"
         },
         "detalhesQuestao": {},
         "gabarito": "",
