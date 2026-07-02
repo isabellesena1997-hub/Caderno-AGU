@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-02T03:14:01.280Z",
+  "salvoEm": "2026-07-02T03:14:19.299Z",
   "caderno": {
     "Constitucional": [
       {
@@ -760,7 +760,7 @@
       },
       {
         "id": 1782961973000.1162,
-        "topico": "Impostos estaduais — IPVA",
+        "topico": "IPVA",
         "art": "CF art. 155, §6º, III (EC 132/2023); STF ADI 5.654",
         "artigoTese": "Lei estadual anterior à EC 132/2023 não podia instituir IPVA sobre embarcações e aeronaves — inconstitucionalidade material insanável",
         "regra": "Antes da EC 132/2023, o IPVA só incidia sobre veículos automotores terrestres (interpretação restritiva do STF). Lei estadual editada antes da EC prevendo IPVA sobre veículos aquáticos e aéreos é inconstitucional desde a origem e NÃO se convalida com a superveniência da emenda — não há constitucionalidade superveniente no direito brasileiro. A lei não produz efeitos em tempo algum.",
@@ -786,7 +786,19 @@
         "vezes": 1,
         "revisado": false,
         "imgs": [],
-        "tbl": null
+        "tbl": {
+          "headers": [
+            "Col 1",
+            "Col 2"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
+          ]
+        },
+        "materia": "Tributário"
       },
       {
         "id": 1782961973001.939,
