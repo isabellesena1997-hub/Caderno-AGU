@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-02T01:28:20.429Z",
+  "salvoEm": "2026-07-02T01:29:11.933Z",
   "caderno": {
     "Constitucional": [
       {
@@ -1262,6 +1262,22 @@
           "nome": "Laranja",
           "hex": "#FFF7ED",
           "borda": "#F97316"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      },
+      {
+        "id": "nota-1782955750413-uh8z",
+        "tipo": "jurisprudencia",
+        "conteudo": "oieee",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Lilás",
+          "hex": "#F3E8FF",
+          "borda": "#A855F7"
         },
         "detalhesQuestao": {},
         "gabarito": "",
