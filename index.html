@@ -752,7 +752,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .confirmar-btn-ok{padding:8px 20px;border-radius:8px;border:none;background:#E24B4A;font-size:13px;font-weight:600;cursor:pointer;color:#fff}
 .confirmar-btn-ok:hover{background:#c0392b}
 /* ===== MODAL IA DA LEI SECA ===== */
-.ia-modal-inner{max-width:660px;width:96vw;max-height:90vh;display:flex;flex-direction:column}
+.ia-modal-inner{max-width:660px;width:96vw;max-height:90vh;height:90vh;display:flex;flex-direction:column}
 .ia-modal-inner.modal{padding:0;border-radius:14px;overflow:visible}
 .ia-hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 20px 12px;border-bottom:0.5px solid #e0ddd5;flex-shrink:0;background:#1a1a18;color:#fff;border-radius:14px 14px 0 0}
 .ia-hdr-title{font-size:15px;font-weight:600}
@@ -17994,7 +17994,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 
     <!-- VISTA: configurar questões -->
-    <div id="ia-view-config" style="display:none">
+    <div id="ia-view-config" style="display:none;flex-direction:column;flex:1;min-height:0;overflow:hidden">
       <div class="ia-body">
         <!-- Base do recorte -->
         <div class="ia-section">
