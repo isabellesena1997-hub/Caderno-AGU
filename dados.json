@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-01T21:55:28.603Z",
+  "salvoEm": "2026-07-02T01:27:41.510Z",
   "caderno": {
     "Constitucional": [
       {
@@ -1213,6 +1213,23 @@
           "nome": "Verde",
           "hex": "#F0FDF4",
           "borda": "#22C55E"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      }
+    ],
+    "cf-iv-da-organiza-o-dos-poderes-cap-tulo-iii-do-poder-judici-rio-arts-92-a-126-art-93": [
+      {
+        "id": "nota-1782955659998-dsme",
+        "tipo": "comentario",
+        "conteudo": "TESTE",
+        "ehQuestao": false,
+        "corCard": {
+          "hex": "#FFF8D6",
+          "borda": "#F59E0B"
         },
         "detalhesQuestao": {},
         "gabarito": "",
