@@ -8292,8 +8292,11 @@ input[type="text"],input[type="number"],input[type="date"],textarea,select{font-
       </div>
     </div>
     <div class="mf"><div class="ml">Texto legal</div><textarea class="mta" id="ea-texto" style="min-height:100px" placeholder="Texto oficial..."></textarea></div>
-    <div class="mf"><div class="ml">Comentários doutrinários</div><textarea class="mta" id="ea-comentarios" style="min-height:120px" placeholder="Explicações, doutrina..."></textarea></div>
-    <div class="mf"><div class="ml">Jurisprudência vinculada</div><textarea class="mta" id="ea-jurisprudencia" style="min-height:80px" placeholder="STF, STJ, Súmulas..."></textarea></div>
+    <div class="mf" style="border:1px dashed #d3d1c7;border-radius:8px;padding:12px;background:#fafaf8">
+      <div class="ml" style="margin-bottom:8px">Comentários e Jurisprudência</div>
+      <div style="font-size:12px;color:#888780;margin-bottom:10px">Use o modal de anotações para adicionar comentários, doutrina, jurisprudência e mais — com editor rico e imagens.</div>
+      <button type="button" onclick="abrirAnotacoesDoEdit()" style="font-size:13px;padding:6px 16px;border:1px solid #185FA5;border-radius:7px;background:#fff;color:#185FA5;cursor:pointer;font-weight:500">📝 Ver / adicionar anotações</button>
+    </div>
     <div class="mf"><div class="ml">Conteúdo extra (resumos, tabelas — HTML aceito)</div><textarea class="mta" id="ea-extra" style="min-height:60px" placeholder="Resumo, tabela comparativa..."></textarea></div>
     </div><!-- /modal-body -->
     <div class="modal-actions">
@@ -11730,7 +11733,7 @@ function closeModal(ctx){
   const el=document.getElementById(`modal-${ctx}`);
   if(el)el.classList.add('hidden');
   if(ctx==='edit'){editingId=null;editingMateria=null;}
-  if(ctx==='nota'){notaArtAtual=null;gabarito='';}
+  if(ctx==='nota'){notaArtAtual=null;gabarito=''; if(window._closeNotaCallback){window._closeNotaCallback();window._closeNotaCallback=null;}}
   // Se fechou o modal do caderno sem salvar, cancela pendência
   if(ctx==='add' && treinoQuestaoPendenteCaderno){ treinoQuestaoPendenteCaderno=null; }
 }
@@ -13740,8 +13743,8 @@ function openEditArtigoModal(leiId,idx){
   document.getElementById('ea-num').value=art.num||'';
   // Usa textoHtml (conteúdo editado na tela) se existir, senão cai pro texto original
   document.getElementById('ea-texto').value=art.textoHtml||art.texto||'';
-  document.getElementById('ea-comentarios').value=art.comentarios||'';
-  document.getElementById('ea-jurisprudencia').value=art.jurisprudencia||'';
+  document.getElementById('ea-comentarios') && (document.getElementById('ea-comentarios').value = art.comentarios||'');
+  document.getElementById('ea-jurisprudencia') && (document.getElementById('ea-jurisprudencia').value = art.jurisprudencia||'');
   document.getElementById('ea-extra').value=art.extra||'';
   document.getElementById('ea-pos-wrap').style.display='none';
   document.getElementById('ea-delete-btn').style.display='inline-block';
@@ -13750,7 +13753,7 @@ function openEditArtigoModal(leiId,idx){
 function openAddDispositivo(refIdx,leiId){
   editDispLeiId=leiId||leiAtiva;editDispIdx=refIdx;editDispSubIdx=null;isAddDisp=true;posOpt='depois';
   document.getElementById('edit-art-title').textContent='Novo dispositivo';
-  ['ea-tipo','ea-num','ea-texto','ea-comentarios','ea-jurisprudencia','ea-extra'].forEach(id=>{
+  ['ea-tipo','ea-num','ea-texto','ea-extra'].forEach(id=>{
     const el=document.getElementById(id);if(el)el.value=el.tagName==='SELECT'?'artigo':'';
   });
   // Preenche select de referência
@@ -13774,8 +13777,8 @@ function salvarDispositivo(){
     num:g('ea-num').trim(),
     texto:g('ea-texto').trim(),
     textoHtml:g('ea-texto').trim(), // sincroniza textoHtml com o texto editado no modal
-    comentarios:g('ea-comentarios').trim(),
-    jurisprudencia:g('ea-jurisprudencia').trim(),
+    comentarios: art.comentarios||'',
+    jurisprudencia: art.jurisprudencia||'',
     extra:g('ea-extra').trim(),
   };
   if(!leis[editDispLeiId].artigos)leis[editDispLeiId].artigos=[];
@@ -13894,13 +13897,30 @@ let anotTipoSel = 'comentario';
 
 // ── FUNÇÕES CENTRAIS ──────────────────────────────────────────────────────────
 
+// Abre o modal de anotações a partir do modal de edição de artigo
+function abrirAnotacoesDoEdit(){
+  const leiId = editDispLeiId;
+  const idx = editDispIdx;
+  if(leiId == null || idx == null) return;
+  // Fecha o modal de edição temporariamente
+  document.getElementById('modal-edit-art').classList.add('hidden');
+  // Abre o modal de anotações
+  openNotaModal(leiId, idx);
+  // Quando o modal de anotações fechar, reabre o de edição
+  const orig = window._closeNotaCallback;
+  window._closeNotaCallback = ()=>{
+    document.getElementById('modal-edit-art').classList.remove('hidden');
+    window._closeNotaCallback = orig;
+  };
+}
+
 function openNotaModal(leiId, artIdx) {
   notaArtAtual = {leiId, artIdx}; notaSubAtual = null;
   anotDispId = getDispId(leiId, artIdx, null);
   const art = leis[leiId].artigos[artIdx];
   const prefix = art.tipo === 'artigo' ? 'Art.' : '§';
   document.getElementById('anot-lista-titulo').textContent = `${prefix} ${art.num} — ${leis[leiId].nome}`;
-  // Migração de anotação antiga
+  // Migração de anotação antiga (formato nota.texto)
   const nota = art.notas || {};
   if (nota.texto && nota.texto.trim()) {
     const arr = getAnotacoes(anotDispId);
@@ -13909,6 +13929,31 @@ function openNotaModal(leiId, artIdx) {
         ehQuestao:false, detalhesQuestao:{}, gabarito:'', comentario:'', criadaEm:'', atualizadaEm:''});
       saveAnotacoes(anotDispId, arr);
       nota.texto = ''; saveLeis();
+    }
+  }
+  // Migração de art.anotacoes (comentarios/jurisprudencia migrados do leis.json)
+  if (art.anotacoes && art.anotacoes.length) {
+    const arr = getAnotacoes(anotDispId);
+    const idsExistentes = new Set(arr.map(a => String(a.id)));
+    let adicionou = false;
+    art.anotacoes.forEach(a => {
+      const id = 'leis-migrada-' + a.id;
+      if (!idsExistentes.has(id)) {
+        arr.push({
+          id,
+          tipo: a.tipo === 'Jurisprudência' ? 'jurisprudencia' : 'comentario',
+          conteudo: a.conteudo || '',
+          cor: a.cor || 'amarelo',
+          ehQuestao: false, detalhesQuestao: {}, gabarito: '', comentario: '',
+          criadaEm: a.data || '', atualizadaEm: a.data || ''
+        });
+        adicionou = true;
+      }
+    });
+    if (adicionou) {
+      saveAnotacoes(anotDispId, arr);
+      // Limpa do leis.json pra não migrar de novo
+      art.anotacoes = [];
     }
   }
   anotAbrirLista();
