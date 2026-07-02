@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-02T02:29:44.799Z",
+  "salvoEm": "2026-07-02T03:11:58.221Z",
   "caderno": {
     "Constitucional": [
       {
@@ -912,7 +912,9 @@
               "tipo": "Questoes",
               "plataforma": "QConcursos",
               "conteudo": "Questões de Tributário — Limitações Constitucionais ao Poder de Tributar: Princípios Tributários",
-              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=18&examining_board_ids%5B%5D=1&examining_board_ids%5B%5D=2&examining_board_ids%5B%5D=63&examining_board_ids%5B%5D=152&exclude_nullified=true&exclude_outdated=true&per_page=20&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&publication_year%5B%5D=2026&subject_ids%5B%5D=16988"
+              "link": "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=18&examining_board_ids%5B%5D=1&examining_board_ids%5B%5D=2&examining_board_ids%5B%5D=63&examining_board_ids%5B%5D=152&exclude_nullified=true&exclude_outdated=true&per_page=20&publication_year%5B%5D=2021&publication_year%5B%5D=2022&publication_year%5B%5D=2023&publication_year%5B%5D=2024&publication_year%5B%5D=2025&publication_year%5B%5D=2026&subject_ids%5B%5D=16988",
+              "pendente": false,
+              "feito": true
             },
             {
               "tipo": "Jurisprudencia",
