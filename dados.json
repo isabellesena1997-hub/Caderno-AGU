@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-02T01:42:49.297Z",
+  "salvoEm": "2026-07-02T01:43:01.844Z",
   "caderno": {
     "Constitucional": [
       {
@@ -1230,6 +1230,22 @@
         "corCard": {
           "hex": "#FFF8D6",
           "borda": "#F59E0B"
+        },
+        "detalhesQuestao": {},
+        "gabarito": "",
+        "comentario": "",
+        "criadaEm": "2026-07-01",
+        "atualizadaEm": "2026-07-01"
+      },
+      {
+        "id": "nota-1782956580324-s424",
+        "tipo": "jurisprudencia",
+        "conteudo": "<table><thead><tr><th>Col 1</th><th>Col 2</th><th>Col 3</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table><p></p>",
+        "ehQuestao": false,
+        "corCard": {
+          "nome": "Azul",
+          "hex": "#EFF6FF",
+          "borda": "#3B82F6"
         },
         "detalhesQuestao": {},
         "gabarito": "",
