@@ -1,6 +1,6 @@
 {
   "versao": "4.0",
-  "salvoEm": "2026-07-02T03:12:54.503Z",
+  "salvoEm": "2026-07-02T03:13:54.517Z",
   "caderno": {
     "Constitucional": [
       {
@@ -815,7 +815,7 @@
       },
       {
         "id": 1782961973001.944,
-        "topico": "Suspensão da exigibilidade do crédito tributário — depósito judicial e parcelamento",
+        "topico": "Princípios Tributários",
         "art": "CTN art. 151, II; STF RE 640.905 (RG, Info 851)",
         "artigoTese": "É constitucional vedar adesão a parcelamento para débitos garantidos por depósito judicial — não viola isonomia nem acesso à justiça",
         "regra": "Quem depositou o montante integral (CTN art. 151, II) está em situação jurídica distinta do inadimplente: o crédito já está garantido e com exigibilidade suspensa. Por isso, lei pode vedar a inclusão desses débitos em parcelamento sem ofender a isonomia ou o livre acesso à jurisdição (STF, RE 640.905/SP, repercussão geral).",
@@ -823,7 +823,7 @@
         "pegadinha": "Alternativas sugerindo violação à isonomia ou obstáculo ao acesso à justiça; o STF entende que a situação do depositante é distinta, o que justifica o tratamento diferenciado",
         "fonte": "stf",
         "banca": "FGV",
-        "cargo": "Juiz Federal (TRF2)",
+        "cargo": "",
         "resultado": "acertei",
         "ano": "",
         "ids": {
@@ -836,7 +836,19 @@
         "vezes": 1,
         "revisado": false,
         "imgs": [],
-        "tbl": null
+        "tbl": {
+          "headers": [
+            "Col 1",
+            "Col 2"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
+          ]
+        },
+        "materia": "Tributário"
       }
     ],
     "Financeiro e Econômico": [],
